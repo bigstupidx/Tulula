@@ -1,0 +1,27 @@
+<hud images="UI/Hud/">
+	<objects >
+		<sprite position="0;0" texture="HUD_back" />
+		<sprite position="186;96" texture="progress_bar" pivotx="left" pivoty="center" />
+		<sprite position="313;94" texture="progress_bar_alfa" />
+		<sprite position="387;90" texture="progress_bar_flash" pivotx="center" pivoty="center" />
+		<button position="935;151" btnnormal="notepad_btn" btndown="notepad_btnd" touched="true" />
+		<sprite position="935;151" texture="notepad_add" tag="10" alpha="0" addalpha="0.3" pivotx="center" pivoty="center" />
+		<sprite position="780;2" texture="task_light" tag="11" alpha="0" />
+		<sprite position="698;25" texture="hint_light" tag="23" scissors="true" />
+		<sprite position="5;42" texture="glow_spots_06" tag="8" alpha="0" />
+		<sprite position="5;93" texture="glow_spots_05" tag="7" alpha="0" />
+		<sprite position="49;151" texture="glow_spots_04" tag="6" alpha="0" />
+		<sprite position="134;94" texture="glow_spots_03" tag="5" alpha="0" />
+		<sprite position="131;25" texture="glow_spots_02" tag="4" alpha="0" />
+		<sprite position="84;6" texture="glow_spots_01" tag="3" alpha="0" />
+		<text position="780;10" pivotx="left" pivoty="top" valign="center" size="200;120" rotation="-11" color="189;157;101" fontsize="20" />
+		<text fontsize="25"  pivotx="center" text="hud-hint" position="732;2" color="189;157;101" />
+		<object position="698;2" size="101;180" tag="1" touched="true" />
+		<buttontext fontsize="25" size="130;50" text="hud-menu" halign="center" position="932;-23" rotation="-15"  color="189;157;101" />
+		<sprite position="413;86" texture="stone_char_m1" alpha="0" />
+		<sprite position="412;86" texture="stone_char_m2" alpha="0" />
+		<sprite position="410;91" texture="stone_char_w1" alpha="0" />
+		<sprite position="408;91" texture="stone_char_w2" alpha="0" />
+		<particle emitter="hint_fly" active="false" tag="21" />
+	</objects>
+</hud>

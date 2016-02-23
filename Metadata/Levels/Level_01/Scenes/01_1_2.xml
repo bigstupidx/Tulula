@@ -1,0 +1,170 @@
+<scene images="/Scenes/01/01_1_2" sounds="01" effects="scene01.ptc" plistfiles="01_1_2" music="melody_6" >
+	<objects >
+		<sprite position="0;98" texture="pool_back" />
+		<sprite position="386;472" texture="shell_01_open" alpha="0" />
+		<sprite position="426;514" name="pearl_red1" texture="pearl_red" pivotx="center" pivoty="center" touched="true" parent="shell_01_open" ontouchend="onPearClicked:" counter="1" />
+		<sprite position="387;473" texture="shell_01_closed" alphamask="true" parent="pool_back" />
+		<sprite position="693;462" texture="shell_02_open" alpha="0" />
+		<sprite position="730;481" name="pearl_red2" texture="pearl_red" pivotx="center" pivoty="center" touched="true" parent="shell_02_open" ontouchend="onPearClicked:" counter="1"  />
+		<sprite position="718;462" texture="shell_02_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="194;197" texture="shell_03_open" alpha="0" />
+		<sprite position="234;236" name="pearl_red3" texture="pearl_red" pivotx="center" pivoty="center" touched="true" parent="shell_03_open" ontouchend="onPearClicked:" counter="1" />
+		<sprite position="220;220" texture="shell_03_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="181;554" texture="shell_04_open" alpha="0" />
+		<sprite position="221;593" name="pearl_green1" texture="pearl_green" pivotx="center" pivoty="center" touched="true" parent="shell_04_open" ontouchend="onPearClicked:" counter="2" />
+		<sprite position="207;577" texture="shell_04_closed" alphamask="true" parent="pool_back" />
+		<sprite position="312;614" texture="shell_05_open" alpha="0" />
+		<sprite position="352;632" name="pearl_green2" texture="pearl_green" pivotx="center" pivoty="center" touched="true" parent="shell_05_open" ontouchend="onPearClicked:" counter="2" />
+		<sprite position="335;615" texture="shell_05_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="599;199" texture="shell_06_open" alpha="0" />
+		<sprite position="614;232" name="pearl_green3" texture="pearl_green" pivotx="center" pivoty="center" touched="true" parent="shell_06_open" ontouchend="onPearClicked:" counter="2" />
+		<sprite position="600;218" texture="shell_06_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="85;337" texture="shell_07_open" alpha="0" />
+		<sprite position="147;376" name="pearl_blue1" texture="pearl_blue" pivotx="center" pivoty="center" touched="true" parent="shell_07_open" ontouchend="onPearClicked:" counter="3" />
+		<sprite position="121;339" texture="shell_07_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="654;586" texture="shell_08_open" alpha="0" />
+		<sprite position="669;605" name="pearl_blue2" texture="pearl_blue" pivotx="center" pivoty="center" touched="true" parent="shell_08_open" ontouchend="onPearClicked:" counter="3" />
+		<sprite position="654;587" texture="shell_08_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="407;236" texture="shell_09_open" alpha="0" />
+		<sprite position="433;291" name="pearl_blue3" texture="pearl_blue" pivotx="center" pivoty="center" touched="true" parent="shell_09_open" ontouchend="onPearClicked:" counter="3" />
+		<sprite position="407;272" texture="shell_09_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="515;604" texture="shell_10_open" alpha="0" />
+		<sprite position="563;629" name="pearl_yellow1" texture="pearl_yellow" pivotx="center" pivoty="center" touched="true" parent="shell_10_open" ontouchend="onPearClicked:" counter="4" />
+		<sprite position="536;606" texture="shell_10_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="286;362" texture="shell_11_open" alpha="0" />
+		<sprite position="335;386" name="pearl_yellow2" texture="pearl_yellow" pivotx="center" pivoty="center" touched="true" parent="shell_11_open" ontouchend="onPearClicked:" counter="4" />
+		<sprite position="312;362" texture="shell_11_closed" alphamask="true" parent="pool_back"  />
+		<sprite position="672;331" texture="shell_12_open" alpha="0" />
+		<sprite position="692;371" name="pearl_yellow3" texture="pearl_yellow" pivotx="center" pivoty="center" touched="true" parent="shell_12_open" ontouchend="onPearClicked:" counter="4" />
+		<sprite position="673;353" texture="shell_12_closed" alphamask="true" parent="pool_back" />
+		<sprite position="419;320" texture="stone_01" name="stone-1" alphamask="true"  />
+		<sprite position="231;468" texture="stone_01" name="stone-2" alphamask="true"  />
+		<sprite position="569;456" texture="stone_04" name="stone-42" alphamask="true" />
+		<sprite position="619;213" texture="stone_05" name="stone-43" alphamask="true" />
+		<sprite position="605;252" texture="stone_02" name="stone-28" alphamask="true" />
+		<sprite position="640;579" texture="stone_01" name="stone-3"  alphamask="true" />
+		<sprite position="249;215" texture="stone_01" name="stone-4"  alphamask="true" />
+		<sprite position="552;570" texture="stone_01" name="stone-5"  alphamask="true" />
+		<sprite position="375;535" texture="stone_01" name="stone-6"  alphamask="true" />
+		<sprite position="692;579" texture="stone_03" name="stone-29" alphamask="true" />
+		<sprite position="299;395" texture="stone_03" name="stone-30" alphamask="true" />
+		<sprite position="368;368" texture="stone_03" name="stone-31" alphamask="true" />
+		<sprite position="716;492" texture="stone_03" name="stone-32" alphamask="true" />
+		<sprite position="725;462" texture="stone_03" name="stone-33" alphamask="true" />
+		<sprite position="540;648" texture="gold" name="gold-10" alphamask="true" />
+		<sprite position="252;555" texture="stone_03" name="stone-34" alphamask="true" />
+		<sprite position="332;606" texture="stone_05" name="stone-44" alphamask="true" />
+		<sprite position="369;609" texture="stone_03" name="stone-35" alphamask="true" />
+		<sprite position="371;392" texture="gold" name="gold-1" alphamask="true" />
+		<sprite position="174;578" texture="gold" name="gold-2" alphamask="true" />
+		<sprite position="259;565" texture="gold" name="gold-3" alphamask="true" />
+		<sprite position="309;363" texture="gold" name="gold-4" alphamask="true" />
+		<sprite position="232;263" texture="gold" name="gold-5" alphamask="true" />
+		<sprite position="121;459" texture="gold" name="gold-6" alphamask="true" />
+		<sprite position="197;480" texture="gold" name="gold-7" alphamask="true" />
+		<sprite position="96;234" texture="gold" name="gold-8" alphamask="true" />
+		<sprite position="518;604" texture="stone_02" name="stone-17" alphamask="true" />
+		<sprite position="384;480" texture="gold" name="gold-9" alphamask="true" />
+		<sprite position="520;625" texture="stone_03" name="stone-36" alphamask="true" />
+		<sprite position="581;211" texture="vase_piece_01" name="vase-1" alphamask="true" />
+		<sprite position="668;381" texture="vase_piece_01" name="vase-2" alphamask="true" />
+		<sprite position="321;378" texture="stone_04" name="stone-45" alphamask="true" />
+		<sprite position="207;552" texture="stone_01" name="stone-7" alphamask="true" />
+		<sprite position="573;624" texture="stone_04" name="stone-46" alphamask="true" />
+		<sprite position="421;518" texture="stone_04" name="stone-47" alphamask="true" />
+		<sprite position="442;288" texture="stone_04" name="stone-48" alphamask="true" />
+		<sprite position="720;480" texture="stone_04" name="stone-49" alphamask="true" />
+		<sprite position="313;506" texture="plate_piece" name="plate-1" alphamask="true" />
+		<sprite position="198;358" texture="plate_piece" name="plate-2" alphamask="true" />
+		<sprite position="651;573" texture="plate_piece" name="plate-3" alphamask="true" />
+		<sprite position="334;624" texture="plate_piece" name="plate-4" alphamask="true" />
+		<sprite position="126;317" texture="stone_06" name="stone-50" alphamask="true" />
+		<sprite position="727;453" texture="stone_05" name="stone-51" alphamask="true" />
+		<sprite position="761;491" texture="stone_03" name="stone-37" alphamask="true" />
+		<sprite position="404;518" texture="stone_03" name="stone-38" alphamask="true" />
+		<sprite position="727;391" texture="stone_03" name="stone-39" alphamask="true" />
+		<sprite position="129;403" texture="stone_03" name="stone-40" alphamask="true" />
+		<sprite position="578;606" texture="stone_05" name="stone-63" alphamask="true" />
+		<sprite position="449;611" texture="stone_05" name="stone-52" alphamask="true" />
+		<sprite position="97;382" texture="stone_05" name="stone-53" alphamask="true" />
+		<sprite position="103;284" texture="stone_05" name="stone-54" alphamask="true" />
+		<sprite position="334;656" texture="stone_05" name="stone-55" alphamask="true" />
+		<sprite position="655;610" texture="stone_04" name="stone-56" alphamask="true" />
+		<sprite position="220;581" texture="stone_04" name="stone-57" alphamask="true" />
+		<sprite position="193;215" texture="stone_04" name="stone-58" alphamask="true" />
+		<sprite position="321;281" texture="totem_stone_03" totem="spirit_01_2" touched="true" ontouchend="onPickTotemStone" />
+		<sprite position="322;281" texture="stone_01" name="stone-8" alphamask="true" />
+		<sprite position="733;209" texture="stone_02" name="stone-18" alphamask="true" />
+		<sprite position="313;273" texture="stone_03" name="stone-41" alphamask="true" />
+		<sprite position="371;512" texture="stone_02" name="stone-19" alphamask="true" />
+		<sprite position="368;631" texture="stone_01" name="stone-9" alphamask="true" />
+		<sprite position="177;375" texture="stone_04" name="stone-59" alphamask="true" />
+		<sprite position="413;444" texture="stone_63" name="stone-62" alphamask="true" />
+		<sprite position="642;232" texture="stone_01" name="stone-10" alphamask="true" />
+		<sprite position="665;330" texture="stone_04" name="stone-60" alphamask="true" />
+		<sprite position="145;395" texture="stone_01" name="stone-16" alphamask="true" />
+		<sprite position="163;477" texture="stone_02" name="stone-20" alphamask="true" />
+		<sprite position="90;211" texture="stone_02" name="stone-21" alphamask="true" />
+		<sprite position="299;300" texture="stone_02" name="stone-22" alphamask="true" />
+		<sprite position="334;354" texture="stone_02" name="stone-23" alphamask="true" />
+		<sprite position="537;606" texture="stone_01" name="stone-13" alphamask="true" />
+		<sprite position="704;480" texture="stone_02" name="stone-24" alphamask="true" />
+		<sprite position="689;659" texture="stone_02" name="stone-25" alphamask="true" />
+		<sprite position="133;349" texture="stone_02" name="stone-26" alphamask="true" />
+		<sprite position="192;609" texture="stone_02" name="stone-27" alphamask="true" />
+		<sprite position="394;230" texture="stone_06" name="stone-61" alphamask="true" />
+		<sprite position="583;514" texture="stone_01" name="stone-11" alphamask="true" />
+		<sprite position="407;296" texture="stone_01" name="stone-14" alphamask="true" />
+		<sprite position="567;364" texture="stone_01" name="stone-12" alphamask="true" />
+		<sprite position="725;636" texture="stone_01" name="stone-15" alphamask="true" />
+		<sprite position="456;357" texture="plate_piece" name="plate-5" alphamask="true"  />
+		<sprite position="504;248" texture="plate" pivot="130;32" counter="1" touched="true" alphamask="true" ontouchend="onPlateClicked:" />
+		<sprite position="84;505" texture="vase_piece" />
+		<sprite position="472;384" texture="fish01" pivot="32;25" />
+		<sprite position="474;375" texture="fish02" pivot="32;25" />
+		<sprite position="472;368" texture="fish03" pivot="32;30" />
+		<sprite position="468;362" texture="fish04" pivot="35;30" />
+		<sprite position="462;340" texture="fish05" pivot="42;32" />
+		<sprite position="33;163" texture="pool_water" />
+		<sprite position="42;174" texture="shine" pivotx="center" pivoty="center" alpha="0.8" />
+		<sprite position="37;170" texture="ryaska" pivotx="center" pivoty="center" />
+		<sprite position="727;547" texture="lotos_leaf_01" />
+		<sprite position="226;682" texture="lotos_leaf_02" />
+		<sprite position="330;188" texture="lotos_leaf_03" />
+		<sprite position="44;606" texture="lotos_leaf_04" />
+		<sprite position="74;394" texture="lotos_leaf_05" />
+		<sprite position="43;238" texture="lotos_leaf_06" />
+		<sprite position="115;183" texture="lotos_leaf_07" />
+		<sprite position="693;175" texture="lotos_leaf_08" />
+		<sprite position="748;419" texture="lotos_leaf_09" />
+		<sprite position="488;647" texture="lotos_leaf_10" />
+		<sprite position="442;668" texture="lotos_leaf_11" />
+		<sprite position="355;446" texture="lotos_leaf_12" />
+		<sprite position="871;181" texture="sxema_base" />
+		<sprite position="901;305" texture="sxema_piece_Y_01" alpha="0" name="pearl_yellow_piece_1" />
+		<sprite position="940;250" texture="sxema_piece_Y_02" alpha="0" name="pearl_yellow_piece_2" />
+		<sprite position="896;250" texture="sxema_piece_Y_03" alpha="0" name="pearl_yellow_piece_3" />
+		<sprite position="917;272" texture="pearl_yellow" alpha="0" counter="4" />
+		<sprite position="902;419" texture="sxema_piece_G_01" alpha="0" name="pearl_green_piece_1" />
+		<sprite position="942;364" texture="sxema_piece_G_02" alpha="0" name="pearl_green_piece_2" />
+		<sprite position="897;364" texture="sxema_piece_G_03" alpha="0" name="pearl_green_piece_3" />
+		<sprite position="919;387" texture="pearl_green" alpha="0" counter="2" />
+		<sprite position="902;535" texture="sxema_piece_B_01" alpha="0" name="pearl_blue_piece_1" />
+		<sprite position="942;480" texture="sxema_piece_B_02" alpha="0" name="pearl_blue_piece_2" />
+		<sprite position="897;480" texture="sxema_piece_B_03" alpha="0" name="pearl_blue_piece_3" />
+		<sprite position="917;500" texture="pearl_blue"  alpha="0" counter="3" />
+		<sprite position="902;646" texture="sxema_piece_R_01" alpha="0" name="pearl_red_piece_1" />
+		<sprite position="942;591" texture="sxema_piece_R_02" alpha="0" name="pearl_red_piece_2" />
+		<sprite position="897;591" texture="sxema_piece_R_03" alpha="0" name="pearl_red_piece_3" />
+		<sprite position="920;614" texture="pearl_red" alpha="0" counter="1" />
+		<skip position="880;690" onskip="onMgDone" stage="task-pearls" hide="task-pearls-done" />
+	<objects/>
+
+	<pathes>
+		<path id="path-5" points="663;316, 701;490, 624;606, 477;639, 318;571, 205;459, 265;303" />
+		<path id="path-4" points="317;326, 495;334, 570;470, 411;529, 300;398, 487;282, 662;399, 550;600, 271;508, 263;287, 621;291, 680;602, 290;647, 169;445"/>
+		<path id="path-3" points="217;505, 173;388, 358;300, 509;541, 733;533, 653;300, 396;526" />
+		<path id="path-2" points="272;560, 597;550, 753;444, 651;237, 212;288, 151;477, 401;638, 653;618, 684;472, 547;400, 230;403" />
+		<path id="path-1" points="194;566, 447;647, 701;561, 657;389, 447;484, 201;502, 171;305, 370;271, 442;414, 470;576, 642;541, 597;308, 231;305" />
+	<pathes/>
+<scene/>

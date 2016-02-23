@@ -1,0 +1,56 @@
+<level startscene="Scene03_1" totemstones="6" tasks="12" >
+	<inventory>
+		<sprite position="0;0" texture="wood_3_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="flapper_3_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="flapper_2_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="flapper_1_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="berry_green_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="berry_purple_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="berry_red_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="switch_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="cog_3_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="cog_2_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="tar_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="pipe_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="cog_1_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="fuel_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="lift_key_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="wing_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="kora_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="shetka_hud" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="flapper_6_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="flapper_5_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="flapper_4_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="crystal_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="ingredients_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="wood_2_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="powder_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="wood_1_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="potion_str_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="plafond_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="knife_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="fork_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="flask_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="bread_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="red_powder_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="live_water_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="cauldron_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="poker_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="29;47" texture="st_03_shape" />
+		<sprite position="97;48" texture="stone_03_1" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="93;83" texture="stone_03_2" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="71;52" texture="stone_03_3" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="55;102" texture="spirit_03_1" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="30;81" texture="spirit_03_2" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="30;48" texture="spirit_03_3" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="0;0" texture="crystal_use" alpha="0" pivotx="center" pivoty="center"  />
+	<inventory/>
+	<dialogs>
+		<sprite name="bird" position="27;30" texture="sayer-bird" scale="0" pivotx="center" pivoty="center" />
+		<sprite name="healer" position="27;30" texture="sayer-healer" scale="0" pivotx="center" pivoty="center" />
+		<sprite name="windgod" position="27;30" texture="sayer-windgod" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="bird-dlg" head="sayer-bird_dial_wnd_1" body="sayer-bird_dial_wnd_2" tail="sayer-bird_dial_wnd_3" alpha="0" position="288;122" />
+		<dialog name="windgod-dlg" head="sayer-windgod_dial_wnd_1" body="sayer-windgod_dial_wnd_2" tail="sayer-windgod_dial_wnd_3" alpha="0" position="288;122" />
+		<dialog name="healer-dlg" head="sayer-healer_dial_wnd_1" body="sayer-healer_dial_wnd_2" tail="sayer-healer_dial_wnd_3" alpha="0" position="288;122" />
+	<dialogs/>
+<level/>

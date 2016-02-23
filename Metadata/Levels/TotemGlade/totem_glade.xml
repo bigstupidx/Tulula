@@ -1,0 +1,237 @@
+<scene images="/Scenes/totemglade" sounds="00" effects="scene00.ptc" plistfiles="totemglade" music="playlist2" >
+	<objects >
+		<sprite position="0;66" texture="Background" />
+		<sprite position="289;110" texture="totem_broken" stage="task-fixpostament" alpha="0" />
+		<sprite position="572;147" texture="tree" alphamask="true" touched="true" ontouchend="onTreeClicked" />
+		<sprite position="6;92" texture="postament_glow" alpha="1" />
+		<sprite position="775;380" texture="sign_1_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="825;384" texture="sign_2_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="902;371" texture="sign_3_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="938;435" texture="sign_4_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="715;446" texture="sign_5_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="876;478" texture="sign_6_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="949;512" texture="sign_7_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="801;487" texture="sign_8_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="748;500" texture="sign_9_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="757;593" texture="sign_10_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="837;579" texture="sign_11_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="608;613" texture="sign_12_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="929;615" texture="sign_13_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="687;565" texture="sign_14_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="798;637" texture="sign_15_off" pivotx="center" pivoty="top" touched="true" ontouchend="onSignClicked:" />
+		<sprite position="775;382" texture="sign_1_placed" alpha="0" parent="sign_1_off" pivotx="center" pivoty="top" counter="1" />
+		<sprite position="828;386" texture="sign_2_placed" alpha="0" parent="sign_2_off" pivotx="center" pivoty="top" counter="2" />
+		<sprite position="904;373" texture="sign_3_placed" alpha="0" parent="sign_3_off" pivotx="center" pivoty="top" counter="3" />
+		<sprite position="942;437" texture="sign_4_placed" alpha="0" parent="sign_4_off" pivotx="center" pivoty="top" counter="4" />
+		<sprite position="719;450" texture="sign_5_placed" alpha="0" parent="sign_5_off" pivotx="center" pivoty="top" counter="5" />
+		<sprite position="878;480" texture="sign_6_placed" alpha="0" parent="sign_6_off" pivotx="center" pivoty="top" counter="6" />
+		<sprite position="952;514" texture="sign_7_placed" alpha="0" parent="sign_7_off" pivotx="center" pivoty="top" counter="7" />
+		<sprite position="803;488" texture="sign_8_placed" alpha="0" parent="sign_8_off" pivotx="center" pivoty="top" counter="8" />
+		<sprite position="752;504" texture="sign_9_placed" alpha="0" parent="sign_9_off" pivotx="center" pivoty="top" counter="9" />
+		<sprite position="762;599" texture="sign_10_placed" alpha="0" parent="sign_10_off" pivotx="center" pivoty="top" counter="10" />
+		<sprite position="840;582" texture="sign_11_placed" alpha="0" parent="sign_11_off" pivotx="center" pivoty="top" counter="11" />
+		<sprite position="611;616" texture="sign_12_placed" alpha="0" parent="sign_12_off" pivotx="center" pivoty="top" counter="12" />
+		<sprite position="933;619" texture="sign_13_placed" alpha="0" parent="sign_13_off" pivotx="center" pivoty="top" counter="13" />
+		<sprite position="691;567" texture="sign_14_placed" alpha="0" parent="sign_14_off" pivotx="center" pivoty="top" counter="14" />
+		<sprite position="801;640" texture="sign_15_placed" alpha="0" parent="sign_15_off" pivotx="center" pivoty="top" counter="15" />
+		<sprite position="33;218" name="stick_placed1" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;261" name="stick_placed2" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;304" name="stick_placed3" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;348" name="stick_placed4" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;392" name="stick_placed5" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;436" name="stick_placed6" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;483" name="stick_placed7" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;529" name="stick_placed8" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;578" name="stick_placed9" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;623" name="stick_placed10" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="33;666" name="stick_placed11" texture="stick_placed" pivotx="left" pivoty="center" />
+		<sprite position="87;129" texture="flag_01_placed" alpha="0" parent="stick_placed1" touched="true" ontouchend="onFlagClicked:" counter="1" />
+        <sprite position="81;162" texture="f02_placed_sh" parent="flag_02_placed" />
+		<sprite position="81;171" texture="flag_02_placed" alpha="0" parent="stick_placed2" touched="true" ontouchend="onFlagClicked:" counter="2" />
+        <sprite position="83;170" texture="f03_placed_sh" parent="flag_03_placed" />
+		<sprite position="83;180" texture="flag_03_placed" alpha="0" parent="stick_placed3" touched="true" ontouchend="onFlagClicked:" counter="3" />
+        <sprite position="79;209" texture="f04_placed_sh" parent="flag_04_placed" />
+		<sprite position="79;221" texture="flag_04_placed" alpha="0" parent="stick_placed4" touched="true" ontouchend="onFlagClicked:" counter="4" />
+        <sprite position="79;245" texture="f05_placed_sh" parent="flag_05_placed" />
+		<sprite position="79;259" texture="flag_05_placed" alpha="0" parent="stick_placed5" touched="true" ontouchend="onFlagClicked:" counter="5" />
+        <sprite position="72;288" texture="f06_placed_sh" parent="flag_06_placed" />
+		<sprite position="72;296" texture="flag_06_placed" alpha="0" parent="stick_placed6" touched="true" ontouchend="onFlagClicked:" counter="6" />
+        <sprite position="81;364" texture="f07_placed_sh" parent="flag_07_placed" />
+		<sprite position="81;373" texture="flag_07_placed" alpha="0" parent="stick_placed7" touched="true" ontouchend="onFlagClicked:" counter="7" />
+        <sprite position="78;372" texture="f08_placed_sh" parent="flag_08_placed" />
+		<sprite position="78;381" texture="flag_08_placed" alpha="0" parent="stick_placed8" touched="true" ontouchend="onFlagClicked:" counter="8" />
+        <sprite position="78;437" texture="f09_placed_sh" parent="flag_09_placed" />
+		<sprite position="78;444" texture="flag_09_placed" alpha="0" parent="stick_placed9" touched="true" ontouchend="onFlagClicked:" counter="9" />
+        <sprite position="56;469" texture="f10_placed_sh" parent="flag_10_placed" />
+		<sprite position="56;483" texture="flag_10_placed" alpha="0" parent="stick_placed10" touched="true" ontouchend="onFlagClicked:" counter="10" />
+        <sprite position="69;518" texture="flag_11_sh" parent="flag_11_placed" />
+		<sprite position="69;523" texture="flag_11_placed" alpha="0" parent="stick_placed11" touched="true" ontouchend="onFlagClicked:" counter="11" />
+		<sprite position="0;26" texture="flagpole" />
+		<sprite position="57;533" texture="rope" />
+		<sprite position="17;677" texture="rope_cover" />
+		<sprite position="38;463" texture="ring" parent="rope" />
+		<sprite position="334;98" texture="totem_spirit" parent="postament_glow" alpha="0" />
+		<sprite position="179;184" texture="totem_full_glow" alpha="0" />
+		<animation position="832;207" plistfile="Animations/maya2" alpha="0" touched="true" ontouchend="onMayaClicked" />
+		<animation position="832;207" plistfile="Animations/maya_happy2" alpha="0" />
+		<sprite position="335;355" texture="st_05" alpha="0" pivotx="center" pivoty="center" parent="st_04" />
+		<sprite position="533;355" texture="st_04" alpha="0" pivotx="center" pivoty="center" parent="st_03" />
+		<sprite position="416;519" texture="st_10" alpha="0" pivotx="center" pivoty="center" parent="st_07" />
+		<sprite position="450;440" texture="st_07" alpha="0" pivotx="center" pivoty="center" parent="st_05" />
+		<sprite position="368;480" texture="st_09" alpha="0" pivotx="center" pivoty="center" parent="st_07" />
+		<sprite position="565;480" texture="st_08" alpha="0" pivotx="center" pivoty="center" parent="st_07" />
+		<sprite position="454;358" texture="st_03" alpha="0" pivotx="center" pivoty="center" parent="st_02" />
+		<sprite position="430;270" texture="st_02" alpha="0" pivotx="center" pivoty="center" parent="st_01" />
+		<sprite position="453;193" texture="st_01" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="449;186" texture="totem_base_glow2" />
+		<sprite position="764;225" texture="totem_part1_hidden" stage="task-fixpostament" invent="totem_part1_inv" alpha="0" />
+		<sprite position="352;193" texture="totem_part2_hidden" stage="task-fixpostament" invent="totem_part2_inv" alpha="0" />
+        <animation position="308;142" plistfile="Animations/shaman_magic" alpha="0" scalex="-1" />
+        <animation position="308;142" plistfile="Animations/shaman_stop" name="shaman_stop1" parent="shaman-idle" />
+        <animation position="308;142" plistfile="Animations/shaman_stop2" alpha="0" parent="shaman-idle" />
+        <animation position="308;142" plistfile="Animations/shaman_stop3" alpha="0" parent="shaman-idle" />
+        <animation position="308;142" plistfile="Animations/shaman_stop4" alpha="0" parent="shaman-idle" />
+        <compound position="385;147" texture="totem_base" open="totem_broken" full="postament_glow" objects="totem_part1_placed:totem_part1_inv, totem_part2_placed:totem_part2_inv" oncomplete="onTotemComplete" />
+        <object name="shaman-idle" position="200;82" size="100;170" ontouchend="onShamanClicked" />
+		<sprite position="238;172" texture="flag_baza" alpha="0" touched="true" ontouchend="onFlagBasaClicked:" />
+		<sprite position="238;172" texture="flag_shine" alpha="0" parent="flag_baza" />
+        <text shadowalpha="0" position="467;467" size="208;68" text="level_msg1" parent="flag_baza" fontsize="32" color="27;20;100" />
+        <text name="flag_level_number" shadowalpha="0" position="722;440" size="56;53" parent="flag_baza" fontsize="48" color="255;245;104" />
+        <text shadowalpha="0" text="level_msg2" position="525;330" pivotx="center" parent="flag_baza" fontsize="32" color="27;20;100" />
+        <text name="flag_level_name" position="327;275" shadowalpha="0" size="386;46" parent="flag_baza" fontsize="38" color="158;11;15" />
+        <sprite position="0;0" texture="hud_back2" tag="5" />
+        <buttontext fontsize="25" size="130;50" text="hud-menu" languache="ja" languachesize="20" halign="center" position="932;-23" rotation="-15" touched="true" color="189;157;101" ontouchbegan="onMenu:" />
+        <button position="310;10" btnnormal="arrow2_btn" btndown="arrow2_btnd" touched="true" ontouchbegan="onMapButton:" />
+        <text position="630;30" parent="arrow2_btn" fontsize="26" color="189;157;101" outline="1" shadowalpha="0" text="hud-mapbtn" pivotx="center" pivoty="center" />
+		<sprite position="156;47" texture="score_box" touched="true" ontouchend="onScoreBoxClicked:" pivotx="center" pivoty="center" scale="0" alpha="0" />
+        <sprite position="239;606" texture="score_box_line" alpha="0" parent="score_box" />
+		<text name="score_restotal_val" alpha="0" onenterframe="updateObjText:" align="left" shadowalpha="0" text="0" position="620;135" color="153;46;36" size="136;39" parent="static_lines" fontsize="32" />
+		<text  text="score_restotal" alpha="0" align="left" shadowalpha="0" position="271;135" color="153;46;36" size="314;39" parent="static_lines" fontsize="32" />
+		<sprite name="score_line_5" texture = "score_box_line" parent="static_lines" position="240;192" alpha="0" />
+		<text name="score_resgot_val" alpha="0" onenterframe="updateObjText:" align="left" shadowalpha="0" text="0" position="620;206" color="255;251;207" size="486;40" parent="static_lines" fontsize="29" />
+		<text text="score_resgot" alpha="0" align="left" shadowalpha="0" position="271;206" color="255;251;207" size="314;39" parent="static_lines" fontsize="29" />
+		<sprite name="score_line_4" texture = "score_box_line" parent="static_lines" position="240;236" alpha="0" />
+		<text text="score_level" alpha="0" shadowalpha="0" valign="center" pivotx="center" pivoty="center" position="271;246" color="219;29;4" size="486;80" parent="static_lines" fontsize="33" />
+		<sprite name="score_line_3" texture = "score_box_line" parent="static_lines" position="240;313" alpha="0" />
+		<text name="score_total_val" alpha="0" align="left" onenterframe="updateObjText:" shadowalpha="0" text="0" position="620;326" color="153;46;36" size="129;39" parent="static_lines" fontsize="32" />
+		<text text="score_total" alpha="0" align="left" shadowalpha="0" position="272;326" color="153;46;36" size="484;40" parent="static_lines" fontsize="32" />
+		<sprite name="score_line_2" texture = "score_box_line" parent="static_lines" position="240;360" alpha="0" />
+		<object name="static_lines" position="239;360" parent="score_box" />
+		<text name="score_score" alpha="0" shadowalpha="0" position="289;632" color="255;254;131" size="484;40" parent="score_box" fontsize="35" />
+		<sprite position="441;158" texture="totem_base_alpha" />
+		<sprite position="519;282" texture="totem_part2_placed" />
+		<sprite position="412;286" texture="totem_part1_placed" />
+		<sprite position="192;37" texture="totem_part1_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="254;29" texture="totem_part2_inv" pivotx="center" pivoty="center" alpha="0" />
+        <particle emitter="magic" position="550;100" alpha="0" />
+        <sprite position="53;26" texture="stone_char_m1" alpha="0" tag="4" />
+        <sprite position="53;26" texture="stone_char_m2" alpha="0" tag="3" />
+        <sprite position="53;31" texture="stone_char_w1" alpha="0" tag="2" />
+        <sprite position="53;31" texture="stone_char_w2" alpha="0" tag="1" />
+	<objects/>
+        
+    <dialogs>
+        <sprite name="maya" position="27;30" texture="sayer-maya" scale="0" pivotx="center" pivoty="center" />
+        <dialog name="maya-dlg" head="sayer-maya_dial_wnd_1" body="sayer-maya_dial_wnd_2" tail="sayer-maya_dial_wnd_3" alpha="0" position="238;122" />
+    <dialogs/>
+    <tutorial>
+		<sprite position="-24;-26" texture="hud_stone5" />
+        <sprite position="26;44" texture="st_01_shape" alpha="0" />
+        <sprite position="21;42" texture="st_02_shape" alpha="0" />
+        <sprite position="29;47" texture="st_03_shape" alpha="0" />
+        <sprite position="28;29" texture="st_04_shape" alpha="0" />
+        <sprite position="30;28" texture="st_05_shape" alpha="0" />
+        <sprite position="30;43" texture="st_07_shape" alpha="0" />
+        <sprite position="40;29" texture="st_08_shape" alpha="0" />
+        <sprite position="40;33" texture="st_09_shape" alpha="0" />
+        <sprite position="23;30" texture="st_10_shape" alpha="0" />
+    <tutorial/>
+    <stones>
+        <level_01 >
+            <sprite position="445;20" texture="stone_01_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="230;7" texture="stone_01_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="540;16" texture="stone_01_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="326;7" texture="spirit_01_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="640;8" texture="spirit_01_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="736;25" texture="spirit_01_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_01 />
+        <level_02 >
+            <sprite position="234;10" texture="stone_02_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="533;12" texture="stone_02_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="742;20" texture="stone_02_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="448;15" texture="spirit_02_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="320;15" texture="spirit_02_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="638;20" texture="spirit_02_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_02 />
+        <level_03 >
+            <sprite position="531;16" texture="stone_03_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="445;12" texture="stone_03_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="229;8" texture="stone_03_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="736;20" texture="spirit_03_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="629;23" texture="spirit_03_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="326;12" texture="spirit_03_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_03 />
+        <level_04 >
+            <sprite position="221;14" texture="stone_04_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="524;15" texture="stone_04_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="320;23" texture="stone_04_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="737;20" texture="spirit_04_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="445;23" texture="spirit_04_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="638;15" texture="spirit_04_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_04 />
+        <level_05 > 
+            <sprite position="314;8" texture="stone_05_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="224;16" texture="stone_05_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="627;26" texture="stone_05_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="532;17" texture="spirit_05_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="448;19" texture="spirit_05_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="741;20" texture="spirit_05_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_05 />
+        <level_07 >
+            <sprite position="633;14" texture="stone_07_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="226;17" texture="stone_07_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="541;14" texture="stone_07_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="736;21" texture="spirit_07_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="441;23" texture="spirit_07_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="331;7" texture="spirit_07_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_07 />
+        <level_08 >
+            <sprite position="230;11" texture="stone_08_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="734;21" texture="stone_08_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="323;16" texture="stone_08_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="448;17" texture="spirit_08_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="545;8" texture="spirit_08_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="637;24" texture="spirit_08_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_08 />
+        <level_09 >
+            <sprite position="232;11" texture="stone_09_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="536;16" texture="stone_09_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="739;23" texture="stone_09_3" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="331;10" texture="spirit_09_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="640;15" texture="spirit_09_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="442;20" texture="spirit_09_3" pivotx="center" pivoty="center" alpha="0"  />
+        <level_09 />
+        <level_10 >
+            <sprite position="323;8" texture="stone_10_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="230;16" texture="stone_10_2" pivotx="center" pivoty="center" alpha="0" />
+            <sprite position="544;19" texture="stone_10_3" pivotx="center" pivoty="center" alpha="0" />
+            <sprite position="440;6" texture="spirit_10_1" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="633;16" texture="spirit_10_2" pivotx="center" pivoty="center" alpha="0"  />
+            <sprite position="737;21" texture="spirit_10_3" pivotx="center" pivoty="center" alpha="0" />
+        <level_10 />
+    <stones/>
+            
+    <flags>
+        <flag_01 position="321;416" texture="flag_01" alpha="0" pivotx="center" pivoty="center" />
+        <flag_02 position="316;418" texture="flag_02" alpha="0" pivotx="center" pivoty="center" />
+        <flag_03 position="326;400" texture="flag_03" alpha="0" pivotx="center" pivoty="center" />
+        <flag_04 position="323;396" texture="flag_04" alpha="0" pivotx="center" pivoty="center" />
+        <flag_05 position="326;399" texture="flag_05" alpha="0" pivotx="center" pivoty="center" />
+        <flag_06 position="320;398" texture="flag_06" alpha="0" pivotx="center" pivoty="center" />
+        <flag_07 position="320;400" texture="flag_07" alpha="0" pivotx="center" pivoty="center" />
+        <flag_08 position="327;396" texture="flag_08" alpha="0" pivotx="center" pivoty="center" />
+        <flag_09 position="323;399" texture="flag_09" alpha="0" pivotx="center" pivoty="center" />
+        <flag_10 position="307;399" texture="flag_10" alpha="0" pivotx="center" pivoty="center" />
+        <flag_11 position="304;376" texture="flag_11" alpha="0" pivotx="center" pivoty="center" />
+    <flags/>
+<scene/>

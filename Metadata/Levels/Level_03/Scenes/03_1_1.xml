@@ -1,0 +1,84 @@
+<scene images="/Scenes/03/03_1_1" sounds="03" effects="scene03.ptc" plistfiles="03_1_1" music="melody_3" >
+	<objects >
+		<sprite position="0;106" texture="back3_1_1" />
+		<sprite position="354;469" texture="cage_2" />
+		<sprite position="367;492" texture="bird5_hidden" />
+		<sprite position="367;492" texture="bird5_full" />
+		<sprite position="363;469" texture="cage_1" />
+		<sprite position="354;481" texture="door_cage_closed" touched="true" ontouchend="onDoorCage:" />
+		<sprite position="353;560" texture="door_cage_open" alpha="0" />
+		<sprite position="375;478" texture="key_bird_placed" />
+		<sprite position="828;390" texture="bird4_hidden" />
+		<sprite position="828;390" texture="bird4_full" />
+		<sprite position="801;266" texture="bird3_hidden" />
+		<sprite position="801;266" texture="bird3_full" />
+		<sprite position="488;549" texture="bird2_hidden" />
+		<sprite position="488;549" texture="bird2_full" />
+		<sprite position="267;561" texture="bird1_hidden" />
+		<sprite position="267;561" texture="bird1_full" />
+		<sprite position="867;591" texture="butterfly_hidden" />
+		<sprite position="867;591" texture="butterfly_full" />
+		<sprite position="919;458" texture="feather_hidden" />
+		<sprite position="919;458" texture="feather_full" />
+		<sprite position="326;357" texture="dandelion_hidden" />
+		<sprite position="325;344" texture="dandelion_full" />
+		<sprite position="678;405" texture="mill_hidden" />
+		<sprite position="678;405" texture="mill_full" />
+		<sprite position="500;615" texture="cloud_hidden" />
+		<sprite position="500;615" texture="cloud_full" />
+		<sprite position="448;576" texture="arrow_hidden" />
+		<sprite position="448;576" texture="arrow_full" />
+		<sprite position="239;181" texture="airship_hidden" />
+		<sprite position="239;181" texture="airship_full" />
+		<sprite position="419;211" texture="sailingship_hidden" />
+		<sprite position="419;211" texture="sailingship_full" />
+		<sprite position="687;226" texture="whirligig_hidden" />
+		<sprite position="687;226" texture="whirligig_full" />
+		<sprite position="793;184" texture="leaffall_hidden" />
+		<sprite position="793;184" texture="leaffall_full" />
+		<sprite position="78;546" texture="umbrella_hidden" />
+		<sprite position="78;546" texture="umbrella_full" />
+		<sprite position="293;669" texture="beep_hidden" />
+		<sprite position="293;669" texture="beep_full" />
+		<sprite position="627;628" texture="flag_hidden" />
+		<sprite position="627;628" texture="flag_full" />
+		<sprite position="878;279" texture="fan_hidden" />
+		<sprite position="878;279" texture="fan_full" />
+		<sprite position="290;248" texture="vane_hidden" />
+		<sprite position="290;248" texture="vane_full" />
+		<sprite position="106;235" texture="helicopter_hidden" />
+		<sprite position="106;235" texture="helicopter_full" />
+		<sprite position="770;558" texture="kite_hidden" />
+		<sprite position="770;558" texture="kite_full" />
+		<sprite position="768;354" texture="spintop_hidden" />
+		<sprite position="768;354" texture="spintop_full" />
+		<sprite position="348;181" texture="key_bird_hidden" />
+		<sprite position="348;181" texture="key_bird_full" />
+		<sprite position="40;290" texture="plash_hidden" />
+		<sprite position="40;290" texture="plash_full" />
+		<sprite position="290;494" texture="ochki_hidden" />
+		<sprite position="290;494" texture="ochki_full" />
+		<sprite position="204;358" texture="parashut_hidden" />
+		<sprite position="204;358" texture="parashut_full" />
+		<sprite position="550;655" texture="kostyum_hidden" />
+		<sprite position="550;655" texture="kostyum_full" />
+        <object name="branch" position="417;120" size="270;320" ontouchend="onBranch:" stage="say-windgod-birds" usehint="true" />
+        <sprite position="590;194" texture="bird5_placed" counter="5" ontouchbegan="onPickItem:" stage="say-windgod-birds" pivotx="center" pivoty="center" usehint="true"  />
+        <sprite position="505;171" texture="bird4_placed" counter="4" ontouchbegan="onPickItem:" stage="say-windgod-birds" pivotx="center" pivoty="center" usehint="true" />
+        <sprite position="537;174" texture="bird3_placed" counter="3" ontouchbegan="onPickItem:" stage="say-windgod-birds" pivotx="center" pivoty="center" usehint="true" />
+        <sprite position="520;184" texture="bird2_placed" counter="2" ontouchbegan="onPickItem:" stage="say-windgod-birds" pivotx="center" pivoty="center" usehint="true" />
+        <sprite position="579;168" texture="bird1_placed" counter="1" ontouchbegan="onPickItem:" stage="say-windgod-birds" pivotx="center" pivoty="center" usehint="true" />
+        <sprite position="468;408" texture="bird5_baza" alpha="0" pivot="36;56" />
+        <sprite position="552;381" texture="bird4_baza" alpha="0" pivot="23;62" />
+        <sprite position="613;364" texture="bird3_baza" alpha="0" pivot="19;65" />
+        <sprite position="554;277" texture="bird2_baza" alpha="0" pivot="17;69" />
+        <sprite position="401;364" texture="bird1_baza" alpha="0" pivot="51;51" />
+		<animation position="462;334" plistfile="Scenes/03/Animations/spirit_of_god_03" pivotx="center" pivoty="center" />
+		<sprite position="625;487" texture="whirligig_placed" parent="spirit_of_god_03"/>
+		<sprite position="536;547" texture="ochki_placed" parent="spirit_of_god_03" />
+		<sprite position="515;422" texture="kostyum_placed" parent="spirit_of_god_03" />
+		<sprite position="478;326" texture="plash_placed" parent="spirit_of_god_03" />
+		<sprite position="375;471" texture="flag_placed" parent="spirit_of_god_03" />
+        <sprite position="465;376" texture="live_water" alpha="0" invent="live_water_inv" stage="say-windgod-water" ontouchend="onPickWater" />
+	<objects/>
+<scene/>

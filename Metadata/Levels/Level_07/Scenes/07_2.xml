@@ -1,0 +1,137 @@
+<Scene images="/Scenes/07/07_2" sounds="07" plistfiles="07_2" effects="scene07.ptc" music="playlist6" hintarrow="exit_arrow" arrowdir="top" >
+	<objects >
+		<sprite position="0;453" texture="faraway" />
+		<sprite position="695;576" texture="pillars_back" />
+		<sprite position="314;485" texture="altar" touched="true" texthintontouch="say-portal" onenterframe="updateAltar:" alphamask="true" />
+		<sprite position="678;660" texture="floater1" />
+		<sprite position="449;564" texture="floater2" />
+		<sprite position="262;608" texture="floater3" />
+		<sprite position="654;631" texture="floater4" />
+		<sprite position="53;449" texture="bars" />
+		<sprite position="0;355" texture="sand" />
+		<sprite position="0;454" texture="pillars" />
+		<sprite position="568;661" texture="floater5" />
+		<sprite position="305;569" texture="floater6" />
+		<sprite position="158;604" texture="floater7" />
+		<sprite position="730;599" texture="floater8" />
+		<sprite position="0;481" texture="beam2" />
+        <sprite position="337;588" texture="r_2_3_hidden" invent="r_2_3_inv" stage="task-findbutton" />
+        <object position="0;88" name="ship2" pivot="14;600" size="409;680" onenterframe="updateDuplicate:" counter="0" />
+        <object position="10;628" name="mast2" parent="ship2" pivot="296;32" size="682;140" onenterframe="updateDuplicate:" counter="1" />
+		<object position="465;417" name="anchor2" pivotx="center" pivoty="top" parent="mast2" size="68;262" onenterframe="updateDuplicate:" counter="2" />
+		<sprite position="377;375" texture="code_brk_placed" parent="anchor2" touched="true" hintpos="120;203" hintpriority="2" usehint="true" ontouchend="placeCodeButtons:" alphamask="true" pivotx="center" pivoty="center" />
+		<sprite position="405;537" texture="r_3_1_placed" parent="code_brk_placed" alpha="0" counter="8" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="410;490" texture="r_3_2_placed" parent="code_brk_placed" alpha="0" counter="9" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="416;441" texture="r_3_3_placed" parent="code_brk_placed" counter="10" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="481;416" texture="r_2_1_placed" parent="code_brk_placed" alpha="0" counter="4" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="478;465" texture="r_2_2_placed" parent="code_brk_placed" counter="5" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="476;517" texture="r_2_3_placed" parent="code_brk_placed" alpha="0" counter="6" ontouchend
+        ="onCodeButton:" stage="task-code" />
+		<sprite position="473;565" texture="r_2_4_placed" parent="code_brk_placed" counter="7" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="542;401" texture="r_1_1_placed" parent="code_brk_placed" counter="1" alpha="0" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="542;450" texture="r_1_2_placed" parent="code_brk_placed" counter="2" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="542;499" texture="r_1_3_placed" parent="code_brk_placed" counter="3" ontouchend="onCodeButton:" stage="task-code" />
+		<sprite position="405;537" texture="r_3_1_on" parent="r_3_1_placed" alpha="0" name="r_8_on" />
+		<sprite position="410;490" texture="r_3_2_on" parent="r_3_2_placed" alpha="0" name="r_9_on" />
+		<sprite position="416;441" texture="r_3_3_on" parent="r_3_3_placed" alpha="0" name="r_10_on" />
+		<sprite position="481;416" texture="r_2_1_on" parent="r_2_1_placed" alpha="0" name="r_4_on" />
+		<sprite position="478;465" texture="r_2_2_on" parent="r_2_2_placed" alpha="0" name="r_5_on" />
+		<sprite position="476;517" texture="r_2_3_on" parent="r_2_3_placed" alpha="0" name="r_6_on" />
+		<sprite position="473;565" texture="r_2_4_on" parent="r_2_4_placed" alpha="0" name="r_7_on" />
+		<sprite position="542;401" texture="r_1_1_on" parent="r_1_1_placed" alpha="0" name="r_1_on" />
+		<sprite position="542;450" texture="r_1_2_on" parent="r_1_2_placed" alpha="0" name="r_2_on" />
+		<sprite position="542;499" texture="r_1_3_on" parent="r_1_3_placed" alpha="0" name="r_3_on" />
+		<sprite position="0;103" texture="bg_72" touched="true" alphamask="true" />
+		<sprite position="407;311" texture="rope_hidden" invent="rope2_inv" stage="task-keystone" />
+		<animation position="396;316" plistfile="Scenes/07/Animations/devilfish" stage="task-keystone" texthintontouch="say-devilfish" />
+		<sprite position="414;307" texture="boulder" stage="task-keystone" ontouchend="onBoulderClicked:" />
+		<sprite position="0;88" texture="ship" pivot="14;600" />
+		<sprite position="266;568" texture="wheel" alpha="0" pivot="40;46" usehint="true" touched="true" ontouchend="onWheelClicked:" parent="ship" />
+		<sprite position="273;579" texture="wheel_brk" stage="task-keystone" />
+		<sprite position="268;380" texture="r_3_1_hidden" invent="r_3_1_inv" parent="ship" stage="task-findbutton" />
+		<sprite position="642;627" texture="r_3_2_hidden" invent="r_3_2_inv" stage="task-findbutton" />
+		<sprite position="940;526" texture="r_2_1_hidden" invent="r_2_1_inv" stage="task-findbutton" />
+		<sprite position="688;213" texture="r_1_1_hidden" invent="r_1_1_inv" stage="task-findbutton" />
+		<sprite position="714;288" texture="anchor_hidden" invent="anchor_inv" alphamask="true" />
+		<sprite position="760;212" texture="weed1" pivotx="center" pivoty="bottom" />
+		<sprite position="244;149" texture="weed9" pivotx="center" pivoty="bottom" />
+		<sprite position="595;384" texture="weed10" pivotx="center" pivoty="bottom" />
+		<sprite position="206;98" texture="details" />
+		<sprite position="714;189" texture="tavern_lv" />
+		<sprite position="462;207" texture="chupa2_placed" alpha="0" stage="say-shaman-code" ontouchend="onChupaClicked:" usehint="true" />
+		<sprite position="469;180" texture="shell_open" alpha="0" />
+		<sprite position="496;208" texture="key_portal1" name="key_portal" parent="shell_open" alpha="0" />
+		<sprite position="496;208" texture="key_portal2" alpha="0" parent="key_portal" />
+		<sprite position="529;330" texture="mast2" />
+		<sprite position="752;509" texture="stone_07_3_hidden" totem="stone_07_3" touched="true" />
+		<sprite position="10;628" texture="mast" parent="ship" stage="task-keystone" touched="true" usehint="true" texthintontouch="say-mast" ontouchend="onMastClicked:" pivot="296;32" hintpos="480;48" />
+		<sprite position="465;417" texture="anchor_placed" alpha="0" ignorealpha="true" pivotx="center" pivoty="top" parent="mast" />
+		<sprite position="552;523" texture="sail_closed" alpha="0" />
+        <sprite position="307;195" texture="pirate" touched="true" texthintontouch="say-pirate" ontouchend="onPirateClicked:" />
+		<sprite position="364;229" texture="key_placed" alpha="0" />
+		<sprite position="326;244" texture="pirate_open" alpha="0" parent="pirate" />
+		<sprite position="350;248" texture="w_4_hidden" invent="w_4_inv" touched="true" parent="pirate_open" />
+		<sprite position="601;303" texture="w_3_hidden" invent="w_3_inv" touched="true" />
+		<sprite position="122;367" texture="w_2_hidden" invent="w_2_inv" parent="ship" />
+		<animation position="112;325" plistfile="Scenes/07/Animations/monster_light" alpha="0" touched="true" usehint="true" ontouchend="onMonsterClicked:" parent="ship" />
+		<sprite position="25;384" texture="deck" parent="ship" />
+		<sprite position="0;307" texture="darkness" touched="true" ontouchend="onDarkness:" parent="ship" />
+        <sprite position="107;465" texture="hatch" stage="task-keystone" hintpriority="1" usehint="true" ontouchend="onHatchClicked:" parent="ship" />
+		<sprite position="14;394" texture="monster1" scale="0" pivot="56;171" />
+		<sprite position="221;346" texture="monster2" scale="0" pivot="24;43" />
+		<sprite position="125;377" texture="monster3" scale="0" pivot="43;170" />
+		<sprite position="60;294" texture="monster4" scale="0" pivot="84;20" />
+		<sprite position="865;271" texture="chest_open1" />
+		<sprite position="865;271" texture="chest_open2" />
+		<sprite position="885;275" texture="w_1_hidden" parent="chest_open2" invent="w_1_inv" touched="true" />
+		<sprite position="961;423" texture="spirit_07_2_hidden" totem="spirit_07_2" touched="true" />
+		<sprite position="581;133" texture="sail_shadow" parent="sail_open" />
+		<sprite position="552;328" texture="sail_open" stage="task-keystone" texthintontouch="say-sail" ontouchend="onSailClicked:" usehint="true" />
+		<sprite position="15;616" texture="code1" parent="code-all" />
+		<sprite position="120;212" texture="code2" parent="code-all" />
+		<sprite position="253;570" texture="code3" parent="code-all" />
+		<sprite position="400;128" texture="code4" parent="code-all" />
+		<sprite position="529;628" texture="code5" parent="code-all" />
+		<sprite position="652;200" texture="code6" parent="code-all" />
+		<sprite position="847;156" texture="code7" parent="code-all" />
+        <object name="code-all" alpha="0" />
+		<sprite position="481;404" texture="fish1" />
+		<sprite position="304;227" texture="school1" />
+		<sprite position="154;460" texture="school6" />
+		<sprite position="559;135" texture="school5" />
+		<sprite position="858;177" texture="fish4" />
+		<sprite position="508;469" texture="school2" />
+		<sprite position="291;206" texture="fish8" />
+		<sprite position="778;354" texture="fish7" />
+		<sprite position="0;499" texture="fish6" />
+		<sprite position="625;261" texture="school3" />
+		<sprite position="175;101" texture="school7" />
+		<sprite position="102;250" texture="fish3" />
+		<sprite position="226;432" texture="school8" />
+		<sprite position="188;608" texture="fish2" />
+		<sprite position="32;125" texture="school9" />
+		<sprite position="0;369" texture="school4" />
+		<sprite position="880;618" texture="fish5" />
+		<sprite position="409;147" texture="bubble1" pivotx="center" pivoty="center" />
+		<sprite position="442;147" texture="bubble2" pivotx="center" pivoty="center" />
+		<sprite position="428;145" texture="bubble3" pivotx="center" pivoty="center" />
+		<sprite position="14;149" texture="weed11" pivotx="center" pivoty="bottom" />
+		<sprite position="11;149" texture="weed2" pivotx="center" pivoty="bottom" />
+		<sprite position="216;92" texture="weed3" pivotx="center" pivoty="bottom" />
+		<sprite position="599;83" texture="weed4" pivotx="center" pivoty="bottom" />
+		<sprite position="788;130" texture="weed5" pivotx="center" pivoty="bottom" />
+		<sprite position="267;101" texture="weed6" pivotx="center" pivoty="bottom" />
+		<sprite position="30;154" texture="weed7" pivotx="center" pivoty="bottom" />
+		<sprite position="0;0" texture="beam" />
+		<compound position="162;495" texture="wheel_base" open="wheel_brk" full="wheel" objects="w_1:w_1_inv, w_2:w_2_inv, w_3:w_3_inv, w_4:w_4_inv" />
+		<sprite position="254;551" texture="wheel_base_alpha" />
+		<sprite position="189;523" texture="w_1" />
+		<sprite position="386;533" texture="w_4" />
+		<sprite position="380;636" texture="w_3" />
+		<sprite position="200;647" texture="w_2" />
+		<sprite position="396;235" texture="chupa_placed" alpha="0" pivotx="center" pivoty="bottom" />
+        <object name="chupa-target" size="1024;768" position="0;0" touched="true" hintpriority="2" usehint="true" texthintontouch="say-fish" ontouchend="onChupaTarget:" />
+        <animation position="778;597" plistfile="Scenes/07/Animations/exit" touched="true" ontouchend="onBatiClicked:" />
+		<sprite position="819;650" texture="exit_arrow" />
+	<objects/>
+<scene/>

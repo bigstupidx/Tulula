@@ -1,0 +1,98 @@
+<scene images="/Scenes/03/03_2" sounds="03" effects="scene03.ptc" plistfiles="03_2" music="playlist2" hintarrow="exit_arrow" >
+	<objects >
+		<sprite position="0;103" texture="bg_32" />
+		<sprite position="399;218" texture="potion_str_hidden" invent="potion_str_inv" />
+		<sprite position="399;212" texture="dver" touched="true" ontouchend="onDverClicked:" stage="say-shaman-doctor" usehint="true" />
+		<sprite position="381;143" texture="dver_cover" />
+		<sprite position="0;103" texture="bg_32_fire_off" />
+		<sprite position="157;207" texture="square_lv" />
+		<sprite position="771;366" texture="market_lv" />
+		<sprite position="343;163" texture="wood_placed" alpha="0" />
+		<sprite position="559;372" texture="cauldron_hidden" invent="cauldron_inv" stage="task-makefire" ontouchend="onPickCouldronItem" />
+		<sprite position="366;198" texture="cauldron" alpha="0" pivot="76;96" ontouchend="onCauldronClicked:" usehint="true" />
+		<object position="366;198" name="cauldron-broke" size="153;117" stage="task-makefire" />
+        <particle position="568;281" emitter="lepestki2" />
+		<sprite position="503;266" texture="exit" touched="true" ontouchend="onSceneExit:" alphamask="true" />
+		<sprite position="180;448" texture="stone_03_3_hidden" totem="stone_03_3" />
+		<sprite position="175;414" texture="coco" pivotx="center" pivoty="top" ontouchend="onCoco:" touched="true" usehint="true" />
+		<sprite position="140;673" texture="lampseat" />
+		<sprite position="657;495" texture="plafond_hidden" invent="plafond_inv" touched="true" />
+		<animation position="14;326" plistfile="Scenes/03/Animations/bird_trapped" usehint="true" />
+		<sprite position="12;257" texture="bird_trapped2" alpha="0" touched="true" ontouchend="onBirdClicked:" />
+		<sprite position="25;290" texture="lianas" usehint="true" ontouchend="onLianasCut:" />
+		<sprite position="19;332" texture="curtain" touched="true" texthintontouch="say-cornice" stage="task-openwindow" ontouchend="onCurtainClicked:" usehint="true" />
+		<sprite position="143;263" texture="fork_placed" alpha="0"  />
+		<sprite position="20;369" texture="curtain2" alpha="0" touched="true" usehint="true" ontouchend="onCurtain2Clicked:" />
+		<sprite position="20;455" texture="curtain3" alpha="0" />
+		<sprite position="78;389" texture="otpe4atki1" />
+		<sprite position="175;285" texture="otpe4atki2" />
+		<sprite position="58;505" texture="otpe4atki3" />
+		<sprite position="936;501" texture="otpe4atki4" />
+		<sprite position="454;252" texture="otpe4atki5" />
+        <object name="otp1" counter="1" size="60;60" usehint="true" texthintontouch="say-need-brush" ontouchend="onOtpechatki:" stage="task-wipe"/>
+        <object name="otp2" counter="2" size="60;60" usehint="true" texthintontouch="say-need-brush" ontouchend="onOtpechatki:" stage="task-wipe"/>
+        <object name="otp3" counter="3" size="50;60" usehint="true" texthintontouch="say-need-brush" ontouchend="onOtpechatki:" stage="task-wipe"/>
+        <object name="otp4" counter="4" size="50;60" usehint="true" texthintontouch="say-need-brush" ontouchend="onOtpechatki:" stage="task-wipe"/>
+        <object name="otp5" counter="5" size="60;60" usehint="true" texthintontouch="say-need-brush" ontouchend="onOtpechatki:" stage="task-wipe"/>
+		<sprite position="412;544" texture="shetka_hidden" invent="shetka_hud" stage="task-wipe" />
+		<sprite position="628;267" texture="knife_hidden" invent="knife_inv" stage="task-openwindow-done" />
+		<sprite position="451;244" texture="fork_hidden" invent="fork_inv" stage="task-openwindow" />
+		<sprite position="0;584" texture="light" alpha="0"  />
+		<sprite position="227;656" texture="table" />
+		<sprite position="276;665" texture="healer_hidden" alpha="0" touched="true" usehint="true" ontouchend="onHealerClicked:" />
+		<sprite position="143;604" texture="plafond_placed" alpha="0" touched="true" ignorealpha="true" texthintontouch="say-need-plafond" ontouchend="onPlafondClicked:" usehint="true" />
+		<animation position="268;590" plistfile="Scenes/03/Animations/healer_zombie" alpha="0" touched="true" texthintontouch="say-need-powerpotion" ontouchend="onHealerZombieClicked:" usehint="true" />
+		<sprite position="276;665" texture="healer_open" />
+		<sprite position="276;665" texture="healer_closed" alpha="0" parent="healer_open" />
+		<sprite position="34;541" texture="darkness" touched="true" texthintontouch="say-need-light" alphamask="true" />
+		<sprite position="243;334" texture="poker_hidden" invent="poker_inv" stage="task-makefire" />
+		<animation position="273;590" plistfile="Scenes/03/Animations/healer_healthy" alpha="0" touched="true" ontouchend="onHealerClicked"  />
+		<compound position="307;143" texture="f_base" open="cauldron-broke" full="cauldron" objects="f_cauldron:cauldron_inv, f_wood1:wood_1_inv, f_powder:powder_inv, f_wood3:wood_3_inv, f_wood2:wood_2_inv" oncomplete="onCauldronDone" />
+		<sprite position="403;192" texture="f_base_alpha" />
+		<sprite position="523;176" texture="f_cauldron" />
+		<sprite position="335;280" texture="f_wood1" />
+		<sprite position="431;322" texture="f_powder" />
+		<sprite position="522;271" texture="f_wood3" />
+		<sprite position="336;175" texture="f_wood2" />
+		<sprite position="532;285" texture="exit_arrow" />
+		<sprite position="924;551" texture="powder_hidden" invent="powder_inv" stage="task-makefire" ontouchend="onPickCouldronItem" />
+		<sprite position="192;312" texture="spirit_03_2_hidden" size="50;70" totem="spirit_03_2" />
+		<sprite position="179;309" texture="wood_1_hidden" />
+        <object name="wood_zone" position="179;295" size="80;40" stage="task-makefire" usehint="true" texthintontouch="say-step" ontouchend="onWood1Clicked:" />
+		<sprite position="26;231" texture="wood_2_hidden" invent="wood_2_inv" stage="task-makefire" ontouchend="onPickCouldronItem" />
+		<sprite position="40;610" texture="recipe_hidden" stage="say-healer-ingredients" ontouchend="onRecipeClicked:" />
+        <sprite position="702;577" texture="wing_hidden" invent="wing_inv" stage="task-redpotion" />
+		<sprite position="803;207" texture="kora_hidden" invent="kora_inv" stage="task-redpotion" />
+        <sprite position="505;371" texture="flask_hidden" invent="flask_inv" stage="task-redpotion" />
+		<sprite position="965;364" texture="red_powder_hidden" invent="red_powder_inv" stage="task-redpotion" />
+		<sprite position="910;279" texture="potion_blue_hidden" pivotx="center" pivoty="center" stage="task-gathermedicines" ontouchend="onPickIngridients:" usehint="true" />
+		<sprite position="386;257" texture="potion_red_glow" parent="potion_red_hidden" />
+		<sprite position="410;300" texture="potion_red_hidden" alpha="0" invent="ingredients_inv" touched="true" ontouchend="onRedPotionPicked" />
+		<sprite position="746;372" texture="potion_green_hidden" pivotx="center" pivoty="center" stage="task-gathermedicines" ontouchend="onPickIngridients:" usehint="true" />
+		<sprite position="259;203" texture="potion_yellow_hidden" pivotx="center" pivoty="center" stage="task-gathermedicines" ontouchend="onPickIngridients:" usehint="true" />
+		<sprite position="688;207" texture="bread_hidden" invent="bread_inv" stage="recipe3-task" />
+		<sprite position="928;638" texture="crystal_hidden" invent="crystal_inv" ontouchend="onPickCrystal" stage="task-findflappers" />
+		<sprite position="93;227" texture="flapper_4_hidden" alpha="0" invent="flapper_4_inv" />
+		<sprite position="796;528" texture="flapper_5_hidden" alpha="0" invent="flapper_5_inv"  />
+		<sprite position="843;305" texture="flapper_6_hidden" alpha="0" invent="flapper_6_inv"  />
+		<window position="19;430" texture="recipe_zoom" open="recipe_hidden" close="window_close_btn" objects="recipe_1 recipe_2 recipe_3" onenterframe="updateRecipe:" />
+		<sprite position="180;614" name="red_powder_light" texture="recipe_light" alpha="0" parent="recipe_1" />
+		<sprite position="108;546" name="wing_light" texture="recipe_light" alpha="0" parent="recipe_1" />
+		<sprite position="154;473" name="live_water_light" texture="recipe_light" alpha="0" parent="recipe_1" />
+		<sprite position="253;454" name="kora_light" texture="recipe_light" alpha="0" parent="recipe_1" />
+		<sprite position="51;441" texture="recipe_1" />
+		<sprite position="229;463" name="potion_green_light" texture="recipe_light" alpha="0" parent="recipe_2" />
+		<sprite position="339;545" name="potion_yellow_light" texture="recipe_light" alpha="0" parent="recipe_2" />
+		<sprite position="212;593" name="potion_blue_light" texture="recipe_light" alpha="0" parent="recipe_2" />
+		<sprite position="106;560" name="potion_red_light" texture="recipe_light" parent="recipe_2" />
+		<sprite position="52;456" texture="recipe_2" alpha="0"  />
+		<sprite position="162;569" name="berry_purple_light" texture="recipe_light" alpha="0" parent="recipe_3" />
+		<sprite position="248;582" name="bread_light" texture="recipe_light" alpha="0" parent="recipe_3" />
+		<sprite position="311;509" name="berry_red_light" texture="recipe_light" alpha="0" parent="recipe_3" />
+		<sprite position="129;480" name="berry_green_light" texture="recipe_light" alpha="0" parent="recipe_3" />
+		<sprite position="43;439" texture="recipe_3" alpha="0"  />
+		<button position="449;701" nane="window_close_btn" btnnormal="common/window_close_btn" btndown="common/window_close_btnd"  />
+        <particle emitter="bubbles" active="false" position="445;294" />
+        <particle emitter="fire" active="false" position="438;192" />
+ 	<objects/>
+<scene>

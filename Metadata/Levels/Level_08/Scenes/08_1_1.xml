@@ -1,0 +1,23 @@
+<scene images="/Scenes/08/08_1_1" sounds="08" plistfiles="08_1_1" effects="scene08.ptc" music="melody_6" >
+	<objects >
+		<sprite position="0;102" texture="back_811" />
+		<sprite position="199;135" texture="pull" pivotx="center" pivoty="center"  />
+        <object name="lunka-1" size="50;50" position="486;623" parent="pull" />
+        <object name="lunka-2" size="50;50" position="313;523" parent="pull" />
+        <object name="lunka-3" size="50;50" position="313;325" parent="pull" />
+        <object name="lunka-4" size="50;50" position="486;223" parent="pull" />
+        <object name="lunka-5" size="50;50" position="658;325" parent="pull" />
+        <object name="lunka-6" size="50;50" position="658;523" parent="pull" />
+		<sprite position="341;248" texture="light" pivotx="center" pivoty="center" parent="pull" alpha="0" />
+		<sprite position="456;391" texture="point_start" parent="pull" pivotx="center" pivoty="center" />
+		<sprite name="ball_1" position="540;395" texture="orange" pivotx="center" pivoty="center" parent="pull" scale="0" stage="say-shaman-minigame" ontouchend="onPlanetClicked:" counter="1" />
+		<sprite name="ball_2" position="488;478" texture="red" pivotx="center" pivoty="center" parent="pull" scale="0" stage="say-shaman-minigame" ontouchend="onPlanetClicked:" counter="2" />
+		<sprite name="ball_3" position="488;367" texture="violet" pivotx="center" pivoty="center" parent="pull" scale="0" stage="say-shaman-minigame" ontouchend="onPlanetClicked:" counter="3" />
+		<sprite name="ball_4" position="445;450" texture="green" pivotx="center" pivoty="center" parent="pull" scale="0" stage="say-shaman-minigame" ontouchend="onPlanetClicked:" counter="4" />
+		<sprite name="ball_5" position="441;396" texture="yellow" pivotx="center" pivoty="center"  parent="pull" scale="0" stage="say-shaman-minigame" ontouchend="onPlanetClicked:" counter="5" />
+		<sprite position="497;424" texture="spirit_2_hidden" totem="spirit_08_2" parent="pull" scale="0" ontouchend="onPickSpirit" />
+		<sprite position="408;357" texture="pyramid_btn" parent="pull" touched="true" ontouchend="onPyramid:" pivotx="center" pivoty="center" />
+		<sprite position="408;357" name="pyramid_open"  texture="pyramid_btnd" alpha="0" parent="pull" />
+        <skip position="880;690" onskip="onMgDone" stage="say-shaman-minigame" hide="mg-planets-done" />
+	<objects/>
+<scene/>

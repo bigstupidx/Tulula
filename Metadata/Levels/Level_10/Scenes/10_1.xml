@@ -1,0 +1,170 @@
+<scene images="/Scenes/10/10_1" sounds="10" plistfiles="10_1" effects="scene10.ptc" music="playlist5" arrowdir="top" >
+	<objects >
+		<sprite position="70;268" texture="lava_back"  />
+		<sprite position="67;492" texture="lava3" pivotx="center" pivoty="bottom" />
+		<sprite position="469;323" texture="lava1" scaley="0" />
+        <object position="486;270" name="booth" size="142;158" ontouchend="onBoothClicked:" />
+		<sprite position="486;270" texture="booth1" ontouchend="onBoothFirstClicked:" />
+		<sprite position="504;270" texture="booth1_light" parent="booth1" alpha="0" />
+		<sprite position="490;268" texture="door_left" pivot="0;5" />
+		<sprite position="499;275" texture="door_right" pivot="0;32" />
+        <object position="486;270" size="142;158" name="booth_base" usehint="true" ontouchend="onDoorsClicked" />
+		<sprite position="496;268" texture="door_light" alpha="0" />
+		<sprite position="920;407" texture="booth2" texthintontouch="say-second-elevator-door" ontouchend="bridgeTask:" />
+		<sprite position="925;408" texture="door_left3" pivot="0;18" />
+		<sprite position="925;408" texture="door_righ3" pivot="10; 65" />
+		<sprite position="0;107" texture="back10_1" />
+		<sprite position="469;273" texture="booth1_on" alpha="0" />
+		<sprite position="903;401" texture="anim_lava_elevator" scaley="0" pivotx="center" pivoty="top" />
+		<sprite position="775;366" texture="snake3" pivot="28;132" />
+		<animation position="834;423" plistfile="Scenes/10/Animations/anim_snake3" alpha="0" parent="snake3" pivot="6;6" />
+		<sprite position="724;321" texture="wheel_3" pivotx="center" pivoty="center" />
+		<animation position="720;353" plistfile="Scenes/10/Animations/anim_wheel_lava3" alpha="0" pivoty="top" />
+		<sprite position="719;309" texture="wheel_cover3" />
+		<sprite position="736;413" texture="stone_snake3" pivotx="center" pivoty="bottom" stage="task-repair-bridge-done" texthintontouch="say-need-spear" ontouchend="onStoneSnake3:" usehint="true" />
+		<sprite position="104;369" texture="snake2" pivot="70;150" touched="true" texthintontouch="say-shaman-snakes" />
+		<animation position="107;407" plistfile="Scenes/10/Animations/anim_snake2" parent="snake2" pivot="28;6" />
+		<sprite position="156;316" texture="wheel_2" pivotx="center" pivoty="center" />
+		<animation position="152;360" plistfile="Scenes/10/Animations/anim_wheel_lava2" pivotx="right" pivoty="top" />
+		<sprite position="152;293" texture="wheel_cover2" />
+		<sprite position="712;249" texture="well2" />
+		<sprite position="739;299" texture="w_1_hidden" invent="w_1_2_inv" />
+		<sprite position="736;316" texture="lava_well" touched="true" texthintontouch="say-well-lava" />
+		<sprite position="712;249" texture="well1" />
+		<sprite position="705;179" texture="puddle" alpha="0" scale="0" pivot="25;22" />
+		<sprite position="730;243" texture="stone_well" stage="task-repair-wheel" usehint="true" ontouchend="onStoneWell:" />
+		<sprite position="248;206" texture="snake1" pivot="50;240" />
+		<sprite position="151;186" texture="wheel_broken" touched="true" ontouchend="onWheelClicked:" />
+		<sprite position="145;113" texture="wheel_1" alpha="0" usehint="true" stage="task-mill" ontouchend="onWheelFull:" pivotx="center" pivoty="center" />
+		<sprite position="143;106" texture="wheel_1_light" parent="wheel_1" alpha="0" />
+		<sprite position="358;350" texture="stone_snake1" stage="task-mill-done" parent="snake1" usehint="true" ontouchend="onStoneSnake:" pivotx="center" pivoty="center" />
+		<animation position="350;188" plistfile="Scenes/10/Animations/anim_snake1_1" alpha="0" parent="snake1" />
+		<animation position="359;316" plistfile="Scenes/10/Animations/anim_snake1_2" alpha="0" parent="snake1" />
+		<sprite position="0;0" texture="wheel_cover1" />
+		<sprite position="15;217" texture="sliv_brk" stage="task-repair-wheel-done" ontouchend="onSlivClicked:" />
+		<sprite position="483;478" texture="stick_4_hidden" stage="task-repair-ladder" invent="stick_4_inv" />
+		<sprite position="94;199" texture="spirit_09_1_hidden" totem="spirit_10_1" stage="say-shaman-mill" />
+		<animation position="135;170" plistfile="Scenes/10/Animations/anim_lava_1_2" />
+		<animation position="96;171" plistfile="Scenes/10/Animations/anim_lava_1_1" />
+		<sprite position="15;217" texture="sliv_full" alpha="0" />
+		<animation position="0;387" plistfile="Scenes/10/Animations/anim_const_1" />
+		<animation position="131;180" plistfile="Scenes/10/Animations/anim_wheel_lava1" alpha="0" pivoty="top" />
+		<sprite position="163;193" texture="lever_placed" alpha="0" stage="say-shaman-mill" usehint="true" ontouchend="onLeverPlaced:" pivot="75;100" />
+		<sprite position="473;190" texture="stick_1_hidden" stage="task-repair-ladder" invent="stick_1_inv" />
+		<sprite position="463;181" texture="stone_stick" stage="task-repair-ladder" ontouchend="onStoneStick:" />
+		<sprite position="849;254" texture="bridge_broken" stage="task-repair-bridge" usehint="true" texthintontouch="say-bridge-10-1" ontouchend="onBridgeBroken:" />
+		<sprite position="901;349" texture="stone_bridge_3_placed" alpha="0" />
+		<sprite position="896;337" texture="stone_bridge_4_placed" alpha="0" />
+		<sprite position="887;328" texture="stone_bridge_1_placed" alpha="0" />
+		<sprite position="875;321" texture="stone_bridge_2_placed" alpha="0" />
+		<sprite position="631;326" texture="stone_bridge_1_hidden" invent="stone_bridge_1_inv" stage="task-repair-bridge" />
+		<sprite position="247;151" texture="stone_bridge_2_hidden" invent="stone_bridge_2_inv" stage="task-repair-bridge" />
+		<sprite position="24;232" texture="stick_1_placed" alpha="0" />
+		<sprite position="16;354" texture="stick_2_placed" alpha="0" />
+		<sprite position="15;419" texture="stick_3_placed" alpha="0" />
+		<sprite position="17;481" texture="stick_4_placed" alpha="0" />
+		<sprite position="821;270" texture="stick_2_hidden" stage="task-repair-ladder" invent="stick_2_inv" />
+		<sprite position="508;272" texture="stick_3_hidden" stage="task-repair-ladder" invent="stick_3_inv" />
+		<sprite position="0;523" texture="parapet" touched="true" texthintontouch="say-parapet-click" alphamask="true" />
+		<sprite position="569;184" texture="pers_2" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<sprite position="152;711" texture="oracle_lv" stage="task-repair-ladder-done" />
+		<sprite position="262;706" texture="stone_bridge_4_hidden" invent="stone_bridge_4_inv" stage="task-repair-bridge" />
+		<sprite position="33;677" texture="lever_hidden" stage="task-mill" invent="lever_inv" />
+		<sprite position="312;647" texture="w_5_hidden" invent="w_5_2_inv" stage="task-repair-ladder-done" />
+		<sprite position="12;189" texture="ladder_destroyed" stage="task-repair-wheel" usehint="true" ontouchend="onLadderDestroyed:" />
+		<sprite position="377;175" texture="w_2_hidden" invent="w_2_2_inv" stage="task-repair-wheel" />
+		<sprite position="610;503" texture="w_3_hidden" invent="w_3_2_inv" stage="task-repair-wheel" />
+		<sprite position="317;403" texture="w_4_hidden" invent="w_4_2_inv" stage="task-repair-wheel" />
+		<sprite position="680;160" texture="stone_secret_2" alpha="0" />
+		<sprite position="625;236" texture="spirit_09_2_hidden" totem="spirit_10_2" touched="true" />
+		<sprite position="71;552" texture="stone_09_1_hidden" totem="stone_10_1" stage="task-repair-ladder-done" />
+		<sprite position="149;596" texture="pers_1" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans"  />
+		<sprite position="104;657" texture="spear_hidden" stage="task-repair-bridge-done" invent="spear_inv" />
+		<sprite position="623;234" texture="stone_secret_1" touched="true" ontouchend="onStoneSecret:" />
+        <particle emitter="smoke1" position="806;353" />
+        <particle emitter="smoke2" position="275;308" />
+		<compound position="74;134" texture="w_base" open="wheel_broken" full="wheel_1" objects="w_1_placed:w_1_2_inv, w_2_placed:w_2_2_inv, w_3_placed:w_3_2_inv, w_4_placed:w_4_2_inv, w_5_placed:w_5_2_inv" oncomplete="onWheelComplete" />
+		<sprite position="179;211" texture="w_base_alpha" />
+		<sprite position="97;224" texture="w_1_placed" />
+		<sprite position="129;313" texture="w_2_placed" />
+		<sprite position="247;337" texture="w_3_placed" />
+		<sprite position="318;257" texture="w_4_placed" />
+		<sprite position="284;165" texture="w_5_placed" />
+		<window position="40;171" texture="sliv_zoom" close="sliv_exit" objects="anim_sliv1 pazl_full button1, button2 button3 button4 button5 button6 button7 button8 button9 lav_sliv1 lav_sliv2 lav_sliv3 block luzi block1_hidden block2_hidden block3_hidden block1_placed block2_placed block3_placed anim_luzi1 anim_luzi2 anim_luzi3 anim_sliv2" open="sliv_brk" />
+		<sprite position="48;192" texture="anim_sliv1" />
+		<sprite position="152;477" texture="button1" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="249;477" texture="button2" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="346;477" texture="button3" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="152;394" texture="button4" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="249;394" texture="button5" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="346;394" texture="button6" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="152;311" texture="button7" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="249;311" texture="button8" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="346;311" texture="button9" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+        <sprite position="152;309" texture="pazl_full" alpha="0" />
+		<sprite position="143;394" texture="lav_sliv1" alpha="0" />
+		<sprite position="143;376" texture="lav_sliv2" alpha="0" />
+		<sprite position="143;323" texture="lav_sliv3" alpha="0" />
+		<sprite position="85;185" texture="block" />
+		<sprite position="167;198" texture="luzi" />
+		<animation position="444;346" plistfile="Scenes/10/Animations/anim_sliv2" alpha="0" />
+		<animation position="156;608" plistfile="Scenes/10/Animations/anim_luzi3" />
+		<animation position="204;185" plistfile="Scenes/10/Animations/anim_luzi2" />
+		<animation position="238;207" plistfile="Scenes/10/Animations/anim_luzi1" />
+		<sprite position="275;216" texture="block1_placed" counter="1" alpha="0" touched="true" ignorealpha="true" ontouchend="onBlockPlaced:" />
+		<sprite position="192;197" texture="block2_placed" counter="2" alpha="0" touched="true" ignorealpha="true" ontouchend="onBlockPlaced:" />
+		<sprite position="167;606" texture="block3_placed" counter="3" alpha="0" touched="true" ignorealpha="true" ontouchend="onBlockPlaced:" />
+		<sprite position="84;348" texture="block1_hidden" usehint="true" stage="say-shaman-stones" counter="1" ontouchbegan="onBlockClicked:" pivotx="center" pivoty="center" />
+		<sprite position="66;418" texture="block2_hidden" usehint="true" counter="2" stage="say-shaman-stones" ontouchbegan="onBlockClicked:" pivotx="center" pivoty="center" />
+		<sprite position="71;460" texture="block3_hidden" usehint="true" counter="3" stage="say-shaman-stones" ontouchbegan="onBlockClicked:" pivotx="center" pivoty="center" />
+		<button position="486;619" name="sliv_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="427;175" texture="elevator1_zoom" close="elevator_exit" open="booth1" objects="stone_bridge_3_hidden z_lever1 z_lever2 z_lever3 z_lever1_light z_lever2_light z_lever3_light wires motor_placed door door_handle_placed door_open rele_placed robe_placed robe_cover z_lever5 z_lever4 z_lever4_light z_lever5_light tube1_placed tube2_placed tube3_placed" />
+		<sprite position="487;341" texture="z_lever1" touched="true" ontouchend="onZlever:" counter="1" />
+		<sprite position="545;354" texture="z_lever2" touched="true" ontouchend="onZlever:" counter="1" />
+		<sprite position="602;364" texture="z_lever3" touched="true" ontouchend="onZlever:" counter="1" />
+		<sprite position="595;373" texture="z_lever3_light" alpha="0" />
+		<sprite position="536;364" texture="z_lever2_light" alpha="0" />
+		<sprite position="477;352" texture="z_lever1_light" alpha="0" />
+		<sprite position="747;446" texture="wires" />
+		<sprite position="760;460" texture="motor_placed" alpha="0" stage="task-fix-first-elevator" ignorealpha="true" ontouchend="onLiftPlaced:" usehint="true" />
+		<sprite position="746;454" texture="motor_light" parent="motor_placed" alpha="0" />
+		<sprite position="705;442" texture="door" stage="task-fix-first-elevator" texthintontouch="say-elevator-door" ontouchend="onElevatorDoor:" usehint="true" />
+		<sprite position="707;472" texture="door_handle_placed" alpha="0" touched="true" ontouchend="onDoorHandle:" parent="door" />
+		<sprite position="865;401" texture="door_open" alpha="0" />
+		<sprite position="632;267" texture="tube3_placed" alpha="0" stage="task-fix-first-elevator" ignorealpha="true" ontouchend="onLiftPlaced:" usehint="true" />
+		<sprite position="697;258" texture="tube2_placed" alpha="0" stage="task-fix-first-elevator" ignorealpha="true" ontouchend="onLiftPlaced:" usehint="true" />
+		<sprite position="770;249" texture="tube1_placed" alpha="0" stage="task-fix-first-elevator" ignorealpha="true" ontouchend="onLiftPlaced:" usehint="true" />
+		<sprite position="770;608" texture="z_lever4_light" alpha="0" />
+		<sprite position="808;608" texture="z_lever5_light" alpha="0" />
+		<sprite position="760;604" texture="z_lever4" touched="true" ontouchend="onZlever:" counter="1" />
+		<sprite position="797;604" texture="z_lever5" touched="true" ontouchend="onZlever:" counter="1" />
+		<sprite position="637;399" texture="robe_placed" alpha="0" usehint="true" touched="true" ontouchend="onRopePlaced:" />
+		<sprite position="556;536" texture="robe_cover" />
+		<sprite position="629;577" texture="rele_placed" pivot="25;70" alpha="0" stage="task-fix-first-elevator" ignorealpha="true" texthintontouch="say-cover" ontouchend="onLiftPlaced:" usehint="true" />
+        <sprite position="587;295" texture="stone_bridge_3_hidden" invent="stone_bridge_3_inv" stage="task-repair-bridge" />
+		<button position="874;625" name="elevator_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="427;175" texture="elevator1_zoom" name="elevator2_zoom" active="false" open="booth2" close="elevator2_exit" objects="z_lever1_on z_lever2_on z_lever3_on motor_hidden bottle_hidden box box_open2 key_placed tube3_hidden tube2_hidden tube1_hidden door2 door_handle_hidden z_lever4_on z_lever5_on robe_hidden robe_cover2 rele_hidden elevator2_zoom_dif" />
+        <sprite position="469;437" texture="elevator2_zoom_dif" />
+		<sprite position="487;391" texture="z_lever1_on" />
+		<sprite position="545;378" texture="z_lever2_on" />
+		<sprite position="602;441" texture="z_lever3_on" />
+		<sprite position="751;433" texture="motor_hidden" invent="motor_inv" touched="true" />
+		<sprite position="646;320" texture="bottle_hidden" parent="box_open2" invent="bottle_inv" touched="true" ontouchend="onBottleClicked" />
+		<sprite position="613;299" texture="box" touched="true" texthintontouch="say-elev-box" ontouchend="onBoxClicked:" />
+		<sprite position="613;296" texture="box_open1" parent="box_open2" />
+		<sprite position="605;277" texture="box_open2" alpha="0" />
+		<sprite position="656;314" texture="key_placed" touched="true" alpha="0" pivotx="center" pivoty="center" ontouchend="onKeyPlaced:" parent="box" />
+		<sprite position="632;267" texture="tube3_hidden" touched="true" invent="tube3_inv" />
+		<sprite position="697;258" texture="tube2_hidden" touched="true" invent="tube2_inv" />
+		<sprite position="770;249" texture="tube1_hidden" touched="true" invent="tube1_inv" />
+		<sprite position="593;195" texture="door2" />
+		<sprite position="645;234" texture="door_handle_hidden" touched="true" invent="door_handle_inv" />
+		<sprite position="760;616" texture="z_lever4_on" />
+		<sprite position="797;629" texture="z_lever5_on" />
+		<sprite position="637;399" texture="robe_hidden" touched="true" ontouchend="onRobeHiddenClicked:" />
+		<sprite position="556;536" texture="robe_cover2" />
+		<sprite position="629;577" texture="rele_hidden" touched="true" invent="rele_inv" />
+		<button position="871;624" name="elevator2_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="522;312" texture="exit_arrow" alpha="0" />
+	<objects/>
+<scene/>

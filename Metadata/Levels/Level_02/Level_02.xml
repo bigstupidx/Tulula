@@ -1,0 +1,40 @@
+<level startscene="Scene02_1" totemstones="6" effects="scene02.ptc" tasks="8" >
+	<inventory>
+		<sprite position="0;0" texture="broom_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="rope_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="bell_tongue_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey1_6_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey1_5_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey1_4_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey1_3_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey1_2_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey1_1_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey2_6_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey2_5_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey2_4_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey2_3_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey2_2_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="monkey2_1_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="jug_water_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="oil_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="lotos_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="stick_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="drum_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="tamborine_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="jug_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="key_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="lotos_zoom_btn_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="192;24" texture="v_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="21;42" texture="st_02_shape" />
+		<sprite position="111;46" texture="stone_02_1" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="93;83" texture="stone_02_2" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="81;48" texture="stone_02_3" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="64;75" texture="spirit_02_1" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="23;79" texture="spirit_02_2" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="40;43" texture="spirit_02_3" alpha="0" pivotx="center" pivoty="center" />
+	<inventory/>
+	<dialogs>
+		<sprite name="kalamuna" position="27;30" texture="sayer-kalamuna" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="kalamuna-dlg" head="sayer-kalamuna_dial_wnd_1" body="sayer-kalamuna_dial_wnd_2" tail="sayer-kalamuna_dial_wnd_3" alpha="0" position="288;122" />
+	<dialogs/>
+<level/>

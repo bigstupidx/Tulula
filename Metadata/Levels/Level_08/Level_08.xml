@@ -1,0 +1,30 @@
+<level startscene="Scene08_1" totemstones="6" tasks="9" >
+	<inventory>
+		<sprite position="0;0" texture="tablet_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="gem_1_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="icepick_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="shovel4_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="dark_matter_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="switch2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="button_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="generator_part_3_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="generator_part_2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="generator_part_1_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="gem_2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="gem_3_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="telescope_part2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="telescope_part1_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="key6_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="40;29" texture="st_08_shape" />
+		<sprite position="87;103" texture="stone_08_1" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="43;101" texture="stone_08_2" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="65;80" texture="stone_08_3" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="88;53" texture="spirit_08_1" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="42;48" texture="spirit_08_2" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="71;30" texture="spirit_08_3" pivotx="center" pivoty="center" alpha="0" />
+	<inventory/>
+	<dialogs>
+		<sprite name="god_7" position="27;30" texture="sayer-god_7" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="god_7-dlg" head="sayer-god_7_dial_wnd_1" body="sayer-god_7_dial_wnd_2" tail="sayer-god_7_dial_wnd_3" alpha="0" position="238;122" />
+	<dialogs/>
+<level/>

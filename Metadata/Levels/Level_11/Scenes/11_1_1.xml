@@ -1,0 +1,126 @@
+<scene images="/Scenes/11/11_1_1" sounds="11" plistfiles="11_1_1" effects="scene11.ptc" music="melody_6" >
+	<objects >
+		<sprite position="0;107" texture="back11_11" />
+		<sprite position="-34;88" texture="flute2_1" />
+        <particle position="550;172" emitter="magic" />
+        <particle position="550;172" emitter="smoke" />
+		<sprite position="492;157" name="spell1_1" texture="spell1"  pivotx="center" pivoty="center" />
+        <sprite position="492;157" name="spell1_2" texture="spell1"  pivotx="center" pivoty="center" />
+        <sprite position="492;157" name="spell1_3" texture="spell1"  pivotx="center" pivoty="center" />
+        <sprite position="492;157" name="spell1_4" texture="spell1"  pivotx="center" pivoty="center" />
+        <sprite position="492;157" name="spell1_5" texture="spell1"  pivotx="center" pivoty="center" />
+        <sprite position="492;157" name="spell1_6" texture="spell1"  pivotx="center" pivoty="center" />
+        <sprite position="492;157" name="spell1_7" texture="spell1"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell2_1" texture="spell2"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell2_2" texture="spell2"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell2_3" texture="spell2"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell2_4" texture="spell2"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell2_5" texture="spell2"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell2_6" texture="spell2"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell3_1" texture="spell3"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell3_2" texture="spell3"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell3_3" texture="spell3"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell3_4" texture="spell3"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell3_5" texture="spell3"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell3_6" texture="spell3"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell3_7" texture="spell3"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell4_1" texture="spell4"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell4_2" texture="spell4"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell4_3" texture="spell4"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell4_4" texture="spell4"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell4_5" texture="spell4"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell5_1" texture="spell5"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell5_2" texture="spell5"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell5_3" texture="spell5"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell5_4" texture="spell5"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell5_5" texture="spell5"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell5_6" texture="spell5"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell6_1" texture="spell6"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell6_2" texture="spell6"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell6_3" texture="spell6"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell6_4" texture="spell6"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell6_5" texture="spell6"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell6_6" texture="spell6"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell7_1" texture="spell7"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell7_2" texture="spell7"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell7_3" texture="spell7"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell7_4" texture="spell7"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell7_5" texture="spell7"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell7_6" texture="spell7"  pivotx="center" pivoty="center" />
+		<sprite position="490;154" name="spell8_1" texture="spell8"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell8_2" texture="spell8"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell8_3" texture="spell8"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell8_4" texture="spell8"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell8_5" texture="spell8"  pivotx="center" pivoty="center" />
+        <sprite position="490;154" name="spell8_6" texture="spell8"  pivotx="center" pivoty="center" />
+		<sprite position="531;193" texture="spell1_rune1" parent="spell1_1" />
+		<sprite position="524;188" texture="spell1_rune2" parent="spell1_2" />
+		<sprite position="528;189" texture="spell1_rune3" parent="spell1_3" />
+		<sprite position="528;189" texture="spell1_rune4" parent="spell1_4" />
+		<sprite position="528;192" texture="spell1_rune5" parent="spell1_5" />
+		<sprite position="524;193" texture="spell1_rune6" parent="spell1_6" />
+		<sprite position="531;184" texture="spell1_rune7_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell1_7" ontouchend="onPlaceRune:" />
+		<sprite position="531;184" texture="spell1_rune7_hidden" touched="true" invent="spell1_rune7_inv" ontouchend="onPickRune:" />
+		<sprite position="536;190" texture="spell2_rune1_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell2_1" ontouchend="onPlaceRune:" />
+		<sprite position="536;190" texture="spell2_rune1_hidden" touched="true" invent="spell2_rune1_inv" ontouchend="onPickRune:" />
+		<sprite position="536;193" texture="spell2_rune2" parent="spell2_2" />
+		<sprite position="531;194" texture="spell2_rune3" parent="spell2_3" />
+		<sprite position="532;194" texture="spell2_rune4" parent="spell2_4" />
+		<sprite position="536;190" texture="spell2_rune5" parent="spell2_5" />
+		<sprite position="523;199" texture="spell2_rune6" parent="spell2_6" />
+		<sprite position="532;188" texture="spell3_rune1" parent="spell3_1" />
+		<sprite position="532;188" texture="spell3_rune2_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell3_2" ontouchend="onPlaceRune:" />
+		<sprite position="532;188" texture="spell3_rune2_hidden" touched="true" invent="spell3_rune2_inv" ontouchend="onPickRune:" />
+		<sprite position="532;188" texture="spell3_rune3" parent="spell3_3" />
+		<sprite position="526;195" texture="spell3_rune4" parent="spell3_4" />
+		<sprite position="526;197" texture="spell3_rune5" parent="spell3_5" />
+		<sprite position="532;188" texture="spell3_rune6" parent="spell3_6" />
+		<sprite position="533;190" texture="spell3_rune7" parent="spell3_7" />
+		<sprite position="528;189" texture="spell4_rune1" parent="spell4_1" />
+		<sprite position="528;203" texture="spell4_rune2" parent="spell4_2" />
+		<sprite position="528;203" texture="spell4_rune3" parent="spell4_3" />
+		<sprite position="528;189" texture="spell4_rune4" parent="spell4_4" />
+		<sprite position="527;189" texture="spell4_rune5_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell4_5" ontouchend="onPlaceRune:" />
+		<sprite position="527;189" texture="spell4_rune5_hidden" touched="true" invent="spell4_rune5_inv" ontouchend="onPickRune:" />
+		<sprite position="536;190" texture="spell5_rune1" parent="spell5_1" />
+		<sprite position="531;195" texture="spell5_rune2" parent="spell5_2" />
+		<sprite position="536;192" texture="spell5_rune3" parent="spell5_3" />
+		<sprite position="536;193" texture="spell5_rune4_placed" ignorealpha="true" texthintontouch="say-clear-rune" parent="spell5_4" alpha="0"  ontouchend="onPlaceRune:" />
+		<sprite position="536;193" texture="spell5_rune4_hidden" parent="spell5_4" touched="true" invent="spell5_rune4_inv" ontouchend="onPickRune:" />
+		<sprite position="536;188" texture="spell5_rune5" parent="spell5_5" />
+		<sprite position="522;195" texture="spell5_rune6" parent="spell5_6" />
+		<sprite position="533;189" texture="spell6_rune1" parent="spell6_1" />
+		<sprite position="527;188" texture="spell6_rune2" parent="spell6_2" />
+		<sprite position="531;195" texture="spell6_rune3_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell6_3"  ontouchend="onPlaceRune:" />
+		<sprite position="531;195" texture="spell6_rune3_hidden" touched="true" invent="spell6_rune3_inv" ontouchend="onPickRune:" />
+		<sprite position="532;195" texture="spell6_rune4" parent="spell6_4" />
+		<sprite position="527;195" texture="spell6_rune5" parent="spell6_5" />
+		<sprite position="532;194" texture="spell6_rune6" parent="spell6_6" />
+		<sprite position="540;190" texture="spell7_rune1" parent="spell7_1" />
+		<sprite position="540;190" texture="spell7_rune2" parent="spell7_2" />
+		<sprite position="540;192" texture="spell7_rune3" parent="spell7_3" />
+		<sprite position="535;190" texture="spell7_rune4" parent="spell7_4" />
+		<sprite position="528;189" texture="spell7_rune5" parent="spell7_5" />
+		<sprite position="531;192" texture="spell7_rune6_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell7_6"  ontouchend="onPlaceRune:" />
+		<sprite position="531;192" texture="spell7_rune6_hidden" touched="true" invent="spell7_rune6_inv" ontouchend="onPickRune:" />
+		<sprite position="526;189" texture="spell8_rune1" parent="spell8_1" />
+		<sprite position="524;188" texture="spell8_rune2" parent="spell8_2" />
+		<sprite position="531;189" texture="spell8_rune3_placed" ignorealpha="true" texthintontouch="say-clear-rune" alpha="0" parent="spell8_3" ontouchend="onPlaceRune:" />
+		<sprite position="531;189" texture="spell8_rune3_hidden" touched="true" invent="spell8_rune3_inv" ontouchend="onPickRune:" />
+		<sprite position="531;188" texture="spell8_rune4" parent="spell8_4" />
+		<sprite position="526;186" texture="spell8_rune5" parent="spell8_5" />
+		<sprite position="527;188" texture="spell8_rune6" parent="spell8_6" />
+        <skip position="880;690" onskip="onMgDone" stage="say-shaman-dreamcurse" hide="mg-spells-done" />
+	<objects/>
+<scene/>
+
+<pathes>
+	<path id="spell1" points="561;197, 446;279, 249;312, 72;431, 95;646, 232;720, 336;680" />
+	<path id="spell2" points="561;195, 536;302, 466;412, 377;485, 285;558, 294;670, 386;704" />	
+	<path id="spell3" points="561;200, 447;322, 290;401, 162;514, 194;627, 271;672" />	
+	<path id="spell4" points="570;197, 612;243, 665;368, 701;494, 708;629, 621;709, 542;674, 566;591, 637;590" />	
+	<path id="spell5" points="568;199, 580;241, 573;364, 538;485, 466;568, 388;659, 447;733, 530;734" />	
+	<path id="spell6" points="561;193, 448;236, 251;207, 79;264, 22;341" />	
+	<path id="spell7" points="578;161, 711;211, 866;294, 954;382, 989;508, 977;602" />
+	<path id="spell8" points="589;183, 610;211, 687;276, 793;399, 848;506, 845;642, 736;730" />
+<pathes/>

@@ -1,0 +1,75 @@
+<scene images="/Scenes/03/03_2_1" sounds="03" effects="scene03.ptc" plistfiles="03_2_1" music="melody_6" >
+	<objects >
+		<sprite position="0;103" texture="Back_321" />
+		<sprite position="126;401" texture="bird_shadow" />
+		<sprite position="344;495" texture="spirit_03_3_hidden" stage="task-treatbird-done" totem="spirit_03_3" ontouchend="onPickTotemStone" />
+        <object position="128;387" size="553;277" ontouchend="repeatSequence:" name="bird" />
+		<sprite position="128;387" texture="bird_sick1" stage="say-shaman-bluebird" ontouchend="onBirdClicked:" usehint="true" />
+		<sprite position="128;384" texture="bird_sick2" alpha="0" />
+		<sprite position="128;398" texture="bird_sick3" alpha="0" />
+		<sprite position="128;398" texture="bird_sick4" alpha="0" />
+		<sprite position="128;398" texture="bird_sick5" alpha="0" />
+		<sprite position="128;398" texture="bird_sick6" alpha="0" />
+		<animation position="128;367" plistfile="Scenes/03/Animations/anim_bird_eats" alpha="0" />
+		<sprite position="140;451" texture="bird_fly" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="680;554" texture="device1" />
+        <object position="675;544" size="230;280" name="device" ontouchend="onDeviceClicked" touched="true" />
+		<sprite position="707;622" texture="souse1" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="705;622" texture="souse2" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="701;622" texture="souse3" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="695;622" texture="souse4" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="691;622" texture="souse5" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="680;623" texture="lid_close" />
+		<sprite position="675;631" texture="lid_open" alpha="0"  />
+		<sprite position="151;450" texture="table" />
+		<sprite position="682;427" texture="pipe_back" />
+		<sprite position="627;423" texture="pill1" alpha="0" pivoty="top" />
+		<sprite position="627;423" texture="pill2" alpha="0" pivoty="top" />
+		<sprite position="627;423" texture="pill3" alpha="0" pivoty="top" />
+		<sprite position="627;423" texture="pill4" alpha="0" pivoty="top" />
+		<sprite position="627;423" texture="pill5" alpha="0" pivoty="top" />
+		<sprite position="682;418" texture="pipe" pivotx="center" pivoty="top" />
+		<sprite position="719;207" texture="bread" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="16;267" texture="berry_green" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="43;550" texture="berry_purple" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="308;192" texture="berry_red" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="189;216" texture="potion_blue" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="855;399" texture="potion_red" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="910;240" texture="potion_green" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="567;186" texture="potion_yellow" touched="true" ontouchbegan="onPickObject:" stage="task-treatbird" />
+		<sprite position="235;672" texture="baza_temperature"  />
+		<sprite position="332;706" texture="temperature" pivoty="center" scalex="0" parent="baza_temperature" />
+		<sprite position="245;678" texture="bird1" parent="baza_temperature" />
+		<sprite position="245;678" texture="bird2" alpha="0" parent="baza_temperature" />
+		<sprite position="245;678" texture="bird3" alpha="0" parent="baza_temperature" />
+		<sprite position="245;678" texture="bird4" alpha="0" parent="baza_temperature" />
+		<sprite position="245;678" texture="bird5" alpha="0" parent="baza_temperature" />
+		<sprite position="245;678" texture="bird6" alpha="0" parent="baza_temperature" />
+		<sprite position="249;527" texture="box" alpha="0" />
+		<sprite position="311;564" texture="bread_box" alpha="0" parent="box" />
+		<sprite position="312;576" texture="berry_green_box" alpha="0" parent="box" />
+		<sprite position="322;560" texture="berry_purple_box" alpha="0" parent="box" />
+		<sprite position="318;583" texture="berry_red_box" alpha="0" parent="box" />
+		<sprite position="328;569" texture="potion_red_box" alpha="0" parent="box" />
+		<sprite position="332;560" texture="potion_green_box" alpha="0" parent="box" />
+		<sprite position="325;556" texture="potion_yellow_box" alpha="0" parent="box" />
+		<sprite position="330;561" texture="potion_blue_box" alpha="0" parent="box" />
+		<sprite position="760;241" texture="bread_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="67;322" texture="berry_green_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="103;582" texture="berry_purple_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="354;254" texture="berry_red_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="211;250" texture="potion_blue_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="872;419" texture="potion_red_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="925;259" texture="potion_green_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="587;213" texture="potion_yellow_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="705;188" texture="bread_light" alpha="0" />
+		<sprite position="1;253" texture="berry_green_light" alpha="0" />
+		<sprite position="34;538" texture="berry_purple_light" alpha="0" />
+		<sprite position="291;183" texture="berry_red_light" alpha="0" />
+		<sprite position="177;202" texture="potion_blue_light" alpha="0" />
+		<sprite position="840;385" texture="potion_red_light" alpha="0" />
+		<sprite position="897;227" texture="potion_green_light" alpha="0" />
+		<sprite position="552;172" texture="potion_yellow_light" alpha="0" />
+		<skip position="880;690" onskip="onMgDone" stage="task-treatbird" hide="task-treatbird-done" />
+	<objects/>
+<scene/>

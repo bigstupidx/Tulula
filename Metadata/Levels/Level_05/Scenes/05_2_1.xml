@@ -1,0 +1,95 @@
+<scene images="/Scenes/05/05_2_1" sounds="05" plistfiles="05_2_1" effects="scene05.ptc" music="melody_3" >
+	<objects >
+		<sprite position="0;101" texture="back_5_2" />
+		<sprite position="48;302" texture="frog_hidden" />
+		<sprite position="48;302" texture="frog_full" />
+		<sprite position="152;679" texture="wave_hidden" />
+		<sprite position="152;679" texture="wave_full" />
+		<sprite position="701;450" texture="harpon_hidden" />
+		<sprite position="701;450" texture="harpon_full" />
+		<sprite position="902;503" texture="drop_hidden" />
+		<sprite position="902;503" texture="drop_full" />
+		<sprite position="715;611" texture="snowflakes_hidden" />
+		<sprite position="715;611" texture="snowflakes_full" />
+		<sprite position="162;421" texture="boat_hidden" />
+		<sprite position="162;421" texture="boat_full" />
+		<sprite position="564;439" texture="island_hidden" />
+		<sprite position="564;439" texture="island_full" />
+		<sprite position="775;655" texture="bridje_hidden" />
+		<sprite position="775;655" texture="bridje_full" />
+		<sprite position="476;544" texture="iceberg_hidden" />
+		<sprite position="476;544" texture="iceberg_full" />
+		<sprite position="661;660" texture="fountain_hidden" />
+		<sprite position="661;660" texture="fountain_full" />
+		<sprite position="296;192" texture="bottle1_hidden" />
+		<sprite position="296;192" texture="bottle1_full" />
+		<sprite position="810;172" texture="bottle2_hidden" />
+		<sprite position="810;172" texture="bottle2_full" />
+		<sprite position="312;428" texture="bottle3_hidden" />
+		<sprite position="312;428" texture="bottle3_full" />
+		<sprite position="385;440" texture="waterfall_hidden" />
+		<sprite position="385;440" texture="waterfall_full" />
+		<sprite position="385;714" texture="reed_hidden" />
+		<sprite position="385;714" texture="reed_full" />
+		<sprite position="623;537" texture="buket_hidden" />
+		<sprite position="623;537" texture="buket_full" />
+		<sprite position="638;456" texture="ship_hidden" />
+		<sprite position="638;456" texture="ship_full" />
+		<sprite position="252;672" texture="ship2_hidden" />
+		<sprite position="252;672" texture="ship2_full" />
+		<sprite position="778;552" texture="turtle_hidden" />
+		<sprite position="778;552" texture="turtle_full" />
+		<sprite position="613;142" texture="flippers_hidden" />
+		<sprite position="613;142" texture="flippers_full" />
+		<sprite position="211;199" texture="mask_hidden" name="mask2_hidden" />
+		<sprite position="211;199" texture="mask_full" name="mask2_full" />
+		<sprite position="901;605" texture="pipe_hidden" />
+		<sprite position="901;605" texture="pipe_full" />
+		<sprite position="218;608" texture="berry_hidden" />
+		<sprite position="218;608" texture="berry_full" />
+		<sprite position="76;526" texture="fishfood3_hidden" />
+		<sprite position="76;526" texture="fishfood3_full" />
+		<sprite position="385;193" texture="fishfood2_hidden" />
+		<sprite position="385;193" texture="fishfood2_full" />
+		<sprite position="115;412" texture="fishfood1_hidden" />
+		<sprite position="115;412" texture="fishfood1_full" />
+		<sprite position="448;299" texture="lotus_hidden" />
+		<sprite position="448;299" texture="lotus_full" />
+		<sprite position="512;180" texture="shell1_open" alpha="0" />
+		<sprite position="532;198" texture="pearl1_hidden" parent="shell1_open" />
+		<sprite position="532;198" texture="pearl1_full" />
+		<sprite position="512;181" texture="shell1_close" counter="1" touched="true" ontouchend="onShellClosed:" usehint="true" />
+		<sprite position="149;345" texture="shell2_open" alpha="0" />
+		<sprite position="170;360" texture="pearl2_hidden" parent="shell2_open" />
+		<sprite position="170;360" texture="pearl2_full" />
+		<sprite position="161;346" texture="shell2_close" counter="2" touched="true" ontouchend="onShellClosed:" usehint="true" />
+        <animation position="800;309" plistfile="Scenes/05/Animations/monstr_fishtank" alpha="0" scale="0" pivotx="center" pivoty="center" />
+        <animation position="851;346" plistfile="Scenes/05/Animations/tadpole1_fishtank" alpha="0" scale="0" pivotx="center" pivoty="center" />
+        <animation position="835;330" plistfile="Scenes/05/Animations/tadpole2_fishtank" alpha="0" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="853;348" texture="berry_fishtank" alpha="0" />
+        <sprite position="792;299" texture="water1_fishtank" alpha="0" />
+        <sprite position="775;335" texture="water2_fishtank" alpha="0" />
+        <sprite position="783;290" texture="water3_fishtank" alpha="0" />
+        <sprite position="710;258" texture="fishtank" stage="say-god_5-hobdone" usehint="true" ontouchend="onFishTankTouchEnd:" />
+        <sprite position="917;276" texture="berry_placed"  usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" />
+        <sprite position="874;266" texture="bottle1_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" />
+        <sprite position="901;268" texture="bottle2_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" />
+        <sprite position="947;275" texture="bottle3_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" />
+        <sprite position="857;389" texture="food_1_fishtank" alpha="0" />
+        <sprite position="857;385" texture="food_2_fishtank" alpha="0" />
+        <sprite position="857;381" texture="food_3_fishtank" alpha="0" />
+        <sprite position="776;373" texture="fishtank_front" />
+        <sprite position="733;285" texture="fishfood3_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" usehint="true" />
+        <sprite position="710;376" texture="fishfood2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" usehint="true" />
+        <sprite position="744;436" texture="fishfood1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_5-hobdone" usehint="true" />
+        <sprite position="789;480" texture="fishfood3_feeding" alpha="0" />
+        <sprite position="793;486" texture="fishfood2_feeding" alpha="0" />
+        <sprite position="788;492" texture="fishfood1_feeding" alpha="0" />
+		<animation position="476;405" plistfile="Scenes/05/Animations/spirit_of_god_05" />
+		<sprite position="532;638" texture="lotus_placed" parent="spirit_of_god_05" />
+		<sprite position="446;518" texture="flippers_placed"  parent="spirit_of_god_05" />
+		<sprite position="531;613" texture="mask_placed" name="mask2_placed"  parent="spirit_of_god_05" />
+		<sprite position="561;593" texture="pipe_placed"  parent="spirit_of_god_05" />
+        <sprite position="440;419" texture="rope" invent="rope_inv" alpha="0" stage="say-god_5-alldone" ontouchend="onPickRope" />
+	<objects/>
+<scene/>

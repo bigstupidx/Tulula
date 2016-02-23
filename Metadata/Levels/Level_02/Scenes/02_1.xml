@@ -1,0 +1,89 @@
+<scene images="/Scenes/02/02_1" sounds="02" effects="scene02.ptc" arrowdir="left;top" plistfiles="02_1" music="playlist4" >
+	<objects >
+		<sprite position="0;106" texture="back_21" />
+		<sprite position="444;236" texture="oil_hidden" invent="oil_inv" stage="need-oil" ontouchend="onPickOil" />
+		<sprite position="417;230" texture="gate_right" touched="true" texthintontouch="say-gates-scene2" />
+		<sprite position="307;240" texture="gate_left" touched="true" texthintontouch="say-gates-scene2" />
+		<sprite position="34;199" texture="gate" />
+		<sprite position="821;217" texture="bell_house" />
+		<sprite position="888;318" texture="bell_back" parent="bell" zorder="-2" />
+		<sprite position="907;290" texture="bell_tongue" pivotx="center" pivoty="top" parent="bell" alpha="0" />
+		<sprite position="888;321" texture="bell" pivot="24;5" stage="say-shaman-monkeys" texthintontouch="say-need-ringingpart"  ontouchend="onBellTouchEnd:" usehint="true" />
+		<sprite position="857;284" texture="door_closed" />
+		<sprite position="835;217" texture="toll_btm" />
+		<sprite position="597;688" texture="monkey1_5_hidden" invent="monkey1_5_hud" stage="monkey-1" />
+		<sprite position="591;587" texture="branch_2" pivot="155;155" touched="true" ontouchend="onBranchClicked:" counter="1" />
+		<sprite position="312;584" texture="monkey1_4_hidden" invent="monkey1_4_hud" stage="monkey-1"  />
+		<sprite position="596;250" texture="shadow_4" parent="flag_3" />
+		<sprite position="535;190" texture="pole_3" />
+		<sprite position="646;280" texture="flag_3" pivotx="center" pivoty="top" />
+		<sprite position="642;217" texture="button_2" />
+		<sprite position="677;282" texture="monkey2_bg" ontouchend="onMonkeyClicked:" counter="2" parent="button_2" stage="monkey1-done" />
+		<sprite position="718;353" texture="paw_2" parent="monkey2_full" pivot="9;41" />
+		<sprite position="624;282" texture="monkey2_full" alpha="0" parent="button_2" touched="true" texthintontouch="say-monkeys" />
+		<sprite position="495;551" texture="monkey1_2_hidden" invent="monkey1_2_hud" stage="monkey-1" />
+		<sprite position="765;578" texture="monkey2_5_hidden" invent="monkey2_5_hud" stage="monkey1-done"  />
+		<sprite position="834;488" texture="monkey1_3_hidden" invent="monkey1_3_hud" stage="monkey-1"  />
+		<sprite position="399;641" texture="stone_02_1_hidden" totem="stone_02_1" touched="true" />
+		<sprite position="395;610" texture="oil_cover" touched="true" ontouchend="onOilCoverClicked:" />
+		<sprite position="29;226" texture="shadow_pole" parent="pole_1" />
+		<sprite position="323;285" texture="shadow_flag_1" parent="flag_1" />
+		<sprite position="235;354" texture="shadow_flag_2" parent="flag_2" />
+		<sprite position="78;282" texture="pole_1" touched="true" ontouchend="onPoleClicled:" texthintontouch="say-pole" />
+		<sprite position="381;320" texture="flag_1" pivotx="center" pivoty="top" parent="pole_1" />
+        <sprite position="295;392" texture="flag_2" pivotx="center" pivoty="top" parent="pole_1" />
+		<sprite position="16;413" texture="rope_placed" alpha="0" />
+		<sprite position="88;270" texture="button_1" />
+		<sprite position="120;345" texture="monkey1_bg" touched="true" ontouchend="onMonkeyClicked:" counter="1" parent="button_1" />
+		<sprite position="120;345" texture="monkey1_full" alpha="0" parent="button_1" touched="true" texthintontouch="say-monkeys" />
+		<sprite position="81;263" texture="m_light_01" alpha="0" parent="monkey1_full" />
+		<sprite position="144;412" texture="monkey1_head" parent="monkey1_full" pivotx="center" pivoty="center" />
+		<sprite position="147;413" texture="monkey1_head_light" parent="monkey1_head" alpha="0" />
+		<sprite position="616;221" texture="m_light_02" alpha="0" parent="monkey2_full" />
+		<sprite position="647;412" texture="paw_1" parent="monkey2_full" pivot="9;3" />
+		<sprite position="226;270" texture="light_2" alpha="0" />
+		<sprite position="386;682" texture="oil_cover2" />
+		<sprite position="527;148" texture="monkey2_4_hidden" invent="monkey2_4_hud" />
+		<sprite position="544;184" texture="stairs_1" stage="monkey1-done" ontouchend="onStairClicked:" usehint="true" />
+		<sprite position="497;168" texture="stairs_2" stage="monkey1-done" ontouchend="onStairClicked:" />
+		<sprite position="546;226" texture="broom_hidden" invent="broom_hud" stage="task-cleanup" ontouchend="onPickBroom" />
+		<sprite position="0;104" texture="stairs " />
+		<sprite position="0;144" texture="water" stage="say-shaman-monkeys" />
+		<sprite position="897;240" texture="bridge_lv" />
+		<animation position="10;167" plistfile="Scenes/02/Animations/water_a" offset="-2;-8" />
+		<sprite position="971;389" texture="monkey2_6_hidden" invent="monkey2_6_hud" stage="monkey1-done" />
+		<sprite position="637;144" texture="monkey2_3_hidden" invent="monkey2_3_hud" stage="monkey1-done" />
+		<sprite position="326;725" texture="monkey2_2_hidden" invent="monkey2_2_hud" stage="monkey1-done" />
+		<sprite position="574;604" texture="monkey2_1_hidden" invent="monkey2_1_hud" stage="monkey1-done" />
+		<sprite position="401;170" texture="monkey1_6_hidden" invent="monkey1_6_hud" stage="monkey-1" />
+		<sprite position="912;672" texture="monkey1_1_hidden" invent="monkey1_1_hud" stage="monkey-1" />
+		<sprite position="803;569" texture="branch_1" pivot="20;176" touched="true" ontouchend="onBranchClicked:" counter="-1" />
+		<compound position="57;308" texture="m1_base" open="monkey1_bg" full="monkey1_full" objects="m_1_1:monkey1_1_hud, m_1_2:monkey1_2_hud, m_1_3:monkey1_3_hud, m_1_4:monkey1_4_hud, m_1_5:monkey1_5_hud, m_1_6:monkey1_6_hud" active="false" oncomplete="onMonkeyFirstDone:" autoactivate="true" stage="say-shaman-monkey1" />
+		<sprite position="149;417" texture="m1_base_alpha" />
+		<sprite position="74;389" texture="m_1_6" />
+		<sprite position="179;321" texture="m_1_5" />
+		<sprite position="275;382" texture="m_1_4" />
+		<sprite position="267;494" texture="m_1_3" />
+		<sprite position="172;545" texture="m_1_2" />
+		<sprite position="76;491" texture="m_1_1" />
+		<compound position="533;229" texture="m2_base" open="monkey2_bg" full="monkey2_full" objects="m_2_1:monkey2_1_hud, m_2_2:monkey2_2_hud, m_2_3:monkey2_3_hud, m_2_4:monkey2_4_hud, m_2_5:monkey2_5_hud, m_2_6:monkey2_6_hud" active="false" oncomplete="onMonkeySecondDone:" autoactivate="true" stage="say-shaman-monkey2" />
+		<sprite position="625;337" texture="m2_base_alpha" />
+		<sprite position="654;256" texture="m_2_6" />
+		<sprite position="742;309" texture="m_2_5" />
+		<sprite position="742;414" texture="m_2_4" />
+		<sprite position="643;459" texture="m_2_3" />
+		<sprite position="552;426" texture="m_2_2" />
+		<sprite position="560;307" texture="m_2_1" />
+		<sprite position="890;442" texture="spirit_02_1_hidden" totem="spirit_02_1" touched="true" />
+		<window position="46;161" texture="water_zoom_back" open="water" close="window_close_btn" objects="water_zoom_a bell_tongue_hidden" stage="need-jug-water" usehint="true" ontouchend="onWaterClicked:" onenterframe="updateWaterZoom:" />
+		<animation position="124;189" plistfile="Scenes/02/Animations/water_zoom_a" />
+		<button position="307;394" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="125;284" texture="bell_tongue_hidden" invent="bell_tongue_hud" touched="true" ontouchend="onPickTonque" />
+		<sprite position="433;600" texture="rope_hidden" invent="rope_hud" stage="monkey-1" hintpos="220;30" />
+		<sprite position="102;0" texture="ray" name="ray_1" pivotx="right" pivoty="top" />
+		<sprite position="103;0" texture="ray_2" pivotx="right" pivoty="top" />
+        <object size="140;285" stage="task-gates-done" position="330;243" ignorealpha="true"  ontouchend="onGatesClicked:"/>
+		<sprite position="378;311" texture="exit_arrow" alpha="0" pivotx="left" pivoty="top" />
+        <particle emitter="leaves" position="500;768" />
+	<objects/>
+<scene/>

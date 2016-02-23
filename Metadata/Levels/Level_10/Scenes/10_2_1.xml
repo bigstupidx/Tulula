@@ -1,0 +1,99 @@
+<scene images="/Scenes/10/10_2_1" sounds="10" plistfiles="10_2_1" effects="scene10.ptc" music="melody_3" >
+	<objects >
+		<sprite position="0;99" texture="back10_2" />
+		<sprite position="554;541" texture="salyut_hidden" />
+		<sprite position="554;541" texture="salyut_full" />
+		<sprite position="208;314" texture="pumpkin_hidden" />
+		<sprite position="208;314" texture="pumpkin_full" />
+		<sprite position="348;597" texture="comet_hidden" />
+		<sprite position="348;597" texture="comet_full" />
+		<sprite position="737;360" texture="feniks_hidden" />
+		<sprite position="737;360" texture="feniks_full" />
+		<sprite position="96;339" texture="match_hidden" />
+		<sprite position="96;339" texture="match_full" />
+		<sprite position="296;636" texture="sun_hidden" />
+		<sprite position="296;636" texture="sun_full" />
+		<sprite position="267;464" texture="draco_hidden" />
+		<sprite position="267;464" texture="draco_full" />
+		<sprite position="208;185" texture="lamp_hidden" />
+		<sprite position="208;185" texture="lamp_full" />
+		<sprite position="732;509" texture="gold_hidden" />
+		<sprite position="732;509" texture="gold_full" />
+		<sprite position="898;296" texture="fireplace_hidden" />
+		<sprite position="898;296" texture="fireplace_full" />
+		<sprite position="454;469" texture="torch_hidden" />
+		<sprite position="454;469" texture="torch_full" />
+		<sprite position="496;542" texture="fire_hidden" />
+		<sprite position="496;542" texture="fire_full" />
+		<sprite position="823;403" texture="sunflower_hidden" />
+		<sprite position="823;403" texture="sunflower_full" />
+		<sprite position="762;637" texture="rubin_hidden" />
+		<sprite position="762;637" texture="rubin_full" />
+		<sprite position="35;602" texture="sparkler_hidden" />
+		<sprite position="35;602" texture="sparkler_full" />
+		<sprite position="843;551" texture="smoking_hidden" />
+		<sprite position="843;551" texture="smoking_full" />
+		<sprite position="346;464" texture="tophat_hidden" />
+		<sprite position="346;464" texture="tophat_full" />
+		<sprite position="879;693" texture="rose_hidden" />
+		<sprite position="879;693" texture="rose_full" />
+		<sprite position="135;643" texture="present_hidden" />
+		<sprite position="135;643" texture="present_full" />
+		<sprite position="273;358" texture="candle_hidden" />
+		<sprite position="273;358" texture="candle_full" />
+		<sprite position="684;591" texture="tableware_hidden" />
+		<sprite position="684;591" texture="tableware_full" />
+		<sprite position="853;289" texture="vine_hidden" />
+		<sprite position="853;289" texture="vine_full" />
+		<sprite position="142;481" texture="goblet_hidden" />
+		<sprite position="142;481" texture="goblet_full" />
+		<sprite position="633;518" texture="vase2_hidden" />
+		<sprite position="633;518" texture="vase2_full" />
+		<sprite position="869;458" texture="fruit_hidden" />
+		<sprite position="869;458" texture="fruit_full" />
+		<sprite position="97;217" texture="flowers_hidden" />
+		<sprite position="97;217" texture="flowers_full" />
+		<sprite position="512;376" texture="vase_hidden" />
+		<sprite position="512;376" texture="vase_full" />
+		<sprite position="167;404" texture="tablecloth_hidden" />
+		<sprite position="167;404" texture="tablecloth_full" />
+        <sprite position="92;10" texture="darkness" />
+        <sprite position="275;128" texture="baza" />
+        <object position="365;220" name="b-alpha" size="300;100" stage="say-god_9-task" usehint="true" texthintontouch="say-need-scatert" ontouchend="onPlaceItem:" />
+        <sprite position="262;174" texture="tablecloth_baza" alpha="0" />
+        <object position="362;234" name="tablecloth-alpha" size="300;130" parent="tablecloth_baza" usehint="true" touched="true" ontouchend="onPlaceItem:" />
+        <sprite position="381;418" texture="candle_baza" alpha="0" />
+        <sprite position="353;408" texture="candle_fire" alpha="0" />
+        <sprite position="490;339" texture="flowers_baza" alpha="0" />
+        <sprite position="503;291" texture="vase_baza" alpha="0" />
+        <object position="490;291" name="vase-alpha" size="60;125" parent="vase_baza" usehint="true" touched="true" ontouchend="onPlaceItem:" />
+        <sprite position="482;279" texture="vine_baza" alpha="0" />
+        <sprite position="538;293" texture="vase2_baza" alpha="0" />
+        <object position="538;293" name="vase2-alpha" size="60;120" parent="vase2_baza" usehint="true" touched="true" ontouchend="onPlaceItem:" />
+        <sprite position="541;311" texture="fruit_baza" alpha="0" />
+        <sprite position="437;273" texture="tableware_baza" alpha="0" />
+        <sprite position="485;270" texture="goblet_baza" alpha="0" />
+        <sprite position="537;106" texture="table" />
+        <sprite position="625;140" texture="candle_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="578;130" texture="tableware_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="655;190" texture="goblet_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="608;194" texture="fruit_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="638;193" texture="vase_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="609;130" texture="vine_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="628;133" texture="vase2_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="558;131" texture="tablecloth_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="547;174" texture="flowers_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_9-task" />
+        <sprite position="272;226" texture="glow" alpha="0" />
+		<animation position="263;180" plistfile="Scenes/10/Animations/spirit_of_god_08_1" scale="0" pivotx="center" pivoty="center" />
+		<animation position="569;179" plistfile="Scenes/10/Animations/spirit_of_god_10" />
+		<sprite position="614;195" texture="smoking_placed" parent="spirit_of_god_10" />
+		<sprite position="642;382" texture="tophat_placed" parent="spirit_of_god_10" />
+		<sprite position="678;300" texture="rose_placed" parent="spirit_of_god_10" />
+		<sprite position="568;279" texture="present_placed" parent="spirit_of_god_10" />
+        <sprite position="432;416" name="bone" texture="bone_hidden" alpha="0" touched="true" invent="bone_inv" ontouchend="onPickRevard"  />
+	<objects/>
+        
+    <pathes>
+        <path id="path-1" points="10;223, 98;229, 222;283, 301;334" />
+    <pathes/>
+<scene/>

@@ -1,0 +1,20 @@
+<scene images="/Scenes/02/02_2_1" sounds="02" plistfiles="02_2_1" music="playlist6" effects="scene02.ptc" >
+	<objects >
+		<sprite position="0;0" texture="back_02_2_1" />
+		<sprite position="281;231" texture="blue_ring" pivotx="center" pivoty="center" touched="true" ontouchbegan="onRingClicked:" />
+		<sprite position="335;285" texture="yellow_ring" pivotx="center" pivoty="center" touched="true" ontouchbegan="onRingClicked:"  alphamask="true" />
+		<sprite position="391;343" texture="red_ring" pivotx="center" pivoty="center" touched="true" ontouchbegan="onRingClicked:" alphamask="true" />
+		<sprite position="446;398" texture="central_ring" pivotx="center" pivoty="center" touched="true" ontouchbegan="onRingClicked:" alphamask="true" />
+		<sprite position="188;136" texture="ramka" />
+		<sprite position="232;549" texture="sign_03_on" alpha="0" />
+		<sprite position="234;281" texture="sign_02_on" alpha="0" />
+		<sprite position="698;549" texture="sign_01_on" alpha="0" />
+		<sprite position="462;74" texture="totem" alpha="0" />
+		<sprite position="285;58" texture="signs_light" alpha="0" />
+		<sprite position="92;56" texture="center_shine" alpha="0" touched="true" ontouchend="onSceneComplete:" />
+		<sprite position="846;140" texture="portal_sign_shine" />
+		<sprite position="844;339" texture="portal_sign" />
+        <skip position="880;690" onskip="onMgDone" stage="task-mg-portal" hide="task-mg-portal-done" />
+        <particle emitter="rainbow" position="512;453" active="false" />
+        <objects/>
+<scene/>

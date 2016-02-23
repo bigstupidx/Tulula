@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 95a2dfc85f4eb4c4294b261f67a6be6f
+timeCreated: 1456108291
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: water_left.png
+    21300002: water_left_02.png
+    21300004: water_left_03.png
+    21300006: water_left_04.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: water_left.png
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 65
+        height: 198
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 198}
+        - {x: 0, y: 178}
+        - {x: 0, y: 0}
+        - {x: 56, y: 0}
+        - {x: 65, y: 4}
+        - {x: 65, y: 162}
+        - {x: 63, y: 198}
+    - name: water_left_02.png
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 79
+        height: 196
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 196}
+        - {x: 15, y: 106}
+        - {x: 15, y: 10}
+        - {x: 24, y: 0}
+        - {x: 79, y: 0}
+        - {x: 79, y: 182}
+        - {x: 78, y: 196}
+      - - {x: 0, y: 22}
+        - {x: 0, y: 10}
+        - {x: 5, y: 10}
+        - {x: 10, y: 12}
+        - {x: 10, y: 17}
+        - {x: 9, y: 22}
+    - name: water_left_03.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2
+        width: 77
+        height: 192
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 192}
+        - {x: 0, y: 83}
+        - {x: 0, y: 2}
+        - {x: 3, y: 0}
+        - {x: 71, y: 0}
+        - {x: 77, y: 3}
+        - {x: 77, y: 192}
+    - name: water_left_04.png
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2
+        width: 75
+        height: 190
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 190}
+        - {x: 16, y: 178}
+        - {x: 0, y: 84}
+        - {x: 0, y: 1}
+        - {x: 2, y: 0}
+        - {x: 67, y: 0}
+        - {x: 75, y: 2}
+        - {x: 75, y: 177}
+        - {x: 74, y: 190}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

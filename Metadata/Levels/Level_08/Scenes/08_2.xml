@@ -1,0 +1,169 @@
+<scene images="/Scenes/08/08_2" sounds="08" plistfiles="08_2" effects="scene08.ptc" music="playlist2" hintarrow="exit_arrow" arrowdir="right" >
+	<objects >
+		<sprite position="0;478" texture="bg_sky_2" />
+		<sprite position="62;508" texture="bg_statue" />
+        <particle emitter="snow2" position="500;768" />
+		<sprite position="773;514" texture="window" touched="true" texthintontouch="say-window" />
+		<sprite position="139;143" texture="water_bg" />
+		<sprite position="564;235" texture="dark_matter" stage="task-water-level8-done" invent="dark_matter_inv" ontouchend="onPickDarkMatter" />
+		<sprite position="541;226" texture="stash" stage="task-water-level8-done" texthintontouch="say-stash" ontouchend="onStashTouchEnd:" />
+		<sprite position="427;143" texture="ladder" />
+		<sprite position="472;174" texture="stone_3_hidden" totem="stone_08_3" stage="task-water-level8-done" />
+		<sprite position="337;154" texture="tablet" invent="tablet_inv" stage="task-energy" />
+		<sprite position="541;220" texture="cover" />
+		<sprite position="573;244" texture="key_placed" alpha="0" pivotx="center" pivoty="center" parent="stash" />
+		<sprite position="139;143" texture="water" alphamask="true" stage="task-water-level8" texthintontouch="say-need-drainwater" />
+		<sprite position="0;103" texture="bg_observatory" />
+		<sprite position="66;433" texture="light_in" alpha="0" />
+		<sprite position="157;666" texture="gem_3_dest" alpha="0" touched="true" counter="3" usehint="true" ignorealpha="true" ontouchend="onPlaceGems:" texthintontouch="say-crystaldest" />
+		<sprite position="157;669" texture="gem_3_placed" alpha="0" />
+		<sprite position="152;651" texture="gem_3_glow" alpha="0" />
+		<sprite position="698;669" texture="gem_2_dest" alpha="0" touched="true" counter="2" usehint="true" ignorealpha="true" ontouchend="onPlaceGems:" texthintontouch="say-crystaldest" />
+		<sprite position="696;672" texture="gem_2_placed" alpha="0" />
+		<sprite position="675;655" texture="gem_2_glow" alpha="0"  />
+		<sprite position="419;577" texture="gem_1_dest" alpha="0" touched="true" counter="1" usehint="true" ignorealpha="true" ontouchend="onPlaceGems:" texthintontouch="say-crystaldest" />
+		<sprite position="424;578" texture="gem_1_placed" alpha="0" />
+		<sprite position="409;563" texture="gem_1_glow" alpha="0" />
+		<sprite position="673;412" texture="scheme" stage="task-water-level8" ontouchend="onSchemeClicked:" />
+		<sprite position="323;657" texture="orbit_back" />
+		<sprite position="26;275" texture="generator_broken" touched="true" ontouchend="onGeneratorClicked:" />
+		<sprite position="133;138" texture="ice_lake" />
+		<sprite position="431;184" texture="brige" />
+		<sprite position="0;103" texture="ice_1" />
+		<sprite position="436;459" texture="library_lv" />
+		<sprite position="113;453" texture="stone_2_hidden" totem="stone_08_2" touched="true" />
+		<sprite position="0;138" texture="ice_flash1" />
+		<sprite position="2;133" texture="ice_flash2" />
+		<sprite position="613;666" texture="switch_dest" stage="task-telescope2-done" usehint="true" texthintontouch="say-need-switch" ontouchend="onSwitchDest:" />
+		<sprite position="318;476" texture="remote" ontouchend="onRemoteClicked:" />
+		<sprite position="413;664" texture="sun" />
+		<sprite position="308;657" texture="model" />
+		<sprite position="413;659" texture="ice_1_s" />
+		<sprite position="762;377" texture="button_dest" stage="task-generator-done" usehint="true" texthintontouch="say-liftbtn" ontouchend="onButtonDest:" />
+		<sprite position="762;382" texture="button_placed" alpha="0" touched="true" ontouchend="onTelescopeBtn:" counter="-1" usehint="true" />
+        <sprite position="768;382" texture="button_pressed" alpha="0" />
+		<sprite position="762;428" texture="button2_dest" />
+		<sprite position="762;439" texture="button2_placed" alpha="0" ontouchend="onTelescopeBtn:" counter="1" touched="true" />
+        <sprite position="768;439" texture="button2_pressed" />
+		<sprite position="624;614" texture="switch_placed" alpha="0" touched="true" ontouchend="onSwitch:" usehint="true" />
+		<sprite position="624;564" texture="switch_placed2" alpha="0" touched="true" ontouchend="onSwitchSecond:" />
+		<sprite position="820;431" texture="platform_top" />
+		<sprite position="820;427" texture="platform_top_frozen" parent="platform_top" />
+		<sprite position="820;428" texture="platform_btm" alpha="0" parent="platform_top" />
+		<sprite position="820;426" texture="platform_btm_frozen" parent="platform_btm" />
+		<sprite position="921;230" texture="bowl" />
+		<sprite position="921;230" texture="bowl_frozen" />
+		<sprite position="869;474" texture="telescope_broken" parent="platform_top" stage="task-generator-done" ontouchend="onTelescopeTask:" />
+		<sprite position="825;252" texture="telescope_part2_hidden" invent="telescope_part2_inv" stage="task-telescope2" />
+		<sprite position="616;387" texture="telescope_part1_hidden" invent="telescope_part1_inv" stage="task-telescope2" />
+		<sprite position="852;474" texture="telescope" alpha="0" parent="platform_top" touched="true" />
+		<sprite position="858;523" texture="laser" parent="telescope" />
+		<sprite position="843;471" texture="switch_hidden" invent="switch2_inv" stage="task-telescope2-done" parent="platform_top" />
+		<sprite position="69;328" texture="beam_3_small" name="beam_2" scale="0" pivotx="right" pivoty="top" />
+		<sprite position="185;140" texture="beam_2" scale="0" name="beam_3" pivotx="left" pivoty="top" />
+		<sprite position="60;257" texture="beam_1" scale="0" pivotx="right" pivoty="top" />
+		<sprite position="26;478" texture="g_switch_off" pivot="0;14" touched="true" texthintontouch="say-fix-generator" />
+		<sprite position="26;478" texture="g_switch_on" alpha="0" />
+		<sprite position="12;471" texture="generator_cover" />
+		<sprite position="0;235" texture="snowpile_4" touched="true" texthintontouch="say-need-shovel" ontouchend="onSnowPile:" />
+		<sprite position="638;512" texture="bird_1" pivotx="center" pivoty="bottom" />
+		<sprite position="695;512" texture="bird_2" pivotx="center" pivoty="bottom" />
+		<sprite position="666;512" texture="bird_3" pivotx="center" pivoty="bottom" />
+		<sprite position="213;512" texture="bird_4" pivotx="center" pivoty="bottom" />
+		<sprite position="486;500" texture="bird_5" pivotx="center" pivoty="bottom" />
+		<sprite position="354;343" texture="bird_6" pivotx="center" pivoty="bottom" />
+		<sprite position="472;499" texture="bird_7" pivotx="center" pivoty="bottom" />
+		<sprite position="499;413" texture="bird_22" pivotx="center" pivoty="bottom" />
+		<sprite position="509;504" texture="bird_8" pivotx="center" pivoty="bottom" />
+		<sprite position="488;409" texture="bird_23" pivotx="center" pivoty="bottom" />
+		<sprite position="199;512" texture="bird_9" pivotx="center" pivoty="bottom" />
+		<sprite position="458;494" texture="bird_10" pivotx="center" pivoty="bottom" />
+		<sprite position="510;418" texture="bird_24" pivotx="center" pivoty="bottom" />
+		<sprite position="654;512" texture="bird_11" pivotx="center" pivoty="bottom" />
+		<sprite position="238;512" texture="bird_12" pivotx="center" pivoty="bottom" />
+		<sprite position="631;510" texture="bird_13" pivotx="center" pivoty="bottom" />
+		<sprite position="785;284" texture="bird_14" pivotx="center" pivoty="bottom" />
+		<sprite position="623;510" texture="bird_15" pivotx="center" pivoty="bottom" />
+		<sprite position="392;707" texture="bird_16" pivotx="center" pivoty="bottom" />
+		<sprite position="797;275" texture="bird_17" pivotx="center" pivoty="bottom" />
+		<sprite position="454;712" texture="bird_18" pivotx="center" pivoty="bottom" />
+		<sprite position="428;711" texture="bird_19" pivotx="center" pivoty="bottom" />
+		<sprite position="414;711" texture="bird_20" pivotx="center" pivoty="bottom" />
+		<sprite position="478;712" texture="bird_21" pivotx="center" pivoty="bottom" />
+		<window position="706;440" texture="telescope_zoom" close="telescope_exit" open="telescope" active="false" objects="t_1 t_2 t_3 t_target k_1 k_2 k_3 telescope_bounds" ontouchbegan="onTelescopeZoom" />
+        <object name="telescope_bounds" position="690;430" size="330;320" />
+		<sprite position="792;593" texture="t_sun" name="t_3" />
+		<sprite position="924;541" texture="t_1" />
+		<sprite position="765;509" texture="t_2" />
+		<button position="938;674" name="telescope_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+        <sprite position="800;467" texture="t_target" />
+		<sprite position="835;590" texture="k_1" alpha="0" parent="t_target" />
+		<sprite position="835;590" texture="k_2" alpha="0" parent="t_target" />
+		<sprite position="833;590" texture="k_3" alpha="0" parent="t_target" />
+		<sprite position="439;358" texture="button" invent="button_inv" stage="task-generator-done" />
+		<window position="221;353" texture="remote_zoom" close="remote_exit" open="remote" objects="row_1 row_2 row_3 r_1_left_btn r_1_right_btn r_2_left_btn r_2_right_btn r_3_left_btn r_3_right_btn remote_btn remote-text-1 remote-text-2 remote-text-3" />
+		<button position="316;391" btnnormal="remote_btn" btndown="remote_btnd" touched="true" ontouchbegan="onRemoteBtn:" />
+		<sprite position="320;537" texture="row_1" />
+		<button position="280;541" btnnormal="r_1_left_btn" btndown="r_1_left_btnh" counter="-1" ontouchbegan="onRemoteButton:" touched="true" />
+		<button position="395;541" btnnormal="r_1_right_btn" btndown="r_1_right_btnh" counter="1" ontouchbegan="onRemoteButton:" touched="true" />
+		<sprite position="320;483" texture="row_2" />
+		<button position="280;490" btnnormal="r_2_left_btn" btndown="r_2_left_btnh" counter="-2" ontouchbegan="onRemoteButton:" touched="true" />
+		<button position="395;490" btnnormal="r_2_right_btn" btndown="r_2_right_btnh" counter="2" ontouchbegan="onRemoteButton:" touched="true" />
+		<sprite position="320;428" texture="row 3" name="row_3" />
+		<button position="280;436" btnnormal="r_3_left_btn" btndown="r_3_left_btnh" counter="-3" ontouchbegan="onRemoteButton:" touched="true" />
+		<button position="395;436" btnnormal="r_3_right_btn" btndown="r_3_right_btnh" counter="3" ontouchbegan="onRemoteButton:" touched="true" />
+        <text fontsize="20" name="remote-text-1" position="340;546" onenterframe="updateText:" counter="100" shadowalpha="0" outline="1" />
+        <text fontsize="20" name="remote-text-2" position="340;491" onenterframe="updateText:" counter="200" shadowalpha="0" outline="1" />
+        <text fontsize="20" name="remote-text-3" position="340;438" onenterframe="updateText:" counter="300" shadowalpha="0" outline="1" />
+		<button position="432;579" name="remote_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="46;314" texture="g_ring1" counter="3" parent="generator" pivotx="center" pivoty="center" />
+		<sprite position="26;275" texture="generator" alpha="0" touched="true" texthintontouch="say-generator" />
+		<sprite position="57;326" texture="g_ring2" counter="2" parent="generator" pivotx="center" pivoty="center" />
+		<sprite position="72;343" texture="generator_core" counter="1" parent="generator" pivotx="center" pivoty="center" />
+		<sprite position="17;277" texture="generator_glow" alpha="0" />
+		<sprite position="5;262" texture="point_4" alpha="0" />
+		<sprite position="551;613" texture="generator_part_3" invent="generator_part_3_inv" pivotx="center" pivoty="center" />
+        <sprite position="436;387" texture="icicle_4" counter="1" usehint="true" alphamask="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" />
+        <sprite position="436;387" texture="icicle_4_crack" alpha="0"  touched="true" usehint="true" alphamask="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" />
+        <sprite position="436;387" texture="icicle_4_dim" touched="true" usehint="true" alphamask="true" />
+		<sprite position="483;488" texture="point_3" alpha="0" name="point_2" />
+		<sprite position="296;176" texture="generator_part_2" invent="generator_part_2_inv" />
+		<sprite position="213;94" texture="icicle_3" counter="1" usehint="true" alphamask="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" />
+        <sprite position="213;94" texture="icicle_3_crack" alpha="0" usehint="true" touched="true" alphamask="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" />
+        <sprite position="213;94" texture="icicle_3_dim" touched="true" alphamask="true" />
+		<sprite position="230;113" texture="point_2" alpha="0" name="point_3" />
+		<sprite position="37;209" texture="generator_part_1" invent="generator_part_1_inv" />
+        <sprite position="0;180" texture="icicle_2" counter="1" alphamask="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" usehint="true" />
+        <sprite position="0;180" texture="icicle_2_crack" alpha="0" touched="true" usehint="true" alphamask="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" />
+        <sprite position="0;180" texture="icicle_2_dim" touched="true" alphamask="true" />
+        <sprite position="1;183" texture="point_1" alpha="0" />
+		<sprite position="229;418" texture="model_core" alpha="0" touched="true" texthintontouch="say-shaman-2beams" />
+		<sprite position="39;240" texture="model_glow" alpha="0" />
+		<sprite position="116;326" texture="model_glow2" alpha="0" />
+		<sprite position="286;384" texture="light_1" />
+		<sprite position="84;376" texture="light_2" alpha="0.6" name="light_3" />
+		<sprite position="552;376" texture="light_3" name="light_2" />
+		<sprite position="168;263" texture="gem_2" invent="gem_2_inv" ontouchend="onGemPicked" />
+		<sprite position="124;247" texture="snowpile_3" touched="true" usehint="true" hintpriority="1" texthintontouch="say-need-shovel" ontouchend="onSnowPile:" />
+		<sprite position="796;189" texture="gem_3" invent="gem_3_inv" ontouchend="onGemPicked" />
+        <sprite position="774;160" texture="icicle_1_crack" alpha="0" touched="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" alphamask="true" usehint="true" hintpriority="1" />
+		<sprite position="774;160" texture="icicle_1" counter="1" touched="true" texthintontouch="say-need-icepick" ontouchend="onIcicleClicked:" alphamask="true" usehint="true" hintpriority="1" />
+		<sprite position="84;581" texture="key_portal1" name="key_portal" alpha="0" />
+		<sprite position="80;577" texture="key_portal2" alpha="0" parent="key_portal" />
+		<sprite position="474;322" texture="pers_1" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+        <compound position="34;225" texture="g_base" active="false" autoactivate="true" stage="say-shaman-generator" open="generator_broken" full="generator" objects="g_detail_1:generator_part_1_inv, g_detail_2:generator_part_2_inv, g_detail_3:generator_part_3_inv" oncomplete="onGeneratorDone" />
+		<sprite position="46;314" texture="g_base_alpha" />       
+		<sprite position="139;258" texture="g_detail_1" />
+		<sprite position="119;437" texture="g_detail_2" />
+		<sprite position="177;346" texture="g_detail_3" />
+        <compound position="748;477" texture="telescope_base" parent="telescope_broken" full="telescope" active="false" open="telescope_broken" objects="telescope_part1_b:telescope_part1_inv, telescope_part2_b:telescope_part2_inv" oncomplete="onTelescopeDone" />
+		<sprite position="855;494" texture="telescope_base_alpha" />
+		<sprite position="774;527" texture="telescope_part2_b" />
+		<sprite position="835;618" texture="telescope_part1_b" />
+        <window position="120;204" texture="scheme_zoom" open="scheme" close="scheme_exit" objects="scheme_target" />
+		<sprite position="216;229" texture="scheme_target" />
+		<button position="709;615" name="scheme_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+        <object name="exit" position="950;320" size="100;200" touched="true" ignorealpha="true" ontouchend="onSceneExit:" />
+		<sprite position="942;350" texture="exit_arrow" />
+	<objects/>
+<scene/>

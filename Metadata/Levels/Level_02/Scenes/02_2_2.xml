@@ -1,0 +1,79 @@
+<scene images="/Scenes/02/02_2_2" sounds="02" plistfiles="02_2_2" music="melody_3" >
+	<objects >
+		<sprite position="0;94" texture="back_22_00" />
+		<sprite position="108;537" texture="firework_1_hidden" />
+		<sprite position="753;578" texture="firework_2_hidden" />
+		<sprite position="417;654" texture="firework_3_hidden" />
+		<sprite position="916;472" texture="firework_4_hidden" />
+		<sprite position="819;243" texture="firework_5_hidden" />
+		<sprite position="894;334" texture="gift_hidden" />
+		<sprite position="536;514" texture="serpantin_hidden" />
+		<sprite position="225;350" texture="truba_hidden" />
+		<sprite position="176;263" texture="bell_hidden" />
+		<sprite position="610;386" texture="tort_hidden" />
+		<sprite position="828;640" texture="flower_hidden" />
+		<sprite position="314;439" texture="hawai_hidden" />
+		<sprite position="573;176" texture="mask_hidden" />
+		<sprite position="125;424" texture="trost_hidden" />
+		<sprite position="72;349" texture="dog_hidden" />
+		<sprite position="113;254" texture="ring_cover" />
+		<sprite position="111;254" texture="ring_cover_open" alpha="0" ignorealpha="true" touched="true" ontouchend="onRingCover:" usehint="true" />
+		<sprite position="128;271" texture="ring_hidden" parent="ring_cover_open" />
+		<sprite position="597;592" texture="bear_hidden" />
+		<sprite position="692;654" texture="sock_hidden" />
+		<sprite position="797;248" texture="cocktail_hidden" />
+		<sprite position="451;542" texture="ny_toy_hidden" />
+		<sprite position="188;472" texture="bon_bons_hidden" />
+		<sprite position="815;445" texture="wings_hidden" />
+		<sprite position="302;625" texture="but_ears_hidden" />
+		<sprite position="198;590" texture="torch_1_hidden" name="torch_2_hidden" />
+		<sprite position="198;590" texture="torch_2_full" />
+		<sprite position="108;537" texture="firework_1_full" />
+		<sprite position="753;578" texture="firework_2_full" />
+		<sprite position="417;654" texture="firework_3_full" />
+		<sprite position="916;472" texture="firework_4_full" />
+		<sprite position="819;243" texture="firework_5_full" />
+		<sprite position="176;263" texture="bell_full" />
+		<sprite position="894;334" texture="gift_full" />
+		<sprite position="536;514" texture="serpantin_full" />
+		<sprite position="225;350" texture="truba_full" />
+		<sprite position="610;386" texture="tort_full" />
+		<sprite position="828;640" texture="flower_full" />
+		<sprite position="314;439" texture="hawai_full" />
+		<sprite position="573;176" texture="mask_full" />
+		<sprite position="126;424" texture="trost_full" />
+		<sprite position="72;349" texture="dog_full" />
+		<sprite position="126;270" texture="ring_full" />
+		<sprite position="597;592" texture="bear_full" />
+		<sprite position="692;654" texture="sock_full" />
+		<sprite position="797;248" texture="cocktail_full" />
+		<sprite position="451;542" texture="ny_toy_full" />
+		<sprite position="188;472" texture="bon_bons_full" />
+		<sprite position="815;445" texture="wings_full" />
+		<sprite position="302;625" texture="but_ears_full" />
+		<sprite position="419;239" texture="firework_1_placed" pivotx="center" pivoty="top" />
+		<sprite position="460;231" texture="firework_2_placed" pivotx="center" pivoty="top" />
+		<sprite position="321;216" texture="firework_3_placed" pivotx="center" pivoty="top" />
+		<sprite position="471;222" texture="firework_4_placed" pivotx="center" pivoty="top" />
+		<sprite position="334;199" texture="firework_5_placed" pivotx="center" pivoty="top" />
+		<sprite position="343;166" texture="fireworks_base" />
+        <object position="345;166" name="fireworks-alpha" size="220;190" usehint="true" stage="say-kalamuna-lightup" ontouchend="onFireWorksBase:" />
+		<sprite position="478;172" texture="torch_2_placed" usehint="true" pivotx="center" pivoty="center" stage="say-kalamuna-lightup" ontouchbegan="onPickItem:" hintpriority="1" />
+		<sprite position="674;405" texture="wings_placed" parent="spirit_of_god_02" />
+		<animation position="641;288" plistfile="Scenes/02/Animations/spirit_of_god_02" pivotx="center" pivoty="center" />
+		<sprite position="706;554" texture="but_ears_placed" parent="spirit_of_god_02" />
+		<sprite position="820;501" texture="tort_placed" parent="spirit_of_god_02" />
+		<sprite position="670;449" texture="hawai_placed" parent="spirit_of_god_02" />
+		<sprite position="718;546" texture="mask_placed" parent="spirit_of_god_02" />
+		<sprite position="640;499" texture="cocktail_placed" parent="spirit_of_god_02" />
+        <sprite texture="stick" stage="say-kalamuna-drumstick" alpha="0" invent="stick_inv" ontouchend="onStickPicked" />
+        <particle emitter="torch" parent="torch_2_placed" position="562;272" />
+	<objects/> 
+	<pathes>	
+		<path id="path-1" points="434;428, 416;576, 360;678" />
+		<path id="path-2" points="529;390, 620;513, 743;606" />
+		<path id="path-3" points="312;335, 223;401, 130;445" />
+		<path id="path-4" points="584;339, 694;471, 821;573" />
+		<path id="path-5" points="349;427, 277;561, 167;633" />
+	<pathes/>
+<scene/>

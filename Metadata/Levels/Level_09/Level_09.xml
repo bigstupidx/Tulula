@@ -1,0 +1,48 @@
+<level startscene="Scene09_1" totemstones="6" task="9" >
+	<inventory>
+		<sprite position="0;0" texture="knocker_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="key8_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="circle_1_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="circle_2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="circle_3_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="circle_4_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="circle_5_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="circle_6_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="beater_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="key7_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="torch_1_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="torch_2_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ballast_snow_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="gong_1_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="gong_2_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="gong_3_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ballast_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_tube_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_furnace_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_dome_4_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_dome_3_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_dome_2_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_dome_1_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ball_basket_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="pearl_2_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="pearl_1_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="egg_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="nest_p_1_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="nest_p_2_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="nest_p_3_inv"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="40;33" texture="st_09_shape" />
+		<sprite position="88;102" texture="stone_09_1"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="43;102" texture="stone_09_2"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="69;74" texture="stone_09_3"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="102;56" texture="spirit_09_1"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="42;56" texture="spirit_09_2"  pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="65;34" texture="spirit_09_3"  pivotx="center" pivoty="center" alpha="0" />
+    <inventory/>
+	<dialogs>
+		<sprite name="turtle" position="27;30" texture="sayer-turtle" scale="0" pivotx="center" pivoty="center" />
+		<sprite name="god_8" position="27;30" texture="sayer-god_8" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="default" head="textbox_1" body="textbox_2" tail="textbox_3" alpha="0" position="198;122" />
+		<dialog name="turtle-dlg" head="sayer-turtle_dial_wnd_1" body="sayer-turtle_dial_wnd_2" tail="sayer-turtle_dial_wnd_3" alpha="0" position="238;122" />
+		<dialog name="god_8-dlg" head="sayer-god_8_dial_wnd_1" body="sayer-god_8_dial_wnd_2" tail="sayer-god_8_dial_wnd_3" alpha="0" position="238;122" />
+	<dialogs/>
+<level/>

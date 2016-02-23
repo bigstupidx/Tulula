@@ -1,0 +1,114 @@
+<scene images="/Scenes/02/02_2" sounds="02" hintarrow="exit_arrow2" effects="scene02.ptc" plistfiles="02_2" music="playlist4"  >
+	<objects >
+		<sprite position="0;103" texture="back_22" />
+		<sprite position="184;166" texture="v_10_hidden" useparticlehint="false" pivotx="center" pivoty="center" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="103;158" texture="floor" stage="task-gather" ontouchend="onFloorClicked:" />
+		<sprite position="29;405" texture="stone_02_2_hidden" totem="stone_02_2" stage="stash-open" />
+		<sprite position="21;396" texture="stash" />
+		<sprite position="34;412" texture="key_placed" alpha="0" stage="leaves-done" ignorealpha="true" ontouchend="onKeyClicked:" texthintontouch="say-stash" parent="stash" usehint="true" />
+		<sprite position="0;103" texture="floor_cover" />
+		<sprite position="98;697" texture="v_13_hidden" useparticlehint="false" pivotx="center" pivoty="center" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="622;381" texture="v_12_hidden" useparticlehint="false" pivotx="center" pivoty="center" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="311;705" texture="v_11_hidden" useparticlehint="false" pivotx="center" pivoty="center" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="61;686" texture="fence" />
+		<sprite position="787;535" texture="palm_01" pivot="234;160" />
+		<sprite position="240;403" texture="palm_02" pivot="230;215" />
+		<sprite position="897;636" texture="palm_03" pivot="120;85" />
+		<sprite position="483;386" texture="palm_04"  pivot="156;210" />
+		<sprite position="752;659" texture="spirit_02_2_hidden" totem="spirit_02_2" touched="true" />
+		<sprite position="716;448" texture="v_14_hidden" useparticlehint="false" pivotx="center" pivoty="center" touched="true" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="629;358" texture="palm_05" pivot="10;275" />
+		<sprite position="787;413" texture="flag_2" pivotx="center" pivoty="top" touched="true" ontouchend="onFlagClicked:" counter="1" />
+		<sprite position="139;394" texture="palm_06" pivot="5;302" />
+		<sprite position="488;343" texture="palm_07" pivot="140;140" />
+		<sprite position="0;488" texture="palm_08" pivot="0;40" />
+		<sprite position="405;440" texture="palm_09" pivot="5;133" />
+		<sprite position="119;604" texture="jug" stage="leaves-done" invent="jug_inv" ontouchend="onPickJug" />
+		<sprite position="6;376" texture="palm_11" pivot="133;300" />
+		<sprite position="741;170" texture="v_15_hidden" useparticlehint="false" pivotx="center" pivoty="center" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="864;273" texture="drum_hidden" invent="drum_inv" stage="task-instruments" />
+		<sprite position="0;302" texture="v_9_hidden" useparticlehint="false" pivotx="center" pivoty="center" usehint="true" ontouchend="onPiecePicked:" stage="task-gather" />
+		<sprite position="0;385" texture="red_things" />
+		<sprite position="174;459" texture="tamborine_hidden" invent="tamborine_inv" ontouchend="onTamborineClicked" />
+		<sprite position="165;454" texture="pillar" usehint="true" stage="task-instruments" ontouchend="onPilarClicked:" />
+		<sprite position="135;384" texture="palm_10" pivot="5;200" />
+		<sprite position="26;180" texture="items2" />
+		<sprite position="458;222" texture="button" />
+		<sprite position="450;198" texture="cover" />
+		<sprite position="62;280" texture="key_portal" alpha="0" />
+		<sprite position="58;280" texture="key_portal2" parent="key_portal" alpha="0" />
+		<sprite position="460;396" texture="hand_2_right" pivot="15;29" />
+		<sprite position="444;482" texture="hand_1_right" pivot="52;140" />
+		<sprite position="213;535" texture="hand_1_left" pivot="38;53" />
+		<sprite position="437;267" texture="leg" />
+		<sprite position="231;218" texture="statue" ontouchend="onStatueClicked:" />
+        <sprite position="326;492" texture="statue_normal" />
+		<sprite position="304;261" texture="drum_placed" alpha="0" />
+		<sprite position="149;226" texture="lotos" />
+		<sprite position="186;259" texture="lotos_placed" alpha="0" stage="task-ruststatue-done" ontouchend="onLotosPlaced:" texthintontouch="say-fixlotos" ignorealpha="true" usehint="true" />
+		<sprite position="188;261" texture="lotos_placed2" alpha="0" />
+		<sprite position="276;355" texture="lotos_hidden" invent="lotos_inv" pivot="37;70" />
+		<sprite position="262;368" texture="hand_2_left" hintpriority="2" usehint="true" stage="task-ruststatue-done" pivot="20;30" ontouchend="onHandClicked:" />
+		<sprite position="244;234" texture="statue_glow" alpha="0" />
+        <sprite position="326;492" texture="statue_sad" />
+		<sprite position="230;225" texture="statue_rust" alpha="0.7" ignorealpha="true" ontouchend="onStatueRust:" texthintontouch="say-rust" usehint="true" stage="task-ruststatue" />
+		<sprite position="216;221" texture="statue_dirt" alphamask="true" stage="leaves-done" texthintontouch="say-statuedirt" ontouchend="onStatueDirt:" usehint="true" />
+		<sprite position="213;190" texture="statue_water" alpha="0" />
+		<sprite position="537;398" texture="stick_placed" alpha="0" parent="hand_2_right" />
+		<sprite position="209;529" texture="tamburine_placed" alpha="0" parent="hand_1_left" />
+		<sprite position="0;181" texture="rainbow_light" alpha="0" />
+        <particle emitter="leaves2" position="500;768" />
+		<sprite position="179;184" texture="leaves_1" alphamask="true" usehint="true" counter="1" stage="task-cleanup" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="289;198" texture="leaves_2" alphamask="true" usehint="true" counter="1" stage="task-cleanup" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="190;288" texture="leaves_3" alphamask="true" usehint="true" counter="1" stage="task-cleanup" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="281;360" texture="leaves_4" alphamask="true" usehint="true" counter="1" stage="task-cleanup" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="165;424" texture="leaves_5" alphamask="true" usehint="true" counter="1" stage="task-cleanup" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="280;506" texture="leaves_6" alphamask="true" usehint="true" counter="1" stage="task-cleanup" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="497;136" texture="altar" touched="true" ontouchend="onAltarClicked" alphamask="true" />
+		<sprite position="604;271" texture="key_hidden" stage="task-cleanup-done" invent="key_inv" />
+        <sprite position="628;206" texture="lotos_zoom_btn_hidden" invent="lotos_zoom_btn_inv" stage="say-shaman-lotos" />
+		<sprite position="380;115" texture="leaves_7" usehint="true" alphamask="true" counter="2" touched="true" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="561;107" texture="leaves_8" usehint="true" alphamask="true" counter="2" touched="true" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="501;197" texture="leaves_9" usehint="true" alphamask="true" counter="2" touched="true" ontouchend="onLeavesClicked:" texthintontouch="say-leaves" />
+		<sprite position="0;103" texture="shadow" />
+		<sprite position="499;245" texture="beams" alpha="0" />
+		<sprite position="579;355" texture="portal_sign" alpha="0" touched="true" usehint="true" hintpriority="-2" ontouchend="onPortalClicked:" />
+		<sprite position="610;407" texture="symbol_1" alpha="0" />
+		<sprite position="604;464" texture="symbol_2" alpha="0" />
+		<sprite position="609;515" texture="symbol_3" alpha="0" />
+		<sprite position="476;655" texture="stair_5" alpha="0" ontouchend="onStairsClicked:" stage="task-mg-lotos-done" />
+		<sprite position="618;574" texture="stair_4" alpha="0" />
+		<sprite position="695;473" texture="stair_3" alpha="0" />
+		<sprite position="774;400" texture="stair_2" alpha="0"  />
+		<sprite position="682;279" texture="stair_1" alpha="0"  />
+		<sprite position="468;271" texture="stairs_light" alpha="0" onenterframe="updateSymbols:" />
+		<sprite position="131;358" texture="flag_1" pivotx="center" pivoty="top" touched="true" ontouchend="onFlagClicked:" counter="1" />
+		<sprite position="445;689" texture="barn_lv"  />
+        <compound position="257;378" texture="s_base" open="statue" full="statue" objects="s_stick:stick_inv, s_drum:drum_inv, s_tamborine:tamborine_inv" oncomplete="onStatueComplete" active="false" autoactivate="true" stage="say-shaman-statue" />
+		<sprite position="350;390" texture="s_base_alpha" />
+		<sprite position="465;472" texture="s_stick" />
+		<sprite position="371;519" texture="s_drum" />
+		<sprite position="276;477" texture="s_tamborine" />
+		<window position="20;226" texture="lotos_zoom" open="lotos_placed" close="window_close_btn" objects="lotos_zoom_btn lotos_light6 lotos_light5 lotos_light3 lotos_light2 lotos_light1 lotos_light4 lotos_rust_5 lotos_rust_4 lotos_rust_2 lotos_rust_1 lotos_rust_3 lotos_on lotos_light lotos_off" active="false" onenterframe="updateLotosZoom:" />
+		<button position="189;693" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<button position="145;244" btnnormal="lotos_zoom_btn" btndown="lotos_zoom_btnd" btnlocked="lotos_zoom_btn2" alpha="0" touched="true" ignorealpha="true" ontouchbegan="onLotosZoomButton:" ontouchend="placeButton:" texthintontouch="say-button" onenterframe="updateLotosZoomButton:" usehint="true" />
+		<sprite position="49;264" texture="lotos_point" alpha="0" name="lotos_light6" />
+		<sprite position="133;343" texture="lotos_point" alpha="0" name="lotos_light5" />
+		<sprite position="49;413" texture="lotos_point" alpha="0" name="lotos_light4" />
+		<sprite position="133;486" texture="lotos_point" alpha="0" name="lotos_light2" />
+		<sprite position="49;556" texture="lotos_point" alpha="0" name="lotos_light3" />
+		<sprite position="134;627" texture="lotos_point" alpha="0" name="lotos_light1" />
+		<sprite position="154;645" texture="lotos_off" pivotx="center" pivoty="center" />
+		<sprite position="51;323" texture="lotos_rust_5" usehint="true" touched="true" texthintontouch="say-rust" ontouchend="onLotosRustClicked:" />
+		<sprite position="138;390" texture="lotos_rust_4" usehint="true" touched="true" texthintontouch="say-rust" ontouchend="onLotosRustClicked:" />
+		<sprite position="53;458" texture="lotos_rust_2" usehint="true" touched="true" texthintontouch="say-rust" ontouchend="onLotosRustClicked:" />
+		<sprite position="139;556" texture="lotos_rust_1" usehint="true" touched="true" texthintontouch="say-rust" ontouchend="onLotosRustClicked:" />
+		<sprite position="40;565" texture="lotos_rust_3" usehint="true" touched="true" texthintontouch="say-rust" ontouchend="onLotosRustClicked:" />
+		<sprite position="154;645" texture="lotos_on" parent="lotos_off" alpha="0" />
+		<sprite position="154;645" texture="lotos_light" parent="lotos_off" alpha="0" />
+		<object name="exit" position="290;120" size="410;70" touched="true" ontouchend="onSceneExit" />
+		<sprite position="641;263" texture="broom_placed" alpha="0" pivoty="top" pivotx="right" />
+		<sprite position="514;686" texture="exit_arrow1" alpha="0" />
+		<sprite position="389;152" texture="exit_arrow2" alpha="0" />
+	<objects/>
+<scene/>

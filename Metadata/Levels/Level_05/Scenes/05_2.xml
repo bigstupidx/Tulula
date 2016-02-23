@@ -1,0 +1,125 @@
+<scene images="/Scenes/05/05_2" sounds="05" plistfiles="05_2" effects="scene05.ptc" music="playlist1" hintarrow="exit_arrow" arrowdir="right" >
+	<objects >
+		<sprite position="0;541" texture="sky" />
+		<sprite position="432;568" texture="sky_cloud1" />
+		<sprite position="337;569" texture="sky_cloud2" />
+		<sprite position="0;266" texture="sea" />
+		<sprite position="290;474" texture="ship" />
+		<sprite position="0;104" texture="back_52" />
+        <object name="stash2" stage="task-kite" position="820;470" size="50;50" />
+		<sprite position="768;454" texture="stash" stage="task-kite" usehint="true" ontouchend="onStash:" />
+        <sprite position="742;357" texture="stone_05_3_hidden" totem="stone_05_3" touched="true" />
+		<sprite position="801;456" texture="stoyki" />
+		<sprite position="409;147" texture="bubble1" />
+		<sprite position="442;147" texture="bubble2" />
+		<sprite position="428;145" texture="bubble3" />
+		<sprite position="147;185" texture="water_2" pivotx="center" pivoty="center" />
+		<sprite position="124;208" texture="stone_05_2_hidden" totem="stone_05_2" touched="true" />
+		<sprite position="172;332" texture="ladder_hidden" invent="ladder2_inv" stage="task-kite" />
+		<sprite position="512;352" texture="wing_right" parent="monument" pivot="7;31" />
+		<sprite position="409;355" texture="wing_left" parent="monument" pivot="53;23" />
+		<sprite position="509;309" texture="hand_right" parent="monument" pivoty="top" />
+		<sprite position="401;314" texture="hand_left" parent="monument" pivoty="top" pivotx="right" />
+		<animation position="426;257" plistfile="Scenes/05/Animations/monument" alpha="0" texthintontouch="say-needkite" stage="task-kite" ontouchend="onMonument:" />
+		<sprite position="209;608" texture="key_portal" alpha="0" />
+		<sprite position="208;608" texture="key_portal2" alpha="0" parent="key_portal" />
+        <object position="209;608" size="60;60" touched="true" name="portal-zone" texthintontouch="say-kitehigh" parent="key_portal" />
+		<sprite position="203;139" texture="squid_hidden" stage="task-rain" invent="squid_inv" />
+		<sprite position="268;79" texture="statue" />
+		<sprite position="330;139" texture="statue_lid_broken" touched="true" />
+		<sprite position="330;139" texture="statue_lid" alpha="0" pivotx="right" />
+		<sprite position="815;380" texture="ladder_placed_2" alpha="0" />
+		<sprite position="787;506" texture="s_block2_hidden" touched="true" invent="s_block2_inv" />
+		<sprite position="76;177" texture="s_block3_hidden" touched="true" invent="s_block3_inv" />
+		<sprite position="761;307" texture="fountain_btm" />
+		<sprite position="785;322" texture="fountain_water2_1" alpha="0" />
+		<sprite position="821;286" texture="cage1_2_f_placed" parent="cage1_1_f_placed" />
+		<sprite position="776;286" texture="cloud1_f3_placed" alpha="0" parent="cage_placed" />
+		<sprite position="805;189" texture="cage1_1_f_placed" alpha="0" parent="cage_placed" />
+        <object position="805;189" name="cage_placed" />
+		<sprite position="775;303" texture="fountain_water" alpha="0" touched="true" usehint="true" texthintontouch="say-needdarkwater" ontouchend="onFountainWater:" />
+		<sprite position="775;303" texture="fountain_water2" alpha="0" touched="true" usehint="true" texthintontouch="say-candarken" ontouchend="onDarkWater:" />
+		<sprite position="759;142" texture="fountain" />
+		<scroll position="912;326" texture="tap_water" alpha="0" />
+		<sprite position="910;352" texture="tap" />
+		<sprite position="911;399" texture="vent_placed" alpha="0" stage="task-rain" usehint="true" ignorealpha="true" texthintontouch="say-needvent" ontouchend="onVentClicked:" pivotx="center" pivoty="center" />
+		<sprite position="0;209" texture="pattern_2_hidden" invent="pattern_2_inv" stage="task-kite" />
+		<sprite position="640;204" texture="fish1" />
+		<sprite position="697;216" texture="fish2" />
+		<sprite position="768;183" texture="fish3" />
+		<sprite position="186;215" texture="fish4" />
+		<sprite position="108;174" texture="fish5" />
+		<sprite position="271;120" texture="weed1" pivotx="center" pivoty="center" />
+		<sprite position="670;115" texture="weed2" pivotx="center" pivoty="center" />
+		<sprite position="184;116" texture="weed3" pivotx="center" pivoty="center" />
+		<sprite position="627;110" texture="weed4" pivotx="center" pivoty="center" />
+		<sprite position="691;97" texture="weed5"  pivotx="center" pivoty="center" />
+		<sprite position="179;112" texture="weed6" pivot="0;0" />
+		<sprite position="294;101" texture="weed7" pivot="0;0" />
+		<sprite position="129;700" texture="pattern_1_hidden" invent="pattern_1_inv" />
+        <object position="129;700" name="pattern_alpha" stage="task-kite" texthintontouch="say-kitehigh" size="50;60" />
+		<sprite position="0;104" texture="underwater" />
+		<sprite position="0;259" texture="water_1" pivotx="center" pivoty="center" />
+		<sprite position="34;271" texture="lotos" />
+        <sprite position="805;414" texture="cage1_broken_1" alpha="0" parent="cage_placed" pivot="3;153" />
+		<sprite position="838;504" texture="cage1_broken_2" alpha="0" parent="cage1_broken_1" pivot="49;122" />
+		<sprite position="213;500" texture="s_block1_hidden" touched="true" invent="s_block1_inv" />
+		<sprite position="330;410" texture="ladder_placed" alpha="0" usehint="true" ignorealpha="true" ontouchend="placeLadder:" />
+        <sprite position="340;456" texture="vent_hidden" invent="vent_inv" stage="task-rain" />
+		<sprite position="564;458" texture="rope_7" parent="monument" alpha="0" />
+		<sprite position="419;471" texture="rope_6" parent="monument" pivot="30;100" alpha="0" />
+		<sprite position="496;497" texture="rope_5" parent="monument" alpha="0" />
+		<sprite position="547;477" texture="rope_4" parent="monument" alpha="0" />
+		<sprite position="467;488" texture="rope_3" parent="monument" alpha="0" />
+		<sprite position="527;490" texture="rope_2" parent="monument" alpha="0" />
+		<sprite position="327;446" texture="rope_1" parent="monument" alpha="0" pivot="109;101" />
+		<sprite position="428;304" texture="rope_placed" alpha="0" pivot="10;8" />
+		<sprite position="610;497" texture="kite_7" parent="rope_7" pivot="11;93" />
+		<sprite position="372;555" texture="kite_6" parent="rope_6" pivot="58;98" />
+		<sprite position="515;614" texture="kite_5" parent="rope_5" pivot="42;117" />
+		<sprite position="586;592" texture="kite_4" parent="rope_4" pivot="48;69" />
+		<sprite position="430;641" texture="kite_3" parent="rope_3" pivot="54;86" />
+		<sprite position="533;455" texture="kite_2" parent="rope_2" pivot="70;136" />
+		<sprite position="234;542" texture="kite_1" parent="rope_1" pivot="97;58" alpha="0" />
+		<sprite position="234;542" texture="kite_1_broken" parent="rope_1" />
+		<sprite position="234;542" texture="kite_1_broken_2" alpha="0" pivotx="center" pivoty="center" touched="true" texthintontouch="say-kitehigh" ontouchend="placeLadder:" />
+		<sprite position="241;551" texture="kite_1_hidden" invent="kite_1_inv" alpha="0" touched="true" />
+		<sprite position="20;637" texture="cage3_2" parent="cage3_1" />
+		<sprite position="8;656" texture="cloud3" pivotx="center" pivoty="center" />
+		<sprite position="0;561" texture="cage3_1" touched="true" counter="3" texthintontouch="say-cagesbound" ontouchend="onCageClicked:" />
+		<sprite position="70;373" texture="spirit_05_3_hidden" totem="spirit_05_3" touched="true" />
+		<sprite position="57;570" texture="cage2_2" parent="cage2_1" />
+		<sprite position="43;593" texture="cloud2" pivotx="center" pivoty="center" />
+		<sprite position="0;467" texture="cage2_1" touched="true" counter="2" texthintontouch="say-cagesbound" ontouchend="onCageClicked:" />
+		<sprite position="884;608" texture="cage1_2_hidden" parent="cage1_1_hidden" />
+		<sprite position="878;636" texture="cloud1_hidden" pivotx="center" pivoty="center" parent="cage1_1_hidden" />
+		<sprite position="866;514" texture="cage1_1_hidden" invent="cage1_1_inv"  pivoty="top" pivotx="center" />
+        <object position="864;628" name="cage_alpha" size="120;100" stage="task-rain" usehint="true" texthintontouch="say-toohigh" ontouchend="onCageAlpha:" />
+		<sprite position="755;554" texture="doctor_lv" />
+		<sprite position="389;302" texture="rainbow_glow2" alpha="0" />
+		<sprite position="391;371" texture="rainbow" alpha="0" onenterframe="updateRainbow:" touched="true" hintpriority="-1" ontouchend="onSceneComplete:" />
+		<sprite position="656;441" texture="beacon" touched="true" ontouchend="onShipClicked:" />
+		<sprite position="373;416" texture="rainbow_glow" alpha="0"  />
+		<compound position="130;512" texture="kite_1_base" full="kite_1_hidden" open="kite_1_broken_2" active="false" objects="kite_1_p_1_placed:kite_1_p_1_inv, kite_1_p_2_placed:kite_1_p_2_inv" oncomplete="onFixKite" />
+		<sprite position="224;524" texture="kite_1_base_alpha" />
+		<sprite position="266;663" texture="kite_1_p_1_placed" />
+		<sprite position="162;619" texture="kite_1_p_2_placed" />
+		<window position="577;357" texture="stash_zoom" open="stash2" close="stash_zoom_exit" objects="kite_1_p_1_hidden pattern_1_placed door_left door_right" />
+		<sprite position="748;504" texture="kite_1_p_1_hidden" invent="kite_1_p_1_inv" touched="true" ontouchend="onPickKite" />
+		<sprite position="628;446" texture="pattern_1_placed" alpha="0" counter="1" ignorealpha="true" texthintontouch="say-findpattern" touched="true" ontouchend="onPlacePattern:" />
+		<sprite position="678;441" texture="door_left" pivot="84;233" texthintontouch="say-findpattern" touched="true" />
+		<sprite position="768;440" texture="door_right" pivot="5;230" texthintontouch="say-findpattern" touched="true" />
+		<sprite position="769;463" texture="pattern_2_placed" alpha="0" parent="door_right" ignorealpha="true" counter="2" texthintontouch="say-findpattern" touched="true" ontouchend="onPlacePattern:" />
+		<button position="893;677" name="stash_zoom_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd"  />
+		<sprite position="778;641" texture="cloud" alpha="0" />
+		<sprite position="778;641" texture="cloud_clear" alpha="0" />
+		<sprite position="660;533" texture="exit_arrow" />
+		<sprite position="43;410" texture="kite_1_p_2_hidden" alpha="0" invent="kite_1_p_2_inv" touched="true" />
+		<compound position="343;162" texture="statue_base" open="statue_lid_broken" full="statue_lid" objects="s_block1_placed:s_block1_inv, s_block2_placed:s_block2_inv, s_block3_placed:s_block3_inv" oncomplete="onStatueDone" />
+		<sprite position="436;174" texture="statue_base_alpha" />
+		<sprite position="465;307" texture="s_block1_placed" />
+		<sprite position="380;264" texture="s_block2_placed" />
+		<sprite position="564;250" texture="s_block3_placed" />
+        <particle emitter="rainbow" position="537;614" parent="rainbow" />
+	<objects/>
+<scene/>

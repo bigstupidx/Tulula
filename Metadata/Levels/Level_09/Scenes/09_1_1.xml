@@ -1,0 +1,74 @@
+<scene images="/Scenes/09/09_1_1" sounds="09" plistfiles="09_1_1" effects="scene09.ptc" music="melody_6" >
+	<objects >
+		<sprite position="0;103" texture="Back9111" />
+		<sprite position="256;203" texture="3x3_base" alpha="0" />
+		<sprite position="597;203" texture="3x3_b_9" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="597;373" texture="3x3_b_8" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="597;544" texture="3x3_b_7" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="427;203" texture="3x3_b_6" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="427;373" texture="3x3_b_5" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="427;545" texture="3x3_b_4" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;203" texture="3x3_b_3" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;373" texture="3x3_b_2" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;545" texture="3x3_b_1" parent="3x3_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;203" texture="3_mask" parent="3x3_base" />
+		<sprite position="136;129" texture="3_mask_open" parent="3_mask" alpha="0" />
+		<sprite position="394;456" texture="3_mask_light" parent="3_mask" alpha="0" />
+		<sprite position="464;257" texture="ball_furnace_hidden" parent="3_mask_open" touched="true" invent="ball_furnace_inv" ontouchend="onPickRevard" />
+		<sprite position="256;203" texture="4x4_base" alpha="0" />
+		<sprite position="640;203" texture="4x4_b_16" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="640;331" texture="4x4_b_15" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="640;459" texture="4x4_b_14" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="640;587" texture="4x4_b_13" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="512;203" texture="4x4_b_12" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="512;331" texture="4x4_b_11" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="512;459" texture="4x4_b_10" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="512;587" texture="4x4_b_9" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="384;203" texture="4x4_b_8" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="384;331" texture="4x4_b_7" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="384;459" texture="4x4_b_6" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="384;587" texture="4x4_b_5" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;203" texture="4x4_b_4" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;331" texture="4x4_b_3" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;459" texture="4x4_b_2" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;587" texture="4x4_b_1" parent="4x4_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;203" texture="4_mask" parent="4x4_base" />
+		<sprite position="256;174" texture="4_mask_open" alpha="0" parent="4_mask" />
+		<sprite position="404;458" texture="4_mask_light" parent="4_mask" alpha="0" />
+		<sprite position="460;302" name="stone_09_2_hidden" texture="stone_09_2" totem="stone_09_2" touched="true" parent="4_mask_open" ontouchend="onPickRevard" />
+		<sprite position="527;291" texture="beater_hidden" touched="true" invent="beater_inv" parent="4_mask_open" ontouchend="onPickRevard" />
+		<sprite position="256;202" texture="5x5_base" alpha="0" />
+		<sprite position="665;203" texture="5x5_b_25" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="665;305" texture="5x5_b_24" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="665;408" texture="5x5_b_23" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="665;510" texture="5x5_b_22" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="665;613" texture="5x5_b_21" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="563;203" texture="5x5_b_20" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="563;305" texture="5x5_b_19" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="563;408" texture="5x5_b_18" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="563;510" texture="5x5_b_17" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="563;613" texture="5x5_b_16" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="460;203" texture="5x5_b_15" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="460;305" texture="5x5_b_14" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="460;408" texture="5x5_b_13" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="460;510" texture="5x5_b_12" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="460;613" texture="5x5_b_11" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="358;203" texture="5x5_b_10" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="358;305" texture="5x5_b_9" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="358;408" texture="5x5_b_8" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="358;510" texture="5x5_b_7" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="358;613" texture="5x5_b_6" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;203" texture="5x5_b_5" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;305" texture="5x5_b_4" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;408" texture="5x5_b_3" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;510" texture="5x5_b_2" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;613" texture="5x5_b_1" parent="5x5_base" pivotx="center" pivoty="center" touched="true" ontouchend="onRotatePart:" />
+		<sprite position="256;203" texture="5_mask" parent="5x5_base" />
+		<sprite position="256;161" texture="5_mask_open" alpha="0" parent="5_mask" />
+		<sprite position="408;449" texture="5_mask_light" parent="5_mask" alpha="0" />
+		<sprite position="472;241" texture="key_hidden" invent="key7_inv" touched="true" parent="5_mask_open" ontouchend="onPickRevard" />
+        <skip position="880;690" name="skip-1" onskip="onMgWin" stage="mask-3-start" hide="mask-3-done" />
+        <skip position="880;690" name="skip-2" onskip="onMgWin" stage="mask-4-start" hide="mask-4-done" />
+        <skip position="880;690" name="skip-3" onskip="onMgWin" stage="mask-5-start" hide="mask-5-done" />
+	<objects/>
+<scene/>

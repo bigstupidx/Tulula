@@ -1,0 +1,52 @@
+<level startscene="Scene10_1" totemstones="6" tasks="16" >
+	<inventory>
+		<sprite position="0;0" texture="spear_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="bottle_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="motor_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="tube3_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="tube2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="tube1_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="door_handle_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="rele_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="robe_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stone_bridge_1_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stone_bridge_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stone_bridge_3_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stone_bridge_4_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="lever_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="w_1_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="w_2_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="w_3_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="w_4_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="w_5_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stick_1_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stick_2_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stick_3_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="stick_4_inv"  pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="axe2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="cage2_inv" pivotx="center" pivoty="center" alpha="0" counter="2" />
+		<sprite position="0;0" texture="cage4_inv" pivotx="center" pivoty="center" alpha="0" counter="4" />
+		<sprite position="0;0" texture="cage5_inv" pivotx="center" pivoty="center" alpha="0" counter="5" />
+		<sprite position="0;0" texture="cage3_inv" pivotx="center" pivoty="center" alpha="0" counter="3" />
+		<sprite position="0;0" texture="cage1_inv" pivotx="center" pivoty="center" alpha="0" counter="1" />
+		<sprite position="0;0" texture="s_p_5_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="s_p_4_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="s_p_3_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="s_p_2_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="s_p_1_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="bone_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="1_btn_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="key9_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="23;30" texture="st_10_shape" />
+		<sprite position="102;69" texture="stone_10_1" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="80;64" texture="stone_10_2" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="85;32" texture="stone_10_3" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="55;87" texture="spirit_10_1" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="24;67" texture="spirit_10_2" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="48;32" texture="spirit_10_3" pivotx="center" pivoty="center" alpha="0" />
+		<inventory/>
+	<dialogs>
+		<sprite name="god_9" position="27;30" texture="sayer-god_9" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="god_9-dlg" head="sayer-god_9_dial_wnd_1" body="sayer-god_9_dial_wnd_2" tail="sayer-god_9_dial_wnd_3" alpha="0" position="238;122" />
+	<dialogs/>
+<level/>

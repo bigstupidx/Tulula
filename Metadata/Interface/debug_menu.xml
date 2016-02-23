@@ -1,0 +1,35 @@
+<mainmenu >
+    <objects>
+		<text fontsize="25" text="Level-1" position="100;700" ontouchbegan="onLevelFirst:" touched="true" debugdraw="true" />
+		<text fontsize="25" text="Level-2" position="100;650" ontouchbegan="onLevelSecond:" touched="true" debugdraw="true" />
+		<text fontsize="25" text="Level-3" position="100;600" ontouchbegan="onLevelThree:" touched="true" debugdraw="true" />
+		<text fontsize="25" text="Level-4" position="100;550" ontouchbegan="onLevelFour:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-5" position="100;500" ontouchbegan="onLevelFive:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-6" position="100;450" ontouchbegan="onLevelSix:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-7" position="100;400" ontouchbegan="onLevelSeven:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-8" position="100;350" ontouchbegan="onLevelEight:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-9" position="100;300" ontouchbegan="onLevelNine:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-10" position="100;250" ontouchbegan="onLevelTen:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Level-11" position="100;200" ontouchbegan="onLevelEleven:" touched="true" debugdraw="true" />
+  		<text fontsize="25" text="GlobalMap" position="100;150" ontouchbegan="onMap:" touched="true" debugdraw="true" />      
+		<text fontsize="25" text="Exit" position="100;100" ontouchbegan="onExitGame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="CutScene-1" position="210;700" ontouchbegan="onCutSceneOne:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="CutScene-2" position="210;650" ontouchbegan="onCutSceneTwo:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="PlayGame" position="355;700" ontouchbegan="onMainMenu:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Totem" position="210;600" ontouchbegan="onTotemGlade:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="ClearSaves" position="210;550" ontouchbegan="onClearSaves:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Village" position="210;500" ontouchbegan="onVillage:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Intro" position="210;450" ontouchbegan="onIntro:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="Return" position="355;650" ontouchbegan="onReturn:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MgTron" position="355;600" counter="1" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGPool" position="355;550" counter="2" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGPortal" position="355;500" counter="3" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGBird" position="355;450" counter="4" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="TestMayaMovie" position="355;400" counter="6" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGStraus" position="355;350" counter="7" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGLevel6" position="355;300" counter="8" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGLevel7" position="355;250" counter="9" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGLevel8" position="355;200" counter="10" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+        <text fontsize="25" text="MGLevel11" position="355;150" counter="11" ontouchbegan="onMinigame:" touched="true" debugdraw="true" />
+    <objects/>
+<mainmenu/>

@@ -1,0 +1,95 @@
+<scene images="/Scenes/06/06_1_1" sounds="06" plistfiles="06_1_1" effects="scene06.ptc" music="melody_6" >
+	<objects >
+		<sprite position="0;107" texture="back6_11" />
+		<sprite position="94;215" texture="chest2_close" ontouchend="onChestClicked:" usehint="true" />
+		<sprite position="197;231" texture="lock_close" stage="mail-done" texthintontouch="say-need-key" ontouchend="onLockPlaced:" usehint="true" />
+		<sprite position="317;394" texture="key_placed" alpha="0" touched="true" usehint="true" parent="lock_close" pivotx="center" pivoty="center" ontouchend="onKeyClicked:" />
+		<sprite position="44;215" texture="chest2_open" alpha="0" />
+		<sprite position="177;222" texture="lock_open" alpha="0" />
+		<sprite position="176;327" texture="chest_close" parent="chest2_open" touched="true" ontouchend="onChest2Clicked:" usehint="true" />
+		<sprite position="171;327" texture="chest_open" alpha="0" />
+		<sprite position="207;399" texture="magic_staff_hidden" invent="magic_staff_inv" parent="chest_open" touched="true" />
+		<sprite position="570;240" texture="mail_close" touched="true" ontouchend="onMailClicked:" usehint="true" />
+		<sprite position="576;240" texture="mail_open" alpha="0" />
+		<sprite position="802;346" texture="ring_hidden" invent="ring_inv" parent="mail_open" touched="true" />
+		<sprite position="663;359" texture="letter_hidden" invent="letter_inv" parent="mail_open" touched="true" />
+		<sprite position="670;362" texture="key_hidden" invent="key3_inv" parent="mail_open" touched="true" />
+        <sprite position="277;244" name="mbk_1" texture="mail_back" parent="mail_baza" />
+        <sprite position="439;244" name="mbk_1" texture="mail_back" parent="mail_baza" />
+        <sprite position="600;244" name="mbk_1" texture="mail_back" parent="mail_baza" />
+		<sprite position="275;243" texture="mp_1_1" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="437;243" texture="mp_1_2" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="597;243" texture="mp_1_3" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="275;243" texture="mp_2_1" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="437;243" texture="mp_2_2" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="597;243" texture="mp_2_3" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="275;243" texture="mp_3_1" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="437;243" texture="mp_3_2" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="597;243" texture="mp_3_3" parent="mail_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="275;405" name="mb_1" texture="mail_box" parent="mail_baza" counter="1" />
+        <sprite position="436;405" name="mb_2" texture="mail_box" parent="mail_baza" counter="2" />
+        <sprite position="597;405" name="mb_3" texture="mail_box" parent="mail_baza" counter="3" />
+		<sprite position="305;430" texture="mail_p1" parent="mail_baza" />
+		<sprite position="309;422" texture="mail_p2" parent="mail_baza" />
+		<sprite position="305;427" texture="mail_p3" parent="mail_baza" />
+		<sprite position="124;47" texture="mail_baza" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="326;554" name="m_lock1_close" texture="m_lock_close" parent="mail_baza" />
+		<sprite position="323;547" name="m_lock1_open" texture="m_lock_open" parent="mail_baza" />
+		<sprite position="487;554" name="m_lock2_close" texture="m_lock_close" parent="mail_baza" />
+		<sprite position="485;547" name="m_lock2_open" texture="m_lock_open" parent="mail_baza" />
+		<sprite position="647;554" name="m_lock3_close"  texture="m_lock_close" parent="mail_baza" />
+		<sprite position="645;547" name="m_lock3_open" texture="m_lock_open" parent="mail_baza" />
+        <sprite position="119;261" name="ch_bck-1" texture="chest_back" parent="chest_baza" />
+        <sprite position="279;261" name="ch_bck-2" texture="chest_back" parent="chest_baza" />
+        <sprite position="440;261" name="ch_bck-3" texture="chest_back" parent="chest_baza" />
+        <sprite position="600;261" name="ch_bck-3" texture="chest_back" parent="chest_baza" />
+        <sprite position="759;261" name="ch_bck-3" texture="chest_back" parent="chest_baza" />
+		<sprite position="120;264" texture="cp_5_1" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="279;264" texture="cp_5_2" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="440;264" texture="cp_5_3" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="600;264" texture="cp_5_4" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="760;264" texture="cp_5_5" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="120;264" texture="cp_4_1" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="279;264" texture="cp_4_2" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="440;264" texture="cp_4_3" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="600;264" texture="cp_4_4" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="760;264" texture="cp_4_5" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="120;264" texture="cp_3_1" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="279;264" texture="cp_3_2" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="440;264" texture="cp_3_3" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="600;264" texture="cp_3_4" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="760;264" texture="cp_3_5" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="120;264" texture="cp_2_1" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="279;264" texture="cp_2_2" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="440;264" texture="cp_2_3" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="600;264" texture="cp_2_4" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="760;264" texture="cp_2_5" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="120;264" texture="cp_1_1" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="279;264" texture="cp_1_2" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="440;264" texture="cp_1_3" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="600;264" texture="cp_1_4" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+		<sprite position="760;264" texture="cp_1_5" parent="chest_baza" pivoty="top" rotation="-100" ontouchbegan="onSelectTarget:" ontouchend="onHextTouchEnd:" />
+        <sprite position="120;423" name="ch-box-1" texture="chest_box" parent="chest_baza" />
+        <sprite position="279;423" name="ch-box-2" texture="chest_box" parent="chest_baza" />
+        <sprite position="440;423" name="ch-box-3" texture="chest_box" parent="chest_baza" />
+        <sprite position="600;423" name="ch-box-4" texture="chest_box" parent="chest_baza" />
+        <sprite position="760;423" name="ch-box-5" texture="chest_box" parent="chest_baza" />
+		<sprite position="142;444" texture="chest_p1" parent="chest_baza" />
+		<sprite position="140;441" texture="chest_p2" parent="chest_baza" />
+		<sprite position="145;449" texture="chest_p3" parent="chest_baza" />
+		<sprite position="142;441" texture="chest_p4" parent="chest_baza" />
+		<sprite position="144;449" texture="chest_p5" parent="chest_baza" />
+		<sprite position="0;162" texture="chest_baza" pivotx="center" pivoty="center" scale="0" />
+		<sprite position="154;565" name="c_lock1_close"  texture="c_lock_close" parent="chest_baza" />
+		<sprite position="148;568" name="c_lock1_open" texture="c_lock_open" parent="chest_baza" />
+		<sprite position="316;565" name="c_lock2_close"  texture="c_lock_close" parent="chest_baza" />
+		<sprite position="309;568" name="c_lock2_open" texture="c_lock_open" parent="chest_baza" />
+		<sprite position="477;565" name="c_lock3_close"  texture="c_lock_close" parent="chest_baza" />
+		<sprite position="471;568" name="c_lock3_open" texture="c_lock_open" parent="chest_baza" />
+		<sprite position="638;565" name="c_lock4_close"  texture="c_lock_close" parent="chest_baza" />
+		<sprite position="632;568" name="c_lock4_open" texture="c_lock_open" parent="chest_baza" />
+		<sprite position="797;565" name="c_lock5_close" texture="c_lock_close" parent="chest_baza" />
+		<sprite position="791;568" name="c_lock5_open" texture="c_lock_open" parent="chest_baza" />
+        <skip position="880;690" onskip="onSkip" stage="task-staff" hide="task-staff-done" />
+	<objects/>
+<scene/>

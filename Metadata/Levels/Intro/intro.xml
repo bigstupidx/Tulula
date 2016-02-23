@@ -1,0 +1,19 @@
+<scene images="/Scenes/intro" music="melody_7" >
+	<objects >
+		<sprite position="2775;0" texture="Back_04_4" parent="Back_04_1" />
+		<sprite position="1751;0" texture="Back_04_3" parent="Back_04_1" />
+		<sprite position="873;0" texture="Back_04_2" parent="Back_04_1" />
+		<sprite position="0;0" texture="Back_04_1" />
+		<text position="836;247" text="intro-text1" parent="Back_04_1"  alpha="0" size="281;250" color="216;167;123" fontsize="38" />
+		<text position="1710;436" text="intro-text2" parent="Back_04_1" alpha="0" size="217;217" color="216;167;123" fontsize="38" />
+		<text position="1764;221" text="intro-text3" parent="Back_04_1" alpha="0" size="217;217" color="216;167;123" fontsize="38" />
+		<text position="2435;325" text="intro-text4" parent="Back_04_1" alpha="0" size="230;217" color="216;167;123" fontsize="38" />
+		<text position="2475;134" text="intro-text5" parent="Back_04_1" alpha="0" size="320;217" color="216;167;123" fontsize="38" />
+		<sprite position="2888;87" texture="light5" parent="Back_04_1" alpha="0" />
+		<sprite position="2470;508" texture="light4" parent="Back_04_1" alpha="0" />
+		<sprite position="2036;33" texture="light3" parent="Back_04_1" alpha="0" />
+		<sprite position="1153;62" texture="light2" parent="Back_04_1" alpha="0" />
+		<sprite position="203;33" texture="light1" parent="Back_04_1" />
+        <skip position="880;690" onskip="onIntroDone" hide="intro-done" time="0" />
+	<objects/>
+<scene/>

@@ -1,0 +1,144 @@
+<scene  images="/Scenes/04/04_2" effects="scene04.ptc" sounds="04" plistfiles="04_2" music="playlist4" hintarrow="exit_arrow" >
+	<objects >
+		<object name="exit" position="290;120" size="410;70" touched="true" ontouchend="onSceneExit" />
+		<sprite position="0;465" texture="sky" />
+		<sprite position="190;672" texture="cloud1" />
+		<sprite position="552;661" texture="cloud2" />
+		<sprite position="348;686" texture="key_portal1" alpha="0" name="key_portal" />
+		<sprite position="348;686" texture="key_portal2" parent="key_portal" alpha="0" />
+		<sprite position="0;414" texture="jungle_bg" />
+		<sprite position="244;435" texture="jungle1" pivotx="center" pivoty="bottom" />
+		<sprite position="32;450" texture="jungle6"  pivotx="center" pivoty="bottom" />
+		<sprite position="157;440" texture="jungle5" pivotx="center" pivoty="bottom" />
+		<sprite position="672;442" texture="jungle4" pivotx="center" pivoty="bottom" />
+		<sprite position="540;449" texture="jungle2" pivotx="center" pivoty="bottom" />
+		<sprite position="350;449" texture="jungle3" pivotx="center" pivoty="bottom" />
+		<sprite position="733;450" texture="jungle7" pivotx="center" pivoty="bottom" />
+		<sprite position="830;437" texture="jungle8" pivotx="center" pivoty="bottom" />
+		<sprite position="659;405" texture="palmtree" pivotx="right" pivoty="bottom" />
+		<sprite position="848;218" texture="zebra_hole" />
+		<sprite position="897;344" texture="trunck_3_hidden" stage="zebra-open" invent="trunck_3_inv" ontouchend="onTruncZebra" />
+		<sprite position="849;249" texture="zebra_stone" />
+		<sprite position="897;344" texture="horseshoe_placed" alpha="0" hintpriority="1" parent="zebra_stone" touched="true" texthintontouch="say-stonezebra" ontouchend="onZebraStone:" ignorealpha="true" />
+		<sprite position="0;102" texture="bg_42" />
+		<sprite position="284;104" texture="rocks" />
+		<sprite position="657;252" texture="mail_lv" />
+		<sprite position="229;458" texture="house_worker_lv" />
+		<sprite position="833;168" texture="secret2" stage="task-keys" />
+		<sprite position="833;168" texture="secret" stage="task-keys" ontouchend="onSecretClicked:" />
+		<sprite position="83;363" texture="trunck_4_hidden" invent="trunck_4_inv" ontouchend="onPickLionTrunk" />
+		<sprite position="0;343" texture="lion_open" touched="true" texthintontouch="say-stump" ontouchend="onLionStump:" />
+		<sprite position="163;472" texture="swing_2" pivotx="center" pivoty="center" stage="task-monkey" hintpriority="1" texthintontouch="say-swing2" counter="2" ontouchend="onSwingTouchEnd:" />
+		<sprite position="448;435" texture="elephant" />
+		<sprite position="478;442" texture="pedal_4_pls" alpha="0" />
+		<sprite position="659;446" texture="pedal_3_pls" alpha="0" />
+		<sprite position="496;441" texture="pedal_2_pls" alpha="0" />
+		<sprite position="643;445" texture="pedal_1_pls" alpha="0" />
+		<sprite position="32;189" texture="pedal_1_hidden" stage="task-keys" invent="pedal_1_inv" ontouchend="onPickKey" />
+		<sprite position="532;446" texture="elephant_butt" pivotx="center" pivoty="center" />
+		<sprite position="501;440" texture="passage" alpha="0.5" stage="task-elephant-done" usehint="true" texthintontouch="say-passage" ignorealpha="true" ontouchend="onPassageClicked:" />
+		<sprite position="535;473" texture="passage_glow" alpha="0" touched="true" hintpriority="-1" ontouchend="onSceneComplete:" onenterframe="updatePassage:" />
+		<sprite position="527;441" texture="rock" pivotx="center" pivoty="center" touched="true" texthintontouch="say-shaman-stone" />
+        <object position="448;435" name="ele_zoom" size="250;220" stage="task-trunk-done" ontouchend="onElephantClicked:" />
+		<sprite position="485;601" texture="elephant_head" touched="true" ontouchend="onElephantHead:" />
+		<sprite position="565;595" texture="trunck_1_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="559;584" texture="trunck_2_placed" parent="trunck_1_placed" />
+		<sprite position="541;587" texture="trunck_3_placed" parent="trunck_1_placed" />
+		<sprite position="517;643" texture="trunck_5_placed" parent="trunck_1_placed" />
+		<sprite position="517;605" texture="trunck_4_placed" parent="trunck_1_placed" />
+		<sprite position="533;683" texture="trunck_6_placed" parent="trunck_1_placed" />
+		<sprite position="185;377" texture="stash_giraffe_split1" alpha="0" />
+		<sprite position="268;373" texture="stash_giraffe_split2" alpha="0" />
+		<sprite position="248;401" texture="trunck_2_hidden" parent="stash_giraffe_split1" touched="true" invent="trunck_2_inv" ontouchend="onTrunckGirrafePicked" />
+		<sprite position="354;327" texture="ostrich_broken" />
+		<sprite position="354;332" texture="ostrich_full" alpha="0" touched="true" hintpriority="2" ontouchend="onOstrichFullClicked:" usehint="true" />
+		<sprite position="742;473" texture="swing_1" pivotx="center" pivoty="center" stage="task-zebra" hintpriority="1" texthintontouch="say-swing2" ontouchend="onSwingTouchEnd:" counter="1" />
+		<sprite position="372;273" texture="boulder_2_hidden" invent="boulder2_inv" stage="task-monkey" />
+		<sprite position="672;404" texture="boulder1_hidden" invent="boulder1_inv" stage="task-zebra" />
+		<sprite position="547;483" texture="key_placed" alpha="0" />
+		<sprite position="883;427" texture="key_hidden" alpha="0" invent="key2_inv" touched="true" />
+		<sprite position="494;371" texture="rock_lie" alpha="0" />
+		<sprite position="312;134" texture="o_p_3_hidden" stage="task-ostrich" invent="o_p_3_inv" />
+		<sprite position="0;24" texture="water" pivotx="center" pivoty="center" />
+		<sprite position="113;268" texture="leaf3" />
+		<sprite position="262;248" texture="leaf2" />
+		<sprite position="213;195" texture="trunck_6_hidden" invent="trunck_6_inv" ontouchend="onPickHippoTrunk" />
+		<sprite position="138;185" texture="leaf1" touched="true" texthintontouch="say-leaf" ontouchend="onLotosPlaced:" />
+		<sprite position="174;227" texture="lotus1_placed" alpha="0" />
+		<sprite position="218;256" texture="lotus2_placed" alpha="0" />
+		<sprite position="135;263" texture="lotus3_placed" alpha="0" parent="leaf3" />
+		<sprite position="163;232" texture="lotus1_bloom" alpha="0" />
+		<sprite position="209;263" texture="lotus2_bloom" alpha="0" />
+		<sprite position="126;280" texture="lotus3_bloom" alpha="0" parent="leaf3" />
+        <sprite position="765;650" texture="trunck_5_hidden" invent="trunck_5_inv" parent="coconut" pivotx="center" pivoty="center" ontouchend="onPickMonkeyTrunk" />
+		<sprite position="753;629" texture="coconut" touched="true" texthintontouch="say-coconut" parent="palmtree" pivotx="center" pivoty="center" />
+		<sprite position="108;550" texture="ladder_hidden" invent="ladder_inv" stage="task-giraffe" ontouchend="onPickLadder" />
+		<sprite position="232;611" texture="boulder_giraffe" parent="lianas" />
+		<sprite position="222;538" texture="lianas" touched="true" texthintontouch="say-stonegiraffe" ontouchend="onLianasClicked:" pivotx="center" pivoty="top" />
+		<sprite position="540;424" texture="paper" parent="spider" invent="paper_inv" ontouchend="onPaperClicked:" />
+		<animation position="541;449" plistfile="Scenes/04/Animations/spider5" name="spider" pivotx="center" pivoty="top" />
+		<sprite position="472;695" texture="horseshoe_top" invent="horseshoe_inv" pivotx="center" pivoty="center" />
+        <object position="472;695" size="42;39" name="horseshoe" stage="task-zebra" usehint="true" texthintontouch="say-hshoetoohigh" />
+		<compound position="439;441" texture="trunck_base" open="elephant_head" full="elephant_head" objects="trunck_1:trunck_1_inv, trunck_2:trunck_2_inv, trunck_3:trunck_3_inv, trunck_4:trunck_4_inv, trunck_5:trunck_5_inv, trunck_6:trunck_6_inv" active="false" autoactivate="true" stage="say-shaman-trunkparts" oncomplete="onElephantComplete" />
+		<sprite position="535;549" texture="trunck_base_alpha" />
+		<sprite position="465;527" texture="trunck_1" />
+		<sprite position="471;633" texture="trunck_2" />
+		<sprite position="569;480" texture="trunck_3" />
+		<sprite position="572;688" texture="trunck_4" />
+		<sprite position="668;632" texture="trunck_5" />
+		<sprite position="675;528" texture="trunck_6" />
+		<sprite position="926;561" texture="stone_04_3_hidden" touched="true" totem="stone_04_3" />
+		<sprite position="848;520" texture="shell1" pivotx="center" pivoty="center" parent="swing_1" />
+		<sprite position="920;563" texture="sock_2" pivotx="center" pivoty="top" usehint="true" touched="true" ontouchend="onSockClicked:" />
+		<sprite position="896;520" texture="sock_1" pivotx="center" pivoty="top" usehint="true" touched="true" ontouchend="onSockClicked:" />
+		<sprite position="37;334" texture="o_p_5_hidden" invent="o_p_5_inv" stage="task-ostrich" />
+		<sprite position="673;332" texture="o_p_4_hidden" invent="o_p_4_inv" stage="task-ostrich" />
+		<sprite position="701;211" texture="o_p_2_hidden" invent="o_p_2_inv" stage="task-ostrich" />
+		<sprite position="10;666" texture="o_p_1_hidden" invent="o_p_1_inv" stage="task-ostrich" />
+		<sprite position="165;514" texture="shell2" pivotx="center" pivoty="center" parent="swing_2" />
+		<sprite position="387;480" texture="stone_04_2_hidden" touched="true" totem="stone_04_2" />
+		<sprite position="215;328" texture="pers_1" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<sprite position="925;257" texture="pedal_4_hidden" stage="task-keys" invent="pedal_4_inv" ontouchend="onPickKey"  />
+		<sprite position="10;512" texture="pedal_3_hidden" stage="task-keys" invent="pedal_3_inv" ontouchend="onPickKey" />
+		<sprite position="966;419" texture="pitchfork_hidden" stage="task-lion" invent="pitchfork_inv" pivotx="center" pivoty="center" />
+		<sprite position="751;634" texture="stash_monkey_btn" alpha="0" pivotx="center" pivoty="center" parent="coconut"  />
+		<sprite position="384;378" texture="stash_ostrich_btn" alpha="0" pivotx="center" pivoty="center" stage="task-ostrich" />
+		<sprite position="865;302" texture="stash_zebra_btn" alpha="0" pivotx="center" pivoty="center"  />	
+		<sprite position="247;628" texture="stash_giraffe_btn" alpha="0" parent="boulder_giraffe" pivotx="center" pivoty="center"  />
+		<sprite position="172;207" texture="stash_hippo_btn" alpha="0" pivotx="center" pivoty="center" parent="leaf1" />
+		<sprite position="8;430" texture="stash_lion_btn"  alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="737;688" texture="boulder1_placed" alpha="0" pivotx="center" pivoty="center" parent="swing_1" />
+		<sprite position="285;677" texture="boulder2_placed"  alpha="0" pivotx="center" pivoty="center" parent="swing_2" />
+		<sprite position="488;168" texture="exit_arrow" />
+        <particle emitter="fog" position="588;345" />
+        <compound position="281;294" texture="o_base" open="stash_ostrich_btn" full="ostrich_full" objects="o_p_1:o_p_1_inv, o_p_2:o_p_2_inv, o_p_3:o_p_3_inv, o_p_4:o_p_4_inv, o_p_5:o_p_5_inv" oncomplete="onOsctrichComplete" />
+		<sprite position="377;343" texture="o_base_alpha" />
+		<sprite position="501;323" texture="o_p_5" />
+		<sprite position="505;428" texture="o_p_4" />
+		<sprite position="410;481" texture="o_p_3" />
+		<sprite position="314;423" texture="o_p_2" />
+		<sprite position="304;325" texture="o_p_1" />
+        <particle emitter="rainbow" position="588;537" active="false" />
+		<window position="204;125" texture="notes_zoom" open="ele_zoom" close="notes_close" objects="notes_area notes_placed note_1 note_2 note_3 note_4 note_5 note_6 note_7 note_8 note_9 pedal_1_btn pedal_2_btn pedal_3_btn pedal_4_btn pedal_5_btn pedal_6_btn" />
+		<sprite position="421;403" texture="notes_area" />
+		<sprite position="421;403" texture="notes_placed" alpha="0" ignorealpha="true" touched="true" texthintontouch="say-notes" ontouchend="onNotesPlaced:" usehint="true" />
+		<sprite position="444;426" texture="note_1" alpha="0" />
+		<sprite position="460;433" texture="note_2" alpha="0" />
+		<sprite position="477;426" texture="note_3" alpha="0" />
+		<sprite position="494;433" texture="note_4" alpha="0" />
+		<sprite position="510;426" texture="note_5" alpha="0" />
+		<sprite position="527;433" texture="note_6" alpha="0" />
+		<sprite position="544;426" texture="note_7" alpha="0" />
+		<sprite position="560;433" texture="note_8" alpha="0" />
+		<sprite position="577;426" texture="note_9" alpha="0" />
+		<button position="742;213" btnnormal="pedal_6_btn" btndown="pedal_6_btnd" usehint="true" touched="true" ontouchbegan="onPedalClicked:" counter="6" />
+		<button position="369;203" btnnormal="pedal_5_btn" btndown="pedal_5_btnd" usehint="true" touched="true" ontouchbegan="onPedalClicked:" counter="5" />
+		<button position="250;200" btnnormal="pedal_4_btn" btndown="pedal_4_btnd" usehint="true" alpha="0" touched="true" ontouchbegan="onPedalClicked:" ignorealpha="true" ontouchend="onPedalPlaced:" texthintontouch="say-keys" counter="4" /> 
+		<button position="684;207" btnnormal="pedal_3_btn" btndown="pedal_3_btnd" usehint="true" alpha="0" touched="true" ontouchbegan="onPedalClicked:" ignorealpha="true" ontouchend="onPedalPlaced:" texthintontouch="say-keys" counter="3" />
+		<button position="309;197" btnnormal="pedal_2_btn" btndown="pedal_2_btnd" usehint="true" alpha="0" touched="true" ontouchbegan="onPedalClicked:" ignorealpha="true" ontouchend="onPedalPlaced:" texthintontouch="say-keys" counter="2" />
+		<button position="624;204" usehint="true" btnnormal="pedal_1_btn" btndown="pedal_1_btnd" alpha="0" touched="true" ontouchbegan="onPedalClicked:" ignorealpha="true" ontouchend="onPedalPlaced:" texthintontouch="say-keys" counter="1" />
+		<button name="notes_close" position="807;552" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="642;165" texture="secret_zoom" open="secret2" close="secret_close" />
+		<button name="secret_close" position="888;328" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+	<objects/>
+<scene/>

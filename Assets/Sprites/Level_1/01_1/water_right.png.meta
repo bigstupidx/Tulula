@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 28f3843dbaad52a4e90719609c00ca71
+timeCreated: 1456108269
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: water_right.png
+    21300002: water_right_02.png
+    21300004: water_right_03.png
+    21300006: water_right_04.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: water_right.png
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 84
+        height: 223
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 223}
+        - {x: 6, y: 223}
+        - {x: 0, y: 162}
+        - {x: 0, y: 0}
+        - {x: 74, y: 0}
+        - {x: 84, y: 6}
+        - {x: 84, y: 23}
+        - {x: 74, y: 34}
+    - name: water_right_02.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2
+        width: 80
+        height: 217
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 217}
+        - {x: 0, y: 0}
+        - {x: 80, y: 0}
+        - {x: 80, y: 206}
+        - {x: 66, y: 217}
+    - name: water_right_03.png
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 72
+        height: 225
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 225}
+        - {x: 0, y: 0}
+        - {x: 61, y: 0}
+        - {x: 69, y: 10}
+        - {x: 69, y: 225}
+      - - {x: 0, y: 13}
+        - {x: 0, y: 3}
+        - {x: 1, y: 2}
+        - {x: 8, y: 2}
+        - {x: 10, y: 6}
+        - {x: 10, y: 12}
+        - {x: 7, y: 13}
+      - - {x: 65, y: 13}
+        - {x: 64, y: 12}
+        - {x: 64, y: 5}
+        - {x: 72, y: 5}
+        - {x: 72, y: 13}
+    - name: water_right_04.png
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 72
+        height: 229
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 229}
+        - {x: 0, y: 197}
+        - {x: 0, y: 38}
+        - {x: 3, y: 0}
+        - {x: 69, y: 0}
+        - {x: 72, y: 9}
+        - {x: 72, y: 130}
+        - {x: 65, y: 229}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

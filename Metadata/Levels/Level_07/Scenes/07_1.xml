@@ -1,0 +1,90 @@
+<scene images="/Scenes/07/07_1" sounds="07" plistfiles="07_1" effects="scene07.ptc" music="playlist3" >
+	<objects >
+		<sprite position="0;481" texture="sea" />
+		<animation position="296;632" plistfile="Scenes/07/Animations/whirl" touched="true" texthintontouch="say-shaman-whirl" />
+		<sprite position="154;600" texture="scrap" touched="true" ontouchend="onScrapClicked:" usehint="true" useparticlehint="true" />
+		<animation position="320;729" plistfile="Scenes/07/Animations/bird2" pivotx="center" pivoty="center" />
+		<animation position="445;729" plistfile="Scenes/07/Animations/bird3" pivotx="center" pivoty="center" />
+		<sprite position="0;168" texture="sand" />
+		<sprite position="125;558" texture="scrap2" alpha="0" />
+		<sprite position="280;482" texture="bullets_hidden" invent="bullets_inv" />
+		<sprite position="151;456" texture="skeleton" usehint="true" stage="task-hold" texthintontouch="say-skeleton" ontouchend="onSkeleton:" />
+		<sprite position="248;445" texture="powder_placed" alpha="0" touched="true" texthintontouch="say-powder" ontouchend="onPowderPlaced:" parent="skeleton" />
+		<sprite position="151;421" texture="skeleton_splinters" alpha="0" />
+		<sprite position="136;613" texture="sail" pivot="14;8" />
+		<sprite position="197;568" texture="hook" pivot="49;15" />
+		<sprite position="0;104" texture="bg_71" pivot="50;7" />
+		<sprite position="171;700" texture="pers_1" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<sprite position="129;576" texture="spirit_07_1_hidden" totem="spirit_07_1" touched="true" parent="scrap2" />
+		<sprite position="90;701" texture="shaman_lv" />
+		<sprite position="231;152" texture="wick_placed" alpha="0" />
+        <object position="570;150" name="wick-alpha" size="60;60" usehint="true" touched="true" texthintontouch="say-wick" ontouchend="onWickPlaced:" parent="wick_placed" />
+		<sprite position="231;152" texture="wick_fire" alpha="0" parent="wick_placed" />
+        <particle emitter="sparks" dublicate="true" name="spark" alpha="0" position="600;165" />
+		<sprite position="39;424" texture="wick_hidden" stage="task-hold" invent="wick_inv" />
+		<sprite position="764;430" texture="hold" touched="true" hintpriority="2" ontouchend="onHoldClicked:" usehint="true" useparticlehint="true" />
+		<sprite position="302;253" texture="window_closed" usehint="true" ontouchend="onWindowClicked:" />
+		<sprite position="424;465" texture="water1" alpha="0" />
+		<sprite position="396;352" texture="water2" alpha="0" />
+		<sprite position="464;352" texture="water3" alpha="0" />
+		<sprite position="400;471" texture="sand_trench1" stage="task-batiwater" usehint="true" touched="true" texthintontouch="say-sand" ontouchend="onSandClicked:" />
+		<sprite position="408;355" texture="sand_trench2" stage="task-batiwater" usehint="true" touched="true" texthintontouch="say-sand" ontouchend="onSandClicked:"/>
+		<sprite position="595;349" texture="sand_trench3" stage="task-batiwater" usehint="true" touched="true" texthintontouch="say-sand" ontouchend="onSandClicked:" />
+		<sprite position="872;693" texture="shovel_hidden" invent="shovel3_inv" stage="task-batiwater" />
+        <sprite position="537;515" texture="chupa_hidden" stage="task-fish" usehint="true" texthintontouch="say-chupa" alphamask="true" ontouchend="onChupa:" />
+        <sprite position="510;432" texture="bullet_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="330;387" texture="window_open" alpha="0" />
+		<sprite position="58;289" texture="board2" />
+        <sprite position="47;250" texture="powder_hidden" invent="powder2_inv" stage="task-hold" />
+		<sprite position="145;206" texture="wheel2" parent="cannon-all" />
+        <object name="shoot_point" size="5;5" parent="cannon1" position="320;260" />
+        <object name="cannon-all" />
+		<sprite position="157;200" texture="cannon1" pivot="83;100" usehint="true" ontouchend="onCannonTouchEnd:" parent="cannon-all" />
+		<sprite position="163;266" pivotx="center" pivoty="center" />
+        <particle position="203;304" name="spark_2" emitter="sparks" dublicate="true" alpha="0" parent="cannon1" />
+		<sprite position="241;187" texture="wheel1" parent="cannon-all" />
+		<sprite position="254;189" texture="board" />
+		<sprite position="47;651" texture="stone_07_2_hidden" totem="stone_07_2" touched="true" />
+		<sprite position="28;291" texture="crowbar_hidden" invent="crowbar_inv" stage="task-hold-done" />
+		<sprite position="254;253" texture="canon_sign" parent="cannon1" />
+		<sprite position="307;277" texture="sign_1" alpha="0" parent="canon_sign" />
+		<sprite position="288;271" texture="sign_2" alpha="0" parent="canon_sign" />
+		<sprite position="267;263" texture="sign_3" alpha="0" parent="canon_sign" />
+		<sprite position="389;144" texture="lamp_hidden" invent="lamp2_inv" />
+		<sprite position="348;147" texture="hatch_closed" ontouchend="onHatchClicked:" hintpriority="1" usehint="true" />
+		<sprite position="308;142" texture="hatch_open" alpha="0" />
+		<sprite position="362;156" texture="chest" stage="task-hold" usehint="true" ontouchend="onOpenChest:" />
+		<sprite position="376;179" texture="key2_placed" alpha="0" parent="chest" />
+		<sprite position="362;156" texture="chest_open" alpha="0" parent="chest" />
+		<sprite position="381;197" texture="key_hidden" parent="chest_open" touched="true" invent="key4_inv" />
+		<sprite position="741;432" texture="hole" alpha="0" />
+		<sprite position="776;476" texture="hole_light" parent="hole" />
+		<sprite position="808;481" texture="stone_07_1_hidden" totem="stone_07_1" parent="hole" touched="true" />
+		<animation position="721;412" plistfile="Scenes/07/Animations/bati2_full" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="408;647" texture="exit_arrow" alpha="0" />
+		<sprite position="771;454" texture="bati" parent="hole" touched="true" ontouchend="onBatiClicked:" />
+		<sprite position="721;430" texture="bati2_brk" alpha="0" touched="true" />
+		<sprite position="133;709" texture="b_1_hidden" invent="b_1_inv" stage="task-bati" parent="hole" />
+		<sprite position="515;523" texture="b_2_hidden" invent="b_2_inv" stage="task-bati" parent="hole" />
+		<sprite position="951;665" texture="b_3_hidden" invent="b_3_inv" stage="task-bati" parent="hole" />
+		<sprite position="615;695" texture="b_4_hidden" invent="b_4_inv" stage="task-bati" parent="hole" />
+		<sprite position="133;467" texture="b_5_hidden" invent="b_5_inv" stage="task-bati" parent="hole" />
+		<sprite position="764;456" texture="planks" parent="hole" touched="true" texthintontouch="say-planks" ontouchend="onPlanks:" />
+		<sprite position="622;322" texture="planks2" parent="planks" />
+		<sprite position="858;536" texture="lamp_placed" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="768;428" texture="darkness" parent="hole" touched="true" texthintontouch="say-darkness" ontouchend="onDarnkess:" />
+		<sprite position="0;0" texture="beam" pivotx="right" pivoty="top" />
+		<compound position="648;372" texture="bati_base" open="bati2_brk" full="bati2_full" objects="b_1:b_1_inv, b_2:b_2_inv, b_3:b_3_inv, b_4:b_4_inv, b_5:b_5_inv" oncomplete="onBatiComplete" />
+		<sprite position="741;428" texture="bati_base_alpha" />
+		<sprite position="861;401" texture="b_1" />
+		<sprite position="673;399" texture="b_2" />
+		<sprite position="688;503" texture="b_3" />
+		<sprite position="865;514" texture="b_4" />
+		<sprite position="764;568" texture="b_5" />
+	<objects/>
+<scene/>
+
+<pathes>
+	<path id="path-2" points="776;440, 550;376, 441;426, 455;536, 429;630" />
+	<path id="path-1" points="600;165, 576;172, 529;158, 514;171, 515;197, 537;224, 537;235, 518;232, 507;247, 506;263, 488;270, 459;268, 335;332, 263;358, 240;380, 250;398, 281;418, 303;436, 303;451, 291;464" />
+<pathes/>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulula.CSharp.Plugins", "Tulula.CSharp.Plugins.csproj", "{EE539393-3762-F50C-236F-FCC789F0549B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulula.CSharp", "Tulula.CSharp.csproj", "{F05B244E-D56C-811E-A5B8-2FF4BC24ED9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulula.CSharp.Editor", "Tulula.CSharp.Editor.csproj", "{D9D4CDED-58C1-F8F0-A14A-F8ABC9EA8E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE539393-3762-F50C-236F-FCC789F0549B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE539393-3762-F50C-236F-FCC789F0549B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE539393-3762-F50C-236F-FCC789F0549B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE539393-3762-F50C-236F-FCC789F0549B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05B244E-D56C-811E-A5B8-2FF4BC24ED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05B244E-D56C-811E-A5B8-2FF4BC24ED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05B244E-D56C-811E-A5B8-2FF4BC24ED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05B244E-D56C-811E-A5B8-2FF4BC24ED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D4CDED-58C1-F8F0-A14A-F8ABC9EA8E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D4CDED-58C1-F8F0-A14A-F8ABC9EA8E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D4CDED-58C1-F8F0-A14A-F8ABC9EA8E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D4CDED-58C1-F8F0-A14A-F8ABC9EA8E57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

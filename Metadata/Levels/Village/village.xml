@@ -1,0 +1,333 @@
+<scene images="/Village" sounds="00" effects="scene00.ptc" plistfiles="village" music="melody_6"  >
+	<objects >
+		<sprite position="0;0" texture="back_v" />
+		<sprite position="192;0" texture="houses" />
+		<animation position="0;0" plistfile="Village/anim_water" />
+		<sprite position="581;666" texture="shaman_broken" />
+		<sprite position="545;659" texture="shaman_full_shad" parent="shaman_full" />
+		<sprite position="576;654" texture="shaman_full" />
+		<sprite position="419;611" texture="castle_broken" />
+		<sprite position="381;609" texture="castle_full_shad" parent="castle_full"  />
+		<sprite position="405;605" texture="castle_full" />
+		<sprite position="869;604" texture="temple_broken" />
+		<sprite position="862;619" texture="temple_full_shad" parent="temple_full" />
+		<sprite position="871;602" texture="temple_full" />
+		<sprite position="618;517" texture="square_broken" />
+		<sprite position="601;505" texture="square_full_shad" parent="square_full" />
+		<sprite position="578;501" texture="square_full" />
+		<sprite position="765;522" texture="doctor_broken" />
+		<sprite position="739;531" texture="doctor_full_shad" parent="doctor_full" />
+		<sprite position="766;531" texture="doctor_full" />
+		<sprite position="899;459" texture="oracle_broken" />
+		<sprite position="878;474" texture="oracle_full_shad" parent="oracle_full" />
+		<sprite position="904;464" texture="oracle_full" />
+		<sprite position="663;616" texture="fire_broken" />
+		<sprite position="656;629" texture="fire_full_shad" parent="fire_full"  />
+		<sprite position="665;631" texture="fire_full" />
+		<sprite position="625;533" texture="fountain_broken" />
+		<sprite position="613;532" texture="fountain_full_shad" parent="fountain_full" />
+		<sprite position="625;533" texture="fountain_full" />
+		<sprite position="256;646" texture="library_broken" />
+		<sprite position="227;646" texture="library_full_shad" parent="library_full" />
+		<sprite position="254;643" texture="library_full" />
+		<sprite position="437;483" texture="tavern_broken" />
+		<sprite position="404;476" texture="tavern_full_shad"  parent="tavern_full" />
+		<sprite position="417;474" texture="tavern_full" />
+		<sprite position="56;601" texture="orange_broken" />
+		<sprite position="5;601" texture="orange_full_shad"  parent="orange_full" />
+		<sprite position="24;597" texture="orange_full" />
+		<sprite position="8;503" texture="banana_broken" />
+		<sprite position="0;501" texture="banana_full_shad" parent="banana_full" />
+		<sprite position="6;504" texture="banana_full" />
+		<sprite position="148;506" texture="house_farmer_broken" />
+		<sprite position="104;510" texture="house_farmer_full_shad" parent="house_farmer_full" />
+		<sprite position="125;512" texture="house_farmer_full" />
+		<sprite position="290;506" texture="vine_broken" />
+		<sprite position="268;527" texture="vine_full_shad" parent="vine_full" />
+		<sprite position="295;523" texture="vine_full" />
+		<sprite position="252;458" texture="wheat_broken" />
+		<sprite position="221;460" texture="wheat_full_shad" parent="wheat_full" />
+		<sprite position="234;456" texture="wheat_full" />
+		<sprite position="160;432" texture="flower_broken" />
+		<sprite position="136;442" texture="flower_full_shad" parent="flower_full" />
+		<sprite position="149;413" texture="flower_full" />
+		<sprite position="51;410" texture="cotton_broken" />
+		<sprite position="32;416" texture="cotton_full_shad" parent="cotton_full" />
+		<sprite position="30;399" texture="cotton_full" />
+		<sprite position="344;424" texture="mushroom_broken" />
+		<sprite position="327;430" texture="mushroom_full_shad" parent="mushroom_full" />
+		<sprite position="337;428" texture="mushroom_full" />
+		<sprite position="134;312" texture="sweetshop_broken" />
+		<sprite position="99;313" texture="sweetshop_full_shad" parent="sweetshop_full" />
+		<sprite position="108;316" texture="sweetshop_full" />
+		<sprite position="23;305" texture="weaver_broken" />
+		<sprite position="6;302" texture="weaver_full_shad" parent="weaver_full" />
+		<sprite position="20;300" texture="weaver_full" />
+		<sprite position="467;381" texture="vinemaker_broken" />
+		<sprite position="442;387" texture="vinemaker_full_shad" parent="vinemaker_full" />
+		<sprite position="460;387" texture="vinemaker_full" />
+		<sprite position="358;615" texture="mail_broken" />
+		<sprite position="339;620" texture="mail_full_shad" parent="mail_full" />
+		<sprite position="350;620" texture="mail_full" />
+		<sprite position="733;359" texture="diamond_broken" />
+		<sprite position="730;359" texture="diamond_full_shad" parent="diamond_full"  />
+		<sprite position="734;359" texture="diamond_full" />
+		<sprite position="783;314" texture="gold_broken" />
+		<sprite position="770;321" texture="gold_full_shad" parent="gold_full" />
+		<sprite position="778;314" texture="gold_full" />
+		<sprite position="940;240" texture="iron_broken"  />
+		<sprite position="938;239" texture="iron_full" />
+		<sprite position="896;180" texture="clay_broken" />
+		<sprite position="893;167" texture="clay_full" />
+		<sprite position="33;209" texture="elephant_broken" />
+		<sprite position="23;222" texture="elephant_full_shad" parent="elephant_full" />
+		<sprite position="37;212" texture="elephant_full" />
+		<sprite position="209;131" texture="milk_broken" />
+		<sprite position="203;131" texture="milk_full_shad"  parent="milk_full" />
+		<sprite position="209;130" texture="milk_full" />
+		<sprite position="71;126" texture="bird_broken" />
+		<sprite position="55;135" texture="bird_full_shad" parent="bird_full" />
+		<sprite position="75;130" texture="bird_full" />
+		<sprite position="634;389" texture="house_artisan_broken" />
+		<sprite position="613;390" texture="house_artisan_full_shad" parent="house_artisan_full" />
+		<sprite position="625;385" texture="house_artisan_full" />
+		<sprite position="537;320" texture="jeweller_broken" />
+		<sprite position="515;320" texture="jeweller_full_shad" parent="jeweller_full" />
+		<sprite position="529;317" texture="jeweller_full" />
+		<sprite position="386;289" texture="market_broken" />
+		<sprite position="378;284" texture="market_full" />
+		<sprite position="273;339" texture="bakery_broken" />
+		<sprite position="250;330" texture="bakery_full_shad" parent="bakery_full" />
+		<sprite position="263;334" texture="bakery_full" />
+		<sprite position="184;203" texture="house_cattlebreeder_broken" />
+		<sprite position="148;225" texture="house_cattlebreeder_full_shad" parent="house_cattlebreeder_full" />
+		<sprite position="162;198" texture="house_cattlebreeder_full" />
+		<sprite position="638;288" texture="barn_broken" />
+		<sprite position="601;284" texture="barn_full_shad" parent="barn_full" />
+		<sprite position="634;282" texture="barn_full" />
+		<sprite position="538;236" texture="lapicide_broken" />
+		<sprite position="509;239" texture="lapicide_full_shad" parent="lapicide_full" />
+		<sprite position="529;229" texture="lapicide_full" />
+		<sprite position="725;250" texture="stone_broken" />
+		<sprite position="711;266" texture="stone_full_shad" parent="stone_full" />
+		<sprite position="712;247" texture="stone_full" />
+		<sprite position="642;199" texture="crafter_broken" />
+		<sprite position="614;189" texture="crafter_full_shad" parent="crafter_full" />
+		<sprite position="629;190" texture="crafter_full" />
+		<sprite position="328;216" texture="sheep_broken" />
+		<sprite position="327;215" texture="sheep_full_shad" parent="sheep_full" />
+		<sprite position="340;215" texture="sheep_full" />
+		<sprite position="343;140" texture="horse_broken" />
+		<sprite position="332;152" texture="horse_full_shad" parent="horse_full" />
+		<sprite position="349;145" texture="horse_full" />
+		<sprite position="385;42" texture="fish_broken" />
+		<sprite position="385;42" texture="fish_full" />
+		<sprite position="482;112" texture="mill_broken" />
+		<sprite position="483;107" texture="mill_full_shad" parent="mill_full" />
+		<sprite position="501;94" texture="mill_full" />
+		<sprite position="800;144" texture="house_worker_broken" />
+		<sprite position="744;145" texture="house_worker_full_shad" parent="house_worker_full" />
+		<sprite position="787;139" texture="house_worker_full" />
+		<sprite position="849;71" texture="sawmill_broken" />
+		<sprite position="821;88" texture="sawmill_full_shad" parent="sawmill_full" />
+		<sprite position="840;65" texture="sawmill_full" />
+		<sprite position="616;103" texture="bridge_broken" />
+		<sprite position="625;101" texture="bridge_full_shad" parent="bridge_full" />
+		<sprite position="616;103" texture="bridge_full" />
+		<sprite position="586;8" texture="beefarm_broken" />
+		<sprite position="563;25" texture="beefarm_full_shad" parent="beefarm_full" />
+		<sprite position="574;3" texture="beefarm_full" />
+		<sprite position="316;29" texture="lighthouse_broken" />
+		<sprite position="271;37" texture="lighthouse_full_shad" parent="lighthouse_full" />
+		<sprite position="311;26" texture="lighthouse_full" />
+		<sprite position="160;15" texture="dock_broken" />
+		<sprite position="124;29" texture="dock_full_shad" parent="dock_full" />
+		<sprite position="44;15" texture="dock_full" />
+		<button position="236;533" btnnormal="flag_farmer_btn" btndown="flag_farmer_btnh" />
+		<sprite position="94;430" name="choice_farmer" texture="choice" />
+		<sprite position="213;436" texture="mushroom_choice" /> 
+		<sprite position="134;469" texture="flower_choice" />
+		<sprite position="291;469" texture="banana_choice" />
+		<sprite position="101;549" texture="vine_choice" />
+		<sprite position="323;549" texture="cotton_choice" />
+		<sprite position="134;628" texture="orange_choice" />
+		<sprite position="291;628" texture="house_farmer_choice" />
+		<sprite position="299;643" name="house_farmer_scheme" texture="schema" parent="house_farmer_choice" />
+		<sprite position="213;659" texture="wheat_choice" />
+		<button position="844;469" btnnormal="flag_magic_btn" btndown="flag_magic_btnh" />
+		<sprite position="707;378" name="choice_magic" texture="choice" />
+		<sprite position="826;385" texture="castle_choice" />
+		<sprite position="834;398" name="castle_scheme" texture="schema" parent="castle_choice" />
+		<sprite position="747;418" texture="oracle_choice" />
+		<sprite position="755;431" name="oracle_scheme" texture="schema" parent="oracle_choice" />
+		<sprite position="904;418" texture="temple_choice" />
+		<sprite position="912;431" name="temple_scheme" texture="schema" parent="temple_choice" />
+		<sprite position="714;497" texture="fire_choice" />
+		<sprite position="723;510" name="fire_scheme" texture="schema" parent="fire_choice" />
+		<sprite position="936;497" texture="shaman_choice" />
+		<sprite position="945;510" name="shaman_scheme" texture="schema" parent="shaman_choice" />
+		<sprite position="747;577" texture="fountain_choice" />
+		<sprite position="755;588" name="fountain_scheme" texture="schema" parent="fountain_choice" />
+		<sprite position="904;577" texture="doctor_choice" />
+		<sprite position="912;590" name="doctor_scheme" texture="schema" parent="doctor_choice" />
+		<sprite position="826;608" texture="square_choice" />
+		<sprite position="835;620" name="square_scheme" texture="schema" parent="square_choice" />
+		<button position="567;442" btnnormal="flag_center_btn" btndown="flag_center_btnh" />
+		<sprite position="432;384" name="choice_center" texture="choice" />
+		<sprite position="551;390" texture="library_choice" />
+		<sprite position="559;403" name="library_scheme" texture="schema" parent="library_choice" />
+		<sprite position="472;423" texture="tavern_choice" />
+		<sprite position="480;437" name="tavern_scheme" texture="schema" parent="tavern_choice" />
+		<sprite position="629;423" texture="dock_choice" />
+		<sprite position="638;436" name="dock_scheme" texture="schema" parent="dock_choice" />
+		<sprite position="439;503" texture="lighthouse_choice" />
+		<sprite position="448;515" name="lighthouse_scheme" texture="schema" parent="lighthouse_choice" />
+		<sprite position="661;503" texture="mail_choice" />
+		<sprite position="669;515" name="mail_scheme" texture="schema" parent="mail_choice" />
+		<sprite position="472;582" texture="market_choice" />
+		<sprite position="480;595" name="market_scheme" texture="schema" parent="market_choice" />
+		<sprite position="629;582" texture="barn_choice" />
+		<sprite position="638;595" name="barn_scheme" texture="schema" parent="barn_choice" />
+		<sprite position="551;613" texture="bridge_choice" />
+		<sprite position="560;625" name="bridge_scheme" texture="schema" parent="bridge_choice" />
+		<button position="704;377" btnnormal="flag_artisan_btn" btndown="flag_artisan_btnh" />
+		<sprite position="567;266" name="choice_artisan" texture="choice" />
+		<sprite position="686;272" texture="crafter_choice" />
+		<sprite position="606;305" texture="jeweller_choice" />
+		<sprite position="614;318" name="jeweller_scheme" texture="schema" parent="jeweller_choice" />
+		<sprite position="764;305" texture="lapicide_choice" />
+		<sprite position="573;385" texture="vinemaker_choice" />
+		<sprite position="796;385" texture="sweetshop_choice" />
+		<sprite position="606;464" texture="house_artisan_choice" />
+		<sprite position="614;477" name="house_artisan_scheme" texture="schema" parent="house_artisan_choice" />
+		<sprite position="764;464" texture="weaver_choice" />
+		<sprite position="686;495" texture="bakery_choice" />
+		<button position="293;217" btnnormal="flag_cattlebreeder_btn" btndown="flag_cattlebreeder_btnh" />
+		<sprite position="157;125" name="choice_cattlebreeder" texture="choice" />
+		<sprite position="276;131" texture="elephant_choice" />
+		<sprite position="197;165" texture="horse_choice" />
+		<sprite position="354;165" texture="bird_choice" />
+		<sprite position="163;244" texture="fish_choice" />
+		<sprite position="386;244" texture="beefarm_choice" />
+		<sprite position="197;323" texture="milk_choice" />
+		<sprite position="354;323" texture="house_cattlebreeder_choice" />
+		<sprite position="362;336" name="house_cattlebreeder_scheme" texture="schema" parent="house_cattlebreeder_choice" />
+		<sprite position="276;354" texture="sheep_choice" />
+		<button position="753;116" btnnormal="flag_worker_btn" btndown="flag_worker_btnh" />
+		<sprite position="619;26" name="choice_worker" texture="choice" />
+		<sprite position="738;33" texture="gold_choice" />
+		<sprite position="659;66" texture="diamond_choice" />
+		<sprite position="668;76" name="diamond_scheme" texture="schema" parent="diamond_choice" />
+		<sprite position="816;66" texture="iron_choice" />
+		<sprite position="625;145" texture="stone_choice" />
+		<sprite position="848;145" texture="sawmill_choice" />
+		<sprite position="659;225" texture="clay_choice" />
+		<sprite position="816;225" texture="house_worker_choice" />
+		<sprite position="825;238" name="house_worker_scheme" texture="schema" parent="house_worker_choice" />
+		<sprite position="738;256" texture="mill_choice" />
+        <object name="text_box_back" size="1024;768" touched="true" ontouchend="onBackClicked" parent="text_box" />
+		<window position="213;226" texture="text_box" open="back_v" close="text_close" objects="dock_mini, shaman_mini, castle_mini, temple_mini, square_mini, doctor_mini, oracle_mini, fountain_mini, fire_mini, tavern_mini, lighthouse_mini, library_mini, orange_mini, banana_mini, house_farmer_mini, cotton_mini, flower_mini, vine_mini, wheat_mini, mushroom_mini, sweetshop_mini, weaver_mini, vinemaker_mini, mail_mini, diamond_mini, gold_mini, stone_mini, iron_mini, clay_mini, milk_mini, elephant_mini, bird_mini, house_artisan_mini, jeweller_mini, market_mini, bakery_mini, house_cattlebreeder_mini, barn_mini, lapicide_mini, crafter_mini, sheep_mini, horse_mini, fish_mini, mill_mini, house_worker_mini, sawmill_mini, bridge_mini, beefarm_mini, bild_btn, resource" />
+		<button position="710;587" btnnormal="common/window_close_btn" name="text_close" btndown="common/window_close_btnd" />
+		<button position="634;250" btnnormal="bild_btn" btndown="bild_btnd" ontouchbegan="onBuildButtonClicked:" />
+		<sprite position="272;252" texture="resource" />
+		<sprite position="300;395" texture="dock_mini" alpha="0" />
+		<sprite position="305;390" texture="shaman_mini" alpha="0" />
+		<sprite position="285;391" texture="castle_mini" alpha="0" />
+		<sprite position="307;421" texture="temple_mini" alpha="0" />
+		<sprite position="282;419" texture="square_mini" alpha="0" />
+		<sprite position="303;399" texture="doctor_mini" alpha="0" />
+		<sprite position="312;384" texture="oracle_mini" alpha="0" />
+		<sprite position="314;412" texture="fountain_mini" alpha="0" />
+		<sprite position="313;396" texture="fire_mini" alpha="0" />
+		<sprite position="289;409" texture="tavern_mini" alpha="0" />
+		<sprite position="352;385" texture="lighthouse_mini" alpha="0" />
+		<sprite position="317;389" texture="library_mini" alpha="0" />
+		<sprite position="295;399" texture="orange_mini" alpha="0" />
+		<sprite position="316;398" texture="banana_mini" alpha="0" />
+		<sprite position="304;405" texture="house_farmer_mini" alpha="0" />
+		<sprite position="293;409" texture="cotton_mini" alpha="0" />
+		<sprite position="311;404" texture="flower_mini" alpha="0" />
+		<sprite position="309;389" texture="vine_mini" alpha="0" />
+		<sprite position="296;395" texture="wheat_mini" alpha="0" />
+		<sprite position="302;410" texture="mushroom_mini" alpha="0" />
+		<sprite position="300;408" texture="sweetshop_mini" alpha="0" />
+		<sprite position="309;401" texture="weaver_mini" alpha="0" />
+		<sprite position="311;412" texture="vinemaker_mini" alpha="0" />
+		<sprite position="339;409" texture="mail_mini" alpha="0" />
+		<sprite position="323;408" texture="diamond_mini" alpha="0" />
+		<sprite position="311;404" texture="gold_mini" alpha="0" />
+		<sprite position="295;408" texture="stone_mini" alpha="0" />
+		<sprite position="330;416" texture="iron_mini" alpha="0" />
+		<sprite position="294;410" texture="clay_mini" alpha="0" />
+		<sprite position="299;416" texture="milk_mini" alpha="0" />
+		<sprite position="304;410" texture="elephant_mini" alpha="0" />
+		<sprite position="296;404" texture="bird_mini" alpha="0" />
+		<sprite position="316;396" texture="house_artisan_mini" alpha="0" />
+		<sprite position="309;401" texture="jeweller_mini" alpha="0" />
+		<sprite position="289;396" texture="market_mini" alpha="0" />
+		<sprite position="308;398" texture="bakery_mini" alpha="0" />
+		<sprite position="302;396" texture="house_cattlebreeder_mini" alpha="0" />
+		<sprite position="299;398" texture="barn_mini" alpha="0" />
+		<sprite position="280;407" texture="lapicide_mini" alpha="0" />
+		<sprite position="302;404" texture="crafter_mini" alpha="0" />
+		<sprite position="305;419" texture="sheep_mini" alpha="0" />
+		<sprite position="304;417" texture="horse_mini" alpha="0" />
+		<sprite position="284;401" texture="fish_mini" alpha="0" />
+		<sprite position="304;386" texture="mill_mini" alpha="0" />
+		<sprite position="303;394" texture="house_worker_mini" alpha="0" />
+		<sprite position="294;403" texture="sawmill_mini" alpha="0" />
+		<sprite position="282;423" texture="bridge_mini" alpha="0" />
+		<sprite position="304;412" texture="beefarm_mini" alpha="0" />
+		<sprite position="504;373" texture="hammer1" alpha="0" pivotx="right" />
+		<sprite position="504;373" texture="hammer2" alpha="0" />
+		<sprite position="442;318" texture="box_dostup" alpha="0" />
+		<sprite position="441;416" texture="box_name" alpha="0" />
+		<sprite position="771;704" texture="resource_hud" />
+        <text name="resource_text" parent="resource_hud" position="830;705" outline="1" shadowalpha="0" size="188;55" fontsize="51" color="255;247;153" />
+		<sprite position="501;362" texture="help_arrow" alpha="0" pivotx="center" pivoty="bottom" />
+		<sprite position="0;586" texture="people_count_base" touched="true" ontouchend="onPeoplesBase" />
+        <text name="people_count_sad" parent="people_count_base" position="101;679" shadowalpha="0" size="74;56" fontsize="51" color="255;247;153" onenterframe="updatePeopleSad:" />
+        <text name="people_count_happy" parent="people_count_base" position="101;600" shadowalpha="0" size="74;56" fontsize="51" color="255;247;153" onenterframe="updatePeopleHappy:" />
+        <sprite position="202;698" texture="people_count_btn" alpha="0" parent="people_count_base" touched="true" ontouchend="onPeoplesBase"/>
+		<sprite position="202;698" texture="people_count_btn1" parent="people_count_base" onenterframe="updatePeopleBtn:" />
+		<sprite position="202;698" texture="people_count_btn2" parent="people_count_base" alpha="0" onenterframe="updatePeopleBtn:" />
+		<sprite position="202;698" texture="people_count_btn3" parent="people_count_base" alpha="0" onenterframe="updatePeopleBtn:" />
+		<sprite position="202;698" texture="people_count_btn4" parent="people_count_base" alpha="0" onenterframe="updatePeopleBtn:" />
+		<sprite position="202;698" texture="people_count_btn5" parent="people_count_base" alpha="0" onenterframe="updatePeopleBtn:" />
+		<sprite position="464;348" texture="happy_mask" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="477;363" texture="sad_mask" alpha="0" />
+        <text name="text_box_caption" parent="text_box" position="495;390" shadowalpha="0" size="248;186" fontsize="38" color="27;20;100" />
+        <text parent="text_box" name="no_money" position="276;340" shadowalpha="0" outline="2" size="477;166" fontsize="50" color="237;28;36" alpha="0.8" />
+        <text name="text_box_value" parent="text_box" position="371;268" shadowalpha="0" size="121;49" fontsize="38" color="71;60;119" />
+        <sprite position="783;0" texture="hud_back3" />
+        <buttontext fontsize="25" size="130;50" text="hud-menu" languache="ja" languachesize="20" halign="center" position="932;-23" rotation="-15" touched="true" color="189;157;101" ontouchbegan="onMenu:" />
+        <button position="867;5" btnnormal="Hud/arrow_btn" btndown="Hud/arrow_btnd" touched="true" ontouchbegan="onMap:" />
+        <buttontext fontsize="25" text="hud-mapbtn" parent="arrow_btn" position="815;5" color="189;157;101" touched="true" ontouchbegan="onMap:" />
+        <particle emitter="storm" pivotx="center" position="-100;-100" pivoty="center" alpha="0" move="true" size="200;200" />
+        <sprite position="700;690" texture="stone_char_m1" alpha="0" tag="4" />
+        <sprite position="700;690" texture="stone_char_m2" alpha="0" tag="3" />
+        <sprite position="700;690" texture="stone_char_w1" alpha="0" tag="2" />
+        <sprite position="700;690" texture="stone_char_w2" alpha="0" tag="1" />
+	<objects/>
+    <pathes>
+        <path id="path-1" points="-56;11, 450;40, 749;49, 893;120, 964;226, 972;581, 781;643, 596;661, 347;645, 141;623, 61;385, 135;189, 286;165, 600;199, 780;281, 816;459, 734;545, 525;573, 368;560, 204;499, 157;376, 249;286, 363;328, 392;386, 317;436, 76;399, -56;52" />
+    <pathes/>
+    <logic>
+        <build_value wheat="100" house_farmer="200" orange="300" cotton="400" vine="500" banana="600" flower="700" mushroom="800"
+        sheep="250" house_cattlebreeder="350" milk="450" beefarm="650" fish="750" bird="850" horse="950" elephant="1050"
+        mill="350" house_worker="450" clay="550" sawmill="650" stone="750" iron="850" diamond="950" gold="1050"
+        bakery="400" weaver="500" house_artisan="600" sweetshop="700" vinemaker="800" lapicide="900" jeweller="1000" crafter="1100"
+        bridge="500" barn="600" market="700" mail="800" lighthouse="900" dock="1000" tavern="1100" library="1200"
+        square="600" doctor="700" fountain="800" shaman="900" fire="1000" temple="1100" oracle="1200" castle="1300" />
+        <shemes house_farmer="2" bridge="2" barn="2" house_cattlebreeder="3" market="3" square="3" house_worker="4" house_artisan="4" mail="4"
+        lighthouse="5" doctor="5" dock="6" fountain="6" shaman="7" tavern="7" diamond="8" library="8" fire="9" temple="9" jeweller="9" oracle="10" castle="10" />
+        <builds>
+            <build open="flag_farmer_btn" choice="choice_farmer" objects="mushroom_choice, flower_choice, banana_choice, vine_choice, cotton_choice, house_farmer_choice, wheat_choice, orange_choice" />
+            <build open="flag_magic_btn" choice="choice_magic" objects="square_choice, doctor_choice, fountain_choice, shaman_choice, fire_choice, temple_choice, oracle_choice, castle_choice" />
+            <build open="flag_center_btn" choice="choice_center" objects="bridge_choice, barn_choice, market_choice, mail_choice, lighthouse_choice, dock_choice, tavern_choice, library_choice" />
+            <build open="flag_cattlebreeder_btn" choice="choice_cattlebreeder" objects="sheep_choice, house_cattlebreeder_choice, milk_choice, beefarm_choice, fish_choice, bird_choice, horse_choice, elephant_choice" />
+            <build open="flag_artisan_btn" choice="choice_artisan" objects="bakery_choice, weaver_choice, house_artisan_choice, sweetshop_choice, vinemaker_choice, lapicide_choice, jeweller_choice, crafter_choice" />
+            <build open="flag_worker_btn" choice="choice_worker" objects="mill_choice, house_worker_choice, clay_choice, sawmill_choice, stone_choice, iron_choice, diamond_choice, gold_choice" />
+        <builds/>
+    <logic/>
+<scene

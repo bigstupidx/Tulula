@@ -1,0 +1,53 @@
+<scene images="/Scenes/01/01_1_1" sounds="01" effects="scene01.ptc" plistfiles="01_1_1" music="melody_6" >
+	<objects >
+		<sprite position="0;58" texture="background" />
+		<sprite position="509;395" texture="totem_stone_01_p02" totem="stone_01_2" stage="task-water-done" ontouchend="onPickTotemStone" />
+		<sprite position="435;399" texture="go_final" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="515;394" texture="go_cover" />
+		<sprite position="257;204" texture="no_color" pivotx="center" pivoty="center" />
+		<sprite position="762;520" texture="palm_leaf_1" pivot="260;188" />
+		<sprite position="776;312" texture="palm_leaf_2" pivot="245;204" />
+		<sprite position="843;450" texture="palm_leaf_3" pivot="175;220" />
+		<sprite position="830;186" texture="palm_leaf_4" pivot="190;135" />
+		<sprite position="0;504" texture="palm_leaf_5" pivot="5;227" />
+		<sprite position="0;357" texture="palm_leaf_6" pivot="4;166" />
+		<sprite position="0;524" texture="palm_leaf_7" pivot="3;156" />
+		<sprite position="74;33" texture="palm_leaf_8" pivot="5;255" />
+		<sprite position="0;74" texture="palm_leaf_9" pivot="4;320" />
+		<button position="413;364" btnnormal="go_btn" btndown="go_btnd" touched="true" ontouchbegan="onStartButton:" />
+		<sprite position="515;537" texture="sing_2_off" parent="no_color" ontouchend="onSingClicled:" counter="2" alphamask="true" />
+		<sprite position="601;459" texture="sing_3_off" parent="no_color" ontouchend="onSingClicled:" counter="3" alphamask="true" />
+		<sprite position="592;281" texture="sing_4_off" parent="no_color"  ontouchend="onSingClicled:" counter="4" alphamask="true" />
+		<sprite position="513;204" texture="sing_5_off" parent="no_color" ontouchend="onSingClicled:" counter="5" alphamask="true" />
+		<sprite position="337;204" texture="sing_6_off" parent="no_color" ontouchend="onSingClicled:" counter="6" alphamask="true" />
+		<sprite position="257;282" texture="sing_7_off" parent="no_color"  ontouchend="onSingClicled:" counter="7" alphamask="true" />
+		<sprite position="257;459" texture="sing_8_off" parent="no_color" ontouchend="onSingClicled:" counter="8" alphamask="true" />
+		<sprite position="323;536" texture="sing_9_off" parent="no_color" ontouchend="onSingClicled:" counter="9" alphamask="true" />
+		<sprite position="515;537" texture="sing_2_on" parent="sing_2_off" alpha="0" />
+		<sprite position="601;459" texture="sing_3_on" parent="sing_3_off" alpha="0" />
+		<sprite position="592;281" texture="sing_4_on" parent="sing_4_off" alpha="0" />
+		<sprite position="513;204" texture="sing_5_on" parent="sing_5_off" alpha="0" />
+		<sprite position="337;204" texture="sing_6_on" parent="sing_6_off" alpha="0" />
+		<sprite position="250;282" texture="sing_7_on" parent="sing_7_off" alpha="0" />
+		<sprite position="257;459" texture="sing_8_on" parent="sing_8_off" alpha="0" />
+		<sprite position="323;536" texture="sing_9_on" parent="sing_9_off" alpha="0" />
+		<sprite position="780;181" texture="back_q" />
+		<sprite position="802;193" texture="cheif" pivotx="center" pivoty="center" touched="true" texthintontouch="chief-say" ontouchend="onChiefClicked" />
+		<sprite position="825;387" texture="sing_2"  alpha="0" counter="2" />
+		<sprite position="824;387" texture="sing_3"  alpha="0" counter="3" />
+		<sprite position="824;387" texture="sing_4"  alpha="0" counter="4" />
+		<sprite position="824;387" texture="sing_5"  alpha="0" counter="5" />
+		<sprite position="824;387" texture="sing_6"  alpha="0" counter="6" />
+		<sprite position="824;387" texture="sing_7"  alpha="0" counter="7" />
+		<sprite position="824;387" texture="sing_8"  alpha="0" counter="8" />
+		<sprite position="824;387" texture="sing_9"  alpha="0" counter="9" />
+		<sprite position="838;392" texture="rune_fight" alpha="0" />
+		<sprite position="837;394" texture="rune_fail" alpha="0" />
+		<sprite position="666;661" name="light_5" alpha="0" texture="light" />
+		<sprite position="579;707" name="light_4" alpha="0" texture="light" />
+		<sprite position="478;720" name="light_3" alpha="0" texture="light" />
+		<sprite position="380;706" name="light_2" alpha="0" texture="light" />
+		<sprite position="294;660" name="light_1" alpha="0" texture="light" />
+		<skip position="880;690" onskip="onMgDone" stage="say-shaman-mgthrone" hide="task-water-done" />
+	<objects/>
+<scene/>

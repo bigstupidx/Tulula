@@ -1,0 +1,42 @@
+<level startscene="Scene06_1" totemstones="0" tasks="8" >
+	<inventory>
+        <sprite position="0;0" texture="magic_staff_inv" pivotx="center" pivoty="center" alpha="0"  />
+        <sprite position="0;0" texture="key_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="shovel2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="lamp_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="lamp_light_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="wood_1_2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="wood_2_2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="wood_3_2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="wood_4_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="wood_5_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="machete_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="gate_brk_6_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="gate_brk_5_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="gate_brk_4_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="gate_brk_3_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="gate_brk_2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="gate_brk_1_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="specs_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="light_flower_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="loafer_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="tuna_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="fountain_statue1_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="fountain_statue2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="fountain_statue3_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="seed_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="door_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="window_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="roof_p_1_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="roof_p_2_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="roof_p_3_inv" pivotx="center" pivoty="center" alpha="0"  />
+		<sprite position="0;0" texture="roof_p_4_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="ring_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="letter_inv" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;0" texture="key3_inv" pivotx="center" pivoty="center" alpha="0" />
+	<inventory/>
+	<dialogs>
+		<sprite name="maya" position="27;30" texture="sayer-maya" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="maya-dlg" head="sayer-maya_dial_wnd_1" body="sayer-maya_dial_wnd_2" tail="sayer-maya_dial_wnd_3" alpha="0" position="238;122" />
+	<dialogs/>
+<level/>

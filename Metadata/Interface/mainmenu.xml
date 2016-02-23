@@ -1,0 +1,142 @@
+<mainmenu images="/Interface/Menu" sounds="00" effects="scene00.ptc" music="playlist2" plistfiles="menu"  >
+	<objects >
+		<sprite position="0;104" texture="Background" />
+		<sprite position="722;211" texture="stone_gate_1" />
+		<sprite position="816;216" texture="stone_gate_2" />
+        <sprite position="764;303" texture="hand_1_placed" alpha="0" pivotx="left" pivoty="center" />
+        <sprite position="759;235" texture="hand_2_placed" alpha="0" pivotx="right" pivoty="center" />
+        <object name="totem_enter" position="734;202" stage="task-findtotemfield" ontouchend="onGatesTouchEnd:" size="162;186" usehint="true" />
+		<sprite position="678;163" texture="gate_cover" />
+		<sprite position="144;160" texture="light" addalpha="0.3" />
+		<sprite position="234;197" texture="step_broken7" alpha="0" />
+		<sprite position="250;221" texture="step_broken6" alpha="0" />
+		<sprite position="256;257" texture="step_broken5" alpha="0" />
+		<sprite position="254;285" texture="step_broken4" alpha="0" />
+		<sprite position="249;309" texture="step_broken3" alpha="0" />
+		<sprite position="225;341" texture="step_broken2" alpha="0" />
+		<sprite position="202;369" texture="step_broken1" alpha="0" />
+		<sprite position="207;446" texture="boulder5" pivotx="center" pivoty="center" />
+		<sprite position="209;515" texture="boulder4" pivotx="center" pivoty="center" />
+		<sprite position="189;473" texture="boulder3" pivotx="center" pivoty="center" />
+		<sprite position="212;537" texture="boulder2" pivotx="center" pivoty="center" />
+		<sprite position="166;436" texture="banan" />
+		<animation position="128;440" plistfile="ivan" alpha="0" parent="ivan-char" />
+		<animation position="118;441" plistfile="ivan_fall" alpha="0" parent="ivan-char" />
+		<animation position="124;440" plistfile="ivan_happy" alpha="0" parent="ivan-char" />
+		<animation position="103;431" plistfile="ivan_fu" alpha="0" parent="ivan-char" />
+		<sprite position="144;442" texture="ivan_sad" alpha="0" parent="ivan-char" />
+        <object name="ivan-char" position="128;440" size="100;100" usehint="true" ontouchend="onIvanClicked:" stage="task-ivan" />
+		<sprite position="129;570" texture="boulder1" pivotx="center" pivoty="center" />
+		<sprite position="788;641" texture="intro" stage="task-legend" ontouchend="onIntroClicked:" />
+		<sprite position="797;591" texture="mask_3" usehint="true" counter="3" pivotx="center" pivoty="top" stage="task-legend" ontouchend="onMasksClicked:" />
+		<sprite position="939;591" texture="mask_2" usehint="true" counter="2" pivotx="center" pivoty="top" stage="task-legend" ontouchend="onMasksClicked:" />
+		<sprite position="864;540" texture="mask_1" usehint="true" counter="1" pivotx="center" pivoty="top" stage="task-legend" ontouchend="onMasksClicked:" />
+		<sprite position="876;485" texture="hand_2_hidden" invent="hand_2_hidden_inv" stage="task-findtotemfield" pivotx="center" pivoty="top" parent="mask_1" />
+		<sprite position="903;490" texture="hand_1_hidden" invent="hand_1_hidden_inv" stage="task-findtotemfield" pivotx="center" pivoty="top" parent="mask_1" />
+        <sprite position="651;512" texture="green" />
+		<sprite position="857;307" texture="scissors_hidden" alpha="0" invent="scissors_inv" stage="task-clearbag" />
+        <sprite position="929;174" texture="ladder_placed" alpha="0" />
+        <object position="880;174" name="ladder_zone" ignorealpha="true" stage="task-legend" usehint="true" ontouchend="onLadderPlaced:" texthintontouch="say-ladderplaced" size="140;395" />
+        <sprite position="0;166" texture="ladder_hidden" invent="ladder_placed_inv" stage="task-legend" alpha="0" />
+        <sprite position="247;143" texture="jurnal_hidden" stage="task-findnotebook" usehint="true" ontouchend="onNoteBook:" alpha="0" />
+        <sprite position="117;185" texture="bag_hidden" stage="task-findbag" usehint="true" ontouchend="onBagClicked:" alpha="0" />
+        <object position="490;155" size="100;130" name="fire-zone" stage="task-fire" usehint="true" ontouchend="onFireClicked:" />
+		<sprite position="491;172" texture="fire_alpha" />
+        <sprite position="503;157" texture="stick_hint" parent="shaman-idle" pivot="92;230" />
+		<animation position="551;152" plistfile="Animations/shaman" parent="shaman-idle" />
+        <animation position="551;152" plistfile="Animations/shaman_stop" name="shaman_stop1" parent="shaman-idle" alpha="0" />
+        <animation position="551;152" plistfile="Animations/shaman_stop2" alpha="0" parent="shaman-idle" />
+        <animation position="551;152" plistfile="Animations/shaman_stop3" alpha="0" parent="shaman-idle" />
+        <animation position="551;152" plistfile="Animations/shaman_stop4" alpha="0" parent="shaman-idle" />
+        <sprite position="364;212" texture="hint_glow" parent="hint_hidden" />
+		<sprite position="490;318" texture="hint_hidden" parent="stick_hint" pivotx="center" pivoty="top" stage="task-fire" ontouchbegan="onLampClicked:" usehint="true" />
+		<sprite position="505;352" texture="hint_mini" parent="hint_hidden" alpha="0" />
+        <particle emitter="fire2" position="514;358" parent="hint_hidden"  />
+        <particle emitter="bugs" position="496;409" parent="hint_hidden" />
+		<object name="shaman-idle" position="551;152" size="100;170" alpha="0" touched="true" ontouchend="onShamanClicked" />
+        <particle emitter="fire" position="539;191" />
+        <sprite position="253;12" texture="hud_lian1" alpha="0" stage="task-clearbag" texthintontouch="say-lian" ontouchend="onLianTouched:" />
+		<sprite position="222;0" texture="hud_lian2" alpha="0" />
+		<sprite position="-24;-26" texture="hud_stone5"  />
+		<sprite position="119;0" texture="hud_stone4" />
+		<sprite position="762;0" texture="hud_stone3" />
+		<sprite position="924;156" texture="hud_stone2" pivotx="center" pivoty="center" />
+		<sprite position="692;0" texture="hud_stone1" />
+		<sprite position="0;0" texture="dark" alpha="0.5" />
+        <object name="steps-broken" size="213;234" position="189;208" stage="task-ivan-done" />
+		<window position="40;172" texture="step_zoom" open="steps-broken" close="window_close_btn" objects="step_p1_placed step_p2_placed step_p3_placed step_p4_placed step_p5_placed step_p6_placed step_p7_placed step_p8_placed step_p9_placed ivan_tail ivan_zoom ivan_hand2 ivan_hand1 ivan_hand2_app ivan_hand1_app step_p1 step_p2 step_p3 step_p4 step_p5 step_p6 step_p7 step_p8 step_p9 step_g1 step_g2 step_g3 step_g4 step_g5 step_g6 step_g7 step_g8 step_g9 ivan_head ivan_no" />
+		<sprite position="239;189" texture="step_p1_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="1" touched="true" />
+		<sprite position="386;249" texture="step_p2_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="2" touched="true" />
+		<sprite position="377;357" texture="step_p3_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="3" touched="true" />
+		<sprite position="222;300" texture="step_p4_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="4" touched="true" />
+		<sprite position="311;264" texture="step_p5_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="5" touched="true" />
+		<sprite position="344;395" texture="step_p6_placed" alpha="0" ignorealpha="true" usehint="true" touched="true" ontouchend="onStepPlaced:" counter="6" />
+		<sprite position="193;390" texture="step_p7_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="7" touched="true" />
+		<sprite position="321;460" texture="step_p8_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="8" touched="true" />
+		<sprite position="181;448" texture="step_p9_placed" alpha="0" ignorealpha="true" usehint="true" ontouchend="onStepPlaced:" counter="9" touched="true" />
+		<sprite position="252;590" texture="ivan_tail" pivot="3;64" />
+		<sprite position="229;514" texture="ivan_zoom" />
+		<sprite position="279;509" texture="ivan_hand2" />
+		<sprite position="209;494" texture="ivan_hand1" />
+		<sprite position="279;512" texture="ivan_hand2_app" alpha="0" pivot="5;3" />
+		<sprite position="211;488" texture="ivan_hand1_app" alpha="0" pivot="23;3" />
+		<sprite position="244;495" texture="step_p1" alpha="0" />
+		<sprite position="232;483" texture="step_p2" alpha="0" />
+		<sprite position="235;492" texture="step_p3" alpha="0" />
+		<sprite position="230;512" texture="step_p4" alpha="0" />
+		<sprite position="244;506" texture="step_p5" alpha="0" />
+		<sprite position="243;497" texture="step_p6" alpha="0" />
+		<sprite position="209;517" texture="step_p7" alpha="0" />
+		<sprite position="222;494" texture="step_p8" alpha="0" />
+		<sprite position="229;518" texture="step_p9" alpha="0" />
+		<sprite position="112;527" texture="step_g9" pivotx="center" pivoty="center" counter="9" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="106;503" texture="step_g8" pivotx="center" pivoty="center" counter="8" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="93;526" texture="step_g7" pivotx="center" pivoty="center" counter="7" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="126;506" texture="step_g6"  pivotx="center" pivoty="center" counter="6" touched="true" usehint="true" ontouchbegan="onPickPiece:"/>
+		<sprite position="128;515" texture="step_g5" pivotx="center" pivoty="center" counter="5" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="113;520" texture="step_g4" pivotx="center" pivoty="center" counter="4" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="119;501" texture="step_g3" pivotx="center" pivoty="center" counter="3" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="116;492" texture="step_g2" pivotx="center" pivoty="center" counter="2" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="129;528" texture="step_g1" pivotx="center" pivoty="center" counter="1" touched="true" usehint="true" ontouchbegan="onPickPiece:" />
+		<sprite position="194;556" texture="ivan_head" pivotx="center" pivoty="center" />
+		<sprite position="200;550" texture="ivan_no" alpha="0" pivotx="center" pivoty="center" />
+		<button position="459;632" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="428;559" texture="logo_2_mini" />
+		<sprite position="367;551" texture="logo1_1_mini" counter="1" />
+		<sprite position="422;591" texture="logo1_2_mini" counter="1" />
+		<sprite position="485;579" texture="logo1_3_mini" counter="1" />
+		<sprite position="510;593" texture="logo1_4_mini" counter="-1" />
+		<sprite position="570;581" texture="logo1_5_mini" counter="-1" />
+		<sprite position="591;577" texture="logo1_6_mini" counter="-1" />
+		<buttontext text="menu-play" position="330;385" size="420;70" fontsize="60" ontouchbegan="onMenuButtonClicked:" touched="true" color="225;115;14" />
+        <buttontext text="menu-options" position="330;320" size="420;70" fontsize="60" ontouchbegan="onMenuButtonClicked:" touched="true" color="225;115;14" />
+        <buttontext text="menu-credits" position="330;255" size="420;70" fontsize="60" ontouchbegan="onMenuButtonClicked:" touched="true" color="225;115;14" />
+        <buttontext text="menu-achievements" position="330;190" size="420;70" fontsize="60" ontouchbegan="onMenuButtonClicked:" touched="true" color="225;115;14" />
+        <buttontext text="menu-purchase" position="330;455" size="420;70" fontsize="69" ontouchbegan="onMenuButtonClicked:" touched="true" color="225;115;14" alpha="0" />
+        <text text="menu-profile2" position="660;675" size="360;60" fontsize="28" color="225;115;14" align="right" parent="menu-profile" />
+        <text text="menu-profile1" position="660;735" size="360;30" fontsize="28" color="225;115;14" align="right" parent="menu-profile" />
+        <buttontext position="660;685" size="360;90" ontouchbegan="onMenuButtonClicked:" touched="true" name="menu-profile" />
+        <sprite position="136;231" texture="logo" alpha="0" pivotx="center" pivoty="bottom" />
+		<button position="682;370" btnnormal="ok_btn" btndown="ok_btnd" btnlocked="ok_btnl" parent="stone_name" onenterframe="updateOkButton:" touched="true" ontouchbegan="enterName" />
+		<sprite position="291;365" texture="stone_name" pivotx="center" pivoty="center" scale="0" />
+        <edit name="edit-name" position="360;455" size="280;50" fontsize="35" length="20" onenter="enterName" parent="stone_name" text="Player" />
+        <sprite name="char-light-4" position="116;304" texture="profile_light" parent="char-4" alpha="0" />
+        <sprite name="char-light-1" position="704;51" texture="profile_light" parent="char-1" alpha="0"  />
+        <sprite name="char-light-3" position="116;52" texture="profile_light" parent="char-3" alpha="0" />
+        <sprite name="char-light-2" position="697;304" texture="profile_light" parent="char-2" alpha="0" />
+        <sprite position="157;348" name="char-4" texture="stone_char_m1_btn" alpha="0" counter="4" touched="true" ontouchbegan="onTapProfile:" ontouchend="onSelectProfile:" pivotx="center" pivoty="center" />
+        <sprite position="158;107" name="char-3" texture="stone_char_m2_btn" alpha="0" counter="3" touched="true" ontouchbegan="onTapProfile:" ontouchend="onSelectProfile:" pivotx="center" pivoty="center" />
+        <sprite position="732;346" name="char-2" texture="stone_char_w1_btn" alpha="0" counter="2" touched="true" ontouchbegan="onTapProfile:" ontouchend="onSelectProfile:" pivotx="center" pivoty="center" />
+        <sprite position="743;103" name="char-1" texture="stone_char_w2_btn" alpha="0" counter="1" touched="true" ontouchbegan="onTapProfile:" ontouchend="onSelectProfile:" pivotx="center" pivoty="center" />
+        <sprite position="257;21" texture="ladder_placed_inv" pivotx="center" pivoty="center" alpha="0" />
+        <sprite position="318;24" texture="hand_1_hidden_inv" counter="1" pivotx="center" pivoty="center" alpha="0" />
+        <sprite position="382;28" texture="hand_2_hidden_inv" counter="2" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="192;26" texture="scissors_inv" pivotx="center" pivoty="center" alpha="0" />
+        <object position="698;40" name="hint_light" size="101;153" usehint="true" stage="task-findnotebook" />
+        <button position="0;0" alpha="0" btnnormal="share_btn_iPad" btndown="share_btn_iPad_gr_hit" touched="true" ontouchbegan="onShareButton" />
+	<objects/>
+        
+    <pathes>
+        <path id="path-1" points="976;198, 895;190, 817;183, 767;145, 731;60, 726;-52" />
+    <pathes/>
+<mainmenu/pivotx="center" pivoty="center" alpha="0">

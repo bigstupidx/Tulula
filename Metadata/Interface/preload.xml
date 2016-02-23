@@ -1,0 +1,20 @@
+<preload images="/Interface/Preload" music="playlist2" >
+	<objects >
+		<sprite position="0;0" texture="back00_09" />
+		<sprite position="282;188" texture="Level_0" alpha="0" />
+		<sprite position="291;302" name="Level_01" texture="Level_1" alpha="0" />
+		<sprite position="289;289" name="Level_02" texture="Level_2" alpha="0" />
+		<sprite position="316;322" name="Level_03" texture="Level_3" alpha="0" />
+		<sprite position="313;293" name="Level_04" texture="Level_4" alpha="0" />
+		<sprite position="264;286" name="Level_05" texture="Level_5" alpha="0" />
+		<sprite position="337;284" name="Level_06" texture="Level_6" alpha="0" />
+		<sprite position="284;304" name="Level_07" texture="Level_7" alpha="0" />
+		<sprite position="281;288" name="Level_08" texture="Level_8" alpha="0" />
+		<sprite position="300;289" name="Level_09" texture="Level_9" alpha="0" />
+		<sprite position="303;302" name="Level_10" texture="Level_10" alpha="0" />
+		<sprite position="308;312" name="Level_11" texture="Level_11" alpha="0" />
+        <text name="caption" position="136;650" size="714;66" fontsize="56" color="242;190;125" />
+        <text name="desc" position="258;80" size="500;164" fontsize="25" shadowalpha="0" outline="1" color="242;190;125" />
+        <text text="loading" position="820;91" size="217;53" fontsize="32" color="242;190;125" />
+	<objects/>
+<preload>

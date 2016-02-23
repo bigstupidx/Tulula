@@ -1,0 +1,80 @@
+<scene images="Level_1/01_1/" sounds="01" effects="scene01.ptc" music="playlist1" >
+	<objects >
+		<sprite position="0;236" texture="sky" />
+        <particle emitter="Smoke" position="45;535" />
+		<sprite position="412;183" texture="dno" size="150;47" />
+		<sprite position="412;183" texture="hole_cover" />
+		<sprite position="0;99" texture="tron_hall_near" />
+		<sprite position="906;258" texture="jar_closed"  />
+		<sprite alpha="0" position="906;258" texture="jar_open" ignorealpha="true" />
+		<sprite invent="scheme_hud" parent="jar_open" position="924;316" texture="scheme_in_jar" script="Leafes" />
+		<sprite position="282;477" texture="palm_leaf_13" pivot="60;80" script="Leafes" />
+		<sprite position="738;529" texture="palm_leaf_12" script="Leafes" />
+		<sprite position="790;424" texture="totem_stone_01_p01" totem="stone_01_1" />
+		<sprite position="627;491" texture="palm_leaf_11" pivot="5;90" script="Leafes" />
+		<sprite position="407;509" texture="palm_leaf_10" pivot="115;83" script="Leafes" />
+		<sprite position="273;417" texture="palm_leaf_9" pivot="90;42" script="Leafes" />
+		<sprite position="289;427" texture="palm_leaf_8" pivot="83;53" script="Leafes" />
+		<sprite position="240;462" texture="palm_leaf_7" pivot="142;126" script="Leafes" />
+		<sprite position="211;435" texture="palm_leaf_6" pivot="193;95" script="Leafes" />
+		<sprite position="753;560" texture="palm_leaf_5" script="Leafes" />
+		<sprite position="774;419" texture="palm_leaf_4" touched="true" script="Leafes" />
+		<sprite position="766;430" texture="palm_leaf_3" script="Leafes" />
+		<sprite position="753;464" texture="palm_leaf_2" pivot="6;130" script="Leafes" />
+		<sprite position="733;437" texture="palm_leaf_1" script="Leafes" />
+		<sprite position="532;576" texture="palm_leaf_16" script="Leafes" />
+		<sprite position="471;574" texture="palm_leaf_14" pivot="80;155" script="Leafes" />
+		<sprite position="586;573" texture="palm_leaf_15" pivot="48;172" script="Leafes" />
+		<sprite position="168;243" texture="tron_full" />
+		<sprite invent="knife_hud" position="757;426" texture="knife" />
+		<sprite position="529;503" texture="tron_signs" />
+		<sprite alpha="0" position="529;503" texture="tron_signs_ligt" />
+		<sprite position="482;560" texture="totem_spirit" totem="spirit_01_1" />
+		<sprite position="432;385" texture="fruits" />
+		<sprite invent="grapes_hud" position="471;390" texture="grapes" />
+		<sprite alpha="0" position="413;193" texture="rope_ledder_hole" />
+		<sprite position="453;192" texture="totem_full" alpha="0.5" script="Totem" />
+		<sprite alpha="0" position="451;139" texture="totem_aureole" parent="totem_full" />
+		<sprite position="633;335" texture="staff_broken" size="70;70" />
+		<sprite name="staff_full" invent="staff_fixed_hud" position="633;335" texture="staff_fixed_hud" alpha="0" />
+		<sprite invent="totem_bottom_hud" position="218;284" texture="totem_bottom" />
+		<sprite invent="totem_mid_hud" position="810;266" texture="totem_mid" />
+		<animation position="800;206" texture="water_right" />
+		<animation position="195;226" texture="water_left" />
+        <particle emitter="dust" position="579;768" />
+        <particle emitter="ozon_left" position="231;235" />
+        <particle emitter="ozon_right" position="840;210" />
+        <particle emitter="pull_light" position="165;215" />
+		<object name="pool_enter" position="105;195" size="224;80" rotation="3" />
+		<sprite invent="totem_rope_hud" position="962;239" texture="totem_rope" />
+		<sprite alpha="0" position="135;449" texture="leather_open" />
+		<sprite invent="rope_Ledder_hud" position="197;596" texture="rope_Ledder" />
+		<sprite position="134;469" texture="leather_closed" />
+		<sprite position="286;492" texture="hands" />
+		<sprite position="308;424" texture="hands_cover" />
+		<sprite position="330;608" texture="eyes_colors" />
+		<sprite position="375;611" texture="eye_r" alpha="0" ignorealpha="true" />
+		<sprite position="330;608" texture="eye_b" alpha="0" ignorealpha="true" />
+		<sprite position="723;618" texture="eye_g" alpha="0" ignorealpha="true" />
+		<sprite position="679;618" texture="eye_y" alpha="0" ignorealpha="true" />
+		<sprite alpha="0" position="299;522" texture="mask_light" />
+		<sprite position="314;555" texture="masks" />
+		<sprite position="546;423" texture="cheif" pivotx="center" pivoty="center" script="Chief" />
+		<sprite alpha="0" position="316;171" texture="reys" />
+		<animation position="52;286" texture="pavlin" />
+		<sprite invent="feather_hud" parent="pavlin_eat" position="97;327" texture="pavlin_feather" />
+		<animation alpha="0" position="16;281" texture="pavlin_eat" />
+		<sprite position="21;268" texture="grapes_eat" parent="pavlin_eat" />
+		<sprite position="302;385" texture="throne_light" />
+		<compound position="343;168" texture="t_base" open="totem_full" full="totem_full" objects="t_totem_b_circle:totem_bottom_hud, t_totem_m_circle:totem_mid_hud, t_staff_circle:staff_fixed_hud" />
+		<sprite position="436;180" texture="t_base_alpha" />
+		<sprite position="373;268" texture="t_totem_b_circle" />
+		<sprite position="468;322" texture="t_totem_m_circle" />
+		<sprite position="555;259" texture="t_staff_circle" />
+		<compound position="514;238" texture="s_base" open="staff_broken" full="staff_full" objects="s_totem_rope_circle:totem_rope_hud, s_feather_circle:feather_hud" />
+		<sprite position="606;294" texture="s_base_alpha" />
+		<sprite position="544;384" texture="s_totem_rope_circle" />
+		<sprite position="545;268" texture="s_feather_circle" />
+		<sprite position="456;195" texture="exit_arrow" alpha="0" />
+	</objects>
+</scene>

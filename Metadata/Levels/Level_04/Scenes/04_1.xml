@@ -1,0 +1,195 @@
+<scene images="/Scenes/04/04_1" effects="scene04.ptc" sounds="04" plistfiles="04_1" music="playlist4" arrowdir="left" >
+	<objects >
+        <scroll position="25;243" texture="pillar_1_4" stage="mail-arrived" ontouchend="onPillarMove:" />
+		<scroll position="25;289" texture="pillar_1_3" stage="mail-arrived" ontouchend="onPillarMove:" />
+		<scroll position="25;335" texture="pillar_1_2" stage="mail-arrived" ontouchend="onPillarMove:" />
+		<scroll position="25;381" texture="pillar_1_1" stage="mail-arrived" ontouchend="onPillarMove:" />
+        <scroll position="362;170" texture="pillar_2_3" stage="mail-arrived" ontouchend="onPillarMove:" />
+		<scroll position="362;216" texture="pillar_2_2" stage="mail-arrived" ontouchend="onPillarMove:" />
+		<scroll position="362;262" texture="pillar_2_1" stage="mail-arrived" ontouchend="onPillarMove:" />
+		<sprite position="186;627" texture="sky" />
+		<sprite position="230;623" texture="cloud1" />
+		<sprite position="276;647" texture="cloud2" />
+		<sprite position="0;102" texture="bg_41" />
+		<sprite position="367;433" texture="house_artisan_lv" stage="task-bridge2-done" />
+        <sprite position="440;403" texture="gate_alpha" ignorealpha="true" alpha="0" stage="task-bridge2-done" texthintontouch="say-toohigh-level4"  />
+		<sprite position="486;403" texture="gate_closed" alpha="0" touched="true" usehint="true" ontouchend="onGateOpen:" />
+		<sprite position="359;517" texture="stone_04_1 hidden" totem="stone_04_1" stage="task-boat-done" />
+		<sprite position="912;376" texture="axe_hidden" invent="axe_inv" stage="task-croco-done" />
+        <object position="912;376" name="axe_alpha" size="60;130" touched="true" texthintontouch="say-axe" ontouchend="onCrocoClicked" />
+		<sprite position="65;515" texture="entrance" touched="true" texthintontouch="say-tree" alpha="0" ignorealpha="true" />
+		<sprite position="0;491" texture="tree" alphamask="true" usehint="true" texthintontouch="say-tree" ontouchend="onTreeClicked:" stage="task-boat-done" />
+		<sprite position="0;446" texture="tree_chopped" alpha="0" />
+		<sprite position="610;392" texture="boulder_5_hidden" stage="task-boulder" invent="boulder_5_inv" ontouchend="onPickBoulder:" />
+		<sprite position="408;535" texture="boulder_2_hidden" stage="task-boulder" invent="boulder_2_inv" ontouchend="onPickBoulder:" />
+		<sprite position="20;125" texture="water" touched="true" pivotx="center" pivoty="center" ignorealpha="true" alphamask="true" />
+		<sprite position="102;357" texture="boulder_1_hidden" stage="task-boulder" invent="boulder_1_inv" ontouchend="onPickBoulder:" />
+		<sprite position="757;414" texture="boulder_3_hidden" stage="task-boulder" invent="boulder_3_inv" ontouchend="onPickBoulder:" />
+		<sprite position="751;599" texture="boulder_4_hidden" stage="task-boulder" invent="boulder_4_inv" ontouchend="onPickBoulder:" />
+		<sprite position="627;510" texture="boulder_6_hidden" stage="task-boulder" invent="boulder_6_inv" ontouchend="onPickBoulder:" />
+		<sprite position="331;547" texture="boulder_7_hidden" stage="task-boulder" invent="boulder_7_inv" ontouchend="onPickBoulder:" />
+		<sprite position="192;293" texture="island1" />
+		<sprite position="202;474" texture="envelope" pivotx="center" pivoty="bottom" />
+		<sprite position="189;381" texture="mail" usehint="true" stage="task-waterfalls-done" ontouchend="onMailClicked:" onenterframe="updateMail:" />
+		<sprite position="194;385" texture="mail_open" alpha="0" />
+		<sprite position="586;569" texture="package_placed" alpha="0" />
+		<sprite position="200;418" texture="package_hidden" parent="mail_open" touched="true" invent="package_inv" ontouchend="onPackageClicked:" />
+		<sprite position="96;197" texture="base1" />
+		<sprite position="273;344" texture="base2" />
+		<sprite position="358;165" texture="pillar_2" />
+		<sprite position="21;235" texture="pillar_1" />
+		<sprite position="449;472" texture="symbols_placed1" counter="1" alpha="0" pivotx="center" pivoty="center" onenterframe="updateSymbol:" />
+		<sprite position="608;472" texture="symbols_placed2" counter="2" alpha="0" pivotx="center" pivoty="center" onenterframe="updateSymbol:" />
+		<sprite position="573;518" texture="symbols_placed3" counter="3" alpha="0" pivotx="center" pivoty="center" onenterframe="updateSymbol:" />
+		<sprite position="483;519" texture="symbols_placed4" counter="4" alpha="0" pivotx="center" pivoty="center" onenterframe="updateSymbol:" />
+		<sprite position="524;551" texture="symbols_placed5" counter="5" alpha="0" pivotx="center" pivoty="center" onenterframe="updateSymbol:" />
+		<sprite position="436;305" texture="glow" alpha="0" />
+		<sprite position="110;197" texture="bridge1" alpha="0" ignorealpha="true" hintpriority="2" stage="task-waterfalls-done" ontouchend="onBridgeClicked:" />
+		<sprite position="281;344" texture="bridge2" alpha="0" ignorealpha="true" hintpriority="2" stage="task-bridge-done" texthintontouch="say-need-fixbridge" />
+		<sprite position="130;180" texture="glow2" alpha="0" />
+		<sprite position="476;360" texture="boat" name="boat1" alpha="0" />
+		<sprite position="712;290" texture="boat3" alpha="0" />
+		<sprite position="94;437" texture="boat2" alpha="0" />
+		<sprite position="456;130" texture="clock" />
+		<sprite position="629;250" texture="flower_small_1" />
+		<sprite position="657;270" texture="flower_small_2" />
+		<sprite position="664;331" texture="flower_small_3" />
+		<sprite position="642;345" texture="flower_small_4" />
+		<sprite position="549;349" texture="flower_small_5" />
+		<sprite position="519;335" texture="flower_small_6" />
+		<sprite position="504;275" texture="flower_small_7" />
+		<sprite position="522;258" texture="flower_small_8" />
+		<sprite position="220;341" texture="symbol2" invent="symbol2_inv" stage="task-boat" />
+		<sprite position="12;524" texture="symbol3" invent="symbol3_inv" stage="task-boat" />
+		<sprite position="810;540" texture="symbol4" invent="symbol4_inv" stage="task-boat" />
+		<sprite position="163;358" texture="mail_hand1" alpha="0" pivot="55;91" />
+		<sprite position="220;358" texture="mail_hand2" alpha="0" pivot="28;94" />
+		<sprite position="664;294" texture="spirit_04_2_hidden" totem="spirit_04_2" stage="flower-move" />
+		<sprite position="491;300" texture="pedal_2_hidden" invent="pedal_2_inv" stage="flower-move" ontouchend="onPickKey" />
+		<sprite position="576;335" texture="flowerbed_4" />
+		<sprite position="550;230" texture="flowerbed_3" />
+		<sprite position="650;290" texture="flowerbed_2" />
+		<sprite position="477;293" texture="flowerbed_1" usehint="true" ontouchend="onFlowerBed:" />
+		<sprite position="456;130" texture="clock_off" />
+		<sprite position="496;202" texture="poison" parent="clock_off" />
+		<sprite position="545;277" texture="center_placed" alpha="0" pivotx="center" pivoty="center" texthintontouch="say-clockhand" ontouchend="onCenterClicked:" usehint="true" />
+		<sprite position="509;304" texture="shadow" alpha="0" />
+		<sprite position="541;318" texture="hubbub_placed" alpha="0" pivot="60;128" />
+        <object name="center_alpha" position="545;277" size="107;75" touched="true" texthintontouch="say-poisons" ontouchend="onClockClicked:" onenterframe="updateCenter:" />
+		<sprite position="849;270" texture="crocodile" parent="croco" />
+		<sprite position="849;270" texture="crocodile_open" alpha="0" parent="croco" />
+        <object name="croco" position="849;270" size="100;100" usehint="true" stage="task-boat-done" ontouchend="onCrocoClicked" texthintontouch="say-axe" />
+		<sprite position="734;473" texture="hubbub_hidden" invent="hubbub_inv" stage="task-elephant" ontouchend="onHubbubClicked" />
+		<sprite position="709;352" texture="ladder_placed" alpha="0" />
+		<sprite position="746;670" texture="knife_hidden" invent="knife_inv" stage="task-giraffe" />
+        <object position="740;650" name="knife_zone" size="115;120" stage="task-giraffe" texthintontouch="say-knife" ontouchend="onKnife:" />
+		<sprite position="846;327" texture="boulder_1_placed" alpha="0" />
+		<sprite position="846;313" texture="boulder_2_placed" alpha="0" />
+		<sprite position="839;296" texture="boulder_3_placed" alpha="0" />
+		<sprite position="856;299" texture="boulder_4_placed" alpha="0" />
+		<sprite position="869;293" texture="boulder_6_placed" alpha="0" />
+		<sprite position="811;271" texture="boulder_5_placed" alpha="0" />
+		<sprite position="885;272" texture="boulder_7_placed" alpha="0" />
+		<sprite position="204;417" texture="crystal" alpha="0" invent="crystal_inv" touched="true" parent="mail_open" ontouchend="onPickCrystal" />
+		<sprite position="784;241" texture="leaf3" />
+		<sprite position="800;236" texture="lotus1_hidden" invent="lotus1_inv" stage="task-hippo" />
+		<sprite position="875;221" texture="lotus2_hidden" invent="lotus2_inv" stage="task-hippo" />
+		<sprite position="750;226" texture="lotus3_hidden" invent="lotus3_inv" stage="task-hippo" />
+		<sprite position="869;200" texture="leaf1" />
+		<sprite position="752;200" texture="leaf2" />
+		<sprite position="947;547" texture="notes_hidden" invent="notes_inv" />
+		<sprite position="906;494" texture="branch" pivot="114;115" usehint="true" ontouchend="onBranchClicked:" stage="task-elephant" />
+		<sprite position="797;728" texture="spirit_04_1 hidden" totem="spirit_04_1" stage="task-giraffe" />
+		<sprite position="565;331" texture="paper" parent="bottle" />
+		<sprite position="538;359" texture="plug"  parent="bottle" />
+		<sprite position="545;312" texture="bottle" parent="spider" pivotx="center" pivoty="center" texthintontouch="say-bottle" ontouchend="onBottleClicked:" usehint="true" />
+		<sprite position="445;67" texture="water_cover" pivotx="center" pivoty="center" />
+		<animation position="541;355" plistfile="Scenes/04/Animations/spider5" name="spider" pivotx="center" pivoty="top" ontouchend="onSpiderClicked:" usehint="true" />
+		<sprite position="593;131" texture="boat4" alpha="0" />
+		<sprite position="734;168" texture="cane_off" />
+		<sprite position="721;168" texture="cane" alphamask="true" touched="true" texthintontouch="say-reed" ontouchend="onCaneClicked:" />
+		<sprite position="113;554" texture="scythe_hidden" invent="scythe_inv" stage="task-boat-done" />
+        <scroll position="524;0" name="wfall-4" texture="waterfall2" scrollY="0.5" parent="wfall-3" touched="true" texthintontouch="say-need-code" ignorealpha="true" stage="task-waterfalls" />
+        <scroll position="524;0" name="wfall-3" texture="waterfall2" alpha="0.5" />
+		<scroll position="0;0" name="wfall-2" texture="waterfall1" scrollY="0.5" parent="wfall-1" touched="true" texthintontouch="say-need-code" ignorealpha="true" stage="task-waterfalls" />
+        <scroll position="0;0" name="wfall-1" texture="waterfall1" alpha="0.5" />
+		<sprite position="279;262" texture="mechanism" usehint="true" touched="true" texthintontouch="say-need-code" />
+		<button position="422;513" btnnormal="circle_btn" btndown="circle_btnh" counter="4" stage="enable-code" ontouchbegan="onCodeButton:" parent="mechanism" />
+		<button position="579;515" btnnormal="square_btn" btndown="square_btnh" counter="3" stage="enable-code" ontouchbegan="onCodeButton:" parent="mechanism" />
+		<button position="579;363" btnnormal="triangle_btn" btndown="triangle_btnh" counter="1" stage="enable-code" ontouchbegan="onCodeButton:" parent="mechanism" />
+		<button position="424;357" btnnormal="tetroid_btn" btndown="tetroid_btnh" counter="2" stage="enable-code" ontouchbegan="onCodeButton:" parent="mechanism" />
+		<sprite position="469;404" texture="vent" pivotx="center" pivoty="center" parent="mechanism" /> 
+		<sprite position="331;473" texture="scale_1" parent="mechanism" />
+		<sprite position="441;604" texture="scale_2" parent="mechanism" />
+		<sprite position="618;473" texture="scale_3" parent="mechanism" />
+		<sprite position="618;300" texture="scale_4" parent="mechanism" />
+		<sprite position="441;267" texture="scale_5" parent="mechanism" />
+		<sprite position="332;300" texture="scale_6" parent="mechanism" />
+		<sprite position="0;111" texture="grott" />
+		<sprite position="556;129" texture="symbol1" invent="symbol1_inv" stage="task-boat" />
+		<sprite position="44;206" texture="symbol5" invent="symbol5_inv" stage="task-boat" />
+		<sprite position="207;421" texture="paper_2" parent="bottle_2" pivotx="center" pivoty="center" ontouchend="onPaperClicked:" usehint="true" hintpriority="1" />
+		<sprite position="206;376" texture="plug_2"  parent="bottle_2" pivotx="center" pivoty="center" />
+		<sprite position="176;386" texture="bottle_2" alpha="0" />
+		<sprite position="382;729" texture="code_1_placed" alpha="0" />
+		<sprite position="633;152" texture="stick_hidden" stage="task-mail" invent="stick2_inv" />
+		<sprite position="294;733" texture="code_light" alpha="0" touched="true" texthintontouch="say-codelight" ignorealpha="true" />
+		<sprite position="293;732" texture="k_1" alpha="0" />
+		<sprite position="323;732" texture="k_2" alpha="0" />
+		<sprite position="355;732" texture="k_3" alpha="0" />
+		<sprite position="385;732" texture="k_4" alpha="0" />
+		<sprite position="416;732" texture="k_5" alpha="0" />
+		<sprite position="449;732" texture="k_6" alpha="0" />
+        <sprite position="931;218" texture="code_1" touched="true" ontouchend="onCodeClicked:" usehint="true" hintpriority="2" pivotx="center" pivoty="center" />
+		<sprite position="197;687" texture="mosk" touched="true" ontouchend="onMoskClicked:" usehint="true" />
+		<sprite position="358;165" texture="pillar_2_off" touched="true" ontouchend="onPillarClicked:" texthintontouch="say-need-openwaterfall" />
+		<sprite position="21;235" texture="pillar_1_off" touched="true" ontouchend="onPillarClicked:" texthintontouch="say-need-openwaterfall" />
+		<window position="139;186" texture="paper_zoom" open="paper_2" close="paper_close" objects="code_picture_1 code_picture_2" pivot="75;140" />
+		<sprite position="227;203" texture="code_picture_2" alpha="0" />
+		<sprite position="227;202" texture="code_picture_1" />
+		<sprite position="113;505" texture="exit_arrow" alpha="0" />
+        <button name="paper_close" position="327;367" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="156;171" texture="bridge1_zoom" open="bridge1" close="bridge1_close" objects="b_1_1_hidden b_1_2_hidden b_1_3_hidden b_1_4_hidden b_1_5_hidden b_1_6_hidden water1 water_weed1 b_1_1_placed b_1_2_placed b_1_3_placed b_1_4_placed b_1_5_placed b_1_6_placed current1" />
+		<sprite position="544;455" texture="b_1_1_hidden" usehint="true" touched="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="487;343" texture="b_1_2_hidden" usehint="true" touched="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="358;547" texture="b_1_3_hidden" usehint="true" touched="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="252;495" texture="b_1_4_hidden" usehint="true" touched="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="435;224" texture="b_1_5_hidden" usehint="true" touched="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="195;350" texture="b_1_6_hidden" usehint="true" touched="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="161;168" texture="water1" />
+		<sprite position="170;200" texture="water_weed1" />
+		<sprite position="286;224" texture="b_1_1_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="298;321" texture="b_1_2_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="378;336" texture="b_1_3_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="422;414" texture="b_1_4_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="454;496" texture="b_1_5_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="445;568" texture="b_1_6_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="166;172" texture="current1" />
+        <button name="bridge1_close" position="590;588" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="156;171" texture="bridge2_zoom" open="bridge2" close="bridge2_close" active="false" objects="b_2_1_hidden b_2_2_hidden b_2_3_hidden b_2_4_hidden b_2_5_hidden b_2_6_hidden water2 water_weed2 b_2_1_placed b_2_2_placed b_2_3_placed b_2_4_placed b_2_5_placed b_2_6_placed current2" />
+		<sprite position="275;560" texture="b_2_1_hidden" touched="true" usehint="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="551;444" texture="b_2_2_hidden" touched="true" usehint="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="192;334" texture="b_2_3_hidden" touched="true" usehint="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="407;200" texture="b_2_4_hidden" touched="true" usehint="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="436;323" texture="b_2_5_hidden" touched="true" usehint="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="204;491" texture="b_2_6_hidden" touched="true" usehint="true" ontouchbegan="onBridgePiece:" pivotx="center" pivoty="center" />
+		<sprite position="161;168" texture="water2" />
+        <sprite position="170;200" name="water_weed2" texture="water_weed1" />
+		<sprite position="279;217" texture="b_2_1_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="289;294" texture="b_2_2_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="336;358" texture="b_2_3_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="377;395" texture="b_2_4_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="417;467" texture="b_2_5_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+		<sprite position="468;572" texture="b_2_6_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onBridgePlaced:" />
+        <sprite position="166;172" texture="current1" name="current2" />
+        <button name="bridge2_close" position="590;588" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="307;244" texture="gate_zoom" open="gate_closed" close="gate_close" objects="symbol1_placed symbol2_placed symbol3_placed symbol4_placed symbol5_placed gate_glow" />
+		<sprite position="509;554" texture="symbol5_placed" alpha="0" counter="5" usehint="true" ignorealpha="true" touched="true" ontouchend="onGateSymbol:" pivotx="center" pivoty="center" texthintontouch="say-placeboat" />
+		<sprite position="372;413" texture="symbol1_placed" alpha="0" counter="1" ignorealpha="true" usehint="true" touched="true" ontouchend="onGateSymbol:" pivotx="center" pivoty="center" texthintontouch="say-placeboat" />
+		<sprite position="655;413" texture="symbol2_placed" alpha="0" counter="2" ignorealpha="true" usehint="true" touched="true" ontouchend="onGateSymbol:" pivotx="center" pivoty="center" texthintontouch="say-placeboat" />
+		<sprite position="595;495" texture="symbol3_placed" alpha="0" counter="3" ignorealpha="true" usehint="true" touched="true" ontouchend="onGateSymbol:" pivotx="center" pivoty="center" texthintontouch="say-placeboat" />
+		<sprite position="431;495" texture="symbol4_placed" alpha="0" counter="4" ignorealpha="true" usehint="true" touched="true" ontouchend="onGateSymbol:" pivotx="center" pivoty="center" texthintontouch="say-placeboat" />
+		<sprite position="348;254" texture="gate_glow" alpha="0" />
+        <button name="gate_close" position="665;648" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+	<objects/>
+<scene/>

@@ -1,0 +1,41 @@
+<level startscene="Scene01_1" totemstones="6" tasks="9" >
+	<inventory>
+		<sprite position="0;0" texture="totem_rope_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="staff_fixed_hud" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="rope_Ledder_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="totem_mid_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="totem_bottom_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="scheme_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="grapes_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="feather_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="knife_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="point02_02_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="gruz01_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="gruz03_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="gruz02_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="point5_key_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="cleaning_brush_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="ks_point01_p01_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="ks_point01_p02_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="ks_point01_p03_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="ks_point01_p04_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="pole_point03_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="m_point07_p01_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="m_point07_p02_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="m_point07_p03_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="m_point07_p04_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="m_point07_p05_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="m_point07_p06_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="eye_r_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="eye_g_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="eye_b_inv" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="eye_y_inv" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="26;44" texture="st_01_shape" />
+        <sprite position="84;46" texture="stone_01_1" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="107;57" texture="stone_01_2" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="92;93" texture="stone_01_3" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="57;80" texture="spirit_01_1" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="28;70" texture="spirit_01_2" alpha="0" pivotx="center" pivoty="center" />
+        <sprite position="42;46" texture="spirit_01_3" alpha="0" pivotx="center" pivoty="center" />
+	<inventory/>
+<level/>

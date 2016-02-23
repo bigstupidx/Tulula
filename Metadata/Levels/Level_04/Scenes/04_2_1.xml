@@ -1,0 +1,171 @@
+<scene images="/Scenes/04/04_2_1" effects="scene04.ptc" sounds="04" plistfiles="04_2_1" music="melody_4" >
+	<objects >
+		<sprite position="0;108" texture="back3" />
+		<sprite position="775;412" name="gopher1_1" texture="gopher1" counter="1" />
+		<sprite position="775;462" name="gopher1_2" texture="gopher2" parent="gopher1_1" />
+		<sprite position="696;426" name="tablet1" scale="0" texture="tablet" parent="gopher1_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:"  />
+		<sprite position="730;518" name="fruit_7_1" texture="fruit_7" parent="tablet1" alpha="0" />
+		<sprite position="729;518" name="fruit_6_1" texture="fruit_6" parent="tablet1" alpha="0" />
+		<sprite position="732;519" name="fruit_5_1" texture="fruit_5" parent="tablet1" alpha="0" />
+		<sprite position="730;514" name="fruit_4_1" texture="fruit_4" parent="tablet1" alpha="0" />
+		<sprite position="725;518" name="fruit_3_1" texture="fruit_3" parent="tablet1" alpha="0" />
+		<sprite position="736;515" name="fruit_2_1" texture="fruit_2" parent="tablet1" alpha="0" />
+		<sprite position="732;515" name="fruit_1_1" texture="fruit_1" parent="tablet1" alpha="0" />
+		<sprite position="788;428" name="fruit_7_1_placed" texture="fruit_7" parent="gopher1_1" alpha="0" />
+		<sprite position="789;430" name="fruit_6_1_placed" texture="fruit_6" parent="gopher1_1" alpha="0" />
+		<sprite position="791;428" name="fruit_5_1_placed" texture="fruit_5" parent="gopher1_1" alpha="0" />
+		<sprite position="788;428" name="fruit_4_1_placed" texture="fruit_4" parent="gopher1_1" alpha="0" />
+		<sprite position="783;428" name="fruit_3_1_placed" texture="fruit_3" parent="gopher1_1" alpha="0" />
+		<sprite position="791;426" name="fruit_2_1_placed" texture="fruit_2" parent="gopher1_1" alpha="0" />
+		<sprite position="789;424" name="fruit_1_1_placed" texture="fruit_1" parent="gopher1_1" alpha="0" />
+		<sprite position="760;371" name="hole1" texture="hole"  />
+		<sprite position="672;412" name="gopher2_1" texture="gopher1" counter="2" />
+		<sprite position="672;462" name="gopher2_2" texture="gopher2" parent="gopher2_1" />
+		<sprite position="592;426" name="tablet2" scale="0" texture="tablet" parent="gopher2_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:"  />
+		<sprite position="627;518" name="fruit_7_2" texture="fruit_7" parent="tablet2" alpha="0" />
+		<sprite position="625;518" name="fruit_6_2" texture="fruit_6" parent="tablet2" alpha="0" />
+		<sprite position="628;519" name="fruit_5_2" texture="fruit_5" parent="tablet2" alpha="0" />
+		<sprite position="627;514" name="fruit_4_2" texture="fruit_4" parent="tablet2" alpha="0" />
+		<sprite position="622;518" name="fruit_3_2" texture="fruit_3" parent="tablet2" alpha="0" />
+		<sprite position="632;515" name="fruit_2_2" texture="fruit_2" parent="tablet2" alpha="0" />
+		<sprite position="628;515" name="fruit_1_2" texture="fruit_1" parent="tablet2" alpha="0" />
+		<sprite position="684;428" name="fruit_7_2_placed" texture="fruit_7" parent="gopher2_1" alpha="0" />
+		<sprite position="686;430" name="fruit_6_2_placed" texture="fruit_6" parent="gopher2_1" alpha="0" />
+		<sprite position="687;428" name="fruit_5_2_placed" texture="fruit_5" parent="gopher2_1" alpha="0" />
+		<sprite position="684;428" name="fruit_4_2_placed" texture="fruit_4" parent="gopher2_1" alpha="0" />
+		<sprite position="679;428" name="fruit_3_2_placed" texture="fruit_3" parent="gopher2_1" alpha="0" />
+		<sprite position="687;426" name="fruit_2_2_placed" texture="fruit_2" parent="gopher2_1" alpha="0" />
+		<sprite position="686;424" name="fruit_1_2_placed" texture="fruit_1" parent="gopher2_1" alpha="0"/>
+		<sprite position="660;371" name="hole2" texture="hole"  />
+		<sprite position="568;412" name="gopher3_1" texture="gopher1" counter="3" />
+		<sprite position="568;462" name="gopher3_2" texture="gopher2" parent="gopher3_1" />
+		<sprite position="488;426" name="tablet3" scale="0" texture="tablet" parent="gopher3_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:"  />
+		<sprite position="523;518" name="fruit_7_3" texture="fruit_7" parent="tablet3" alpha="0" />
+		<sprite position="522;518" name="fruit_6_3" texture="fruit_6" parent="tablet3" alpha="0" />
+		<sprite position="524;519" name="fruit_5_3" texture="fruit_5" parent="tablet3" alpha="0" />
+		<sprite position="523;514" name="fruit_4_3" texture="fruit_4" parent="tablet3" alpha="0" />
+		<sprite position="518;518" name="fruit_3_3" texture="fruit_3" parent="tablet3" alpha="0" />
+		<sprite position="528;515" name="fruit_2_3" texture="fruit_2" parent="tablet3" alpha="0" />
+		<sprite position="524;515" name="fruit_1_3" texture="fruit_1" parent="tablet3" alpha="0" />
+		<sprite position="581;428" name="fruit_7_3_placed" texture="fruit_7" parent="gopher3_1" alpha="0" />
+		<sprite position="582;430" name="fruit_6_3_placed" texture="fruit_6" parent="gopher3_1" alpha="0" />
+		<sprite position="583;428" name="fruit_5_3_placed" texture="fruit_5" parent="gopher3_1" alpha="0" />
+		<sprite position="581;428" name="fruit_4_3_placed" texture="fruit_4" parent="gopher3_1" alpha="0" />
+		<sprite position="576;428" name="fruit_3_3_placed" texture="fruit_3" parent="gopher3_1" alpha="0" />
+		<sprite position="583;426" name="fruit_2_3_placed" texture="fruit_2" parent="gopher3_1" alpha="0" />
+		<sprite position="582;424" name="fruit_1_3_placed" texture="fruit_1" parent="gopher3_1" alpha="0" />
+		<sprite position="556;371" name="hole3" texture="hole"  />
+		<sprite position="464;412" name="gopher4_1" texture="gopher1" counter="4" />
+		<sprite position="464;462" name="gopher4_2" texture="gopher2" parent="gopher4_1" />
+		<sprite position="385;426" name="tablet4" scale="0" texture="tablet" parent="gopher4_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:"  />
+		<sprite position="419;518" name="fruit_7_4" texture="fruit_7" parent="tablet4" alpha="0" />
+		<sprite position="418;518" name="fruit_6_4" texture="fruit_6" parent="tablet4" alpha="0" />
+		<sprite position="421;519" name="fruit_5_4" texture="fruit_5" parent="tablet4" alpha="0" />
+		<sprite position="419;514" name="fruit_4_4" texture="fruit_4" parent="tablet4" alpha="0" />
+		<sprite position="414;518" name="fruit_3_4" texture="fruit_3" parent="tablet4" alpha="0" />
+		<sprite position="424;515" name="fruit_2_4" texture="fruit_2" parent="tablet4" alpha="0" />
+		<sprite position="421;515" name="fruit_1_4" texture="fruit_1" parent="tablet4" alpha="0" />
+		<sprite position="477;428" name="fruit_7_4_placed" texture="fruit_7" parent="gopher4_1" alpha="0" />
+		<sprite position="478;430" name="fruit_6_4_placed" texture="fruit_6" parent="gopher4_1" alpha="0" />
+		<sprite position="480;428" name="fruit_5_4_placed" texture="fruit_5" parent="gopher4_1" alpha="0" />
+		<sprite position="477;428" name="fruit_4_4_placed" texture="fruit_4" parent="gopher4_1" alpha="0" />
+		<sprite position="472;428" name="fruit_3_4_placed" texture="fruit_3" parent="gopher4_1" alpha="0" />
+		<sprite position="480;426" name="fruit_2_4_placed" texture="fruit_2" parent="gopher4_1" alpha="0" />
+		<sprite position="478;424" name="fruit_1_4_placed" texture="fruit_1" parent="gopher4_1" alpha="0" />
+		<sprite position="453;371" name="hole4" texture="hole"  />
+		<sprite position="362;412" name="gopher5_1" texture="gopher1" counter="5" />
+		<sprite position="362;462" name="gopher5_2" texture="gopher2" parent="gopher5_1" />
+		<sprite position="282;426" name="tablet5" scale="0" texture="tablet" parent="gopher5_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:"  />
+		<sprite position="317;518" name="fruit_7_5"  texture="fruit_7" parent="tablet5" alpha="0" />
+		<sprite position="316;518" name="fruit_6_5"  texture="fruit_6" parent="tablet5" alpha="0" />
+		<sprite position="318;519" name="fruit_5_5"  texture="fruit_5" parent="tablet5" alpha="0" />
+		<sprite position="317;514" name="fruit_4_5"  texture="fruit_4" parent="tablet5" alpha="0" />
+		<sprite position="312;518" name="fruit_3_5"  texture="fruit_3" parent="tablet5" alpha="0" />
+		<sprite position="322;515" name="fruit_2_5"  texture="fruit_2" parent="tablet5" alpha="0" />
+		<sprite position="318;515" name="fruit_1_5"  texture="fruit_1" parent="tablet5" alpha="0" />
+		<sprite position="375;428" name="fruit_7_5_placed" texture="fruit_7" parent="gopher5_1" alpha="0" />
+		<sprite position="376;430" name="fruit_6_5_placed" texture="fruit_6" parent="gopher5_1" alpha="0" />
+		<sprite position="377;428" name="fruit_5_5_placed" texture="fruit_5" parent="gopher5_1" alpha="0" />
+		<sprite position="375;428" name="fruit_4_5_placed" texture="fruit_4" parent="gopher5_1" alpha="0" />
+		<sprite position="369;428" name="fruit_3_5_placed" texture="fruit_3" parent="gopher5_1" alpha="0" />
+		<sprite position="377;426" name="fruit_2_5_placed" texture="fruit_2" parent="gopher5_1" alpha="0" />
+		<sprite position="376;424" name="fruit_1_5_placed" texture="fruit_1" parent="gopher5_1" alpha="0" />
+		<sprite position="350;371" name="hole5" texture="hole"  />
+		<sprite position="258;412" name="gopher6_1" texture="gopher1" counter="6" />
+		<sprite position="258;462" name="gopher6_2" texture="gopher2" parent="gopher6_1" />
+		<sprite position="179;426" name="tablet6" scale="0" texture="tablet" parent="gopher6_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:"  />
+		<sprite position="213;518" name="fruit_7_6" texture="fruit_7" parent="tablet6" alpha="0" />
+		<sprite position="212;518" name="fruit_6_6" texture="fruit_6" parent="tablet6" alpha="0" />
+		<sprite position="215;519" name="fruit_5_6" texture="fruit_5" parent="tablet6" alpha="0" />
+		<sprite position="213;514" name="fruit_4_6" texture="fruit_4" parent="tablet6" alpha="0" />
+		<sprite position="208;518" name="fruit_3_6" texture="fruit_3" parent="tablet6" alpha="0" />
+		<sprite position="218;515" name="fruit_2_6" texture="fruit_2" parent="tablet6" alpha="0" />
+		<sprite position="215;515" name="fruit_1_6" texture="fruit_1" parent="tablet6" alpha="0" />
+		<sprite position="271;428" name="fruit_7_6_placed" texture="fruit_7" parent="gopher6_1" alpha="0" />
+		<sprite position="272;430" name="fruit_6_6_placed" texture="fruit_6" parent="gopher6_1" alpha="0" />
+		<sprite position="273;428" name="fruit_5_6_placed" texture="fruit_5" parent="gopher6_1" alpha="0" />
+		<sprite position="271;428" name="fruit_4_6_placed" texture="fruit_4" parent="gopher6_1" alpha="0" />
+		<sprite position="266;428" name="fruit_3_6_placed" texture="fruit_3" parent="gopher6_1" alpha="0" />
+		<sprite position="273;426" name="fruit_2_6_placed" texture="fruit_2" parent="gopher6_1" alpha="0" />
+		<sprite position="272;424" name="fruit_1_6_placed" texture="fruit_1" parent="gopher6_1" alpha="0" />
+		<sprite position="247;371" name="hole6" texture="hole"  />
+		<sprite position="156;412" name="gopher7_1" texture="gopher1" counter="7" />
+		<sprite position="156;462" name="gopher7_2" texture="gopher2" parent="gopher7_1" />
+		<sprite position="76;426" name="tablet7" scale="0" texture="tablet" parent="gopher7_1" pivot="112;145" touched="true" ontouchend="onTabletClicked:" />
+		<sprite position="111;518" name="fruit_7_7" texture="fruit_7" parent="tablet7" alpha="0" />
+		<sprite position="110;518" name="fruit_6_7" texture="fruit_6" parent="tablet7" alpha="0" />
+		<sprite position="112;519" name="fruit_5_7" texture="fruit_5" parent="tablet7" alpha="0" />
+		<sprite position="111;514" name="fruit_4_7" texture="fruit_4" parent="tablet7" alpha="0" />
+		<sprite position="106;518" name="fruit_3_7" texture="fruit_3" parent="tablet7" alpha="0" />
+		<sprite position="116;515" name="fruit_2_7" texture="fruit_2" parent="tablet7" alpha="0" />
+		<sprite position="112;515" name="fruit_1_7" texture="fruit_1" parent="tablet7" alpha="0" />
+		<sprite position="168;428" name="fruit_7_7_placed" texture="fruit_7" parent="gopher7_1" alpha="0" />
+		<sprite position="170;430" name="fruit_6_7_placed" texture="fruit_6" parent="gopher7_1" alpha="0" />
+		<sprite position="171;428" name="fruit_5_7_placed" texture="fruit_5" parent="gopher7_1" alpha="0" />
+		<sprite position="168;428" name="fruit_4_7_placed" texture="fruit_4" parent="gopher7_1" alpha="0" />
+		<sprite position="163;428" name="fruit_3_7_placed" texture="fruit_3" parent="gopher7_1" alpha="0" />
+		<sprite position="171;426" name="fruit_2_7_placed" texture="fruit_2" parent="gopher7_1" alpha="0" />
+		<sprite position="170;424" name="fruit_1_7_placed" texture="fruit_1" parent="gopher7_1" alpha="0" />
+		<sprite position="144;371" name="hole7" texture="hole" />
+		<sprite position="0;104" texture="back421" />
+        <sprite position="766;279" name="d_1_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="766;222" name="d_1_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="766;166" name="d_1_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="663;279" name="d_2_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="663;222" name="d_2_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="663;166" name="d_2_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="559;279" name="d_3_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="559;222" name="d_3_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="559;166" name="d_3_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="455;279" name="d_4_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="455;222" name="d_4_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="455;166" name="d_4_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="352;279" name="d_5_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="352;222" name="d_5_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="352;166" name="d_5_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="247;279" name="d_6_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="247;222" name="d_6_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="247;166" name="d_6_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="144;279" name="d_7_1_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="144;222" name="d_7_2_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+        <sprite position="144;166" name="d_7_3_close" texture="d_close" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="364;631" texture="spirit_04_3_hidden" touched="true" totem="spirit_04_3" />
+		<sprite position="338;628" texture="apple2" touched="true" />
+		<sprite position="31;636" texture="trunck_1_hidden" stage="task-ostrich-done" invent="trunck_1_inv" />
+		<sprite position="28;628" texture="apple1" touched="true" />
+        <sprite position="656;592" texture="ostrich_say" parent="ostrich" pivot="155;30" scale="0" />
+		<sprite position="853;343" texture="ostrich" pivot="65;280" touched="true" usehint="true" ontouchbegan="onOstrichClicked:" />
+		<sprite position="0;343" texture="ostrich_2" alpha="0" />
+		<sprite position="0;343" texture="ostrich_sit2" alpha="0" />
+		<sprite position="820;631" texture="ostrich_head1" parent="ostrich" />
+		<sprite position="821;631" texture="ostrich_head2" parent="ostrich" alpha="0" />
+        <sprite position="746;719" name="fruit_7_food" texture="fruit_7" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="7" />
+		<sprite position="663;715" name="fruit_6_food" texture="fruit_6" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="6" />
+		<sprite position="579;718" name="fruit_5_food" texture="fruit_5" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="5" />
+		<sprite position="496;716" name="fruit_4_food" texture="fruit_4" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="4" />
+		<sprite position="409;721" name="fruit_3_food" texture="fruit_3" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="3" />
+		<sprite position="336;716" name="fruit_2_food" texture="fruit_2" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="2" />
+		<sprite position="252;716" name="fruit_1_food" texture="fruit_1" scale="0" touched="true" ontouchbegan="onPickFruit:" pivotx="center" pivoty="center" counter="1" />
+        <skip position="880;690" onskip="onSkip" stage="task-ostrich" hide="task-ostrich-done" />
+	<objects/>
+<scene/>

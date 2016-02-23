@@ -1,0 +1,195 @@
+<scene images="/Scenes/10/10_2" sounds="10" plistfiles="10_2" effects="scene10.ptc" music="playlist2" hintarrow="exit_arrow" arrowdir="bottom" >
+	<objects >
+		<object name="exit" position="290;120" size="410;70" touched="true" ontouchend="onSceneExit" />
+		<sprite position="0;106" texture="back10_2" />
+		<sprite position="449;480" texture="stone_09_3_hidden" totem="stone_10_3" stage="isles-done" />
+		<sprite position="448;504" texture="portal_mini" touched="true" texthintontouch="say-portal-mini" />
+		<sprite position="450;590" texture="cage1_placed" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="451;546" texture="cage2_placed" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="555;546" texture="cage3_placed" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="568;564" texture="cage4_placed" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="554;590" texture="cage5_placed" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="541;536" texture="cage6_placed" pivotx="center" pivoty="top" />
+		<sprite position="448;564" texture="cage7_placed" pivotx="center" pivoty="top" />
+		<sprite position="472;536" texture="cage8_placed" pivotx="center" pivoty="top" />
+		<sprite position="473;541" texture="portal_light" alpha="0" touched="true" pivotx="center" pivoty="center" ontouchend="onSceneComplete:" />
+		<sprite position="513;422" texture="cage_portal6" />
+		<sprite position="465;448" texture="cage_portal5" />
+		<sprite position="488;422" texture="cage_portal4" />
+		<sprite position="555;446" texture="cage_portal3" />
+		<sprite position="440;456" texture="cage_portal2" />
+		<sprite position="532;440" texture="cage_portal1" />
+		<sprite position="376;131" texture="back_cover" />
+		<sprite position="56;684" texture="button6" pivotx="center" pivoty="top" />
+		<button position="71;700" name="btn_6" btnnormal="btn" btndown="btnd" counter="6" ontouchbegan="onButtonClicked:" stage="salamandra-done" parent="button6" usehint="true" />
+		<sprite position="293;632" texture="button5" pivotx="center" pivoty="top" />
+		<button position="308;647" name="btn_5" btnnormal="btn" btndown="btnd"  counter="5" ontouchbegan="onButtonClicked:" stage="salamandra-done" parent="button5" usehint="true" />
+		<sprite position="591;650" texture="button4" pivotx="center" pivoty="top" />
+		<button position="606;665" name="btn_4" btnnormal="btn" btndown="btnd" counter="4" ontouchbegan="onButtonClicked:" stage="salamandra-done" parent="button4" usehint="true" />
+		<sprite position="686;588" texture="button3" pivotx="center" pivoty="top" />
+		<button position="701;604" name="btn_3" btnnormal="btn" btndown="btnd" counter="3" ontouchbegan="onButtonClicked:" stage="gates-open" parent="button3" usehint="true" />
+		<sprite position="869;684" texture="button2" pivotx="center" pivoty="top" />
+		<button position="884;700" name="btn_2" btnnormal="btn" btndown="btnd" counter="2" ontouchbegan="onButtonClicked:" stage="gates-open" parent="button2" usehint="true" />
+		<sprite position="317;536" texture="bridge_left" pivot="36;87" rotation="-30" stage="say-shaman-bridge" texthintontouch="say-bridge" alphamask="true" />
+		<sprite position="514;523" texture="bridge_right" pivot="150;90" rotation="30" stage="say-shaman-bridge" texthintontouch="say-bridge" alphamask="true" />
+		<sprite position="0;508" texture="islands" alphamask="true" touched="true" texthintontouch="say-islands" />
+		<sprite position="5;350" texture="back_light" />
+		<sprite position="888;595" texture="cage2_hidden"  pivotx="center" pivoty="top" invent="cage2_inv" stage="task-find-cages" />
+		<sprite position="0;427" texture="cage4_hidden"  pivotx="center" pivoty="top" invent="cage4_inv" stage="task-find-cages" />
+		<sprite position="168;668" texture="cage5_hidden"  pivotx="center" pivoty="top" invent="cage5_inv" stage="task-find-cages" />
+		<sprite position="975;524" texture="cage3_hidden" pivotx="center" pivoty="top" invent="cage3_inv" stage="task-find-cages" />
+		<sprite position="111;236" texture="rocks_1" />
+		<sprite position="271;239" texture="rocks_2" />
+		<sprite position="84;294" texture="rocks_3" />
+		<sprite position="157;300" texture="bridges" />
+		<sprite position="499;528" texture="isle_mini1" />
+		<sprite position="495;518" texture="isle_mini2" />
+		<sprite position="490;503" texture="isle_mini3" />
+		<sprite position="480;478" texture="isle_mini4" />
+		<sprite position="462;436" texture="isle_mini5" />
+		<sprite position="445;391" texture="isle_mini6" />
+		<sprite position="432;325" texture="isle_mini7" />
+		<sprite position="11;106" texture="isle" />
+		<sprite position="51;359" texture="castle_lv" />
+		<sprite position="17;298" texture="stone_09_2_hidden" totem="stone_10_2" touched="true" />
+		<sprite position="101;398" texture="rock" />
+		<sprite position="11;199" texture="cage1_hidden" pivotx="center" pivoty="top" stage="task-find-cages" invent="cage1_inv" />
+		<sprite position="200;576" texture="isle_point" stage="task-spines-done" ontouchend="onIslesZoom:" />
+		<sprite position="915;295" texture="gate_r" ontouchend="onOpenGates" usehint="true" />
+		<sprite position="867;295" texture="gate_l" ontouchend="onOpenGates" usehint="true" />
+		<sprite position="806;284" texture="gate" usehint="true" stage="say-shaman-cage-1" ontouchend="onGateTouchEnd:" />
+		<sprite position="807;285" texture="gate_l_open" alpha="0" />
+		<sprite position="948;285" texture="gate_r_open" alpha="0" />
+		<sprite position="871;445" texture="head_gate" />
+		<sprite position="871;387" texture="head_gate2" alpha="0" />
+		<sprite position="871;449" texture="head_gate3" alpha="0" />
+		<sprite position="840;445" texture="bone_placed" parent="head_gate3" />
+		<sprite position="184;352" texture="key_portal" alpha="0" />
+		<sprite position="184;352" texture="key_portal2" alpha="0" parent="key_portal" />
+		<sprite position="961;334" texture="key_hidden" stage="task-find-button" invent="key9_inv" />
+		<sprite position="199;158" texture="salamandra" pivot="12;53" />
+		<sprite position="56;170" texture="salamandra_hand_left" />
+		<sprite position="168;166" texture="salamandra_hand_right" />
+		<sprite position="151;217" texture="salamandra_head2" />
+		<sprite position="165;218" texture="1_btn_hidden" invent="1_btn_inv" parent="salamandra_head1" stage="task-find-button" ontouchend="onButtonPicked" />
+		<sprite position="151;202" texture="fire" parent="salamandra_head1" stage="task-find-button" texthintontouch="say-salamandra-head" ontouchend="onSalamandraFire:" />
+        <particle emitter="fire_salo" position="185;230" parent="fire" />
+		<sprite position="84;188" texture="salamandra_head1" pivotx="center" pivoty="center" />
+		<sprite position="153;216" texture="water" alpha="0" parent="salamandra_head1" />
+		<sprite position="185;268" texture="bottle_placed" alpha="0" />
+        <sprite position="510;218" texture="artefact_back" />
+		<sprite position="472;245" texture="salamandra2" pivot="110;50" />
+		<sprite position="509;266" texture="salamandra2_hand_left" />
+		<sprite position="614;262" texture="salamandra2_hand_right" />
+		<sprite position="561;293" texture="salamandra2_head2" parent="salamandra2_head1" usehint="true" touched="true" ontouchend="onSalamandraHead:" />
+		<sprite position="558;276" texture="salamandra2_head_broken" stage="say-shaman-bridge" />
+		<sprite position="559;282" texture="fire2" parent="salamandra2_head1" alpha="0" />
+		<sprite position="558;272" texture="salamandra2_head1" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="556;241" texture="artefact_full" alpha="0" parent="salamandra2_h_left" />
+		<sprite position="593;243" texture="artefact2" parent="salamandra2_h_right" />
+		<sprite position="556;241" texture="artefact1" parent="salamandra2_h_left" />
+		<sprite position="574;245" texture="artefact_light" parent="artefact_full" />
+		<sprite position="510;218" texture="artefact_cover" />
+		<sprite position="613;250" texture="salamandra2_h_right" parent="salamandra2_hand_right" pivot="42;15" />
+		<sprite position="547;254" texture="salamandra2_h_left" parent="salamandra2_hand_left" pivot="18;12" />
+		<sprite position="464;250" texture="spirit_09_3_hidden" totem="spirit_10_3" touched="true" />
+		<sprite position="701;225" texture="remote" touched="true" usehint="true" texthintontouch="say-remote" ontouchend="onRemoteClicked:" />
+		<sprite position="716;230" texture="button1" />
+		<button position="732;245" name="btn_1" btnnormal="btn" btndown="btnd" alpha="0" counter="1" touched="true" usehint="true" ontouchbegan="onButtonClicked:" autoupdate="false" />
+		<sprite position="816;204" texture="s_p_5_hidden" stage="say-shaman-bridge" invent="s_p_5_inv" />
+		<sprite position="290;355" texture="s_p_4_hidden" stage="say-shaman-bridge" invent="s_p_4_inv" />
+		<sprite position="765;469" texture="s_p_3_hidden" stage="say-shaman-bridge" invent="s_p_3_inv" />
+		<sprite position="835;637" texture="s_p_2_hidden" stage="say-shaman-bridge" invent="s_p_2_inv" />
+		<sprite position="172;455" texture="s_p_1_hidden" stage="say-shaman-bridge" invent="s_p_1_inv" />
+		<sprite position="880;660" texture="axe_hidden" stage="task-spines-done" invent="axe2_inv" />
+		<sprite position="321;179" texture="pers_1" touched="true" texthintontouch="say-sleepmans" pivotx="center" pivoty="center" />
+		<window position="240;148" texture="isle_zoom" open="isle_point" close="isle_exit" objects="zoom_isle_mini1 zoom_isle_mini2 zoom_isle_mini3 zoom_isle_mini4 zoom_isle_mini5 zoom_isle_mini6 zoom_isle_mini7 p_1 p_2 p_3 p_4 p_5 p_6 p_1_broken p_2_broken p_3_broken p_4_broken p_5_broken p_6_broken c_1 c_2 c_3 c_4 c_5 c_6" />
+		<sprite position="368;282" texture="p_1" touched="true" texthintontouch="say-isles-click" counter="1" ontouchend="onChainBreak:" usehint="true" />
+		<sprite position="369;282" texture="p_1_broken" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="349;257" texture="c_1" />
+		<sprite position="428;455" texture="p_2" touched="true" texthintontouch="say-isles-click" counter="2" ontouchend="onChainBreak:" usehint="true" />
+		<sprite position="422;442" texture="p_2_broken" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="340;362" texture="c_2" />
+		<sprite position="547;264" texture="p_3" touched="true" texthintontouch="say-isles-click" counter="3" ontouchend="onChainBreak:" usehint="true" />
+		<sprite position="544;264" texture="p_3_broken" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="472;243" texture="c_3" />
+		<sprite position="647;495" texture="p_4" touched="true" texthintontouch="say-isles-click" counter="4" ontouchend="onChainBreak:" usehint="true" />
+		<sprite position="620;485" texture="p_4_broken" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="538;442" texture="c_4" />
+		<sprite position="380;597" texture="p_5" touched="true" texthintontouch="say-isles-click" counter="5" ontouchend="onChainBreak:" usehint="true" />
+		<sprite position="380;591" texture="p_5_broken" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="350;510" texture="c_5" />
+		<sprite position="692;377" texture="p_6" touched="true" texthintontouch="say-isles-click" counter="6" ontouchend="onChainBreak:" usehint="true" />
+		<sprite position="673;363" texture="p_6_broken" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="605;332" texture="c_6" />
+		<sprite position="440;229" texture="zoom_isle_mini7" />
+		<sprite position="691;290" texture="zoom_isle_mini6" />
+		<sprite position="318;354" texture="zoom_isle_mini5" />
+		<sprite position="565;410" texture="zoom_isle_mini4" />
+		<sprite position="320;474" texture="zoom_isle_mini3" />
+		<sprite position="503;536" texture="zoom_isle_mini2" />
+		<sprite position="627;597" texture="zoom_isle_mini1" />
+		<button position="710;645" name="isle_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<compound position="451;206" oncomplete="onSalamandraDone" open="salamandra2_head_broken" full="salamandra2_head1" texture="s_base" objects="s_p_1_placed:s_p_1_inv, s_p_2_placed:s_p_2_inv, s_p_3_placed:s_p_3_inv, s_p_4_placed:s_p_4_inv, s_p_5_placed:s_p_5_inv" />
+		<sprite position="556;281" texture="s_base_alpha" />
+		<sprite position="661;234" texture="s_p_5_placed" />
+		<sprite position="702;328" texture="s_p_4_placed" />
+		<sprite position="627;405" texture="s_p_3_placed" />
+		<sprite position="522;391" texture="s_p_2_placed" />
+		<sprite position="477;294" texture="s_p_1_placed" />
+		<window position="99;145" texture="portal_zoom" open="portal_mini" active="false" close="portal_exit" objects="symb_cyrcle1 symb_cyrcle2 symb_cyrcle3 symb_cyrcle4 symb_cyrcle5 symb_cyrcle6 symb_cyrcle7 symb_cyrcle8 light8 light7 light6 light5 light4 light3 light2 light1 cage1_zoom cage2_zoom cage3_zoom cage4_zoom cage5_zoom cage6_zoom cage7_zoom cage8_zoom cage1_1_broken cage1_2_broken cage2_1_broken cage2_2_broken cage3_1_broken cage3_2_broken cage4_1_broken cage4_2_broken cage5_1_broken cage5_2_broken cage6_1_broken cage6_2_broken cage7_1_broken cage7_2_broken cage8_1_broken cage8_2_broken symbol_light symbol_light2" touched="true" usehint="true" ontouchend="onPlaceCages:" />
+		<sprite position="321;526" texture="symbol1" alphamask="true" alpha="0" usehint="true" stage="task-portalon" counter="1" parent="symb_cyrcle1" ontouchend="onSymbCyrcle:" />
+		<sprite position="318;546" texture="symbol2" alphamask="true" alpha="0" usehint="true" stage="task-portalon" counter="2" parent="symb_cyrcle2" ontouchend="onSymbCyrcle:" />
+		<sprite position="321;526" texture="symbol3" alphamask="true" alpha="0" usehint="true" stage="task-portalon" counter="3" parent="symb_cyrcle3" ontouchend="onSymbCyrcle:" />
+		<sprite position="320;523" texture="symbol4" alphamask="true" alpha="0" usehint="true" stage="task-portalon" counter="4" parent="symb_cyrcle4" ontouchend="onSymbCyrcle:" />
+		<sprite position="314;538" texture="symbol6" stage="task-portalon" usehint="true" counter="6" parent="symb_cyrcle6" ontouchend="onSymbCyrcle:" />
+		<sprite position="322;531" texture="symbol5" alphamask="true" alpha="0" usehint="true" stage="task-portalon" counter="5" parent="symb_cyrcle5" ontouchend="onSymbCyrcle:" />
+		<sprite position="325;529" texture="symbol7" stage="task-portalon" usehint="true" counter="7" parent="symb_cyrcle7" ontouchend="onSymbCyrcle:" />
+		<sprite position="321;531" texture="symbol8" stage="task-portalon" usehint="true" counter="8" parent="symb_cyrcle8" ontouchend="onSymbCyrcle:" />
+        <object name="symb_cyrcle1" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="0" />
+        <object name="symb_cyrcle2" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="315" />
+        <object name="symb_cyrcle3" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="270" />
+        <object name="symb_cyrcle4" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="225" />
+        <object name="symb_cyrcle5" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="180" />
+        <object name="symb_cyrcle6" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="135" />
+        <object name="symb_cyrcle7" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="90" />
+        <object name="symb_cyrcle8" position="304;316" size="412;412" pivotx="center" pivoty="center" counter="45" />
+		<sprite position="765;308" name="light8" parent="cage8_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="764;300" texture="cage8_zoom" pivotx="center" pivoty="top" />
+		<sprite position="769;300" texture="cage8_2_broken" parent="cage8_1_broken" />
+		<sprite position="764;375" texture="cage8_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="213;212" name="light7" parent="cage7_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="215;203" texture="cage7_zoom" pivotx="center" pivoty="top" />
+		<sprite position="218;203" texture="cage7_2_broken" parent="cage7_1_broken" />
+		<sprite position="215;279" texture="cage7_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="689;213" name="light6" parent="cage6_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="689;217" texture="cage6_zoom" pivotx="center" pivoty="top" />
+		<sprite position="695;217" texture="cage6_2_broken" parent="cage6_1_broken" />
+		<sprite position="689;272" texture="cage6_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="139;567" name="light1" parent="cage1_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="133;556" texture="cage1_zoom" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="138;556" texture="cage1_2_broken" parent="cage1_1_broken" />
+		<sprite position="133;634" texture="cage1_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="765;568" name="light2" parent="cage2_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="765;560" texture="cage2_zoom" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="770;560" texture="cage2_2_broken" parent="cage2_1_broken" />
+		<sprite position="765;633" texture="cage2_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="52;422" name="light3" parent="cage3_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="49;409" texture="cage3_zoom" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="55;409" texture="cage3_2_broken" parent="cage3_1_broken" />
+		<sprite position="49;481" texture="cage3_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="849;417" name="light4" parent="cage4_zoom" texture="light" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="849;407" texture="cage4_zoom" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="855;407" texture="cage4_2_broken" parent="cage4_1_broken" />
+		<sprite position="849;483" texture="cage4_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="139;308" name="light5" parent="cage5_zoom" texture="light" pivoty="center" pivotx="center" alpha="0" />
+		<sprite position="138;298" texture="cage5_zoom" alpha="0" pivotx="center" pivoty="top"/>
+		<sprite position="143;298" texture="cage5_2_broken" parent="cage5_1_broken" />
+		<sprite position="138;375" texture="cage5_1_broken" alpha="0" pivotx="center" pivoty="top" />
+		<sprite position="304;316" texture="symbol_light" pivotx="center" pivoty="center" />
+		<sprite position="288;302" texture="symbol_light2" pivotx="center" pivoty="center" alpha="0" />
+		<button position="645;691" name="portal_exit" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+        <particle emitter="rainbow" position="512;576" active="false" />
+		<sprite position="477;154" texture="exit_arrow" />
+	<objects/>
+<scene/>

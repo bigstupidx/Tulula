@@ -1,0 +1,96 @@
+<scene images="/Scenes/09/09_2" sounds="09" plistfiles="09_2" effects="scene09.ptc" music="playlist3" hintarrow="exit_arrow" >
+	<objects >
+		<object name="exit" position="290;120" size="410;70" touched="true" ontouchend="onSceneExit" />
+		<sprite position="0;107" texture="Background" />
+		<sprite position="0;441" texture="cloud1" />
+		<sprite position="666;550" texture="cloud2" />
+		<sprite position="0;78" texture="hill" />
+		<sprite position="560;535" texture="entrance" />
+		<sprite position="574;537" texture="door_closed" stage="task-door" usehint="true" texthintontouch="say-door" ontouchend="onDoorClicked:" />
+		<sprite position="574;559" texture="key_placed" alpha="0" touched="true" ontouchend="onKeyClicked:" parent="door_closed" pivotx="center" pivoty="center" />
+		<sprite position="488;428" texture="key_hidden" invent="key8_inv" stage="task-door" />
+		<sprite position="549;527" texture="door_open" alpha="0" touched="true" ontouchend="onSceneComplete:" onenterframe="updateDoors:" />
+		<button position="497;313" btnnormal="button" btndown="button_hover" touched="true" usehint="true" hintpriority="2" ontouchbegan="onButton:" />
+		<sprite position="779;305" texture="spirit_09_2_hidden" totem="spirit_09_2" touched="true" />
+		<sprite position="872;567" texture="spirit_09_3_hidden" totem="spirit_09_3" touched="true" />
+		<sprite position="35;577" texture="stone_09_3_hidden" totem="stone_09_3" touched="true" />
+		<sprite position="565;490" texture="ladder_1" alpha="0" />
+		<sprite position="563;441" texture="ladder_2" alpha="0" />
+		<sprite position="563;390" texture="ladder_3" alpha="0" />
+		<sprite position="559;323" texture="ladder_4" alpha="0" />
+		<sprite position="550;254" texture="ladder_5" alpha="0" />
+		<sprite position="542;166" texture="ladder_6" alpha="0" />
+		<sprite position="311;357" texture="hand_6_shadow" alpha="0" />
+		<sprite position="724;446" texture="curve_1" alpha="0" />
+		<sprite position="439;547" texture="hand_1" pivoty="center" pivotx="right" alpha="0" counter="1" />
+		<sprite position="198;436" texture="curve_2" alpha="0" />
+		<sprite position="308;522" texture="hand_2"  pivoty="center" pivotx="left" alpha="0" counter="-1" />
+		<sprite position="753;386" texture="curve_3" alpha="0" />
+		<sprite position="426;487" texture="hand_3"  pivoty="center" pivotx="right" alpha="0" counter="1" />
+		<sprite position="166;335" texture="curve_4" alpha="0" />
+		<sprite position="303;442" texture="hand_4"  pivoty="center" pivotx="left" alpha="0" counter="-1" />
+		<sprite position="743;336" texture="curve_5" alpha="0" />
+		<sprite position="413;417" texture="hand_5"  pivoty="center" pivotx="right" alpha="0" counter="1" />
+		<sprite position="224;330" texture="curve_6" alpha="0" />
+		<sprite position="303;378" texture="hand_6"  pivoty="center" pivotx="left" alpha="0" counter="-1" />
+        <object name="h_1" position="0;0" />
+        <object name="h_2" position="0;0" />
+        <object name="h_3" position="0;0" />
+        <object name="h_4" position="0;0" />
+        <object name="h_5" position="0;0" />
+        <object name="h_6" position="0;0" />
+		<sprite position="97;478" texture="remote_basic" parent="remote" />
+		<sprite position="331;476" texture="circle_1"  pivotx="center" pivoty="center" parent="remote" stage="task-remote" invent="circle_1_inv" />
+		<sprite position="129;476" texture="circle_2"  pivotx="center" pivoty="center" parent="remote" stage="task-remote" invent="circle_2_inv" />
+		<sprite position="195;556" texture="circle_3"  pivotx="center" pivoty="center" parent="remote" stage="task-remote" invent="circle_3_inv" />
+		<sprite position="231;476" texture="circle_4"  pivotx="center" pivoty="center" parent="remote" stage="task-remote" invent="circle_4_inv" />
+		<sprite position="99;556" texture="circle_5"  pivotx="center" pivoty="center" parent="remote" stage="task-remote" invent="circle_5_inv" />
+		<sprite position="298;556" texture="circle_6" pivotx="center" pivoty="center" parent="remote" stage="task-remote" invent="circle_6_inv" />
+		<sprite position="331;482" texture="circle_1_placed" pivotx="center" pivoty="center" alpha="0" parent="remote" usehint="true" ignorealpha="true" ontouchend="onPlaceCircle:" texthintontouch="say-remote-click" counter="1" />
+		<sprite position="129;482" texture="circle_2_placed" pivotx="center" pivoty="center" alpha="0" parent="remote" usehint="true" ignorealpha="true" ontouchend="onPlaceCircle:" texthintontouch="say-remote-click" counter="2" />
+		<sprite position="195;561" texture="circle_3_placed" pivotx="center" pivoty="center" alpha="0" parent="remote" usehint="true" ignorealpha="true" ontouchend="onPlaceCircle:" texthintontouch="say-remote-click" counter="3" />
+		<sprite position="231;482" texture="circle_4_placed" pivotx="center" pivoty="center" alpha="0" parent="remote" usehint="true" ignorealpha="true" ontouchend="onPlaceCircle:" texthintontouch="say-remote-click" counter="4" />
+		<sprite position="99;561" texture="circle_5_placed" pivotx="center" pivoty="center" alpha="0" parent="remote" usehint="true" ignorealpha="true" ontouchend="onPlaceCircle:" texthintontouch="say-remote-click" counter="5" />
+		<sprite position="298;561" texture="circle_6_placed" pivotx="center" pivoty="center" alpha="0" parent="remote" usehint="true" ignorealpha="true" ontouchend="onPlaceCircle:" texthintontouch="say-remote-click" counter="6" />
+		<sprite position="46;423" texture="remote" parent="chain2" pivot="104;43" />
+		<sprite position="343;669" texture="chain1" pivotx="center" pivoty="top" parent="chain2" />
+		<sprite position="122;663" texture="chain2" pivotx="center" pivoty="top" />
+		<sprite position="0;409" texture="fog1" pivotx="center" pivoty="center" />
+		<sprite position="245;522" texture="fog2" pivotx="center" pivoty="center" />
+		<sprite position="682;460" texture="fog3" pivotx="center" pivoty="center" />
+		<sprite position="574;529" texture="fog4" pivotx="center" pivoty="center" />
+		<sprite position="810;207" texture="key_portal1" name="key_portal" alpha="0" hintpriority="2" />
+		<sprite position="807;204" texture="key_portal2" parent="key_portal" alpha="0" />
+		<sprite position="897;357" texture="jeweller_lv" />
+		<sprite position="167;136" texture="shield_backlight"  parent="shield" />
+		<sprite position="185;148" texture="shield" scale="0.5" pivotx="center" pivoty="center" parent="hand_6" />
+		<sprite position="285;243" texture="shield_circle_5"  parent="shield" pivotx="center" pivoty="center" counter="5" touched="true" texthintontouch="say-shield" ontouchend="onShieldCircle:" alphamask="true" />
+        <sprite position="331;289" texture="shield_circle_4" parent="shield" pivotx="center" pivoty="center" counter="4" touched="true" texthintontouch="say-shield" ontouchend="onShieldCircle:" alphamask="true" />
+        <sprite position="375;332" texture="shield_circle_3" parent="shield" pivotx="center" pivoty="center" counter="3" touched="true" texthintontouch="say-shield" ontouchend="onShieldCircle:" alphamask="true" />
+        <sprite position="417;375" texture="shield_circle_2" parent="shield" pivotx="center" pivoty="center" counter="2" touched="true" texthintontouch="say-shield" ontouchend="onShieldCircle:" alphamask="true" />
+        <sprite position="458;416" texture="shield_circle_1" parent="shield" counter="1" touched="true" texthintontouch="say-shield" ontouchend="onShieldCircle:" alphamask="true" pivotx="center" pivoty="center" />
+		<sprite position="285;243" texture="cs_5" alpha="0" parent="shield" pivotx="center" pivoty="center" />
+		<sprite position="330;288" texture="cs_4" alpha="0" parent="shield" pivotx="center" pivoty="center" />
+		<sprite position="373;331" texture="cs_3" alpha="0" parent="shield" pivotx="center" pivoty="center" />
+		<sprite position="416;373" texture="cs_2" alpha="0" parent="shield" pivotx="center" pivoty="center" />
+		<sprite position="456;414" texture="cs_1" alpha="0" parent="shield" pivotx="center" pivoty="center" />
+		<sprite position="285;243" texture="shield_pattern" parent="shield" alpha="0" />
+		<sprite position="499;628" texture="smile" alpha="0" />
+		<sprite position="285;268" texture="snake" parent="shield" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="259;477" texture="chain1_1" parent="chain_holder" pivot="17;18" counter="180" />
+		<sprite position="413;477" texture="chain1_2" parent="chain_holder" pivot="357;18" counter="-180" />
+		<sprite position="546;286" texture="chain2_1" parent="chain_holder" pivot="132;136" counter="-220" />
+		<sprite position="317;433" texture="chain2_2" parent="chain_holder" pivot="14;13" counter="140" />
+		<sprite position="608;556" texture="chain3_1" parent="chain_holder" pivot="108;15" counter="-180" />
+		<sprite position="344;285" texture="chain3_2" parent="chain_holder" pivot="18;260" counter="190" />
+		<sprite position="503;209" texture="chain4_1" parent="chain_holder" pivot="20;93" counter="250" />
+		<sprite position="503;318" texture="chain4_2" parent="chain_holder" pivot="20;13" counter="100"  />
+        <sprite position="390;476" texture="link_1" parent="chain_holder" pivotx="center" pivoty="center" touched="true" usehint="true" ontouchend="onChainClicked:" counter="1" texthintontouch="say-chains" />
+        <sprite position="523;410" texture="link_2" parent="chain_holder" pivotx="center" pivoty="center" touched="true" usehint="true" ontouchend="onChainClicked:" counter="2" texthintontouch="say-chains" />
+        <sprite position="588;533" texture="link_3" parent="chain_holder" pivotx="center" pivoty="center" touched="true" usehint="true" ontouchend="onChainClicked:" counter="3" texthintontouch="say-chains" />
+		<sprite position="501;295" texture="link_4" parent="chain_holder" pivotx="center" pivoty="center" usehint="true" touched="true" ontouchend="onChainClicked:" counter="4" texthintontouch="say-chains" />
+		<sprite position="244;197" texture="chain_holder" parent="shield" />
+        <particle emitter="rainbow" position="595;570" active="false" />
+		<sprite position="508;151" texture="exit_arrow" />
+	<objects/>
+<scene/>

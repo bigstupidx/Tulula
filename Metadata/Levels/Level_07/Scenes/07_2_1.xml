@@ -1,0 +1,198 @@
+<Scene images="/Scenes/07/07_2_1" sounds="07" plistfiles="07_2_1" effects="scene07.ptc" music="melody_3" >
+	<objects >
+		<sprite position="0;104" texture="back_721" />
+		<sprite position="807;407" texture="d13_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="805;570" texture="d11_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+        <sprite position="807;421" texture="d10_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="815;433" texture="d7_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="805;611" texture="d3_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="816;518" texture="gold3_1" alphamask="true" />
+		<sprite position="842;583" texture="gold3_2" alphamask="true" />
+		<sprite position="828;477" texture="gold3_3" alphamask="true" />
+		<sprite position="849;500" texture="gold3_4" alphamask="true" />
+		<sprite position="843;421" texture="gold3_5" alphamask="true" />
+		<sprite position="819;357" texture="gold3_6" alphamask="true" />
+		<sprite position="793;523" texture="gold3_7" alphamask="true" />
+		<sprite position="819;441" texture="gold3_8" alphamask="true" />
+		<sprite position="803;541" texture="gold3_9" alphamask="true" />
+		<sprite position="840;529" texture="gold3_10" alphamask="true" />
+		<sprite position="800;363" texture="gold3_11" alphamask="true" />
+		<sprite position="797;491" texture="gold3_12" alphamask="true" />
+		<sprite position="806;353" texture="gold3_13" alphamask="true" />
+		<sprite position="791;647" texture="gold3_14" alphamask="true" />
+		<sprite position="803;405" texture="gold3_15" alphamask="true" />
+		<sprite position="788;537" texture="gold3_16" alphamask="true" />
+		<sprite position="794;337" texture="gold3_17" alphamask="true" />
+		<sprite position="796;587" texture="gold3_18" alphamask="true" />
+		<sprite position="788;448" texture="gold3_19" alphamask="true" />
+		<sprite position="844;451" texture="gold3_20" alphamask="true" />
+		<sprite position="788;364" texture="gold3_21" alphamask="true" />
+		<sprite position="789;302" texture="gold3_22" alphamask="true" />
+		<sprite position="796;456" texture="gold3_23" alphamask="true" />
+		<sprite position="784;357" texture="gold3_24" alphamask="true" />
+		<sprite position="821;391" texture="gold3_25" alphamask="true" />
+		<sprite position="840;369" texture="gold3_26" alphamask="true" />
+		<sprite position="793;410" texture="gold3_27" alphamask="true" />
+		<sprite position="801;340" texture="gold3_28" alphamask="true" />
+		<sprite position="830;500" texture="gold3_29" alphamask="true" />
+		<sprite position="820;584" texture="gold3_30" alphamask="true" />
+		<sprite position="823;339" texture="gold3_31" alphamask="true" />
+		<sprite position="820;471" texture="gold3_32" alphamask="true" />
+		<sprite position="802;554" texture="gold3_33" alphamask="true" />
+		<sprite position="832;561" texture="gold3_34" alphamask="true" />
+		<sprite position="788;321" texture="gold3_35" alphamask="true" />
+		<sprite position="815;431" texture="gold3_36" alphamask="true" />
+		<sprite position="798;597" texture="gold3_37" alphamask="true" />
+		<sprite position="807;304" texture="gold3_38" alphamask="true" />
+		<sprite position="787;601" texture="gold3_39" alphamask="true" />
+		<sprite position="842;595" texture="gold3_40" alphamask="true" />
+		<sprite position="839;391" texture="gold3_41" alphamask="true" />
+		<sprite position="899;522" texture="gold3_42" alphamask="true" />
+		<sprite position="922;581" texture="gold3_43" alphamask="true" />
+		<sprite position="907;477" texture="gold3_44" alphamask="true" />
+		<sprite position="930;499" texture="gold3_45" alphamask="true" />
+		<sprite position="922;418" texture="gold3_46" alphamask="true" />
+		<sprite position="916;366" texture="gold3_47" alphamask="true" />
+		<sprite position="874;520" texture="gold3_48" alphamask="true" />
+		<sprite position="896;451" texture="gold3_49" alphamask="true" />
+		<sprite position="866;570" texture="gold3_50" alphamask="true" />
+		<sprite position="855;460" texture="gold3_51" alphamask="true" />
+		<sprite position="893;527" texture="gold3_52" alphamask="true" />
+		<sprite position="901;471" texture="gold3_53" alphamask="true" />
+		<sprite position="817;314" texture="gold3_54" alphamask="true" />
+		<sprite position="878;344" texture="gold3_55" alphamask="true" />
+		<sprite position="885;404" texture="gold3_56" alphamask="true" />
+		<sprite position="865;533" texture="gold3_57" alphamask="true" />
+		<sprite position="898;325" texture="gold3_58" alphamask="true" />
+		<sprite position="875;584" texture="gold3_59" alphamask="true" />
+		<sprite position="869;445" texture="gold3_60" alphamask="true" />
+        <object name="box_3" position="756;263" size="231;484" counter="3" />
+		<sprite position="756;263" texture="door_3" />
+        <sprite position="99;632" texture="d12_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+        <sprite position="131;474" texture="d9_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="131;501" texture="d6_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="113;314" texture="d5_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="119;391" texture="d4_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="104;453" texture="gold2_1" alphamask="true" />
+		<sprite position="131;398" texture="gold2_2" alphamask="true" />
+		<sprite position="112;500" texture="gold2_3" alphamask="true" />
+		<sprite position="133;477" texture="gold2_4" alphamask="true" />
+		<sprite position="126;552" texture="gold2_5" alphamask="true" />
+		<sprite position="111;640" texture="gold2_6" alphamask="true" />
+		<sprite position="78;455" texture="gold2_7" alphamask="true" />
+		<sprite position="102;536" texture="gold2_8" alphamask="true" />
+		<sprite position="83;407" texture="gold2_9" alphamask="true" />
+		<sprite position="111;451" texture="gold2_10" alphamask="true" />
+		<sprite position="93;518" texture="gold2_11" alphamask="true" />
+		<sprite position="74;463" texture="gold2_12" alphamask="true" />
+		<sprite position="99;619" texture="gold2_13" alphamask="true" />
+		<sprite position="139;509" texture="gold2_14" alphamask="true" />
+		<sprite position="90;573" texture="gold2_15" alphamask="true" />
+		<sprite position="71;442" texture="gold2_16" alphamask="true" />
+		<sprite position="81;640" texture="gold" />
+		<sprite position="79;390" texture="gold2_18" alphamask="true" />
+		<sprite position="74;532" texture="gold2_19" alphamask="true" />
+		<sprite position="130;531" texture="gold2_20" alphamask="true" />
+		<sprite position="71;614" texture="gold2_21" alphamask="true" />
+		<sprite position="72;674" texture="gold2_22" alphamask="true" />
+		<sprite position="96;458" texture="gold2_23" alphamask="true" />
+		<sprite position="74;559" texture="gold2_24" alphamask="true" />
+		<sprite position="119;592" texture="gold2_25" alphamask="true" />
+		<sprite position="143;631" texture="gold2_26" alphamask="true" />
+		<sprite position="183;524" texture="gold2_27" alphamask="true" />
+		<sprite position="97;655" texture="gold2_28" alphamask="true" />
+		<sprite position="112;476" texture="gold2_29" alphamask="true" />
+		<sprite position="104;389" texture="gold2_30" alphamask="true" />
+		<sprite position="129;645" texture="gold2_31" alphamask="true" />
+		<sprite position="113;501" texture="gold2_32" alphamask="true" />
+		<sprite position="87;423" texture="gold2_33" alphamask="true" />
+		<sprite position="115;417" texture="gold2_34" alphamask="true" />
+		<sprite position="115;672" texture="gold2_35" alphamask="true" />
+		<sprite position="145;458" texture="gold2_36" alphamask="true" />
+		<sprite position="102;364" texture="gold2_37" alphamask="true" />
+		<sprite position="153;648" texture="gold2_38" alphamask="true" />
+		<sprite position="71;372" texture="gold2_39" alphamask="true" />
+		<sprite position="130;362" texture="gold2_40" alphamask="true" />
+		<sprite position="203;602" texture="gold2_41" alphamask="true" />
+		<sprite position="185;453" texture="gold2_42" alphamask="true" />
+		<sprite position="204;398" texture="gold2_43" alphamask="true" />
+		<sprite position="193;500" texture="gold2_44" alphamask="true" />
+		<sprite position="212;478" texture="gold2_45" alphamask="true" />
+		<sprite position="197;552" texture="gold2_46" alphamask="true" />
+		<sprite position="190;638" texture="gold2_47" alphamask="true" />
+		<sprite position="158;458" texture="gold2_48" alphamask="true" />
+		<sprite position="171;551" texture="gold2_49" alphamask="true" />
+		<sprite position="151;408" texture="gold2_50" alphamask="true" />
+		<sprite position="194;446" texture="gold2_51" alphamask="true" />
+		<sprite position="161;568" texture="gold2_52" alphamask="true" />
+		<sprite position="158;441" texture="gold2_53" alphamask="true" />
+		<sprite position="160;618" texture="gold2_54" alphamask="true" />
+		<sprite position="204;509" texture="gold2_55" alphamask="true" />
+		<sprite position="162;574" texture="gold2_56" alphamask="true" />
+		<sprite position="148;440" texture="gold2_57" alphamask="true" />
+		<sprite position="154;648" texture="gold2_58" alphamask="true" />
+		<sprite position="158;382" texture="gold2_59" alphamask="true" />
+		<sprite position="133;501" texture="gold2_60" alphamask="true" />
+        <object name="box_2" position="38;263" size="231;484" counter="2" />
+		<sprite position="38;263" texture="door_2" />
+		<sprite position="462;160" texture="d8_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+        <sprite position="588;175" texture="d2_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="360;193" texture="d1_hidden" alphamask="true" pivotx="center" pivoty="center" touched="true" />
+		<sprite position="433;179" texture="gold1_1" alphamask="true" />
+		<sprite position="359;160" texture="gold1_2" alphamask="true" />
+		<sprite position="477;175" texture="gold1_3" alphamask="true" />
+		<sprite position="453;154" texture="gold1_4" alphamask="true" />
+		<sprite position="532;161" texture="gold1_5" alphamask="true" />
+		<sprite position="610;172" texture="gold1_6" alphamask="true" />
+		<sprite position="431;211" texture="gold1_7" alphamask="true" />
+		<sprite position="513;186" texture="gold1_8" alphamask="true" />
+		<sprite position="390;184" texture="gold1_9" alphamask="true" />
+		<sprite position="417;163" texture="gold1_10" alphamask="true" />
+		<sprite position="536;171" texture="gold1_11" alphamask="true" />
+		<sprite position="449;181" texture="gold1_12" alphamask="true" />
+		<sprite position="588;192" texture="gold1_13" alphamask="true" />
+		<sprite position="482;156" texture="gold1_14" alphamask="true" />
+		<sprite position="549;197" texture="gold1_15" alphamask="true" />
+		<sprite position="382;213" texture="gold1_16" alphamask="true" />
+		<sprite position="610;202" texture="gold1_17" alphamask="true" />
+		<sprite position="366;208" texture="gold1_18" alphamask="true" />
+		<sprite position="501;208" texture="gold1_19" alphamask="true" />
+		<sprite position="503;158" texture="gold1_20" alphamask="true" />
+		<sprite position="587;212" texture="gold1_21" alphamask="true" />
+		<sprite position="643;209" texture="gold1_22" alphamask="true" />
+		<sprite position="458;203" texture="gold1_23" alphamask="true" />
+		<sprite position="556;200" texture="gold1_24" alphamask="true" />
+		<sprite position="572;165" texture="gold1_25" alphamask="true" />
+		<sprite position="608;158" texture="gold1_26" alphamask="true" />
+		<sprite position="492;189" texture="gold1_27" alphamask="true" />
+		<sprite position="614;189" texture="gold1_28" alphamask="true" />
+		<sprite position="417;163" texture="gold1_29" alphamask="true" />
+		<sprite position="362;193" texture="gold1_30" alphamask="true" />
+        <object name="box_1" position="331;133" size="363;134" counter="1" />
+		<sprite position="331;133" texture="door_1" />
+		<sprite position="304;302" texture="kontur" pivotx="center" pivoty="center" alphamask="true" />
+		<sprite position="706;414" texture="b_3" />
+		<sprite position="293;419" texture="b_2" />
+		<sprite position="544;711" texture="b_1" />
+		<sprite position="381;459" texture="d1_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="1" parent="kontur" alphamask="true" />
+		<sprite position="584;360" texture="d2_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="2" parent="kontur" alphamask="true" /> 
+		<sprite position="462;325" texture="d3_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="3" parent="kontur" alphamask="true" />
+		<sprite position="335;526" texture="d4_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="4" parent="kontur" alphamask="true" />
+		<sprite position="419;380" texture="d5_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="5" parent="kontur" alphamask="true" />
+		<sprite position="320;404" texture="d6_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="6" parent="kontur" alphamask="true" />
+		<sprite position="403;560" texture="d7_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="7" parent="kontur" alphamask="true" />
+		<sprite position="384;331" texture="d8_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="8" parent="kontur" alphamask="true" />
+		<sprite position="568;430" texture="d9_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="9" parent="kontur" alphamask="true" />
+		<sprite position="477;604" texture="d10_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="10" parent="kontur" alphamask="true" />
+		<sprite position="500;403" texture="d11_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="11" parent="kontur" alphamask="true" />
+		<sprite position="423;307" texture="d12_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="12" parent="kontur" alphamask="true" />
+		<sprite position="610;404" texture="d13_placed" alpha="0" touched="true" ignorealpha="true" ontouchend="onPlacePiece:" counter="13" parent="kontur" alphamask="true" />
+		<sprite position="304;302" texture="full" alpha="0" />
+		<sprite position="290;463" texture="b_3_1" parent="kontur" />
+		<sprite position="328;592" texture="b_1_1" parent="kontur" />
+		<sprite position="330;344" texture="b_2_1" parent="kontur" />
+		<sprite position="294;277" texture="portal" pivotx="center" pivoty="center" touched="true" ontouchend="onSceneComplete:" alpha="0" scale="0" />
+		<sprite position="504;485" texture="spirit_07_3_hidden" totem="spirit_07_3" touched="true" alpha="0"  />
+        <skip position="880;690" onskip="onMgDone" stage="say-shaman-mg-puzzle" hide="puzzle-done" />
+	<objects/>
+<scene/>

@@ -1,0 +1,92 @@
+<scene  images="/Scenes/04/04_2_2" effects="scene04.ptc" sounds="04" plistfiles="04_2_2" music="melody_3" >
+	<objects >
+		<sprite position="0;107" texture="back_04_22" />
+		<sprite position="241;551" texture="mushroom_hidden" />
+		<sprite position="597;441" texture="pick_hidden" />
+		<sprite position="897;520" texture="root2_hidden" />
+		<sprite position="476;599" texture="stone_green_hidden" />
+		<sprite position="567;504" texture="stone_blue_hidden" />
+		<sprite position="181;257" texture="stone_yellow_hidden" />
+		<sprite position="157;509" texture="stone_red_hidden" />
+		<sprite position="705;363" texture="stone_violet_hidden" />
+		<sprite position="558;659" texture="carrot_hidden" />
+		<sprite position="139;586" texture="apron_hidden" />
+		<sprite position="847;468" texture="cob_hidden" />
+		<sprite position="481;433" texture="groundnut_hidden" />
+		<sprite position="817;404" texture="mole_hidden" />
+		<sprite position="206;664" texture="root3_hidden" />
+		<sprite position="131;522" texture="root1_hidden" />
+		<sprite position="533;441" texture="laika_hidden" />
+		<sprite position="204;494" texture="spade_hidden" />
+		<sprite position="152;360" texture="chest_hidden" />
+		<sprite position="867;608" texture="hat_hidden" />
+		<sprite position="736;526" texture="rake_hidden" />
+		<sprite position="908;331" texture="redish_hidden" />
+		<sprite position="79;473" texture="glove_hidden" />
+		<sprite position="770;629" texture="vazon3_hidden" />
+		<sprite position="43;341" texture="vazon2_hidden" />
+		<sprite position="241;448" texture="vazon1_hidden" />
+		<sprite position="736;526" texture="rake_full" />
+		<sprite position="597;441" texture="pick_full" />
+		<sprite position="241;551" texture="mushroom_full" />
+		<sprite position="481;433" texture="groundnut_full" />
+		<sprite position="847;468" texture="cob_full" />
+		<sprite position="817;404" texture="mole_full" />
+		<sprite position="206;664" texture="root3_full" />
+		<sprite position="897;520" texture="root2_full" />
+		<sprite position="131;522" texture="root1_full" />
+		<sprite position="533;441" texture="laika_full" />
+		<sprite position="204;494" texture="spade_full" />
+		<sprite position="908;331" texture="redish_full" />
+		<sprite position="476;599" texture="stone_green_full" />
+		<sprite position="705;363" texture="stone_violet_full" />
+		<sprite position="567;504" texture="stone_blue_full" />
+		<sprite position="157;509" texture="stone_red_full" />
+		<sprite position="181;257" texture="stone_yellow_full" />
+		<sprite position="558;659" texture="carrot_full" />
+		<sprite position="152;360" texture="chest_full" />
+		<sprite position="139;586" texture="apron_full" />
+		<sprite position="79;473" texture="glove_full" />
+		<sprite position="867;608" texture="hat_full" />
+		<sprite position="770;629" texture="vazon3_full" />
+		<sprite position="43;341" texture="vazon2_full" />
+		<sprite position="241;448" texture="vazon1_full" />
+        <sprite position="382;177" texture="rama_full" />
+        <sprite position="445;161" texture="basket" />
+        <sprite position="573;200" texture="vazon3_placed" stage="say-god_4-findall" ontouchbegan="onVazonClicked:" ontouchend="onVazonTouchEnd:" usehint="true" />
+        <sprite position="483;286" texture="vazon2_placed" stage="say-god_4-findall" ontouchbegan="onVazonClicked:" ontouchend="onVazonTouchEnd:" usehint="true" />
+        <sprite position="389;200" texture="vazon1_placed" stage="say-god_4-findall" ontouchbegan="onVazonClicked:" ontouchend="onVazonTouchEnd:" usehint="true" />
+        <animation position="834;235" plistfile="Scenes/04/Animations/laika_water" alpha="0" parent="laika_placed" />
+        <sprite position="733;200" texture="root2_placed" usehint="true" pivotx="center" pivoty="center" stage="say-god_4-findall" ontouchbegan="onPickItem:" />
+        <sprite position="673;213" texture="root3_placed" usehint="true" pivotx="center" pivoty="center" stage="say-god_4-findall" ontouchbegan="onPickItem:" />
+        <sprite position="775;213" texture="root1_placed" usehint="true" pivotx="center" pivoty="center" stage="say-god_4-findall" ontouchbegan="onPickItem:" />
+        <sprite position="592;282" texture="vazon3_holl" alpha="0" />
+        <sprite position="487;357" texture="vazon2_holl" alpha="0" />
+        <sprite position="408;270" texture="vazon1_holl" alpha="0" />
+        <sprite position="591;281" texture="water_vazon3" alpha="0" />
+        <sprite position="497;355" texture="water_vazon2" alpha="0" />
+        <sprite position="389;258" texture="water_vazon1" alpha="0" />
+        <sprite position="412;282" texture="flower1_rostok" alpha="0" pivot="27;38" scale="0" />
+        <sprite position="376;281" texture="flower1_stebel" alpha="0" pivot="66;94" scale="0" />
+        <sprite position="375;332" texture="flower1_bloom" alpha="0" pivot="56;31" scale="0" />
+        <sprite position="514;340" texture="flower2_rostok" alpha="0" pivot="16;70" scale="0" />
+        <sprite position="486;372" texture="flower2_stebel" alpha="0" pivot="44;89" scale="0" />
+        <sprite position="480;409" texture="flower2_bloom" alpha="0" pivot="39;42" scale="0" />
+        <sprite position="611;290" texture="flower3_rostok" alpha="0" pivot="16;47" scale="0" />
+        <sprite position="581;266" texture="flower3_stebel" alpha="0" pivot="44;89" scale="0" />
+        <sprite position="581;340" texture="flower3_bloom" alpha="0" pivot="49;23" scale="0" />
+        <sprite position="419;271" texture="cob_1" alpha="0" />
+        <sprite position="510;358" texture="cob_2" alpha="0" />
+        <sprite position="604;285" texture="cob_3" alpha="0" />
+        <sprite position="706;236" texture="cob_placed" usehint="true" pivotx="center" pivoty="center" stage="say-god_4-findall" ontouchbegan="onPickItem:" />
+        <sprite position="757;235" texture="laika_placed" usehint="true" pivotx="center" pivoty="center" stage="say-god_4-findall" ontouchbegan="onPickItem:" />
+        <sprite position="436;382" invent="center_inv" alpha="0" texture="center" ontouchend="onPickCenter" stage="say-god_4-flowers" />
+        <sprite position="684;225" texture="rake_placed" usehint="true" pivotx="center" pivoty="center" stage="say-god_4-findall" ontouchbegan="onPickItem:" />
+        <animation position="340;317" plistfile="Scenes/04/Animations/god_of_earth" />
+		<sprite position="390;336" texture="apron_placed" parent="god_of_earth" />
+		<sprite position="389;537" texture="mushroom_placed" parent="god_of_earth" />
+		<sprite position="337;309" texture="glove_placed" parent="god_of_earth" />
+		<sprite position="422;515" texture="hat_placed" parent="god_of_earth" />
+		<sprite position="535;328" texture="spade_placed" parent="god_of_earth" />
+	<objects/>
+<scene/>

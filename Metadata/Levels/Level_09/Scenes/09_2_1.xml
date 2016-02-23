@@ -1,0 +1,83 @@
+<scene images="/Scenes/09/09_2_1" sounds="09" plistfiles="09_2_1" effects="scene09.ptc" music="melody_3" >
+	<objects >        
+        <sprite position="0;97" texture="fog4" />
+        <sprite position="490;641" texture="glasses_hidden" />
+        <sprite position="490;641" texture="glasses_full" />
+        <sprite position="277;414" texture="cap_hidden" />
+        <sprite position="277;414" texture="cap_full" />
+        <sprite position="858;253" texture="mantle_hidden" />
+        <sprite position="858;253" texture="mantle_full" />
+        <sprite position="860;407" texture="feather_hidden" />
+        <sprite position="860;407" texture="feather_full" />
+        <sprite position="206;387" texture="inkpot_hidden" />
+        <sprite position="206;387" texture="inkpot_full" />
+        <sprite position="53;567" texture="tube_hidden" />
+        <sprite position="53;567" texture="tube_full" />
+        <sprite position="134;209" texture="scales_hidden" />
+        <sprite position="134;209" texture="scales_full" />
+        <sprite position="615;194" texture="glass_hidden" />
+        <sprite position="615;194" texture="glass_full" />
+        <sprite position="312;288" texture="question_hidden" />
+        <sprite position="312;288" texture="question_full" />
+        <sprite position="24;418" texture="book1_hidden" />
+        <sprite position="24;418" texture="book1_full" />
+        <sprite position="583;487" texture="book2_hidden" />
+        <sprite position="583;487" texture="book2_full" />
+        <sprite position="436;590" texture="scroll1_hidden" />
+        <sprite position="436;590" texture="scroll1_full" />
+        <sprite position="305;535" texture="scroll2_hidden" />
+        <sprite position="305;535" texture="scroll2_full" />
+        <sprite position="696;181" texture="letter_a_hidden" />
+        <sprite position="696;181" texture="letter_a_full" />
+        <sprite position="476;448" texture="letter_x_hidden" />
+        <sprite position="476;448" texture="letter_x_full" />
+        <sprite position="817;203" texture="globe_hidden" />
+        <sprite position="817;203" texture="globe_full" />
+        <sprite position="188;623" texture="star_hidden" name="bear_star_hidden" />
+        <sprite position="188;623" texture="star_full" name="bear_star_full" />
+        <sprite position="401;453" texture="eye_hidden" />
+        <sprite position="401;453" texture="eye_full" />
+        <sprite position="476;526" texture="retort1_hidden" />
+        <sprite position="476;526" texture="retort1_full" />
+        <sprite position="385;167" texture="retort2_hidden" />
+        <sprite position="385;167" texture="retort2_full" />
+        <sprite position="673;327" texture="hieroglyph_hidden" />
+        <sprite position="673;327" texture="hieroglyph_full" />
+        <sprite position="791;282" texture="scarab_hidden" />
+        <sprite position="791;282" texture="scarab_full" />
+        <sprite position="126;625" texture="piramid_hidden" />
+        <sprite position="126;625" texture="piramid_full" />
+        <sprite position="449;634" texture="owl_hidden" />
+        <sprite position="449;634" texture="owl_full" />
+        <sprite position="249;177" texture="draco_hidden" />
+        <sprite position="249;177" texture="draco_full" />
+        <sprite position="919;581" texture="tortoise_hidden" />
+        <sprite position="919;581" texture="tortoise_full" />
+        <sprite position="788;416" texture="elephant_hidden" />
+        <sprite position="788;416" texture="elephant_full" />
+        <sprite position="897;441" texture="snake_hidden" />
+        <sprite position="897;441" texture="snake_full" />
+        <sprite position="936;349" texture="sfera_hidden" />
+        <sprite position="936;349" texture="sfera_full" />
+        <sprite position="367;126" texture="baza" />
+        <sprite position="407;340" texture="snake_eye" alpha="0" ignorealpha="true" stage="say-god_8-place-statuets" usehint="true" ontouchend="onPlaceItem:" />
+        <sprite position="564;254" texture="elephant_eye" alpha="0" ignorealpha="true" stage="say-god_8-place-statuets" usehint="true" ontouchend="onPlaceItem:" />
+        <sprite position="399;252" texture="tortoise_eye" alpha="0" ignorealpha="true" stage="say-god_8-place-statuets" usehint="true" ontouchend="onPlaceItem:" />
+        <sprite position="570;340" texture="draco_eye" alpha="0" ignorealpha="true" stage="say-god_8-place-statuets" usehint="true" ontouchend="onPlaceItem:" />
+        <sprite position="488;389" texture="owl_eye" alpha="0" ignorealpha="true" stage="say-god_8-place-statuets" usehint="true" ontouchend="onPlaceItem:" />
+		<sprite position="468;252" texture="sfera_placed" onenterframe="updateSfera:" />
+        <sprite position="490;272" texture="sfera_eye" pivotx="center" pivoty="center" parent="sfera_placed" />
+        <sprite position="762;473" texture="spirit_of_god_07" />
+		<sprite position="807;595" texture="glasses_placed" parent="spirit_of_god_07" />
+		<sprite position="773;619" texture="cap_placed" parent="spirit_of_god_07" />
+		<sprite position="797;504" texture="mantle_placed" parent="spirit_of_god_07" />
+		<sprite position="720;554" texture="feather_placed" parent="spirit_of_god_07" />
+		<sprite position="865;513" texture="tube_placed" parent="spirit_of_god_07" />
+        <sprite position="455;161" texture="snake_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_8-place-statuets" />
+        <sprite position="497;161" texture="elephant_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_8-place-statuets" />
+        <sprite position="427;158" texture="tortoise_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_8-place-statuets" />
+        <sprite position="549;162" texture="draco_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_8-place-statuets" />
+        <sprite position="488;161" texture="owl_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_8-place-statuets" />
+        <sprite position="455;400" texture="knocker" alpha="0" touched="true" invent="knocker_inv" ontouchend="onPickRevard"  />
+	<objects/>
+<scene/>

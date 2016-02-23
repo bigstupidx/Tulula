@@ -1,0 +1,124 @@
+<Scene images="/Scenes/07/07_2_2" sounds="07" plistfiles="07_2_2" effects="scene07.ptc" music="melody_6" >
+	<objects >
+		<sprite position="0;102" texture="back_7" />
+		<sprite position="851;241" texture="arrow_r_1_hidden" />
+		<sprite position="851;241" texture="arrow_r_1_full" />
+		<sprite position="244;510" texture="arrow_r_2_hidden" />
+		<sprite position="244;510" texture="arrow_r_2_full" />
+		<sprite position="915;334" texture="arrow_t_2_hidden" />
+		<sprite position="915;334" texture="arrow_t_2_full" />
+		<sprite position="43;456" texture="arrow_t_1_hidden" />
+		<sprite position="43;456" texture="arrow_t_1_full" />
+		<sprite position="803;472" texture="arrow_c_1_hidden" />
+		<sprite position="803;472" texture="arrow_c_1_full" />
+		<sprite position="591;376" texture="arrow_c_2_hidden" />
+		<sprite position="591;376" texture="arrow_c_2_full" />
+		<sprite position="446;435" texture="load_c_1_hidden" />
+		<sprite position="446;435" texture="load_c_1_full" />
+		<sprite position="193;290" texture="load_c_2_hidden" />
+		<sprite position="193;290" texture="load_c_2_full" />
+		<sprite position="288;678" texture="load_t_1_hidden" />
+		<sprite position="288;678" texture="load_t_1_full" />
+		<sprite position="628;631" texture="load_r_1_hidden" />
+		<sprite position="628;631" texture="load_r_1_full" />
+		<sprite position="540;508" texture="load_r_2_hidden" />
+		<sprite position="540;508" texture="load_r_2_full" />
+		<sprite position="289;428" texture="load_t_2_hidden" />
+		<sprite position="289;428" texture="load_t_2_full" />
+		<sprite position="500;581" texture="spiral_hidden" />
+		<sprite position="500;581" texture="spiral_full" />
+		<sprite position="727;512" texture="time_hidden" />
+		<sprite position="727;512" texture="time_full" />
+		<sprite position="69;186" texture="sun_hidden" />
+		<sprite position="69;186" texture="sun_full" />
+		<sprite position="911;513" texture="moon_hidden" />
+		<sprite position="911;513" texture="moon_full" />
+		<sprite position="261;561" texture="detail1_hidden" />
+		<sprite position="261;561" texture="detail1_full" />
+		<sprite position="693;678" texture="detail2_hidden" />
+		<sprite position="693;678" texture="detail2_full" />
+		<sprite position="189;432" texture="tower_hidden" />
+		<sprite position="189;432" texture="tower_full" />
+		<sprite position="134;529" texture="cuckoo_hidden" />
+		<sprite position="134;529" texture="cuckoo_full" />
+		<sprite position="673;454" texture="clock_circle_hidden" />
+		<sprite position="673;454" texture="clock_circle_full" />
+		<sprite position="409;518" texture="clock_romb_hidden" />
+		<sprite position="409;518" texture="clock_romb_full" />
+		<sprite position="771;404" texture="clock_triangle_hidden" />
+		<sprite position="771;404" texture="clock_triangle_full" />
+		<sprite position="88;358" texture="clock_sand_hidden" />
+		<sprite position="88;358" texture="clock_sand_full" />
+		<sprite position="72;569" texture="digit_5_hidden" />
+		<sprite position="72;569" texture="digit_5_full" />
+		<sprite position="591;619" texture="digit_11_hidden" />
+		<sprite position="591;619" texture="digit_11_full" />
+		<sprite position="887;273" texture="digit_7_hidden" />
+		<sprite position="887;273" texture="digit_7_full" />
+		<sprite position="599;508" texture="bell_hidden" />
+		<sprite position="599;508" texture="bell_full" />
+        <sprite position="108;462" texture="clock_sun_hidden" />
+        <sprite position="108;462" texture="clock_sun_full" />
+        <sprite position="476;160" name="rope_t_1" texture="rope" parent="clock_triangle_baza" />
+        <sprite position="523;168" name="rope_t_2" texture="rope" parent="clock_triangle_baza" />
+        <sprite position="576;193" name="rope_c_1" texture="rope" parent="clock_circle_baza" />
+        <sprite position="609;212" name="rope_c_2" texture="rope" parent="clock_circle_baza" />
+        <sprite position="396;198" name="rope_r_2" texture="rope" parent="clock_romb_baza" />
+        <sprite position="424;185" name="rope_r_1" texture="rope" parent="clock_romb_baza" />
+        <sprite position="271;83" texture="baza" />
+        <sprite position="308;326" texture="shell1_1_open" alpha="0" />
+        <sprite position="321;340" texture="bul_1_1" parent="shell1_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="321;340" texture="bul_1_2" parent="shell1_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="321;340" texture="bul_1_3" parent="shell1_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="321;340" texture="bul_1_4" parent="shell1_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="321;340" texture="bul_1_5" parent="shell1_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="307;325" texture="shell1_2_open" parent="shell1_1_open" />
+        <sprite position="600;335" texture="shell2_1_open" alpha="0" />
+        <sprite position="613;348" texture="bul_2_1" parent="shell2_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="613;348" texture="bul_2_2" parent="shell2_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="613;348" texture="bul_2_3" parent="shell2_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="613;348" texture="bul_2_4" parent="shell2_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="613;348" texture="bul_2_5" parent="shell2_1_open" pivotx="center" pivoty="center" scale="0" />
+        <sprite position="613;334" texture="shell2_2_open" parent="shell2_1_open" />
+        <sprite position="659;190" texture="clock_romb_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="689;204" texture="arrow_r_1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="293;267" texture="arrow_r_2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="308;279" texture="load_r_1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="336;245" texture="load_r_2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="254;253" texture="clock_circle_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="559;154" texture="c_alfa" alpha="0" usehint="true" ignorealpha="true" stage="clock_circle_placed" ontouchend="onLoadPlaced:" />
+        <sprite position="646;204" texture="arrow_c_1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="305;193" texture="arrow_c_2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="330;218" texture="load_c_1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="280;193" texture="load_c_2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="249;189" texture="clock_triangle_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="462;168" texture="t_alfa" alpha="0" usehint="true" ignorealpha="true" stage="clock_triangle_placed" ontouchend="onLoadPlaced:" />
+        <sprite position="679;281" texture="arrow_t_1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="660;309" texture="arrow_t_2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="657;273" texture="load_t_1_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="640;216" texture="load_t_2_placed" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_6-hidobjdone" usehint="true" />
+        <sprite position="359;239" texture="clock_romb_baza" alpha="0" stage="say-god_6-hidobjdone" usehint="true" ignorealpha="true" touched="true" ontouchend="onClockBaza:" />
+        <sprite position="380;149" texture="r_alfa" alpha="0" usehint="true" ignorealpha="true" stage="clock_romb_placed" ontouchend="onLoadPlaced:" />
+        <sprite position="400;288" texture="arrow_r_1_baza" alpha="0" pivot="14;40" />
+        <sprite position="405;281" texture="arrow_r_2_baza" alpha="0" pivot="7;13" />
+        <sprite position="413;159" texture="load_r_1_baza" alpha="0" parent="rope_r_1" />
+        <sprite position="387;178" texture="load_r_2_baza" alpha="0" parent="rope_r_2" />
+        <sprite position="552;252" texture="clock_circle_baza" alpha="0" usehint="true" ignorealpha="true" touched="true" ontouchend="onClockBaza:" stage="say-god_6-hidobjdone" />
+        <sprite position="559;288" texture="arrow_c_1_baza" alpha="0" pivot="35;33" />
+        <sprite position="583;288" texture="arrow_c_2_baza" alpha="0" pivot="10;25" />
+        <sprite position="561;160" texture="load_c_1_baza" alpha="0" parent="rope_c_1" />
+        <sprite position="597;185" texture="load_c_2_baza" alpha="0" parent="rope_c_2" />
+        <sprite position="463;249" texture="clock_triangle_baza" alpha="0" usehint="true" ignorealpha="true" touched="true" ontouchend="onClockBaza:" stage="say-god_6-hidobjdone" />
+        <sprite position="473;258" texture="arrow_t_1_baza" alpha="0" pivot="36;9" />
+        <sprite position="499;256" texture="arrow_t_2_baza" alpha="0" pivot="9;9" />
+        <sprite position="462;164" texture="load_t_1_baza" alpha="0" parent="rope_t_1" />
+        <sprite position="509;173" texture="load_t_2_baza" alpha="0" parent="rope_t_2" />
+        <animation position="427;363" plistfile="Scenes/07/Animations/fish" alpha="0" />
+        <animation position="427;363" plistfile="Scenes/07/Animations/fish_am" alpha="0" />
+		<animation position="427;363" plistfile="Scenes/07/Animations/spirit_of_god_09" />
+		<sprite position="517;601" texture="clock_sun_placed" parent="spirit_of_god_09" />
+		<sprite position="446;424" texture="clock_sand_placed" parent="spirit_of_god_09" />
+		<sprite position="401;517" texture="time_placed" parent="spirit_of_god_09" />
+        <sprite position="459;385" name="key" texture="key2_hidden" touched="true" invent="key5_inv" alpha="0" ontouchend="onPickKey" />
+	<objects/>
+<scene/>

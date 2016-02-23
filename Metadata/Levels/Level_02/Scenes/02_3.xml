@@ -1,0 +1,65 @@
+<scene images="/Scenes/02/02_3" sounds="02" hintarrow="exit_arrow" effects="scene02.ptc" arrowdir="left" plistfiles="02_3" music="playlist4" >
+	<objects >
+		<sprite position="0;103" texture="sky" />
+		<sprite position="312;249" texture="cloud_1" />
+		<sprite position="426;416" texture="cloud_2" />
+		<sprite position="445;352" texture="puzzle" />
+		<sprite position="0;103" texture="bg_23" />
+		<sprite position="427;290" texture="v_full" alpha="0" />
+		<sprite position="554;108" texture="v_8_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="798;203" texture="v_7_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="19;204" texture="v_6_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="62;334" texture="v_5_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="328;661" texture="v_4_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="168;501" texture="v_3_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="942;564" texture="v_2_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="129;672" texture="v_1_hidden" useparticlehint="false" usehint="true" pivotx="center" pivoty="center" touched="true" ontouchend="onPiecePicked:" />
+		<sprite position="775;275" texture="leaf_1" pivot="235;77" />
+		<sprite position="811;619" texture="leaf_2" pivot="207;4" />
+		<sprite position="313;87" texture="leaf_3" pivot="53;220" />
+		<sprite position="158;618" texture="leaf_6" pivot="24;4" />
+		<sprite position="672;64" texture="leaf_4" pivot="140;90" />
+		<sprite position="884;377" texture="leaf_5" pivot="130;170" />
+		<sprite position="0;578" texture="stairs" />
+		<sprite position="0;563" texture="stairs_light" touched="true" ontouchend="onStairsClicked:" />
+        <sprite position="497;679" texture="spirit_02_3_hidden" totem="spirit_02_3" touched="true" />
+		<sprite position="832;389" texture="stone_02_3_hidden" totem="stone_02_3" touched="true" />
+		<sprite position="657;401" texture="v_15" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="15" />
+		<sprite position="531;352" texture="v_14" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="14" />
+		<sprite position="592;529" texture="v_13" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="13" />
+		<sprite position="610;444" texture="v_12" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="12" />
+		<sprite position="741;426" texture="v_11" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="11" />
+		<sprite position="487;363" texture="v_10" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="10" />
+		<sprite position="629;369" texture="v_9" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="9" />
+		<sprite position="660;542" texture="v_8" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="8" />
+		<sprite position="704;363" texture="v_7" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="7" />
+		<sprite position="570;462" texture="v_6" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="6" />
+		<sprite position="453;586" texture="v_5" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="5" />
+		<sprite position="551;528" texture="v_4" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="4" />
+		<sprite position="473;439" texture="v_3" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="3" />
+		<sprite position="444;478" texture="v_2" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="2" />
+		<sprite position="472;520" texture="v_1" alpha="0" touched="true" ignorealpha="true" ontouchend="onPieceTouchEnd:" counter="1" />
+        <sprite position="0;198" texture="tamborine" alpha="0" onenterframe="updateTamborine:" />
+		<sprite position="102;309" texture="v_15_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="15" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="222;422" texture="v_14_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="14" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="60;285" texture="v_13_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="13" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="268;387" texture="v_12_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="12" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="161;509" texture="v_11_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="11" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="193;352" texture="v_10_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="10" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="185;308" texture="v_9_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="9" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="25;373" texture="v_8_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="8" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="51;463" texture="v_7_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="7" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="126;400" texture="v_6_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="6" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="129;394" texture="v_5_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="5" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="107;467" texture="v_4_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="4" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="29;377" texture="v_3_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="3" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="172;451" texture="v_2_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="2" usehint="true" pivotx="center" pivoty="center" />
+		<sprite position="153;267" texture="v_1_t" parent="tamborine" touched="true" ontouchbegan="onPieceClicked:" counter="1" usehint="true" pivotx="center" pivoty="center" />
+        <sprite position="217;312" texture="house_farmer_lv" />
+		<sprite position="0;103" texture="stainedglass_light" alpha="0" />
+		<sprite position="497;531" texture="symbol_1" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="673;538" texture="symbol_2" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="586;446" texture="symbol_3" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="19;637" texture="exit_arrow" />
+	<objects/>
+<scene/>

@@ -1,0 +1,93 @@
+<scene images="/Scenes/01/01_2" sounds="01" hintarrow="exit_arrow" effects="scene01.ptc" plistfiles="01_2" music="playlist1" >
+	<objects >
+		<sprite position="0;101" texture="background" />
+		<sprite position="875;263" texture="stoyka" />
+		<sprite position="616;441" texture="point07_03 hiden" invent="m_point07_p03_inv" stage="enable-mirror" />
+		<sprite position="800;583" texture="karamyslo" pivot="120;100" />
+		<sprite position="929;611" texture="karamyslo_alfa" />
+		<sprite position="323;234" texture="totem_stone_03" totem="spirit_01_3" touched="true" />
+		<sprite position="631;435" texture="pole_point03_base" parent="mummy_kacheli" pivot="188;180" ontouchend="onOpahaloClicked:" alphamask="true" usehint="true" />
+		<sprite position="659;613" texture="pole_point03_full" alpha="0" usehint="true" parent="pole_point03_base" ignorealpha="true" texthintontouch="say-opahalo" ontouchend="onSunDiskClicked:" stage="task-p2-done" />
+		<sprite position="655;602" texture="point03_light" alpha="0" parent="pole_point03_full"  counter="4" onenterframe="updatePoints:" />
+		<sprite position="757;458" texture="mummy_kacheli" parent="karamyslo" pivot="50;13" hintpos="50;50" usehint="true" stage="task-p1-done" ontouchend="onMummyTouched:" alphamask="true" hintpriority="2" />
+		<sprite position="20;414" texture="totem_stone_01_p03" totem="stone_01_3" touched="true" />
+		<sprite position="139;298" texture="sun_hiden" invent="pole_point03_inv" stage="task-p2-done" />
+		<sprite position="834;417" name="gruz03_hidden" texture="gruz03" parent="mummy_kacheli" pivot="17;2" invent="gruz03_inv" ontouchend="onGruzikPicked" stage="task-p2" />
+		<sprite position="966;549" texture="gruz_base" parent="karamyslo" pivotx="center" pivoty="top" />
+		<sprite position="963;418" texture="gruz01" alpha="0" parent="gruz_base" pivotx="center" pivoty="top" texthintontouch="gruz-say" ignorealpha="true" ontouchend="onGruzikClicked:" stage="task-p2" usehint="true" />
+		<sprite position="963;364" texture="gruz02" alpha="0" parent="gruz01" pivotx="center" pivoty="top" texthintontouch="gruz-say" ignorealpha="true" ontouchend="onGruzikClicked:" stage="task-p2" usehint="true" />
+		<sprite position="613;308" texture="gruz02_hiden" invent="gruz02_inv" stage="task-p2" />
+		<sprite position="963;322" name="gruz03" texture="gruz03_2" alpha="0" parent="gruz02" texthintontouch="gruz-say" ignorealpha="true" ontouchend="onGruzikClicked:" stage="task-p2" usehint="true" />
+		<sprite position="839;243" texture="gruz01 hiden" invent="gruz01_hud" stage="task-p2" />
+		<sprite position="748;357" texture="point02_full" alpha="0" ignorealpha="true" parent="point02_01" pivotx="top" pivoty="top" stage="task-p1-done" texthintontouch="mummy_mirror" ontouchend="onMedalClicked:" usehint="true" />
+		<sprite position="748;413" texture="point02_01" parent="mummy_kacheli" pivot="20;10" />
+		<sprite position="372;152" texture="point02_02hiden" invent="point02_02_inv" stage="task-p1-done" />
+		<sprite position="724;373" texture="point02_light" alpha="0" parent="point02_full" counter="3" onenterframe="updatePoints:" />
+		<sprite position="256;259" texture="point04_base" />
+		<sprite position="267;227" texture="point04_dirt" stage="task-p2-done" texthintontouch="horn-say" ontouchend="onHornClicked:" usehint="true" />
+		<sprite position="230;253" texture="point04_light" alpha="0"  counter="5" onenterframe="updatePoints:" />
+		<sprite position="542;130" texture="cleaning_brush" invent="cleaning_brush_hud" stage="task-p2-done" />
+		<sprite position="600;185" texture="point05_open_base" />
+		<sprite position="605;179" texture="point05_open" alpha="0" />
+		<sprite position="642;235" texture="point05_light" alpha="0" counter="6" onenterframe="updatePoints:" />
+		<sprite position="652;236" texture="point05_closed" stage="task-p2-done" texthintontouch="casket-say" ontouchend="onCasketClicked:" usehint="true" />
+		<sprite position="668;327" texture="point5_key" alpha="0" parent="point05_closed" />
+		<sprite position="381;311" texture="point5_key_hiden" invent="point5_key_hud" stage="task-p2-done" />
+		<sprite position="313;421" texture="point06_shnur" />
+		<sprite position="289;655" texture="point06_shnur_alfa" />
+		<sprite position="286;616" texture="point06_whail" usehint="true" pivotx="center" pivoty="center" ontouchend="onCircleClicked:" stage="task-p2-done" />
+		<sprite position="290;616" texture="point06_front" />
+		<sprite position="273;597" texture="point06_light" alpha="0" counter="7" onenterframe="updatePoints:" />
+		<sprite position="67;386" texture="point07_full" alpha="0" />
+		<sprite position="104;454" texture="point07_base" ontouchend="onMirrorClicked:" stage="enable-mirror" />
+		<sprite position="308;147" texture="point07_01 hiden" stage="enable-mirror" invent="m_point07_p01_inv" />
+		<sprite position="10;636" texture="point07_02 hiden" stage="enable-mirror" invent="m_point07_p02_inv" />
+		<sprite position="32;238" texture="point07_04 hiden" stage="enable-mirror" invent="m_point07_p04_inv" />
+		<sprite position="326;312" texture="point07_05 hiden" stage="enable-mirror" invent="m_point07_p05_inv" />
+		<sprite position="915;249" texture="point07_06 hiden" stage="enable-mirror" invent="m_point07_p06_inv" />
+		<sprite position="115;435" texture="point07_light" alpha="0" counter="8" onenterframe="updatePoints:" />
+		<sprite position="463;285" texture="point01_full" alpha="0" />
+		<sprite position="456;285" texture="point01base" ontouchend="onCrystalClicked:" stage="task-light-done" />
+		<sprite position="129;705" texture="point01_01hiden" invent="ks_point01_p01_inv" stage="task-p1" />
+		<sprite position="829;185" texture="point01_02hiden" invent="ks_point01_p02_inv" stage="task-p1" />
+		<sprite position="44;519" texture="point01_03hiden" invent="ks_point01_p03_inv" stage="task-p1" />
+		<sprite position="25;309" texture="point01_04hiden" invent="ks_point01_p04_inv" stage="task-p1" />
+		<sprite position="119;689" texture="teeth_closed" ontouchend="onTeethClicked:" stage="task-p1" useparticlehint="true" />
+        <particle emitter="dust2" position="512;738" active="false" />
+        <sprite position="0;96" texture="darkness" touched="true" texthintontouch="light-hint" onenterframe="updateDarkness:" />
+        <sprite position="427;408" texture="rope-ladder" />
+		<sprite position="468;404" texture="rey_01" scale="0" pivot="33;11" />
+		<sprite position="497;418" texture="rey_02" scale="0" onenterframe="updateLight:" pivot="8;8" />
+		<sprite position="684;416" texture="rey_03" scale="0" pivot="85;205" onenterframe="updateLight:" />
+		<sprite position="293;325" texture="rey_04" pivot="410;18" scaley="0" onenterframe="updateLight:" />
+		<sprite position="291;276" texture="rey_05" pivot="10;8" scaley="0" onenterframe="updateLight:" />
+		<sprite position="325;281" texture="rey_06" pivot="370;370" scaley="0" onenterframe="updateLight:" />
+		<sprite position="126;451" texture="rey_07" pivot="208;5" scaley="0" onenterframe="updateLight:" />
+		<sprite position="126;417" texture="rey_08" pivot="0;17" scaley="0" onenterframe="updateLight:" />
+		<sprite name="h2" position="459;400" texture="h1" alpha="0" />
+		<sprite position="725;392" texture="h3" alpha="0" />
+		<sprite position="650;597" texture="h4" alpha="0" />
+		<sprite position="258;290" texture="h5" alpha="0" />
+		<sprite position="659;249" texture="h6" alpha="0" />
+		<sprite position="272;600" texture="h7" alpha="0" />
+		<sprite position="104;423" texture="h8" alpha="0" />
+		<sprite position="97;213" texture="sign" pivot="400;245" alpha="0" usehint="true" hintpriority="-2" touched="true" ontouchend="onSceneComplete:" />
+		<object name="exit" position="375;678" size="250;90" ignorealpha="true" touched="true" ontouchend="onExitFromScene:" />
+		<compound position="343;363" texture="ks_point01_base" open="point01base" full="point01_full" objects="ks_point01_p01:ks_point01_p01_inv, ks_point01_p02:ks_point01_p02_inv, ks_point01_p03:ks_point01_p03_inv, ks_point01_p04:ks_point01_p04_inv" active="false" oncomplete="onCrystalComplette" stage="say-shaman-crystal" autoactivate="true" />
+		<sprite position="449;375" texture="ks_point01_base_alpha" />
+		<sprite position="390;404" texture="ks_point01_p01" />
+		<sprite position="437;497" texture="ks_point01_p02" />
+		<sprite position="547;492" texture="ks_point01_p03" />
+		<sprite position="601;394" texture="ks_point01_p04" />
+		<compound position="0;303" texture="m_point07_base" open="point07_base" full="point07_full" objects="m_point07_p01:m_point07_p01_inv, m_point07_p02:m_point07_p02_inv, m_point07_p03:m_point07_p03_inv, m_point07_p04:m_point07_p04_inv, m_point07_p05:m_point07_p05_inv, m_point07_p06:m_point07_p06_inv" oncomplete="onMirrorComplete" />
+		<sprite position="85;412" texture="m_point07_base_alpha" />
+		<sprite position="33;390" texture="m_point07_p01" />
+		<sprite position="19;505" texture="m_point07_p02" />
+		<sprite position="128;546" texture="m_point07_p03" />
+		<sprite position="198;495" texture="m_point07_p04" />
+		<sprite position="200;378" texture="m_point07_p05" />
+		<sprite position="129;321" texture="m_point07_p06" />
+		<sprite position="469;689" texture="exit_arrow" />
+        <particle emitter="portal" position="499;460" active="false" />
+	<objects/>
+<scene/>

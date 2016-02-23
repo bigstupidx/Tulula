@@ -1,0 +1,201 @@
+<Scene images="/Scenes/05/05_1" sounds="05" plistfiles="05_1" effects="scene05.ptc" music="playlist1" arrowdir="right" >
+	<objects >
+		<sprite position="0;102" texture="back_51" />
+		<sprite position="2;405" texture="lighthouse_lv" />
+		<sprite position="-43;467" texture="palm" />
+		<sprite position="87;542" texture="code" stage="task-signal" />
+		<sprite position="235;268" texture="spirit5_2_hidden" totem="spirit_05_2" touched="true" />
+		<sprite position="208;261" texture="boulder" touched="true" ontouchend="onBoulderClicked:" counter="-1" />
+		<sprite position="860;241" texture="rune_2_hidden" invent="rune_2_inv" stage="task-build-hills-done" />
+		<sprite position="96;192" texture="rune_1_hidden" invent="rune_1_inv" stage="task-build-hills-done" />
+		<sprite position="844;227" texture="stone2" stage="task-build-hills-done" ontouchend="onBoulderClicked:" counter="1" />
+		<sprite position="683;356" texture="stone5_1_hidden" totem="stone_05_1" touched="true"  />
+		<sprite position="0;112" texture="water1" />
+		<sprite position="0;167" texture="wave" />
+		<sprite position="323;158" texture="beacon_placed" alpha="0" />
+		<sprite position="314;122" texture="sphere_hidden" invent="sphere_inv" ontouchend="onSpherePicked" />
+        <object name="sphere-alpha" position="314;122" size="60;60" texthintontouch="say-depth" ontouchend="onSphereHidden:" usehint="true" stage="task-build-hills-done"  />
+		<sprite position="276;111" texture="dock_base" />
+		<sprite position="844;623" texture="spray_hidden" invent="spray_inv" stage="task-sculpture" />
+		<sprite position="314;544" texture="cradle_hidden" invent="cradle_inv" />
+		<sprite position="404;515" texture="shaddow_u7_closed" parent="umbrella7_closed" />
+		<sprite position="340;506" texture="shaddow_u7" parent="umbrella7" />
+		<sprite position="386;514" texture="spirit5_1_hidden" totem="spirit_05_1" touched="true"  />
+		<sprite position="343;529" texture="umbrella7" touched="true" usehint="true" texthintontouch="say-umbrella7" />
+		<sprite position="396;524" texture="umbrella7_closed" alpha="0" />
+		<sprite position="343;480" texture="sand_1" usehint="true" touched="true" texthintontouch="say-umbrellasand" ontouchend="onSandClicked:" />
+		<sprite position="926;527" texture="shovel_hidden" invent="shovel_inv" touched="true" />
+		<sprite position="677;480" texture="pyramid_plan" alpha="0" touched="true" />
+		<sprite position="648;483" texture="pyramid" alpha="0"  />
+		<sprite position="648;483" texture="pyramid_on" alpha="0"  />
+		<sprite position="410;471" texture="hill1_4" />
+		<sprite position="517;522" texture="hill1_5" />
+		<sprite position="573;480" texture="hill1_3" parent="hil" />
+		<sprite position="558;545" texture="rune_3_target" parent="hil" counter="3" usehint="true" touched="true" ontouchend="onRuneTarget:" texthintontouch="say-runes" />
+		<sprite position="549;687" texture="rune_2_target" parent="hil" counter="2" usehint="true" touched="true" ontouchend="onRuneTarget:" texthintontouch="say-runes" />
+		<sprite position="828;486" texture="rune_1_target" parent="hil" counter="1" usehint="true" touched="true" ontouchend="onRuneTarget:" texthintontouch="say-runes" />
+		<sprite position="741;620" texture="sphere_target" parent="hil" touched="true" usehint="true" texthintontouch="say-runes-target" ontouchend="onSpherePlaced:" />
+        <object name="hil" alpha="0" />
+        <sprite position="840;491" texture="rune_1_placed" alpha="0" parent="hil" />
+		<sprite position="555;689" texture="rune_2_placed" alpha="0" parent="hil" />
+		<sprite position="564;558" texture="rune_3_placed" alpha="0" parent="hil" />
+		<sprite position="840;491" texture="rune_1_on" alpha="0" parent="hil" counter="1" onenterframe="updateRune:" />
+		<sprite position="555;689" texture="rune_2_on" alpha="0" parent="hil" counter="2" onenterframe="updateRune:" />
+		<sprite position="564;558" texture="rune_3_on" alpha="0" parent="hil" counter="3" onenterframe="updateRune:" />
+		<sprite position="751;622" texture="sphere_placed" alpha="0" parent="hil" pivotx="center" pivoty="center" />
+		<sprite position="382;478" texture="hill1_2" />
+		<sprite position="331;486" texture="hill1_6" parent="hil" />
+		<sprite position="386;465" texture="hill1_1"  />
+		<sprite position="396;390" texture="hils_s" />
+		<sprite position="867;376" texture="crab1_shaddow" parent="crab1" />
+		<sprite position="867;392" texture="crab1" pivotx="center" pivoty="center" />
+		<sprite position="861;413" texture="scrap_2_hidden" parent="crab1" invent="scrap_2_inv" stage="task-ship" />
+		<sprite position="588;477" texture="hill1_7" parent="hil" />
+		<sprite position="424;715" texture="rune_3_hidden" stage="task-build-hills-done" invent="rune_3_inv" />
+		<sprite position="160;601" texture="scrap_4_hidden" invent="scrap_4_inv" stage="task-ship" />
+		<sprite position="724;689" texture="scrap_3_hidden" invent="scrap_3_inv" stage="task-ship" />
+		<sprite position="756;623" name="p1" texture="instruction" alpha="0" counter="1" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="657;576" name="p2" texture="instruction" alpha="0" counter="2" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="869;522" name="p3" texture="instruction" alpha="0" counter="3" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="736;472" name="p4" texture="instruction" alpha="0" counter="4" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="528;506" name="p5" texture="instruction" alpha="0" counter="5" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="462;605" name="p6" texture="instruction" alpha="0" counter="6" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="496;709" name="p7" texture="instruction" alpha="0" counter="7" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="570;597" name="p8" texture="instruction" alpha="0" counter="8" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="369;478" name="p9" texture="instruction" alpha="0" counter="9" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="163;412" texture="monster_plan" alpha="0" touched="true" />
+		<sprite position="136;354" texture="monster_open" alpha="0" />
+		<sprite position="136;354" texture="monster_open_on" parent="monster_open" />
+		<sprite position="162;416" texture="monster_closed" alpha="0" name="monster" />
+		<sprite position="136;354" texture="monster_closed_on" alpha="0" parent="monster" />
+		<sprite position="89;330" texture="crab2_shaddow" parent="crab2" />
+		<sprite position="89;340" texture="crab2" pivotx="center" pivoty="center" />
+		<sprite position="276;497" name="p10" texture="instruction" alpha="0" counter="10" stage="build-on" pivotx="center" pivoty="center"  ontouchend="onBuild:" texthintontouch="say-shaman-hammer" />
+		<sprite position="416;249" texture="hands_plan" alpha="0" touched="true" />
+		<sprite position="439;281" texture="hand_left" parent="hands" />
+		<sprite position="439;281" texture="hand_left_on" alpha="0" parent="hand_left" />
+        <object name="hands" alpha="0" />
+		<sprite position="537;275" texture="hand_right" parent="hands" />
+		<sprite position="537;273" texture="hand_right_on" alpha="0" parent="hand_right" />
+        <sprite position="416;289" texture="light" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="499;378" texture="sphere_mid" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="693;250" texture="crab3_shaddow" parent="crab3" />
+		<sprite position="693;258" texture="crab3" pivotx="center" pivoty="center" />
+		<sprite position="494;396" name="p11" texture="instruction" alpha="0" counter="11" pivotx="center" pivoty="center" stage="build-on" ontouchend="onBuild:" texthintontouch="say-shaman-hammer"  />
+		<sprite position="290;410" texture="numbers" alpha="0" />
+		<sprite position="10;442" texture="dust_hidden" invent="dust_inv" stage="task-build-hills" />
+		<sprite position="766;258" texture="instruction" parent="spider2" />
+		<sprite position="171;90" texture="dock_2" parent="dock_1" />
+		<sprite position="171;90" texture="dock_1" alpha="0" />
+		<sprite position="183;167" texture="dock_ray" alpha="0" />
+		<sprite position="336;69" texture="lighth" alpha="0" />
+		<sprite position="327;177" texture="lighth_ray" parent="lighth" alpha="0" />
+		<sprite position="394;183" name="lighth_button_1" texture="lighth_button" parent="lighth" alpha="0" />
+		<sprite position="394;215" name="lighth_button_2" texture="lighth_button" parent="lighth" alpha="0" />
+		<sprite position="394;247" name="lighth_button_3" texture="lighth_button" parent="lighth" alpha="0" />
+		<sprite position="394;277" name="lighth_button_4" texture="lighth_button" parent="lighth" alpha="0" />
+		<sprite position="394;308" name="lighth_button_5" texture="lighth_button" parent="lighth" alpha="0" />
+		<sprite position="394;341" name="lighth_button_6" texture="lighth_button" parent="lighth" alpha="0" />
+		<sprite position="367;426" texture="button_red" parent="lighth" counter="3" usehint="true" alphamask="true" stage="task-signal" ontouchend="onLightHouseButton:" />
+		<sprite position="408;426" texture="button_green" parent="lighth" counter="4" usehint="true" alphamask="true" stage="task-signal" ontouchend="onLightHouseButton:" />
+		<sprite position="428;380" texture="button_yellow" parent="lighth" counter="2" usehint="true" stage="task-signal" alphamask="true" ontouchend="onLightHouseButton:" />
+		<sprite position="386;380" texture="button_blue" parent="lighth" counter="1" usehint="true" stage="task-signal" alphamask="true" ontouchend="onLightHouseButton:" />
+		<sprite position="376;527" texture="red" parent="lighth" alpha="0" />
+		<sprite position="376;527" texture="blue" parent="lighth" alpha="0" />
+		<sprite position="376;527" texture="green" parent="lighth" alpha="0" />
+		<sprite position="376;527" texture="yellow" parent="lighth" alpha="0" />
+		<sprite position="371;481" texture="light_cover" parent="lighth" />
+		<sprite position="0;89" texture="lighth_ray2" parent="lighth" alpha="0" />
+		<sprite position="67;469" texture="beacon_hidden" invent="beacon_inv" stage="task-build-hills-done" />
+		<sprite position="101;497" texture="scrap_1_hidden" invent="scrap_1_inv" stage="task-ship" />
+		<window position="10;236" texture="code_zoom" close="code_exit" open="code" objects="k_1 k_2 k_3 k_4 k_5 k_6" />
+		<sprite position="78;450" texture="k_1" alpha="0" />
+		<sprite position="119;450" texture="k_2" alpha="0" />
+		<sprite position="161;450" texture="k_3" alpha="0" />
+		<sprite position="203;450" texture="k_4" alpha="0" />
+		<sprite position="244;450" texture="k_5" alpha="0" />
+		<sprite position="286;450" texture="k_6" alpha="0" />
+        <sprite position="64;625" texture="scrap_5_hidden" invent="scrap_5_inv" stage="task-ship" />
+        <animation position="762;207" plistfile="Scenes/05/Animations/spider3" name="spider3" pivotx="center" pivoty="top" />
+		<animation position="762;276" plistfile="Scenes/05/Animations/spider2" name="spider2" pivotx="center" pivoty="top" ontouchend="onSpiderClicked" />
+		<button name="code_exit" position="317;522" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="98;112" texture="ship_scrap" stage="task-ship" alpha="0" alphamask="true" />
+		<compound position="399;202" texture="ship_base" full="ship" open="ship_scrap" objects="scrap_1_placed:scrap_1_inv, scrap_2_placed:scrap_2_inv, scrap_3_placed:scrap_3_inv, scrap_4_placed:scrap_4_inv, scrap_5_placed:scrap_5_inv" oncomplete="onShipDone" />
+		<sprite position="491;258" texture="ship_base_alpha" />
+		<sprite position="610;337" texture="scrap_1_placed" />
+		<sprite position="605;229" texture="scrap_2_placed" />
+		<sprite position="518;394" texture="scrap_3_placed" />
+		<sprite position="426;340" texture="scrap_4_placed" />
+		<sprite position="426;236" texture="scrap_5_placed" />
+		<sprite position="98;112" texture="ship" alpha="0" ontouchend="onSceneExit:"  />
+		<sprite position="0;8" texture="water2" />
+		<sprite position="747;437" texture="shaddow_u3_2" parent="umbrella3_2" />
+		<sprite position="755;477" texture="umbrella3_2" counter="3" touched="true" hintpriority="2" usehint="true" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="796;455" texture="umbrella3_2_1" alpha="0" />
+		<sprite position="677;363" texture="shaddow_u4_2" parent="umbrella4_2"  />
+		<sprite position="679;385" texture="umbrella4_2" counter="4" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="682;390" texture="umbrella4_2_1" alpha="0" />
+		<sprite position="144;398" texture="shaddow_u6_2" parent="umbrella6_2" />
+		<sprite position="147;418" texture="umbrella6_2" counter="6" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="202;410" texture="umbrella6_2_1" alpha="0" />
+		<sprite position="526;460" texture="shaddow_u6_1" parent="umbrella6_1_1" />
+		<sprite position="531;483" texture="umbrella6_1" counter="6" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="574;465" texture="umbrella6_1_1" alpha="0" />
+		<sprite position="311;394" texture="shaddow_u5_2" parent="umbrella5_2" />
+		<sprite position="326;437" texture="umbrella5_2" counter="5" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="378;427" texture="umbrella5_2_1" alpha="0" />
+		<sprite position="778;247" texture="shaddow_u5_1" parent="umbrella5_1" />
+		<sprite position="780;308" texture="umbrella5_1" counter="5" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="840;307" texture="umbrella5_1_1" alpha="0" />
+		<sprite position="0;330" texture="shaddow_u1_2" parent="umbrella1_2" />
+		<sprite position="10;375" texture="umbrella1_2" counter="1" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="47;353" texture="umbrella1_2_1" alpha="0" />
+		<sprite position="34;213" texture="shaddow_u4_1" parent="umbrella4_1" />
+		<sprite position="35;231" texture="umbrella4_1" counter="4" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="88;256" texture="umbrella4_1_1" alpha="0" />
+		<sprite position="499;325" texture="shaddow_u3_1" parent="umbrella3_1" />
+		<sprite position="501;371" texture="umbrella3_1" counter="3" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="567;359" texture="umbrella3_1_1" alpha="0" />
+		<sprite position="222;239" texture="shaddow_u2_2" parent="umbrella2_2" />
+		<sprite position="218;330" texture="umbrella2_2" counter="2" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="280;325" texture="umbrella2_2_1" alpha="0" />
+		<sprite position="599;220" texture="shaddow_u2_1" parent="umbrella2_1" />
+		<sprite position="616;222" texture="umbrella2_1" counter="2" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="663;225" texture="umbrella2_1_1" alpha="0" />
+		<sprite position="367;241" texture="shaddow_u1_1" parent="umbrella1_1" />
+		<sprite position="371;253" texture="umbrella1_1" counter="1" touched="true" usehint="true" hintpriority="2" pivotx="center" pivoty="center" ontouchend="onUmbrellaClicked:" />
+		<sprite position="433;250" texture="umbrella1_1_1" alpha="0" />
+        <window position="627;375" texture="pyramid_zoom" close="pyramid_exit" open="pyramid_plan" objects="piramid_sand1 piramid_sand2 piramid_sand3 piramid_form1 piramid_form2 piramid_form3 piramid_final" touched="true" texthintontouch="say-shaman-form" ontouchend="onFigureZoom:" />
+		<sprite position="657;473" texture="piramid_sand1" alpha="0" onenterframe="updateFigure:" counter="1" />
+		<sprite position="657;473" texture="piramid_sand2" alpha="0" onenterframe="updateFigure:" counter="2" />
+		<sprite position="657;473" texture="piramid_sand3" alpha="0" onenterframe="updateFigure:" counter="3" />
+		<sprite position="657;473" texture="piramid_form1" alpha="0" onenterframe="updateFigure:" counter="4" />
+		<sprite position="657;473" texture="piramid_form2" alpha="0" onenterframe="updateFigure:" counter="5" />
+		<sprite position="657;473" texture="piramid_form3" alpha="0" onenterframe="updateFigure:" counter="6" />
+		<sprite position="659;481" texture="piramid_final" alpha="0" onenterframe="updateFigure:" counter="7" />
+		<button name="pyramid_exit" position="943;693" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="2;382" texture="monster_zoom" close="monster_exit" open="monster_plan" objects="monster_sand1 monster_sand2 monster_sand3 monster_form1 monster_form2 monster_form3 monster_final" touched="true" texthintontouch="say-shaman-form" ontouchend="onFigureZoom:" />
+		<sprite position="60;428" texture="monster_sand1" alpha="0" onenterframe="updateFigure:" counter="1" />
+		<sprite position="60;428" texture="monster_sand2" alpha="0" onenterframe="updateFigure:" counter="2" />
+		<sprite position="61;433" texture="monster_sand3" alpha="0" onenterframe="updateFigure:" counter="3" />
+		<sprite position="60;428" texture="monster_form1" alpha="0" onenterframe="updateFigure:" counter="4" />
+		<sprite position="60;428" texture="monster_form2" alpha="0" onenterframe="updateFigure:" counter="5" />
+		<sprite position="60;428" texture="monster_form3" alpha="0" onenterframe="updateFigure:" counter="6" />
+		<sprite position="116;440" texture="monster_final" alpha="0" onenterframe="updateFigure:" counter="7" />
+		<button name="monster_exit" position="318;700" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<window position="302;160" texture="hands_zoom" close="hands_exit" open="hands_plan" objects="hands_sand1 hands_sand2 hands_sand3 hands_form1 hands_form2 hands_form3 hands_final"  touched="true" texthintontouch="say-shaman-form" ontouchend="onFigureZoom:" />
+		<sprite position="413;239" texture="hands_sand1" alpha="0" onenterframe="updateFigure:" counter="1" />
+		<sprite position="401;239" texture="hands_sand2" alpha="0" onenterframe="updateFigure:" counter="2" />
+		<sprite position="401;239" texture="hands_sand3" alpha="0" onenterframe="updateFigure:" counter="3" />
+		<sprite position="413;239" texture="hands_form1" alpha="0" onenterframe="updateFigure:" counter="4" />
+		<sprite position="401;239" texture="hands_form2" alpha="0" onenterframe="updateFigure:" counter="5" />
+		<sprite position="401;239" texture="hands_form3" alpha="0" onenterframe="updateFigure:" counter="6" />
+		<sprite position="405;245" texture="hands_final" alpha="0" onenterframe="updateFigure:" counter="7" />
+		<button name="hands_exit" position="618;477" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="919;267" texture="exit_arrow" alpha="0" />
+	<objects/>
+<Scene/>
+
+<pathes>
+	<path id="path-1" points="794;651, 696;613, 794;590, 894;567, 889;519, 719;501, 606;519, 533;565, 506;668, 544;725, 602;661, 566;549, 454;503, 367;523, 318;559" />
+<pathes/>

@@ -1,0 +1,92 @@
+<scene images="/Interface/Map" effects="scene00.ptc" music="playlist2" plistfiles="map" >
+	<objects >
+		<sprite position="193;183" texture="back_door" ontouchend="onBackDoor" />
+		<sprite position="478;216" texture="door_r_back" parent="door_r" pivotx="right" pivoty="center" />
+		<sprite position="514;216" texture="door_l_back" parent="door_l" pivotx="left" pivoty="center" />
+		<sprite position="510;190" texture="door_r" />
+		<sprite position="194;184" texture="door_l" />
+		<sprite position="412;305" texture="door_light" alpha="0" />
+		<sprite position="0;64" texture="back_00_3" />
+        <sprite position="339;514" texture="mapstone_02_b" />
+		<sprite position="202;453" texture="mapstone_03_b" />
+		<sprite position="175;304" texture="mapstone_04_b" />
+		<sprite position="615;421" texture="mapstone_09_b" />
+		<sprite position="637;244" texture="mapstone_08_b" />
+		<sprite position="512;505" texture="mapstone_10_b" />
+		<sprite position="330;318" texture="mapstone_01_b" />
+		<sprite position="195;174" texture="mapstone_05_b" />
+		<sprite position="378;174" texture="mapstone_06_b" />
+		<sprite position="532;180" texture="mapstone_07_b" />
+		<sprite position="336;518" texture="mapstone_02" alpha="0" counter="2" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="198;455" texture="mapstone_03" alpha="0" counter="3" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="170;304" texture="mapstone_04" alpha="0" counter="4" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="616;423" texture="mapstone_09" alpha="0" counter="9" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="640;244" texture="mapstone_08" alpha="0" counter="8" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="512;509" texture="mapstone_10" alpha="0" counter="10" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="327;320" texture="mapstone_01"  alpha="0" counter="1" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="192;172" texture="mapstone_05" alpha="0" counter="5" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="377;172" texture="mapstone_06" alpha="0" counter="6" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center"  />
+		<sprite position="532;179" texture="mapstone_07" alpha="0" counter="7" ontouchend="onMapStone:" alphamask="true" pivotx="center" pivoty="center" />
+		<sprite position="517;570" texture="jewel_10_2" alpha="0" parent="mapstone_10" />
+		<sprite position="587;546" texture="jewel_10_1" alpha="0" parent="mapstone_10" />
+		<sprite position="687;569" texture="jewel_09_2" alpha="0" parent="mapstone_09" />
+		<sprite position="642;500" texture="jewel_09_1" alpha="0" parent="mapstone_09" />
+		<sprite position="785;410" texture="jewel_08_2" alpha="0" parent="mapstone_08" />
+		<sprite position="720;277" texture="jewel_08_1" alpha="0" parent="mapstone_08" />
+		<sprite position="670;232" texture="jewel_07_2" alpha="0" parent="mapstone_07" />
+		<sprite position="564;198" texture="jewel_07_1" alpha="0" parent="mapstone_07" />
+		<sprite position="474;284" texture="jewel_06_1" alpha="0" parent="mapstone_06" />
+		<sprite position="332;202" texture="jewel_05_2" alpha="0" parent="mapstone_05" />
+		<sprite position="221;277" texture="jewel_05_1" alpha="0" parent="mapstone_05" />
+		<sprite position="192;321" texture="jewel_04_2" alpha="0" parent="mapstone_04" />
+		<sprite position="193;446" texture="jewel_04_1" alpha="0" parent="mapstone_04" />
+		<sprite position="225;503" texture="jewel_03_2" alpha="0" parent="mapstone_03" />
+		<sprite position="303;586" texture="jewel_03_1" alpha="0" parent="mapstone_03" />
+		<sprite position="360;625" texture="jewel_02_2" alpha="0" parent="mapstone_02" />
+		<sprite position="471;614" texture="jewel_02_1" alpha="0" parent="mapstone_02" />
+		<sprite position="363;482" texture="jewel_01_2" alpha="0" parent="mapstone_01" />
+		<sprite position="503;335" texture="jewel_01_1" alpha="0" parent="mapstone_01" />
+		<sprite position="552;542" texture="steps_10_2" alpha="0" />
+		<sprite position="616;569" texture="steps_10_1" alpha="0" />
+		<sprite position="654;535" texture="steps_09_2" alpha="0" />
+		<sprite position="654;436" texture="steps_09_1" alpha="0" />
+		<sprite position="752;294" texture="steps_08_2" alpha="0" />
+		<sprite position="698;240" texture="steps_08_1" alpha="0" />
+		<sprite position="599;206" texture="steps_07_2" alpha="0" />
+		<sprite position="500;217" texture="steps_07_1" alpha="0" />
+		<sprite position="366;215" texture="steps_06_1" alpha="0" />
+		<sprite position="234;207" texture="steps_05_2" alpha="0" />
+		<sprite position="184;291" texture="steps_05_1" alpha="0" />
+		<sprite position="177;345" texture="steps_04_2" alpha="0" />
+		<sprite position="213;480" texture="steps_04_1" alpha="0" />
+		<sprite position="254;483" texture="steps_03_2" alpha="0" />
+		<sprite position="331;613" texture="steps_03_1" alpha="0" />
+		<sprite position="390;647" texture="steps_02_2" alpha="0" />
+		<sprite position="386;509" texture="steps_02_1" alpha="0" />
+		<sprite position="354;354" texture="steps_01_2" alpha="0" />
+		<button position="808;601" btnnormal="totem_arena_btn" btndown="totem_arena_btnd" touched="true" ontouchbegan="onTotemButton:" />
+        <text text="map_totem" position="860;725" pivotx="center" color="225;115;2" fontsize="30" />
+        <sprite position="83;579" texture="village_btn_light" parent="village_btn" alpha="0" />
+		<button position="106;601" btnnormal="village_btn" btndown="village_btnd" pivotx="center" pivoty="center" alpha="0" ontouchbegan="onVillage:" touched="true" />
+		<text text="map_village" pivotx="center" position="155;725" color="225;115;2" fontsize="30" alpha="0" />
+        <particle emitter="village" parent="village_btn" position="158;660" />
+		<sprite position="478;92" texture="fire" />
+        <particle emitter="fire" position="524;97" />
+        <animation position="768;82" plistfile="Animations/shaman_magic" alpha="0" />
+        <animation position="768;82" plistfile="Animations/shaman_stop" name="shaman_stop1"  parent="shaman-idle" />
+        <animation position="768;82" plistfile="Animations/shaman_stop2" alpha="0" parent="shaman-idle" />
+        <animation position="768;82" plistfile="Animations/shaman_stop3" alpha="0" parent="shaman-idle" />
+        <animation position="768;82" plistfile="Animations/shaman_stop4" alpha="0" parent="shaman-idle" />
+        <object name="shaman-idle" />
+        <sprite position="0;0" texture="hud_back2" />
+        <buttontext fontsize="25" size="130;50" text="hud-menu" languache="ja" languachesize="20" halign="center" position="932;-23" rotation="-15" touched="true" color="189;157;101" ontouchbegan="onMenu:" />
+        <sprite position="53;26" texture="stone_char_m1" alpha="0" tag="4" />
+        <sprite position="53;26" texture="stone_char_m2" alpha="0" tag="3" />
+        <sprite position="53;31" texture="stone_char_w1" alpha="0" tag="2" />
+        <sprite position="53;31" texture="stone_char_w2" alpha="0" tag="1" />
+        <particle emitter="small_storm" position="1152;175" alpha="0" move="true" />
+	<objects/>
+    <pathes>
+        <path id="path-1" points="1152;175, 584;323, 404;595, 742;620, 800;317, 328;308, 160;463, 169;627" />
+    <pathes/>
+<scene/>

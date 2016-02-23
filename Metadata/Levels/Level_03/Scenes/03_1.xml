@@ -1,0 +1,101 @@
+<scene images="/Scenes/03/03_1" sounds="03" effects="scene03.ptc" plistfiles="03_1" music="playlist2" arrowdir="top" >
+	<objects >
+		<sprite position="0;325" texture="bg_31" />
+		<sprite position="321;572" texture="windows_1" />
+		<sprite position="412;591" texture="windows_2" />
+		<sprite position="744;692" texture="windows_3" />
+		<sprite position="212;186" texture="mechanism" />
+		<sprite position="216;189" texture="door_btm" />
+		<sprite position="216;235" texture="door_top" />
+		<sprite position="0;104" texture="shell" />
+		<sprite position="697;378" texture="wood_3_hidden" invent="wood_3_inv" stage="task-makefire" />
+        <object position="465;394" size="225;144" name="nest" ontouchend="onBirdTouchEnd:" stage="say-bird-missingbabes" usehint="true" />
+		<animation position="497;408" plistfile="Scenes/03/Animations/bird" alpha="0" touched="true" ontouchend="onBirdDoneClicked:" />
+        <sprite position="604;454" texture="flapper_1_placed" alpha="0" />
+		<sprite position="582;454" texture="flapper_2_placed" alpha="0" />
+		<sprite position="451;437" texture="flapper_3_placed" alpha="0" />
+		<sprite position="482;441" texture="flapper_4_placed" alpha="0" />
+		<sprite position="538;436" texture="flapper_5_placed" alpha="0" />
+		<sprite position="523;442" texture="flapper_6_placed" alpha="0" />
+		<sprite position="409;337" texture="leaf1" pivot="140;170" stage="say-bird-missingbabes" counter="-1" ontouchend="onLeafClicked:" />
+		<sprite position="542;341" texture="leaf2" pivot="33;190" stage="say-bird-missingbabes" counter="1" ontouchend="onLeafClicked:"  />
+		<sprite position="368;336" texture="leaf3" pivot="190;114" />
+		<sprite position="554;328" texture="leaf4" pivot="20;123" />
+		<sprite position="0;119" texture="tree" />
+		<sprite position="437;184" texture="house_cattlebreeder_lv" />
+		<sprite position="34;692" texture="stone_03_1_hidden" totem="stone_03_1" touched="true" />
+		<sprite position="160;165" texture="lift_base" touched="true" usehint="true" texthintontouch="say-need-key" ontouchend="onLiftBase:" hintprioroty="2" />
+		<sprite position="172;742" texture="door_open" touched="true" />
+		<sprite position="211;184" texture="mechanism_light" alpha="0" />
+		<sprite position="51;185" texture="mechanism_light2" alpha="0" />
+		<sprite position="601;300" texture="berry_red_hidden" invent="berry_red_inv" stage="recipe3-task" />
+		<sprite position="386;279" texture="berry_purple_hidden" invent="berry_purple_inv" stage="recipe3-task" />
+		<animation position="584;151" plistfile="Scenes/03/Animations/bird_angry" alpha="0" touched="true" onenterframe="updateBirdAngry:" ontouchend="onBirdClicked" />
+		<sprite position="34;545" texture="flapper_1_hidden" alpha="0" invent="flapper_1_inv" />
+		<sprite position="742;526" texture="flapper_2_hidden" alpha="0" invent="flapper_2_inv" />
+		<sprite position="505;596" texture="flapper_3_hidden" alpha="0" invent="flapper_3_inv" />
+		<sprite position="418;298" texture="bird_turn" alpha="0" />
+        <particle position="556;537" active="false" emitter="rainbow" />
+		<sprite position="464;463" texture="symbol" parent="bird_turn" touched="true" hintprioroty="-1" ontouchend="onSceneComplete:" onenterframe="updateBirdTurn:" />
+		<sprite position="838;485" texture="key_portal1" alpha="0" name="key_portal" />
+		<sprite position="837;483" texture="key_portal2" alpha="0" parent="key_portal" />
+		<sprite position="331;410" texture="spirit_03_1_hidden" totem="spirit_03_1" touched="true" />
+		<sprite position="257;221" texture="spiderweb" touched="true" texthintontouch="say-spiderweb" alphamask="true" ontouchend="onSpiderWeb:" />
+		<sprite position="473;357" texture="spiderweb_light_1" alpha="0" parent="spiderweb" />
+		<sprite position="325;364" texture="spiderweb_light_2" alpha="0" parent="spiderweb" />
+		<sprite position="380;396" texture="spiderweb_light_3" alpha="0" parent="spiderweb" />
+		<sprite position="209;350" texture="down" touched="true" texthintontouch="say-need-energy" ontouchend="onDownButton:" />
+		<sprite position="202;441" texture="up" />
+        <sprite position="209;350" texture="down_hover" alpha="0" />
+		<sprite position="202;441" texture="up_hover" alpha="0" />
+		<sprite position="446;215" texture="pers_2" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<sprite position="249;560" texture="pers_1" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<object position="153;601" name="exit_alpha" size="120;300" touched="true" texthintontouch="say-door-blocked"  ontouchend="onExitAlpha:" />
+		<sprite position="174;723" texture="lift_2" parent="lift" />
+		<sprite position="171;737" texture="lift" />
+		<sprite position="364;702" texture="cog_1_hidden" invent="cog_1_inv" />
+		<sprite position="400;119" texture="berry_green_hidden" invent="berry_green_inv" stage="recipe3-task" />
+		<sprite position="80;545" texture="liana1" pivotx="center" usehint="true" hintprioroty="1" pivoty="top" stage="task-turnlift" ontouchend="onLiana1Clicked:" />
+		<sprite position="381;535" texture="liana2" pivotx="center" usehint="true" hintprioroty="1" pivoty="top" stage="task-turnlift" ontouchend="onLiana2Clicked:" />
+		<sprite position="432;527" texture="liana3" pivotx="center" pivoty="top" />
+		<sprite position="876;545" texture="liana4" pivotx="center" pivoty="top" />
+		<sprite position="876;232" texture="stone_03_2_hidden" totem="stone_03_2" pivotx="center" pivoty="center" />
+		<sprite position="587;611" texture="liana5" pivotx="center" pivoty="top" />
+		<sprite position="917;621" texture="liana6" pivotx="center" usehint="true" hintprioroty="1" pivoty="top" touched="true" ontouchend="onLiana6Clicked:" />
+		<sprite position="862;573" texture="liana7" pivotx="center" usehint="true" hintprioroty="1" pivoty="top" />
+		<sprite position="746;321" texture="flower_open" stage="task-opendoors" usehint="true" ignorealpha="true" texthintontouch="say-flower-killer" ontouchend="onFlowerClicked:" hintprioroty="2" />
+		<sprite position="755;348" texture="key" parent="flower_open" invent="lift_key_inv" usehint="true" />
+		<sprite position="252;230" texture="key_placed" alpha="0" usehint="true" ontouchend="onKeyPlaced:" pivotx="center" pivoty="center" touched="true" />
+		<animation position="750;366" plistfile="Scenes/03/Animations/spider" hintpos="29;58" stage="say-shaman-ivan" ontouchend="onSpiderClicked:" pivotx="center" pivoty="top" usehint="true" hintprioroty="2" />
+		<sprite position="674;556" texture="snake" pivotx="center" pivoty="top" stage="task-turnlift" ontouchend="onSnakeClicked:" usehint="true" />
+		<sprite position="619;661" texture="snake_2" pivotx="center" pivoty="top" />
+		<sprite position="619;595" texture="snake_mouth" parent="snake_head_2" />
+		<sprite position="591;526" texture="cog_2" parent="snake_head" zorder="-1" pivotx="center" pivoty="center" />
+		<sprite position="563;147" texture="cog_2_broken" alpha="0" touched="true" usehint="true" texthintontouch="say-shaman-needglue" ontouchend="onCogBroken:" />
+		<sprite position="573;154" texture="cog_2_hidden" alpha="0" invent="cog_2_inv" touched="true" />
+		<sprite position="79;307" texture="tar_hidden" stage="task-turnlift" invent="tar_inv" />
+		<sprite position="67;702" texture="switch_hidden" invent="switch_inv" pivotx="center" pivoty="top" />
+		<sprite position="926;236" texture="pipe" stage="task-turnlift" invent="pipe_inv" />
+		<sprite position="608;549" texture="snake_head_2" parent="snake_2" />
+		<sprite position="608;587" texture="snake_head" parent="snake_2" texthintontouch="say-need-charmsnake" ontouchend="onSnakeHeadClicked:" usehint="true" />
+        <sprite position="26;478" texture="fuel_hidden" invent="fuel_inv" stage="task-turnlift" />
+        <sprite position="908;350" texture="cog_3_hidden" stage="task-turnlift" invent="cog_3_inv" />
+		<sprite position="842;290" texture="branch" pivot="170;207" stage="task-turnlift" ontouchend="onBranchClicked:" />
+		<sprite position="152;290" texture="glow" alpha="0" />
+		<sprite position="189;693" texture="exit_arrow" alpha="0" />
+        <window position="135;211" texture="mechanism_zoom" open="mechanism" close="window_close_btn" objects="container fuel_placed shape_container cog_1_placed cog_2_placed cog_3_placed fuel_placed shape_switch switch_placed shape_cog_1 shape_cog_2 shape_cog_3" active="false" ontouchend="openMechanism:" usehint="true" onenterframe="updateMechansm:" />
+        <button position="450;562" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" ontouchbegan="closeMechanism:" touched="true" />
+        <sprite position="355;286" texture="shape_container" stage="zoom-lift-open" texthintontouch="say-shapefuel" ontouchend="onLiftObject:" ignorealpha="true" counter="4" />
+		<sprite position="360;459" texture="shape_cog_2" stage="zoom-lift-open" texthintontouch="say-shapecog" ontouchend="onLiftObject:" counter="1" ignorealpha="true" />
+		<sprite position="302;472" texture="shape_cog_1" stage="zoom-lift-open" texthintontouch="say-shapecog" ontouchend="onLiftObject:" counter="0" ignorealpha="true" />
+		<sprite position="176;396" texture="shape_cog_3" stage="zoom-lift-open" texthintontouch="say-shapecog" ontouchend="onLiftObject:" counter="2" ignorealpha="true" />
+		<sprite position="249;305" texture="shape_switch" stage="zoom-lift-open" texthintontouch="say-shapeswitch" ignorealpha="true" ontouchend="onLiftObject:" counter="3" />
+		<sprite position="249;305" texture="switch_placed" alpha="0" touched="true" ontouchend="onSwitchClicked:" pivot="27;44" usehint="true" />
+		<sprite position="367;289" texture="fuel_placed" alpha="0" pivotx="center" />
+		<sprite position="355;286" texture="container" />
+		<sprite position="302;472" texture="cog_1_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="360;459" texture="cog_2_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="176;396" texture="cog_3_placed" alpha="0" pivotx="center" pivoty="center" />
+        <particle position="256;333" emitter="lepestki" parent="glow" />
+	<objects/>
+<scene/>

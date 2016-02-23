@@ -1,0 +1,137 @@
+<config>
+    <music>
+        <playlists playlist1="melody_1, melody_2, melody_4" playlist2="melody_3, melody_6" playlist3="melody_5, melody_7" playlist4="melody_4, melody_2" playist5="melody_7, melody_5" playlist6="melody_6, melody_3" />
+    <music>
+	<skip>
+		<sprite position="0;0" texture="skip_back" />
+		<sprite position="10;5" texture="skip_up" pivotx="left" pivoty="center" />
+		<sprite position="0;0" texture="skip_top" />
+		<sprite position="3;0" texture="skip_glow" />
+        <text fontsize="35" position="65;30" text="skip-btn" pivotx="center" pivoty="center" />
+    <skip/>
+    <logos>
+        <sprite texture="alta_logo" />
+    <logos/>
+    <compound>
+        <sprite pivotx="center" pivoty="center" texture="bild_btn" tag="1" />
+        <sprite texture="bild_on" pivot="55;57" tag="2" />
+    <compound/>
+    <profile>
+        <sprite position="230;184" texture="Menu/profile" />
+        <sprite position="341;620" texture="Menu/sel_item" tag="10" pivotx="center" pivoty="center" />
+        <buttontext position="559;312" size="163;43" pivotx="center" color="225;115;14" fontsize="38" touched="true" text="profile-add" tag="1" ontouchbegan="onProfileButton:" />
+        <buttontext position="304;312" size="163;43" pivotx="center" color="225;115;14" fontsize="38" touched="true" ontouchbegan="onProfileButton:" text="profile-remove" tag="2" />
+        <buttontext position="454;233" size="110;45" color="225;115;14" fontsize="44" touched="true" text="profile-ok" tag="3" ouched="true" ontouchbegan="onProfileButton:" />
+        <text position="341;630" size="335;37" color="120;0;0" shadowalpha="0" fontsize="35" tag="4" ontouchbegan="onSelectProfile:" />
+        <text position="341;576" size="335;37" color="120;0;0" shadowalpha="0" fontsize="35" tag="5" ontouchbegan="onSelectProfile:"  />
+        <text position="341;522" size="335;37" color="120;0;0" shadowalpha="0" fontsize="35" tag="6" ontouchbegan="onSelectProfile:"  />
+        <text position="341;468" size="335;37" color="120;0;0" shadowalpha="0" fontsize="35" tag="7" ontouchbegan="onSelectProfile:"  />
+        <text position="341;414" size="335;37" color="120;0;0" shadowalpha="0" fontsize="35" tag="8" ontouchbegan="onSelectProfile:"  />
+    <profile/>
+    <hob rect="100;15 680;120" >
+        <ramks>
+            <sprite position="0;32" texture="ramka1" pivotx="center" pivoty="center" />
+            <sprite position="0;32" texture="ramka2" pivotx="center" pivoty="center" />
+        <ramks/>
+        <hud>
+            <sprite position="0;138" texture="yellow_things" tag="1" />
+            <sprite position="0;0" texture="hud_fog" />
+            <sprite position="625;0" texture="hint_foglight" tag="2" />
+            <sprite position="5;5" texture="sparks1" pivotx="center" pivoty="center" />
+            <sprite position="35;28" texture="sparks2" pivotx="center" pivoty="center" />
+            <sprite position="0;0" texture="text_basement" pivotx="center" pivoty="center" />
+            <sprite position="358;384" texture="key_obj_cloud" pivotx="center" pivoty="center" alpha="0" tag="3" />
+            <particle emitter="all_obj_found" position="350;0" active="false" loop="false" tag="4" />
+        <hud/>
+		<fog>
+			<sprite name="fog1" position="0;108" counter="1" texture="fog1" pivotx="center" pivoty="bottom" alpha="0" />
+			<sprite name="fog2" position="0;68" counter="1" texture="fog2" pivotx="center" pivoty="bottom" alpha="0" />
+			<sprite name="fog3" position="275;347" counter="-1" texture="fog2" pivotx="center" pivoty="center" alpha="0" debudraw="true" />
+			<sprite name="fog4" position="-409;103" counter="-1" texture="fog1" pivotx="center" pivoty="center" alpha="0" rotation="90" />
+		<fog/>
+        <text fontsize="23" align="left" pivotx="center" shadowalpha="0" outline="1" pivoty="center" />
+		<path id="hob" points="512;382, 725;389, 745;449, 186;474, 795;328, 323;244, 227;375, 674;526, 710;577, 248;578, 217;442, 797;381, 703;284, 263;268, 207;424, 724;515, 680;403, 267;317, 131;482, 278;563, 704;451, 236;276, 226;368"/>
+    <hob/>
+    <tasks>
+        <text fontsize="27" position="490;600" tag="1" alpha="0" size="500;300" pivoty="top" />
+        <text fontsize="32" text="new-objective" position="490;332" alpha="0" tag="2" />
+    <tasks/>
+    <dialogs>
+        <dialog name="default" head="textbox_1" body="textbox_2" tail="textbox_3" alpha="0" position="198;122" />
+		<dialog name="shaman-dlg" head="sayer-shaman_dial_wnd_1" body="sayer-shaman_dial_wnd_2" tail="sayer-shaman_dial_wnd_3" alpha="0" position="238;122" />
+        <sprite name="shaman" position="27;30" texture="sayer-shaman" scale="0" pivotx="center" pivoty="center" />
+    <dialogs/>
+    <signs>
+        <sprite position="142;143" texture="sign_base" alpha="0" tag="1" />
+		<sprite position="142;143" texture="sign_shine" alpha="0" tag="2" />
+        <text text="sign_caption" position="308;494" shadowalpha="0" size="199;50" fontsize="33" color="46;49;146" tag="3" />
+        <text position="270;330" shadowalpha="0" languache="zh,ko" languachesize="28" pivotx="center" size="265;120" fontsize="32" color="201;14;20" tag="4" />
+        <text position="287;260" shadowalpha="0" size="285;98" fontsize="30" color="46;49;146" tag="5" />
+		<sprite position="142;143" texture="sign_big_1" alpha="0" tag="6" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_2" alpha="0" tag="7" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_3" alpha="0" tag="8" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_4" alpha="0" tag="9" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_5" alpha="0" tag="10" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_6" alpha="0" tag="11" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_7" alpha="0" tag="12" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_8" alpha="0" tag="13" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_9" alpha="0" tag="14" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_10" alpha="0" tag="15" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_11" alpha="0" tag="16" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_12" alpha="0" tag="17" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_13" alpha="0" tag="18" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_14" alpha="0" tag="19" pivotx="center" pivoty="center" />
+        <sprite position="142;143" texture="sign_big_15" alpha="0" tag="20" pivotx="center" pivoty="center" />
+        <particle emitter="medal" name="medal-ps" active="false" loop="false" tag="21" />
+    <signs/>
+    <more_gameplay>
+        <text alpha="0" shadowalpha="0" color="255;251;207" fontsize="29" parent="score_box" />
+        <resources>
+            <Level_01 s_01_1 = "450" s_01_1_1 = "50" s_01_1_2 = "100" s_01_2 = "400" />
+            <Level_02 s_02_1 = "400" s_02_2 = "550" s_02_2_1 = "150" s_02_2_2 = "200" s_02_3 = "200" />
+            <Level_03 s_03_1 = "800" s_03_1_1 = "250" s_03_2 = "750" s_03_2_1 = "200" />
+            <Level_04 s_04_1 = "900" s_04_2 = "1000" s_04_2_1 = "300" s_04_2_2 = "300" />
+            <Level_05 s_05_1 = "1400" s_05_2 = "1200" s_05_2_1 = "400" />
+            <Level_06 s_06_1 = "3250" s_06_1_1 = "250" />
+            <Level_07 s_07_1 = "1700" s_07_2 = "2000" s_07_2_1 = "300" s_07_2_2 = "500" />
+            <Level_08 s_08_1 = "2100" s_08_1_1 = "250" s_08_2 = "2550" s_08_2_1 = "600" />
+            <Level_09 s_09_1 = "2800" s_09_1_1 = "300" s_09_2 = "2250" s_09_2_1 = "700" />
+            <Level_10 s_10_1 = "2900" s_10_2 = "2700" s_10_2_1 = "900"  />
+            <Level_11 s_11_1 = "0" s_11_1_1 = "0" />
+        <resources/>
+    <more_gameplay/>
+	<options>
+		<sprite position="229;144" texture="options" />
+        <text text="options-caption" pivotx="center"  position="502;600" shadowalpha="0" fontsize="44" color="225;115;14" />
+        <text text="options-musicvol" tag="4" pivotx="center" languache="de" languachesize="20" position="698;415" shadowalpha="0" fontsize="26" color="225;115;14" />
+        <text text="options-soundvol" tag="5" pivotx="center" languache="de" languachesize="20" position="301;415" shadowalpha="0" fontsize="26" color="225;115;14" />
+        <text text="options-allvol" tag="6" pivotx="center" languache="ja,de" languachesize="23" position="505;342" shadowalpha="0" fontsize="35" color="225;115;14" />
+		<sprite position="428;398" texture="vol_all" pivotx="center" pivoty="center" touched="true" counter="1" ontouchbegan="onRing:" tag="1" />
+		<sprite position="663;476" texture="vol_music" pivotx="center" pivoty="center" touched="true" counter="2" ontouchbegan="onRing:" tag="2" />
+		<sprite position="258;476" texture="vol_sound" pivotx="center" pivoty="center" touched="true" counter="3" ontouchbegan="onRing:" tag="3" />
+        <buttontext  text="options-ok" pivotx="center" pivoty="center" position="502;250" languache="zh,ko" languachesize="40" fontsize="60" ontouchbegan="onOkButton:" touched="true" color="225;115;14" />
+	<options/>
+	<ingamemenu>
+		<sprite position="330;281" texture="ingamemenu" pivotx="center" pivoty="center" scalex="1.25" />
+        <buttontext position="515;580" pivotx="center" color="225;115;14" fontsize="40" touched="true" ontouchbegan="onMenuButton:" text="ingame-continue" tag="1" languache="de" languachesize="35" />
+        <buttontext position="515;517" pivotx="center" color="225;115;14" fontsize="40" touched="true" ontouchbegan="onMenuButton:" text="ingame-options" tag="2" languache="de" languachesize="35" />
+        <buttontext position="515;454" pivotx="center" color="225;115;14" fontsize="40" touched="true" ontouchbegan="onMenuButton:" text="ingame-mainmenu" tag="3" languache="de" languachesize="35" />
+        <buttontext position="515;391" pivotx="center" color="225;115;14" fontsize="40" touched="true" ontouchbegan="onMenuButton:" text="menu-achievements" tag="8" languache="de" languachesize="35" />
+        <buttontext fontsize="25" tag="7" alpha="0" text="CompleteLevel" position="100;550" ontouchbegan="onMenuButton:" touched="true" />
+        <buttontext fontsize="25" tag="4" alpha="0" text="ShowLevels" position="100;500" ontouchbegan="onMenuButton:" touched="true" />
+		<buttontext fontsize="25" tag="5" alpha="0" text="ShowObjects" position="100;450" ontouchbegan="onMenuButton:" touched="true" />
+        <buttontext fontsize="25" tag="6" alpha="0" text="ShowStats" position="100;400" ontouchbegan="onMenuButton:" touched="true" />
+	<ingamemenu/>
+    <upsell>
+        <sprite position="0;0" texture="upsell" />
+        <buttontext text="allready-paid" size="250;40" color="204;112;11" position="355;15" shadowalpha="0" fontsize="35" outline="1" touched="true" ontouchbegan="onAllreadyPaid" />
+        <buttontext text="unlock-game" size="250;40" position="735;15" color="71;201;8" shadowalpha="0" fontsize="35" outline="1" touched="true" ontouchbegan="onUnlockGame:" />
+        <button text="exit" position="947;696" color="31;231;8" shadowalpha="0" fontsize="35" outline="1" touched="true" ontouchbegan="onExitButton" btnnormal="upsell_btn_close" btndown="upsell_btn_close_d" />
+    <upsell/>
+    <messagebox >
+        <sprite position="230;192" texture="messagebox" pivotx="center" pivoty="center" tag="1" />
+        <text position="304;396" size="407;270" color="120;0;0" valign="center" pivotx="center" pivoty="center" languache="zh" languachesize="32" fontsize="44" shadowalpha="0" tag="2" />
+        <buttontext text="message-yes" pivotx="center" pivoty="center"  position="628;320" color="225;115;14" fontsize="44" tag="3" touched="true" ontouchbegan="onButtonClicked:" counter="1" />
+        <buttontext text="message-no" pivotx="center" pivoty="center" position="373;320" color="225;115;14" fontsize="44" tag="4" touched="true" ontouchbegan="onButtonClicked:" counter="0" />
+    <messagebox />
+<config/>

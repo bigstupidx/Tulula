@@ -1,0 +1,92 @@
+<scene images="/Scenes/08/08_2_1" sounds="08" plistfiles="08_2_1" effects="scene08.ptc" music="melody_3" >
+	<objects >
+		<sprite position="0;97" texture="back_8_2_1" />
+		<sprite position="40;400" texture="gifts_hidden" />
+		<sprite position="40;400" texture="gifts_full" />
+		<sprite position="229;357" texture="icecream_hidden" />
+		<sprite position="229;357" texture="icecream_full" />
+		<sprite position="750;343" texture="penguin_hidden" />
+		<sprite position="750;343" texture="penguin_full" />
+		<sprite position="533;437" texture="furhat_hidden" />
+		<sprite position="533;437" texture="furhat_full" />
+		<sprite position="405;478" texture="muft_hidden" />
+		<sprite position="405;478" texture="muft_full" />
+		<sprite position="295;387" texture="furcoat_hidden" />
+		<sprite position="295;387" texture="furcoat_full" />
+		<sprite position="678;528" texture="scarf_hidden" />
+		<sprite position="678;528" texture="scarf_full" />
+		<sprite position="131;468" texture="mittens_hidden" />
+		<sprite position="131;468" texture="mittens_full" />
+		<sprite position="106;554" texture="sled_hidden" />
+		<sprite position="106;554" texture="sled_full" />
+		<sprite position="811;613" texture="snowball4_hidden" />
+		<sprite position="811;613" texture="snowball4_full" />
+		<sprite position="71;337" texture="snowball6_hidden" />
+		<sprite position="71;337" texture="snowball6_full" />
+		<sprite position="881;225" texture="skates_hidden" />
+		<sprite position="881;225" texture="skates_full" />
+		<sprite position="917;307" texture="ski_hidden" />
+		<sprite position="917;307" texture="ski_full" />
+		<sprite position="66;264" texture="ski_pole_hidden" />
+		<sprite position="66;264" texture="ski_pole_full" />
+		<sprite position="615;669" texture="snowflake1_hidden" />
+		<sprite position="615;669" texture="snowflake1_full" />
+		<sprite position="175;674" texture="snowflake2_hidden" />
+		<sprite position="175;674" texture="snowflake2_full" />
+		<sprite position="673;459" texture="snowflake3_hidden" />
+		<sprite position="673;459" texture="snowflake3_full" />
+		<sprite position="848;458" texture="walrus_hidden" />
+		<sprite position="848;458" texture="walrus_full" />
+		<sprite position="222;631" texture="garland_hidden" />
+		<sprite position="222;631" texture="garland_full" />
+		<sprite position="848;380" texture="star_hidden" />
+		<sprite position="848;380" texture="star_full" />
+		<sprite position="615;377" texture="christmaswreath_hidden" />
+		<sprite position="615;377" texture="christmaswreath_full" />
+		<sprite position="331;550" texture="newyeartree_hidden" />
+		<sprite position="331;550" texture="newyeartree_full" />
+		<sprite position="58;480" texture="house_hidden" />
+		<sprite position="58;480" texture="house_full" />
+		<sprite position="142;372" texture="deer_hidden" />
+		<sprite position="142;372" texture="deer_full" />
+		<sprite position="705;517" texture="icesculpture_hidden" />
+		<sprite position="705;517" texture="icesculpture_full" />
+		<sprite position="527;373" texture="polarbear_hidden" />
+		<sprite position="527;373" texture="polarbear_full" />
+		<sprite position="473;659" texture="toys_hidden" />
+		<sprite position="473;659" texture="toys_full" />
+		<sprite position="843;497" texture="birthdayhat_hidden" />
+		<sprite position="843;497" texture="birthdayhat_full" />
+		<sprite position="670;350" texture="casket_closed" usehint="true" touched="true" ontouchend="onCasket:" />
+		<sprite position="670;350" texture="casket_open" alpha="0" />
+		<sprite position="678;364" texture="strazi_hidden" parent="casket_open" />
+		<sprite position="678;364" texture="strazi_full" />
+		<sprite position="262;592" texture="mirror_hidden" />
+		<sprite position="262;592" texture="mirror_full" />
+        <sprite position="206;99" texture="baza" stage="say-god_7-task" usehint="true" ontouchend="onPlaceItem:" />
+        <sprite position="605;151" texture="christmaswreath_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="593;161" texture="strazi_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="504;154" texture="birthdayhat_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="396;249" texture="newyeartree_placed" stage="say-god_7-task" usehint="true" ontouchend="onPlaceItem:" />
+        <sprite position="417;270" texture="toys_baza" alpha="0" />
+        <sprite position="412;259" texture="garland_baza" alpha="0" />
+        <sprite position="407;184" texture="gifts_baza" alpha="0" />
+        <sprite position="582;160" texture="snowball6_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="640;151" texture="snowball4_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="609;144" texture="garland_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="564;147" texture="gifts_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="503;139" texture="toys_placed" usehint="true" pivotx="center" pivoty="center" ontouchbegan="onPickItem:" stage="say-god_7-task" />
+        <sprite position="221;216" texture="snowball4_baza" alpha="0" />
+        <sprite position="267;257" texture="christmaswreath_baza" alpha="0" />
+        <sprite position="277;285" texture="snowball6_baza" alpha="0" touched="true" ontouchend="onPlaceItem:" />
+        <sprite position="231;204" texture="strazi_baza" alpha="0" />
+        <sprite position="298;345" texture="birthdayhat_baza" alpha="0" />
+		<animation position="567;326" plistfile="Scenes/08/Animations/spirit_of_god_08" />
+		<sprite position="610;481" texture="furhat_placed" parent="spirit_of_god_08" />
+		<sprite position="609;418" texture="furcoat_placed" parent="spirit_of_god_08" />
+		<sprite position="625;410" texture="muft_placed" parent="spirit_of_god_08" />
+		<sprite position="631;469" texture="scarf_placed" parent="spirit_of_god_08" />
+		<sprite position="577;444" texture="mittens_placed" parent="spirit_of_god_08"/>
+        <sprite position="446;407" name="key" alpha="0" touched="true" texture="key_hidden" invent="key6_inv" ontouchend="onPickKey" />
+	<objects/>
+<scene/>

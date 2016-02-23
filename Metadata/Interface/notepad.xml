@@ -1,0 +1,84 @@
+<notepad >
+    <objects>
+        <sprite position="52;111" texture="notepad" touched="true" tag="16" />
+        <button position="723;672" btnnormal="bookmark_5_btn" btndown="bookmark_5_btnh" touched="true" ontouchbegan="onSectionChanged:" counter="4" />
+        <button position="633;672" btnnormal="bookmark_4_btn" btndown="bookmark_4_btnh" touched="true" ontouchbegan="onSectionChanged:" counter="3" tag="3" />
+        <button position="542;672" btnnormal="bookmark_3_btn" btndown="bookmark_3_btnh" touched="true" ontouchbegan="onSectionChanged:" counter="2" />
+        <button position="357;674" btnnormal="bookmark_2_btn" btndown="bookmark_2_btnh" touched="true" ontouchbegan="onSectionChanged:" counter="1" />
+        <button position="263;673" btnnormal="bookmark_1_btn" btndown="bookmark_1_btnh" touched="true" ontouchbegan="onSectionChanged:" counter="0" />
+        <sprite position="526;276" texture="page_right" />
+        <sprite position="174;280" texture="page_left" />
+        <button position="794;616" btnnormal="note_zoom_exit_btn" btndown="note_zoom_exit_btnh" touched="true" ontouchbegan="hide" />
+        <sprite position="188;180" texture="button_left" />
+        <button position="202;203" btnnormal="ar_left_btn" btndown="ar_left_btnh" tag="14" ontouchbegan="onArrowClicked:" counter="-1" />
+        <sprite position="756;179" texture="button_right" />
+        <button position="774;202" btnnormal="ar_right_btn" btndown="ar_right_btnh" tag="15" ontouchbegan="onArrowClicked:" counter="1" />
+        <text position="790;295" tag="2" shadowalpha="0" text="1" size="40;22" fontsize="20" color="27;51;87" />
+        <text position="185;300" tag="1" shadowalpha="0" text="1" size="40;22" fontsize="20" color="27;51;87" />
+    <objects/>
+    <schemes>
+        <Level_02>
+            <sprite position="568;307" texture="bridge_note_off" />
+            <sprite position="568;307" texture="bridge_note" />
+            <sprite position="568;480" texture="barn_note_off" />
+            <sprite position="568;480" texture="barn_note" />
+            <sprite position="212;307" texture="house_farmer_note_off" />
+            <sprite position="212;307" texture="house_farmer_note" />
+        <Level_02/>
+        <Level_03>
+            <sprite position="212;307" texture="house_cattlebreeder_note_off" />
+            <sprite position="212;307" texture="house_cattlebreeder_note" />
+            <sprite position="568;307" texture="square_note_off" />
+            <sprite position="568;307" texture="square_note" />
+            <sprite position="568;480" texture="market_note_off" />
+            <sprite position="568;480" texture="market_note" />
+        <Level_03/>
+        <Level_04>
+            <sprite position="568;307" texture="mail_note_off" />
+            <sprite position="568;307" texture="mail_note" />
+            <sprite position="568;480" texture="house_artisan_note_off" />
+            <sprite position="568;480" texture="house_artisan_note" />
+            <sprite position="212;307" texture="house_worker_note_off" />
+            <sprite position="212;307" texture="house_worker_note" />
+        <Level_04/>
+        <Level_05>
+            <sprite position="568;307" texture="doctor_note_off" />
+            <sprite position="568;307" texture="doctor_note" />
+            <sprite position="568;480" texture="lighthouse_note_off" />
+            <sprite position="568;480" texture="lighthouse_note" />
+        <Level_05/>
+        <Level_06>
+            <sprite position="568;480" texture="dock_note_off" />
+            <sprite position="568;480" texture="dock_note" />
+            <sprite position="212;307" texture="fountain_note_off" />
+            <sprite position="212;307" texture="fountain_note" />
+        <Level_06/>
+        <Level_07>
+            <sprite position="568;480" texture="tavern_note_off" />
+            <sprite position="568;480" texture="tavern_note" />
+            <sprite position="212;307" texture="shaman_note_off" />
+            <sprite position="212;307" texture="shaman_note" />
+        <Level_07/>
+        <Level_08>
+            <sprite position="568;307" texture="library_note_off" />
+            <sprite position="568;307" texture="library_note" />
+            <sprite position="568;480" texture="diamond_note_off" />
+            <sprite position="568;480" texture="diamond_note" />
+        <Level_08/>
+        <Level_09>
+            <sprite position="212;307" texture="jeweller_note_off" />
+            <sprite position="212;307" texture="jeweller_note" />
+            <sprite position="568;307" texture="temple_note_off" />
+            <sprite position="568;307" texture="temple_note" />
+            <sprite position="568;480" texture="fire_note_off" />
+            <sprite position="568;480" texture="fire_note" />
+        <Level_09/>
+        <Level_10>
+            <sprite position="212;307" texture="castle_note_off" />
+            <sprite position="212;307" texture="castle_note" />
+            <sprite position="212;307" texture="oracle_note_off" />
+            <sprite position="212;307" texture="oracle_note" />
+        <Level_10/>
+    <schemes/>
+<notepad/>
+

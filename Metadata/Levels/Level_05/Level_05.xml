@@ -1,0 +1,44 @@
+<level startscene="Scene05_1" totemstones="6" tasks="9" >
+	<inventory>
+		<sprite position="0;0" texture="scrap_1_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="scrap_2_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="scrap_3_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="scrap_4_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="scrap_5_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="sphere_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="beacon_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="rune_1_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="rune_2_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="rune_3_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="dust_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="spray_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="cradle_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="shovel_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="pattern_2_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="pattern_1_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="squid_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="vent_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="cage1_1_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="cage1_1_f1_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="cage1_1_f2_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="rope_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="kite_1_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="kite_1_p_1_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="kite_1_p_2_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="ladder2_inv"  alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="s_block1_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="s_block2_inv" alpha="0" pivotx="center" pivoty="center"  />
+		<sprite position="0;0" texture="s_block3_inv" alpha="0" pivotx="center" pivoty="center"  />
+        <sprite position="30;28" texture="st_05_shape" />
+        <sprite position="49;84" texture="stone_05_1" alpha="0" pivotx="center" pivoty="center"  />
+        <sprite position="32;83" texture="stone_05_2" alpha="0" pivotx="center" pivoty="center"  />
+        <sprite position="39;61" texture="stone_05_3" alpha="0" pivotx="center" pivoty="center"  />
+        <sprite position="51;32" texture="spirit_05_1" alpha="0" pivotx="center" pivoty="center"  />
+        <sprite position="106;67" texture="spirit_05_2" alpha="0" pivotx="center" pivoty="center"  />
+        <sprite position="98;29" texture="spirit_05_3" alpha="0" pivotx="center" pivoty="center"  />
+	<inventory/>
+	<dialogs>
+		<sprite name="god_5" position="27;30" texture="sayer-god_5" scale="0" pivotx="center" pivoty="center" />
+		<dialog name="god_5-dlg" head="sayer-god_5_dial_wnd_1" body="sayer-god_5_dial_wnd_2" tail="sayer-god_5_dial_wnd_3" alpha="0" position="238;122" />
+	<dialogs/>
+<level/>

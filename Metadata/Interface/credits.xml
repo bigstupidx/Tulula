@@ -1,0 +1,13 @@
+<scene images="/Credits" music="melody_6" >
+	<objects >
+		<sprite position="0;0" texture="credits_back" />
+		<sprite position="226;0" texture="glow" />
+		<sprite position="241;0" texture="credits_cover" />
+		<button position="892;0" btnnormal="back_btn" btndown="back_btnd" touched="true" ontouchbegan="onBack:" />
+        <text text="credits-stand1" color="237;28;36" position="320;32" fontsize="44"  pivotx="center" pivoty="bottom" />
+        <text text="credits-name1" color="255;245;104" position="320;-15" fontsize="44" pivotx="center" pivoty="bottom" />
+        <sprite position="0;587" texture="polotno" />
+        <text text="credits-title1" color="255;247;153" position="0;720" fontsize="38" size="1024;50" />
+        <text text="credits-title2" color="255;242;0" position="162;620" fontsize="29" size="700;100" />
+ 	<objects/>
+<scene/>

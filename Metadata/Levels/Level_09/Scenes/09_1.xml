@@ -1,0 +1,113 @@
+<scene images="/Scenes/09/09_1" sounds="09" plistfiles="09_1" effects="scene09.ptc" music="playlist6" arrowdir="top" >
+	<objects >
+		<sprite position="0;471" texture="sky" />
+		<sprite position="0;96" texture="volcano_bg" />
+		<sprite position="0;375" texture="volcano_down" alpha="0" />
+		<sprite position="0;111" texture="water" />
+		<sprite position="253;456" texture="gates" />
+		<sprite position="253;456" texture="gates_cold" parent="volcano_down" ontouchend="onSceneExit:" touched="true" />
+		<sprite position="46;408" texture="prison" />
+		<animation position="65;413" plistfile="Scenes/09/Animations/spirit" />
+        <object name="fire" stage="task-fire-level9" usehint="true" size="80;70" ontouchend="onFireClicked:" position="850;382" texthintontouch="say-fire-clicked" />
+		<sprite position="60;410" texture="bars" touched="true" texthintontouch="say-dungeon" />
+		<sprite position="0;151" texture="tower_bg" />
+		<sprite position="760;239" texture="temple_lv" />
+		<sprite position="5;209" texture="fire_lv" />
+		<sprite position="10;245" texture="lighter" />
+		<sprite position="39;424" texture="lock" texthintontouch="say-dungeon" ontouchend="onLockClicked:" usehint="true" stage="task-pilot" />
+		<sprite position="43;432" texture="key_placed" alpha="0" pivotx="center" pivoty="center" touched="true" ontouchend="onKeyPlaced:" usehint="true" />
+		<sprite position="454;592" texture="ball_basket" invent="ball_basket_inv" stage="tower-done" ontouchend="onPickBasket" />
+		<sprite position="610;615" texture="ball_dome_1" invent="ball_dome_1_inv" stage="task-balloon" />
+		<sprite position="441;599" texture="blinds" touched="true" texthintontouch="say-tower" />
+		<sprite position="549;424" texture="gong" alpha="0" touched="true" usehint="true" texthintontouch="say-gong" pivotx="center" pivoty="center" ontouchend="onGongClicked:" />
+		<sprite position="378;517" texture="tower_top" />
+		<sprite position="414;599" texture="blinds2" alpha="0" />
+		<sprite position="586;672" texture="pearl_hook_2" usehint="true" stage="task-bridge-level9-done" counter="2" texthintontouch="say-hook" ontouchend="onHookClicked:" />
+		<sprite position="591;600" texture="pearl_2_placed" alpha="0" />
+		<sprite position="776;614" texture="pearl_hook_1" usehint="true" stage="task-bridge-level9-done" counter="1" texthintontouch="say-hook" ontouchend="onHookClicked:" />
+		<sprite position="778;545" texture="pearl_1_placed" alpha="0" />
+		<sprite position="381;574" texture="pearl" />
+		<sprite position="620;257" texture="pearl_2_hidden" stage="task-bridge-level9-done" invent="pearl_2_inv" />
+		<sprite position="98;300" texture="launch_pad" usehint="true" stage="tower-done" texthintontouch="say-launch-pad" ontouchend="onLaunchPad:" />
+		<sprite position="0;243" texture="lights" />
+		<sprite position="536;413" texture="lever" usehint="true" stage="task-bridge-level9-done" pivotx="center" pivoty="bottom" ontouchend="onLeverClicked:" />
+		<sprite position="436;387" texture="lever_base" />
+		<sprite position="311;198" texture="bridge_open_shadow" parent="bridge_open" />
+		<sprite position="431;286" texture="stash_1" stage="task-balloon" counter="1" ontouchend="onStash:" usehint="true" useparticlehint="true" />
+		<sprite position="428;286" texture="stash_1_open" alpha="0" />
+		<sprite position="889;247" texture="stash_2" stage="task-equip-balloon" counter="2" ontouchend="onStash:" usehint="true" useparticlehint="true" />
+		<sprite position="883;247" texture="stash_2_open" alpha="0" />
+		<sprite position="58;509" texture="stash_3" stage="task-pilot" counter="3" ontouchend="onStash:" usehint="true" useparticlehint="true" />
+		<sprite position="46;504" texture="stash_3_open" alpha="0" />
+		<sprite position="495;304" texture="pearl_1_hidden" parent="bridge_open" stage="task-bridge-level9-done" invent="pearl_1_inv" />
+		<sprite position="993;279" texture="spirit_09_1_hidden" totem="spirit_09_1" touched="true" />
+		<sprite position="321;208" texture="bridge_open" alpha="0" />
+		<sprite position="14;284" texture="stone_09_1_hidden" totem="stone_09_1" touched="true" />
+		<sprite position="399;235" texture="bridge_closed" touched="true" ontouchend="onBridgeClicked:" />
+		<sprite position="407;254" texture="bridge_closed2" alpha="0" parent="bridge_closed" />
+		<sprite position="116;130" texture="nest_brk" stage="task-fix-house" />
+		<sprite position="116;130" texture="nest" alpha="0" />
+		<sprite position="307;277" texture="egg_hidden" stage="task-fix-house-done" invent="egg_inv" />
+		<sprite position="451;145" texture="nest_p_1_hidden" invent="nest_p_1_inv" stage="task-fix-house" />
+		<sprite position="668;350" texture="nest_p_2_hidden" invent="nest_p_2_inv" stage="task-fix-house" />
+		<sprite position="407;143" texture="snag" stage="task-fix-house" ontouchend="onSnagClicked:" />
+		<sprite position="826;515" texture="nest_p_3_hidden" invent="nest_p_3_inv" stage="task-fix-house" />
+		<animation position="512;156" plistfile="Scenes/09/Animations/turtle" alpha="0" />
+		<animation position="522;156" plistfile="Scenes/09/Animations/turtle_3" alpha="0" />
+		<animation position="531;161" plistfile="Scenes/09/Animations/turtle_2" usehint="true" touched="true" ontouchend="onMedalion:" hintpriority="2" />
+		<sprite position="583;138" texture="n_egg" alpha="0" parent="turtle_2" />
+		<sprite position="133;312" texture="ball_basket_shadow" parent="ball_basket_placed" />
+		<sprite position="139;327" texture="ball_basket_placed" alpha="0" touched="true" ontouchend="onBallBroken:" />
+		<compound position="48;198" texture="ball_base" full="ball2" oncomplete="onBallComplette" open="ball_basket_placed" objects="b_d_1:ball_dome_1_inv, b_d_2:ball_dome_2_inv, b_d_3:ball_dome_3_inv, b_d_4:ball_dome_4_inv, b_t:ball_tube_inv, b_f:ball_furnace_inv" />
+		<sprite position="144;312" texture="ball_base_alpha" />
+		<sprite position="75;399" texture="b_d_1" />
+		<sprite position="170;453" texture="b_d_2" />
+		<sprite position="263;407" texture="b_d_3" />
+		<sprite position="271;279" texture="b_d_4" />
+		<sprite position="183;224" texture="b_t" />
+		<sprite position="84;280" texture="b_f" />
+		<sprite position="358;613" texture="ball_tube_hidden" invent="ball_tube_inv" stage="task-balloon" />
+		<sprite position="106;308" texture="ball2_shadow" alpha="0" />
+		<sprite position="99;314" texture="ball2" alpha="0" ontouchend="onBallTouchEnd:" touched="true" />
+		<sprite position="116;330" texture="ball" alpha="0" touched="true" texthintontouch="say-ball-pilot" />
+		<animation position="207;360" plistfile="Scenes/09/Animations/spirit_active" parent="ball" alpha="0" />
+		<sprite position="161;346" texture="ball_fire" alpha="0" parent="ball" />
+		<sprite position="135;327" texture="ball_highlight" parent="ball" alpha="0" />
+		<sprite position="907;691" texture="ball_dome_3_hidden" invent="ball_dome_3_inv" stage="task-balloon" />
+		<sprite position="652;578" texture="slope" stage="task-balloon" ontouchend="onSlope:" usehint="true" />
+		<sprite position="650;262" texture="slope_shadow" paren="slope_open" />
+		<sprite position="650;364" texture="slope_open" alpha="0" />
+		<sprite position="709;450" texture="ball_dome_4_hidden" parent="slope_open" invent="ball_dome_4_inv" stage="task-balloon" />
+		<sprite position="581;290" texture="ball_dome_2_hidden" invent="ball_dome_2_inv" stage="task-balloon" />
+		<sprite position="431;660" texture="snow" touched="true" texthintontouch="say-snow" />
+		<sprite position="856;241" texture="ballast_hidden" stage="task-equip-balloon" invent="ballast_inv" />
+		<sprite position="552;492" texture="gong_brk" stage="task-equip-balloon" />
+		<compound position="446;410" texture="gong_base" open="gong_brk" full="gong" objects="g_1:gong_1_inv, g_2:gong_2_inv, g_3:gong_3_inv" />
+		<sprite position="540;424" texture="gong_base_alpha" />
+		<sprite position="582;551" texture="g_1" />
+		<sprite position="483;492" texture="g_2" />
+		<sprite position="674;499" texture="g_3" />
+		<sprite position="32;581" texture="gong_1_hidden" invent="gong_1_inv" stage="task-equip-balloon" />
+		<sprite position="693;263" texture="gong_2_hidden" invent="gong_2_inv" stage="task-equip-balloon" />
+		<sprite position="916;416" texture="gong_3_hidden" invent="gong_3_inv" stage="task-equip-balloon" />
+		<sprite position="190;327" texture="ballast_snow_placed" alpha="0" />
+		<sprite position="39;473" texture="torch_1_hidden" invent="torch_1_inv" stage="task-fire-level9" />
+		<sprite position="846;304" texture="pers_2" touched="true" texthintontouch="say-sleepmans" pivotx="center" pivoty="center" />
+		<sprite position="322;316" texture="pers_1" touched="true" texthintontouch="say-sleepmans" pivotx="center" pivoty="center" />
+        <compound position="158;138" texture="nest_base" full="nest" open="nest_brk" objects="g_p_1:nest_p_1_inv, g_p_2:nest_p_2_inv, g_p_3:nest_p_3_inv" oncomplete="onHouseDone" />
+		<sprite position="188;166" texture="nest_base_alpha" />
+		<sprite position="185;303" texture="g_p_1" />
+        <sprite position="291;276" texture="g_p_2" />
+        <sprite position="317;170" texture="g_p_3" />
+        <particle emitter="fire" position="884;396" />
+        <particle emitter="torch_light" position="0;0" alpha="0" />
+        <particle emitter="ship" position="204;332" parent="ball" />
+        <particle emitter="smoke-lvl9" position="293;640" />
+        <particle emitter="smoke2" position="865;592" />
+		<sprite position="314;455" texture="exit_arrow" alpha="0" />
+	<objects/>
+<scene/>
+
+<pathes>
+	<path id="path-1" points="250;538, 106;657, 122;746, 184;741, 227;753, 290;730, 310;739, 413;754" />
+<pathes/>

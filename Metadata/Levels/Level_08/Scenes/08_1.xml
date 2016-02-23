@@ -1,0 +1,61 @@
+<scene images="/Scenes/08/08_1" sounds="08" plistfiles="08_1" effects="scene08.ptc" music="playlist3" arrowdir="left" >
+	<objects >
+		<sprite position="0;407" texture="wall" />
+		<sprite position="400;625" texture="cloud_1" />
+		<sprite position="802;614" texture="cloud_2" />
+		<sprite position="12;637" texture="cloud_3" />
+		<sprite position="175;407" texture="teeth_top_shadow" parent="teeth_top" />
+		<sprite position="176;413" texture="teeth_btm_shadow" parent="teeth_btm" />
+		<sprite position="181;407" texture="teeth_top" />
+		<sprite position="181;419" texture="teeth_btm" />
+        <sprite position="181;407" texture="teeth_base" ignorealpha="true" usehint="true" touched="true" />
+		<sprite position="29;419" texture="teeth_1_row" touched="true" ontouchbegan="onTeethClicked:" counter="0" />
+		<sprite position="32;465" texture="teeth_2_row" touched="true" ontouchbegan="onTeethClicked:" counter="1" />
+		<sprite position="32;512" texture="teeth_3_row" touched="true" ontouchbegan="onTeethClicked:" counter="2" />
+		<sprite position="29;419" texture="teeth_1_row_active" parent="teeth_1_row" alpha="0" />
+		<sprite position="32;465" texture="teeth_2_row_active" parent="teeth_2_row" alpha="0" />
+		<sprite position="32;512" texture="teeth_3_row_active" parent="teeth_3_row" alpha="0" />
+		<sprite position="156;300" texture="shadow" />
+		<sprite position="343;211" texture="rocks_bg" />
+		<sprite position="343;212" texture="water" alpha="0" />
+		<sprite position="0;104" texture="rocks" />
+		<sprite position="74;413" texture="frost" />
+		<sprite position="47;299" texture="cover " />
+        <sprite position="205;325" texture="spirit_3_hidden" totem="spirit_08_3" pivotx="center" pivoty="center" />
+		<sprite position="199;323" texture="pipe_lid" pivotx="center" pivoty="center" stage="heat-on" texthintontouch="say-pipelid" />
+		<sprite position="565;450" texture="ground_snow" />
+		<sprite position="509;282" texture="ground" />
+		<sprite position="610;289" texture="tablet_placed" alpha="0" ignorealpha="true" usehint="true" stage="task-energy" texthintontouch="say-findtable" ontouchend="onTabletClicked:" />
+		<sprite position="380;224" texture="signs" />
+		<sprite position="323;299" texture="trail" />
+		<sprite position="217;312" texture="water_stream" alpha="0" />
+		<sprite position="348;296" texture="aquarius" ontouchend="onAquarius:" usehint="true" />
+		<sprite position="70;367" texture="teeth_snow" touched="true" usehint="true" texthintontouch="say-need-shovel" hintpriority="1" ontouchend="onSnowPile:" />
+		<sprite position="887;339" texture="shovel" invent="shovel4_inv" stage="task-obsevatory" />
+		<sprite position="43;104" texture="snow" />
+		<sprite position="308;149" texture="icepick" invent="icepick_inv" ontouchend="onPickIcepick" />
+		<sprite position="284;139" texture="boulder_1" usehint="true" ontouchend="onBoulderClicked:" />
+		<sprite position="235;126" texture="snowpile_2" touched="true" usehint="true" texthintontouch="say-need-shovel" ontouchend="onSnowPile:"  />
+		<sprite position="684;218" texture="gem_1" invent="gem_1_inv" touched="true" ontouchend="onGemPicked" />
+		<sprite position="614;194" texture="snowpile_1" touched="true" texthintontouch="say-need-shovel" ontouchend="onSnowPile:" />
+		<sprite position="560;490" texture="dark_matter" alpha="0" touched="true" usehint="true" ignorealpha="true" hintpriority="2" ontouchend="onDarkMatter:" pivotx="center" pivoty="center" />
+		<sprite position="541;472" texture="dark_matter_glow1" alpha="0" parent="dark_matter" />
+		<sprite position="113;666" texture="diamond_lv" />
+		<sprite position="0;215" texture="ice_shards" />
+		<sprite position="14;335" texture="stone_08_1_hidden" totem="stone_08_1" touched="true" />
+		<sprite position="0;215" texture="bit_1_ice_crack" touched="true" texthintontouch="say-need-icepick" ontouchend="onIceClicked:" />
+		<sprite position="0;215" texture="bit_1_ice" touched="true" texthintontouch="say-need-icepick" ontouchend="onIceClicked:" />
+		<sprite position="440;616" texture="spirit_1_hidden" totem="spirit_08_1" touched="true" />
+		<sprite position="775;604" texture="cyclop" alpha="0" />
+		<sprite position="765;609" texture="cyclop_eye" scale="0" parent="cyclop" pivotx="center" pivoty="center" />
+		<sprite position="757;565" texture="cyclop_snow" />
+		<sprite position="524;448" texture="cyclop_beam" scale="0" pivot="265;62" />
+		<sprite position="540;467" texture="light_matter" alpha="0" parent="dark_matter" onenterframe="updatePortal:" ontouchend="onSceneComplete:" />
+		<sprite position="526;439" texture="dark_matter_glow" alpha="0" parent="dark_matter" />
+		<sprite position="124;194" texture="pers_1" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<sprite position="350;614" texture="pers_2" pivotx="center" pivoty="center" touched="true" texthintontouch="say-sleepmans" />
+		<sprite position="313;427" texture="exit_arrow" alpha="0" />
+        <particle emitter="snow" position="500;768" />
+        <particle emitter="rainbow" position="627;550" active="false" />
+	<objects/>
+<scene/>

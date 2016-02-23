@@ -1,0 +1,256 @@
+<scene images="/Scenes/11/11_1" sounds="11" plistfiles="11_1, 11_1a, 11_1b" effects="scene11.ptc" music="playlist2" >
+	<objects >
+		<sprite position="446;158" texture="stone_hole" />
+		<sprite position="524;280" texture="grate_top" stage="task-open-gate" ontouchend="onGate" usehint="true" alphamask="true" />
+		<sprite position="513;247" texture="grate_bottom" alphamask="true" stage="task-open-gate" />
+		<sprite position="536;272" texture="figure_grate1" />
+		<sprite position="570;272" texture="figure_grate2" alpha="0" />
+		<sprite position="0;107" texture="bg_11" />
+		<sprite position="268;561" texture="wall6" />
+		<sprite position="6;540" texture="smog1" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="167;540" texture="wall5" />
+		<sprite position="0;497" texture="smog2" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="12;588" texture="lantern3_2" />
+		<sprite position="29;600" texture="glow3" />
+		<sprite position="0;510" texture="lantern3_1" />
+		<sprite position="360;515" texture="wall4" />
+		<sprite position="14;468" texture="smog3" pivotx="center" pivoty="center" alpha="0" />
+		<sprite position="0;437" texture="wall3" />
+		<sprite position="577;472" texture="wall2" />
+		<sprite position="887;465" texture="lantern2_2" />
+		<sprite position="881;524" texture="glow2" />
+		<sprite position="794;445" texture="lantern2_1" />
+		<sprite position="0;398" texture="wall1" />
+		<sprite position="526;468" texture="lantern1_2" />
+        <sprite position="384;349" texture="evil_spirit_anim" alpha="0" scale="0" />
+        <particle position="384;349" emitter="smoke_evil" name="evil_spirit_ps" />
+		<sprite position="0;547" texture="top1" />
+		<sprite position="504;512" texture="glow1" />
+		<sprite position="427;419" texture="lantern1_1" />
+		<sprite position="249;522" texture="drum_top5_3_hidden" stage="task-repair-drum" invent="drum_top5_3_inv" />
+		<sprite position="478;485" texture="drum_top5_2_hidden" stage="task-repair-drum" invent="drum_top5_2_inv" />
+		<sprite position="561;675" texture="drum_top5_1_hidden" stage="task-repair-drum" invent="drum_top5_1_inv" />
+		<sprite position="21;440" texture="glow_light" />
+		<sprite position="779;513" texture="drum_5_3" alpha="0" />
+		<sprite position="779;513" texture="drum_5_2" alpha="0" />
+		<sprite position="779;513" texture="drum_5_1" parent="drum_top5" />
+		<sprite position="775;460" texture="drum_top5" alpha="0" texthintontouch="say-drums" stage="task-helpers" usehint="true" counter="5" ontouchend="onDrumTopClicked:" />
+        <object name="drum" position="775;440" size="70;70" stage="task-repair-drum" />
+		<sprite position="776;517" texture="man5_placed" alpha="0" counter="5" />
+		<sprite position="768;524" texture="man5_h_r" parent="man5_placed" pivot="11;8" />
+		<sprite position="825;524" texture="man5_h_l" parent="man5_placed" pivot="6;6" />
+		<sprite position="400;526" texture="drum_4_3" alpha="0" />
+		<sprite position="400;526" texture="drum_4_2" alpha="0" />
+		<sprite position="400;526" texture="drum_4_1" />
+		<sprite position="387;460" texture="drum_top4" texthintontouch="say-drums" stage="task-helpers" usehint="true" counter="4" ontouchend="onDrumTopClicked:" />
+		<sprite position="390;527" texture="man4_placed" alpha="0" counter="4" />
+		<sprite position="381;536" texture="man4_h_r" parent="man4_placed" pivot="15;9" />
+		<sprite position="446;536" texture="man4_h_l" parent="man4_placed" pivot="8;9" />
+		<sprite position="544;453" texture="scissors_hidden" stage="task-free-caster" invent="scissors_inv" />
+		<sprite position="540;188" texture="capsule_close_anim" alpha="0" usehint="true" stage="say-maya-staff" texthintontouch="say-capsule-click" pivotx="center" pivoty="bottom" ontouchend="onCapsuleClicked:" />
+		<sprite position="556;344" texture="capsule_light" parent="capsule_light2" />
+		<sprite position="629;331" texture="magic_staff_placed" alpha="0" invent="magic_staff_inv" stage="say-maya-staff" />
+		<sprite position="473;33" texture="capsule_light2" parent="capsule_close_anim" alpha="0" />
+		<sprite position="565;238" texture="purpose" alpha="0" />
+        <particle emitter="runa_zone" position="659;403" parent="purpose" />
+        <particle emitter="flower_light" active="false" position="659;235" />
+		<sprite position="482;107" texture="bg_cover" />
+		<sprite position="57;424" texture="tron" usehint="true" stage="task-find-cristals" alphamask="true" texthintontouch="say-podstavka" ontouchend="onTronClicked:" />
+		<sprite position="58;405" texture="rope_broken" alpha="0" />
+		<sprite position="307;334" texture="drum_3_3" alpha="0" />
+		<sprite position="307;334" texture="drum_3_2" alpha="0" />
+		<sprite position="307;334" texture="drum_3_1" />
+		<sprite position="289;272" texture="drum_top3" texthintontouch="say-drums" stage="task-helpers" usehint="true" counter="3" ontouchend="onDrumTopClicked:" />
+		<sprite position="297;405" texture="capsul_sign" alpha="0" />
+		<sprite position="907;453" texture="drum_6_3" alpha="0" />
+		<sprite position="907;453" texture="drum_6_2"  alpha="0"/>
+		<sprite position="907;453" texture="drum_6_1" />
+		<sprite position="902;380" texture="drum_top6" texthintontouch="say-drums" stage="task-helpers" usehint="true" counter="6" ontouchend="onDrumTopClicked:" />
+		<sprite position="380;303" texture="capsul_sign" alpha="0" parent="capsule_open" />
+        <sprite position="332;115" texture="capsule_open" alpha="0" pivotx="center" pivoty="bottom" />
+        <sprite position="473;420" texture="brother_anim" alpha="0" parent="capsule_open" />
+		<sprite position="457;426" texture="evil_anim" alpha="0" parent="capsule_open" />
+        <sprite position="579;307" texture="evel_target" parent="capsule_open" alpha="0" />
+        <particle emitter="evel_target" parent="evel_target" name="evil-ps" position="645;413" />
+		<sprite position="0;669" texture="lantern0_2" />
+		<sprite position="0;665" texture="glow0" />
+		<sprite position="0;106" texture="lantern0_1" />
+		<sprite position="902;456" texture="man6_placed" alpha="0" counter="6" />
+		<sprite position="893;468" texture="man6_h_r" parent="man6_placed" pivot="14;11" />
+		<sprite position="960;468" texture="man6_h_l" parent="man6_placed" pivot="9;8" />
+		<sprite position="807;264" texture="drum_1_3" alpha="0" />
+		<sprite position="811;267" texture="drum_1_2" alpha="0" />
+		<sprite position="811;267" texture="drum_1_1" />
+		<sprite position="797;204" texture="drum_top1" texthintontouch="say-drums" stage="task-helpers" usehint="true" counter="1" ontouchend="onDrumTopClicked:" />
+		<sprite position="798;270" texture="man1_placed" alpha="0" counter="1" />
+		<sprite position="788;280" texture="man1_h_r" parent="man1_placed" pivot="16;11" />
+		<sprite position="862;280" texture="man1_h_l" parent="man1_placed" pivot="9;8" />
+		<sprite position="168;430" texture="crystal1_placed" alpha="0" />
+		<sprite position="194;436" texture="crystal2_placed" alpha="0" />
+		<sprite position="216;445" texture="crystal3_placed" alpha="0" />
+		<sprite position="631;666" texture="crystal1_hidden" invent="crystal1_inv" stage="task-find-cristals" counter="1" />
+		<sprite position="520;579" texture="crystal2_hidden" invent="crystal2_inv" stage="task-find-cristals" counter="2" />
+		<sprite position="47;485" texture="crystal3_hidden" invent="crystal3_inv" stage="task-find-cristals" counter="3" />
+		<sprite position="285;472" texture="man5_sleep" pivotx="center" pivoty="center" />
+		<sprite position="289;472" texture="man5_placed" name="man5_hidden" alpha="0" counter="5" />
+		<sprite position="280;478" texture="man5_h_r" name="man5_h_r_hidden" parent="man5_hidden" pivot="13;8" />
+		<sprite position="335;478" texture="man5_h_l" name="man5_h_l_hidden" parent="man5_hidden" pivot="7;8" />
+		<sprite position="80;469" texture="magicman" pivotx="center" pivoty="center" stage="task-dream-done" texthintontouch="say-shaman-caster" usehint="true" />
+		<sprite position="149;578" texture="magicman_head3" alpha="0" parent="magicman" pivotx="center" pivoty="center" />
+		<sprite position="148;614" texture="sleep_3_2" parent="magicman_head3" />
+		<sprite position="151;576" texture="magicman_head3_sleep" parent="magicman" />
+		<sprite position="157;605" texture="sleep_3_1" parent="magicman_head3_sleep" />
+		<sprite position="107;578" texture="magicman_head2" parent="magicman" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="103;620" texture="sleep_2_2" parent="magicman_head2" stage="task-free-caster" texthintontouch="say-find-scissors" ontouchend="onCutRope:" usehint="true" counter="1" />
+		<sprite position="113;578" texture="magicman_head2_sleep" parent="magicman" />
+		<sprite position="113;610" texture="sleep_2_1" parent="magicman_head2_sleep" />
+		<sprite position="52;564" texture="magicman_head1" parent="magicman" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="64;593" texture="sleep_1_2" parent="magicman_head1" />
+		<sprite position="66;564" texture="magicman_head1_sleep" parent="magicman" />
+		<sprite position="71;597" texture="sleep_1_1" parent="magicman_head1_sleep" />
+		<sprite position="97;611" texture="eye1" alpha="0" parent="magicman_head1" />
+		<sprite position="139;624" texture="eye2" alpha="0" parent="magicman_head1" />
+		<sprite position="177;619" texture="eye3" alpha="0" parent="magicman_head1" />
+		<sprite position="171;565" texture="flute3_2" alpha="0" parent="hands3" pivot="7;96" />
+		<sprite position="175;446" texture="flute3_1_placed" alpha="0" parent="hands3" />
+		<sprite position="282;727" texture="flute3_1_hidden" stage="task-free-caster-done" invent="flute3_1_inv" pivot="3;3" />
+		<sprite position="166;506" texture="hands3" parent="magicman" pivot="30;70" />
+		<sprite position="163;490" texture="hands2_2" parent="magicman" pivot="30;80" />
+		<sprite position="0;108" texture="fog1" pivotx="center" pivoty="center" ignorealpha="true" ontouchend="onFogClicked:" stage="task-dream" usehint="true" />
+		<sprite position="138;550" texture="flute2_2" alpha="0" parent="hands2_1" pivot="7;50" />
+		<sprite position="145;326" texture="flute2_1" parent="hands2_1" pivot="10;5" />
+		<sprite position="302;340" texture="man3_placed" alpha="0" counter="3" />
+		<sprite position="293;349" texture="man3_h_r" parent="man3_placed" pivot="16;6" />
+		<sprite position="362;349" texture="man3_h_l" parent="man3_placed" pivot="9;6" />
+		<sprite position="523;236" texture="drum_2_3" alpha="0" />
+		<sprite position="518;231" texture="drum_2_2" alpha="0" />
+		<sprite position="523;236" texture="drum_2_1" />
+		<sprite position="515;157" texture="drum_top2" texthintontouch="say-drums" stage="task-helpers" usehint="true" counter="2" ontouchend="onDrumTopClicked:" />
+		<sprite position="520;247" texture="man2_placed" alpha="0" counter="2" />
+		<sprite position="586;257" texture="man2_h_l" parent="man2_placed" pivot="9;8" />
+		<sprite position="512;257" texture="man2_h_r" parent="man2_placed" pivot="14;8" />
+		<sprite position="839;448" texture="man4_sleep" pivotx="center" pivoty="center" />
+		<sprite position="842;448" texture="man4_hidden" alpha="0" counter="4" /> 
+		<sprite position="835;453" texture="man4_h_r_hidden" parent="man4_hidden" pivot="10;7" />
+		<sprite position="880;453" texture="man4_h_l_hidden" parent="man4_hidden" pivot="5;5" />
+		<sprite position="107;213" texture="man2_sleep" pivotx="center" pivoty="center" />
+		<sprite position="110;213" texture="man2_placed" name="man2_hidden" alpha="0" counter="2" />
+		<sprite position="101;224" texture="man2_h_r" name="man2_h_r_hidden" parent="man2_hidden" pivot="14;10" />
+		<sprite position="175;224" texture="man2_h_l" name="man2_h_l_hidden" parent="man2_hidden" pivot="9;8" />
+		<sprite position="966;426" texture="man3_sleep" pivotx="center" pivoty="center" />
+		<sprite position="967;424" texture="man3_hidden" alpha="0" counter="3" />
+		<sprite position="962;431" texture="man3_h_r_hidden" parent="man3_hidden" pivot="8;5" />
+		<sprite position="1007;431" texture="man3_h_l_hidden" parent="man3_hidden" pivot="7;2" />
+		<sprite position="119;357" texture="man1_sleep" pivotx="center" pivoty="center" />
+		<sprite position="124;357" texture="man1_placed" name="man1_hidden" alpha="0" counter="1" />
+		<sprite position="113;367" texture="man1_h_r" name="man1_h_r_hidden" parent="man1_hidden" pivot="16;8" />
+		<sprite position="188;367" texture="man1_h_l" name="man1_h_l_hidden" parent="man1_hidden" pivot="9;8" />
+		<sprite position="276;144" texture="man6_sleep" pivotx="center" pivoty="center" />
+		<sprite position="280;144" texture="man6_placed" name="man6_hidden" alpha="0" counter="6" />
+		<sprite position="271;156" texture="man6_h_r" name="man6_h_r_hidden" parent="man6_hidden" pivot="16;5" />
+		<sprite position="337;156" texture="man6_h_l" name="man6_h_l_hidden" parent="man6_hidden" pivot="7;5" />
+		<sprite position="136;492" texture="hands2_1" parent="magicman" pivot="15;80" />
+		<sprite position="116;469" texture="hands1_2" parent="magicman" pivot="30;85" />
+		<sprite position="0;19" texture="fog2" pivotx="center" pivoty="center" />
+		<sprite position="111;481" texture="flute1_2" alpha="0" parent="hands1_1" pivot="1;7" />
+		<sprite position="111;293" texture="flute1_1_placed" alpha="0" parent="hands1_1" pivot="6;7" />
+		<sprite position="10;227" texture="flute1_1_hidden" stage="task-free-caster-done" invent="flute1_1_inv" />
+		<sprite position="89;476" texture="hands1_1" parent="magicman" pivot="13;82" />
+		<sprite position="83;476" texture="rope" parent="magicman" stage="task-free-caster" texthintontouch="say-find-scissors" ontouchend="onCutRope:" />
+		<sprite position="0;0" texture="eye_light" alpha="0" ignorealpha="true" />
+        <sprite position="682;393" texture="evil_spirit_1_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="1" />
+        <sprite position="416;443" texture="evil_spirit_1_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="1" />
+        <sprite position="312;595" texture="evil_spirit_2_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="2" />
+        <sprite position="677;584" texture="evil_spirit_2_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="2" />
+        <sprite position="140;473" texture="evil_spirit_3_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="3" />
+        <sprite position="551;613" texture="evil_spirit_3_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="3" />
+        <sprite position="569;311" texture="evil_spirit_4_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="4" />
+        <sprite position="258;449" texture="evil_spirit_4_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="4" />
+        <sprite position="313;277" texture="evil_spirit_5_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="5" />
+        <sprite position="57;317" texture="evil_spirit_5_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="5" />
+        <sprite position="6;611" texture="evil_spirit_6_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="6" />
+        <sprite position="430;301" texture="evil_spirit_6_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="6" />
+        <sprite position="154;622" texture="evil_spirit_7_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="7" />
+        <sprite position="180;309" texture="evil_spirit_7_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="7" />
+        <sprite position="430;623" texture="evil_spirit_8_1" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="8" />
+        <sprite position="20;457" texture="evil_spirit_8_2" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" counter="8" />
+        <sprite position="541;462" texture="evil_spirit_0" pivotx="center" pivoty="center" scale="0" touched="true" ontouchend="onSpiritClicked:" />
+		<sprite position="389;346" texture="evil_spirit_anim2" alpha="0" />
+		<sprite position="410;349" texture="evil_spirit_anim3" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="419;377" texture="cloud_1_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="424;372" texture="cloud_1_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="423;377" texture="cloud_2_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="421;375" texture="cloud_2_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="413;377" texture="cloud_3_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="419;372" texture="cloud_3_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="414;372" texture="cloud_4_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="413;376" texture="cloud_4_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="414;368" texture="cloud_5_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="413;368" texture="cloud_5_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="413;377" texture="cloud_6_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="421;375" texture="cloud_6_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="389;372" texture="cloud_7_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="413;377" texture="cloud_7_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="414;372" texture="cloud_8_1" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="419;372" texture="cloud_8_2" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true" />
+		<sprite position="413;377" texture="cloud_0" pivotx="center" pivoty="center" scale="0" ontouchend="onCloudClicked:" touched="true"  />
+		<window position="124;281" texture="grate_zoom" open="grate_bottom" close="grate_close" objects="door_bottom door_top grate_cover res_btn start_btn figure_1 figure_2 figure_3 figure_4 figure_5 figure_6 figure_7 figure_8 figure_9" ontouchend="onGrateTouchEnd:" touched="true" />
+		<sprite position="211;298" texture="door_bottom" alphamask="true" />
+		<sprite position="225;357" texture="door_top" alphamask="true" />
+		<sprite position="43;107" texture="grate_cover" />
+		<button position="487;618" btnnormal="res_btn" btndown="res_btnd" ontouchbegan="onResButton" stage="task-open-gate" />
+		<button position="474;183" btnnormal="start_btn" btndown="start_btnd" ontouchbegan="onStartButton" stage="task-open-gate" />
+		<sprite position="179;463" texture="figure_9" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="789;519" texture="figure_8" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="852;396" texture="figure_7" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="789;336" texture="figure_6" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="176;398" texture="figure_5" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="179;337" texture="figure_4" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="116;458" texture="figure_3" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="791;398" texture="figure_2" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<sprite position="793;460" texture="figure_1" pivotx="center" pivoty="center" touched="true" ontouchbegan="onSelectFigure:" alphamask="true" usehint="true" />
+		<button position="736;711" name="grate_close" btnnormal="common/window_close_btn" btndown="common/window_close_btnd" />
+		<sprite position="21;163" texture="note" alpha="0" />
+		<button position="74;239" btnnormal="m_1_btn" btndown="m_1_btnd" parent="note" touched="true" counter="1" ontouchbegan="onNoteButton:" />
+		<button position="206;193" btnnormal="m_2_btn" btndown="m_2_btnd" parent="note" touched="true" counter="2" ontouchbegan="onNoteButton:"  />
+		<button position="272;243" btnnormal="m_3_btn" btndown="m_3_btnd" parent="note" touched="true" counter="3" ontouchbegan="onNoteButton:"  />
+		<button position="337;198" btnnormal="m_4_btn" btndown="m_4_btnd" parent="note" touched="true" counter="4" ontouchbegan="onNoteButton:"  />
+		<button position="478;193" btnnormal="m_5_btn" btndown="m_5_btnd" parent="note" touched="true" counter="5" ontouchbegan="onNoteButton:"  />
+		<button position="555;235" btnnormal="m_6_btn" btndown="m_6_btnd" parent="note" touched="true" counter="6" ontouchbegan="onNoteButton:"  />
+		<button position="632;192" btnnormal="m_7_btn" btndown="m_7_btnd" parent="note" touched="true" counter="7" ontouchbegan="onNoteButton:"  />
+		<sprite position="212;610" texture="m_1" pivotx="center" pivoty="center" alpha="0" counter="1" onenterframe="updateNote:" />
+		<sprite position="285;663" texture="m_2" pivotx="center" pivoty="center" alpha="0" counter="2" onenterframe="updateNote:" />
+		<sprite position="386;568" texture="m_3" pivotx="center" pivoty="center" alpha="0" counter="3" onenterframe="updateNote:" />
+		<sprite position="208;609" texture="m_4" pivotx="center" pivoty="center" alpha="0" counter="4" onenterframe="updateNote:" />
+		<sprite position="282;663" texture="m_5" pivotx="center" pivoty="center" alpha="0" counter="5" onenterframe="updateNote:" />
+		<sprite position="391;570" texture="m_6" pivotx="center" pivoty="center" alpha="0" counter="6" onenterframe="updateNote:" />
+		<sprite position="206;611" texture="m_7" pivotx="center" pivoty="center" alpha="0" counter="7" onenterframe="updateNote:" />
+		<sprite position="212;610" texture="m_1_go" parent="m_1" alpha="0" />
+		<sprite position="285;663" texture="m_2_go" parent="m_2" alpha="0" />
+		<sprite position="386;568" texture="m_3_go" parent="m_3" alpha="0" />
+		<sprite position="208;609" texture="m_4_go" parent="m_4" alpha="0" />
+		<sprite position="282;663" texture="m_5_go" parent="m_5" alpha="0" />
+		<sprite position="391;570" texture="m_6_go" parent="m_6" alpha="0" />
+		<sprite position="206;611" texture="m_7_go" parent="m_7" alpha="0" />
+		<compound position="656;416" texture="drum_top5_base" oncomplete="onDrumComplete" open="drum" full="drum_top5" objects="drum_top5_3_placed:drum_top5_3_inv, drum_top5_2_placed:drum_top5_2_inv, drum_top5_1_placed:drum_top5_1_inv" />
+		<sprite position="750;427" texture="drum_top5_alpha" name="drum_top5_base_alpha" />
+		<sprite position="775;564" texture="drum_top5_3_placed" />
+		<sprite position="876;503" texture="drum_top5_2_placed" />
+		<sprite position="687;513" texture="drum_top5_1_placed" />
+        <particle emitter="magic" position="519;361" alpha="0" />
+	<objects/>
+<scene/>
+
+<pathes>
+	<path id="spell1" points="561;355, 468;412, 378;469, 324;545, 269;616, 299;702, 401;748" />
+	<path id="spell2" points="79;357, 525;430, 479;517, 455;554, 418;579, 377;600, 376;648, 388;706" />
+	<path id="spell3" points="610;362, 569;485, 555;579, 528;672, 488;733" />
+	<path id="spell4" points="619;389, 683;448, 734;473, 772;519, 804;573, 836;663, 882;714" />
+	<path id="spell5" points="603;400, 638;441, 628;495, 653;540, 644;595, 646;666, 665;702, 688;718, 725;751, 731;656, 739;600" />
+	<path id="evil_spirit_patch" points="670;495, 731;542, 799;527, 868;538, 912;508, 932;459, 853;409, 752;416, 649;442, 536;464, 395;563, 288;485, 328;386, 374;298, 466;293, 544;252, 642;244, 706;227, 762;312, 684;399, 582;418, 635;524, 389;346" />
+	<path id="evil_spirit_done_patch" points="749;459, 626;344, 514;298, 410;226" />
+	<path id="mp_1" points="340;718, 475;679, 667;674, 806;648, 995;643, 1115;608" />
+	<path id="mp_2" points="285;629, 446;638, 616;591, 793;596, 932;563, 1131;561" />
+	<path id="mp_3" points="341;706, 507;719, 666;697, 829;711, 1114;686" />
+	<path id="evil_spirit_pt" points="959;560, 731;518, 516;561, 162;657, 346;563, 318;627, 440;624, 548;619, 653;604, 735;591, 784;554, 743;520, 720;563, 829;593, 940;576" />
+<pathes/>

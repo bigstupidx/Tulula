@@ -1,0 +1,130 @@
+<scene images="/Scenes/06/06_1" sounds="06" plistfiles="06_1" effects="scene06.ptc" music="playlist2" >
+	<objects >
+		<sprite position="0;104" texture="bg_61" />
+		<sprite position="951;423" texture="far_lotos" />
+		<sprite position="771;660" texture="cloud_1" />
+		<sprite position="332;661" texture="cloud_2" />
+		<sprite position="0;467" texture="house_broken" stage="task-fix_house" />
+		<sprite position="0;467" texture="house" alpha="0" />
+		<sprite position="248;480" texture="dock_lv" />
+		<sprite position="35;565" texture="roof_placed" parent="house" />
+		<sprite position="112;389" texture="fountain_off" />
+        <object position="112;389" name="fountain" size="160;75" stage="task-feeduva" />
+		<sprite position="165;422" texture="fountain_statue_full_placed" alpha="0" />
+		<sprite position="98;378" texture="fountain_water" alpha="0" />
+		<sprite position="0;175" texture="head_top" alpha="0" />
+		<sprite position="192;120" texture="hook" parent="head_top" touched="true" ontouchend="onHook:" usehint="true" />
+		<sprite position="0;166" texture="head_happy" alpha="0" touched="true" usehint="true" ontouchend="onHeadHappy:" />
+		<sprite position="0;154" texture="head_open" alpha="0" touched="true" texthintontouch="say-light-needed" ontouchend="onHeadOpen:" onenterframe="updateHead:" usehint="true" />
+		<sprite position="322;550" texture="ridge" texthintontouch="say-plant-tree" ontouchend="onRidge:" usehint="true" />
+		<sprite position="322;550" texture="ridge_watered" alpha="0" />
+		<sprite position="76;587" texture="seed_hidden" invent="seed_inv" touched="true" parent="house" />
+		<sprite position="197;494" texture="door_placed" parent="house" />
+		<sprite position="55;583" texture="window_placed" useparticlehint="true" parent="house" touched="true" ontouchend="onWindowPlaced:" />
+		<sprite position="55;582" texture="window_open" alpha="0" />
+		<sprite position="339;555" texture="seed_placed" alpha="0" />
+		<sprite position="26;317" texture="brook" alpha="0" />
+		<sprite position="318;547" texture="stump" stage="task-feeduva" usehint="true" texthintontouch="say-need-shovel-level6" ontouchend="onStumpClicked:" />
+		<sprite position="323;555" texture="tree1" alpha="0" />
+		<sprite position="249;547" texture="tree2" alpha="" />
+		<sprite position="0;537" texture="tree3" alpha="0" />
+		<sprite position="410;648" texture="flower" parent="tree3" alpha="0" />
+		<sprite position="449;666" texture="bud"  parent="tree3" scale="0" pivotx="center" pivoty="center" />
+		<sprite position="330;311" texture="gate_brk_3_hidden" invent="gate_brk_3_inv" stage="task-fixgate" />
+		<sprite position="316;147" texture="tail" />
+		<sprite position="595;593" texture="fountain_lv" />
+		<sprite position="401;401" texture="portal_top" />
+		<sprite position="478;357" texture="bowels" stage="task-portal" />
+		<sprite position="486;391" texture="wood" alpha="0" touched="true" usehint="true" texthintontouch="say-woods" ontouchend="onWoodClicked:" />
+		<sprite position="262;131" texture="food" stage="tree-tuna-up" texthintontouch="say-food" ontouchend="onFood:" usehint="true" />
+		<sprite position="312;145" texture="tuna_placed" parent="food" alpha="0" />
+		<sprite position="765;389" texture="swing" />
+        <object name="maya_active" position="862;394" touched="true" size="100;190" parent="swing" usehint="true" ontouchend="onMayaWithItems:" onenterframe="updateMaya:" />
+		<animation position="865;394" plistfile="Scenes/06/Animations/maya" alpha="0" parent="swing" />
+		<animation position="861;394" plistfile="Scenes/06/Animations/maya_angry" parent="swing" alpha="1" />
+		<animation position="865;394" plistfile="Scenes/06/Animations/maya_worried" alpha="0" parent="swing" />
+		<animation position="865;394" plistfile="Scenes/06/Animations/maya_happy" alpha="0" parent="swing" />
+		<animation position="865;394" plistfile="Scenes/06/Animations/maya_sorry" alpha="0" parent="swing" delay="0.3" />
+		<animation position="865;394" plistfile="Scenes/06/Animations/maya_anxious" alpha="0" parent="swing" />
+		<animation position="862;394" plistfile="Scenes/06/Animations/maya_read" alpha="0" parent="swing" />
+		<sprite position="871;428" texture="magic_staff_placed" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="133;692" texture="specs_hidden" invent="specs_inv" stage="task-maya-rngltr-done" />
+		<sprite position="776;492" texture="h_roof_p_2_hidden" invent="roof_p_2_inv" stage="task-fix_house" />
+		<sprite position="385;335" texture="grass_off" />
+		<sprite position="377;390" texture="grass_7" pivot="71;129" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="524;366" texture="grass_6" pivot="17;138" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="464;354" texture="grass_5" pivot="75;165" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="508;354" texture="grass_4" pivot="62;176" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="400;363" texture="grass_3" pivot="74;162" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="560;341" texture="grass_2" pivot="42;127" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="350;375" texture="grass_1" pivot="101;114" touched="true" texthintontouch="say-grass" ontouchend="onGrass:" />
+		<sprite position="364;327" texture="fence" />
+		<sprite position="581;331" texture="gate_brk" stage="task-fixgate" />
+		<sprite position="581;332" texture="gate_full" alpha="0" touched="true" ontouchend="onGateFull:" />
+		<sprite position="581;330" texture="gate_open" alpha="0" />
+		<sprite position="395;555" texture="door_hidden" invent="door_inv" stage="task-fix_house" />
+		<sprite position="919;308" texture="wood_1_hidden" invent="wood_1_2_inv" stage="task-portal" />
+		<sprite position="94;458" texture="wood_3_hidden" invent="wood_3_2_inv" stage="task-portal" />
+		<sprite position="6;325" texture="wood_4_hidden" invent="wood_4_inv" stage="task-portal" />
+		<sprite position="199;682" texture="wood_5_hidden" invent="wood_5_inv" stage="task-portal" />
+		<sprite position="494;135" texture="machete_hidden" invent="machete_inv" stage="task-grass" />
+		<sprite position="954;332" texture="gate_brk_5_hidden" invent="gate_brk_5_inv" stage="task-fixgate" />
+		<sprite position="842;235" texture="gate_brk_4_hidden" invent="gate_brk_4_inv" stage="task-fixgate" />
+		<sprite position="629;399" texture="light_flower_hidden" invent="light_flower_inv" stage="task-staff" />
+		<sprite position="56;156" texture="light_flower_placed" alpha="0" />
+		<sprite position="517;316" texture="fountain_statue1_hidden" invent="fountain_statue1_inv" stage="task-feeduva" />
+		<sprite position="771;199" texture="fountain_statue2_hidden" invent="fountain_statue2_inv" stage="task-feeduva" />
+		<sprite position="399;496" texture="fountain_statue3_hidden" invent="fountain_statue3_inv" stage="task-feeduva" />
+		<sprite position="25;583" texture="loafer_hidden" invent="loafer_inv" stage="tree-tuna-up" />
+		<sprite position="430;647" texture="tuna_hidden" touched="true" texthintontouch="say-tuna" parent="tree3" alpha="0" ontouchend="onTunaHidden:" usehint="true" />
+		<sprite position="700;587" texture="shovel_hidden" invent="shovel2_inv" stage="task-feeduva" />
+		<sprite position="380;153" texture="h_roof_p_1_hidden" invent="roof_p_1_inv" stage="task-fix_house" parent="food" />
+		<sprite position="248;345" texture="h_roof_p_3_hidden" invent="roof_p_3_inv" stage="task-fix_house" />
+		<sprite position="398;353" texture="h_roof_p_4_hidden" invent="roof_p_4_inv" stage="task-fix_house" />
+		<sprite position="640;337" texture="window_hidden" invent="window_inv" stage="task-fix_house" />
+		<sprite position="0;349" texture="flowers" />
+		<sprite position="558;207" texture="flowers_on_tail" />
+		<sprite position="48;481" texture="gate_brk_6_hidden" invent="gate_brk_6_inv" stage="task-fixgate" />
+		<sprite position="193;554" texture="gate_brk_2_hidden" invent="gate_brk_2_inv" stage="task-fixgate" />
+		<sprite position="512;570" texture="wood_2_hidden" invent="wood_2_2_inv" stage="task-portal" />
+		<sprite position="537;628" texture="gate_brk_1_hidden" invent="gate_brk_1_inv" stage="task-fixgate" />
+        <sprite position="134;526" texture="lamp_hidden" invent="lamp_light_inv" stage="task-portal" pivotx="center" pivoty="top" />
+		<compound position="35;404" texture="fountain_base" open="fountain" full="fountain_statue_full_placed" objects="fountain_statue1_placed:fountain_statue1_inv, fountain_statue2_placed:fountain_statue2_inv, fountain_statue3_placed:fountain_statue3_inv" oncomplete="onFountainComplete" />
+		<sprite position="129;413" texture="fountain_alpha" name="fountain_base_alpha" />
+		<sprite position="61;494" texture="fountain_statue1_placed" />
+		<sprite position="244;499" texture="fountain_statue2_placed" />
+		<sprite position="162;546" texture="fountain_statue3_placed" />
+		<compound position="426;264" texture="wood_base" full="wood" open="bowels" objects="wood_1_placed:wood_1_2_inv, wood_2_placed:wood_2_2_inv, wood_3_placed:wood_3_2_inv, wood_4_placed:wood_4_inv, wood_5_placed:wood_5_inv" />
+		<sprite position="519;355" texture="wood_base_alpha" />
+		<sprite position="451;444" texture="wood_1_placed" />
+		<sprite position="545;497" texture="wood_2_placed" />
+		<sprite position="454;335" texture="wood_3_placed" />
+		<sprite position="638;448" texture="wood_4_placed" />
+		<sprite position="637;334" texture="wood_5_placed" />
+		<compound position="491;208" texture="gate_base" full="gate_stamp" open="gate_brk" objects="gate_brk_1:gate_brk_1_inv, gate_brk_2:gate_brk_2_inv, gate_brk_3:gate_brk_3_inv, gate_brk_4:gate_brk_4_inv, gate_brk_5:gate_brk_5_inv, gate_brk_6:gate_brk_6_inv" oncomplete="onGateDone" />
+		<sprite position="584;321" texture="gate_base_alpha" />
+		<sprite position="611;459" texture="gate_brk_6" />
+		<sprite position="712;399" texture="gate_brk_5" />
+		<sprite position="718;290" texture="gate_brk_4" />
+		<sprite position="620;240" texture="gate_brk_3" />
+		<sprite position="523;288" texture="gate_brk_2" />
+		<sprite position="519;404" texture="gate_brk_1" />
+		<sprite position="564;316" texture="gate_stamp" alpha="0" pivotx="center" pivoty="center" />
+		<compound position="29;416" texture="house_base" open="house_broken" full="house" objects="h_roof_p_1:roof_p_1_inv, h_roof_p_2:roof_p_2_inv, h_roof_p_3:roof_p_3_inv, h_roof_p_4:roof_p_4_inv h_door:door_inv, h_window:window_inv" oncomplete="onHouseComplete" />
+		<sprite position="122;523" texture="house_base_alpha" />
+		<sprite position="64;492" texture="h_door" />
+		<sprite position="253;494" texture="h_roof_p_1" />
+		<sprite position="245;599" texture="h_roof_p_2" />
+		<sprite position="153;656" texture="h_roof_p_3" />
+		<sprite position="56;601" texture="h_roof_p_4" />
+		<sprite position="158;445" texture="h_window" />
+		<sprite position="367;456" texture="portal_open" alpha="0" />
+		<sprite position="334;373" texture="portal_light" alpha="0" scale="0" pivot="174;263" touched="true" usehint="true" ontouchend="onSceneComplete:" />
+        <particle emitter="rainbow" position="512;550" active="false" />
+        <particle name="fire1" emitter="fire" position="325;496" dublicate="true" />
+        <particle name="fire2" emitter="fire"  position="705;541" />
+        <particle name="fire3" emitter="fire" position="512;404" dublicate="true" alpha="0" />
+        <particle name="fire4" emitter="fire"  position="627;425" dublicate="true" alpha="0" />
+        <particle emitter="fountain"  position="180;497" parent="fountain_statue_full_placed" />
+	<objects/>
+<scene/>
