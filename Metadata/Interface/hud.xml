@@ -4,7 +4,7 @@
 		<sprite position="186;96" texture="progress_bar" pivotx="left" pivoty="center" />
 		<sprite position="313;94" texture="progress_bar_alfa" />
 		<sprite position="387;90" texture="progress_bar_flash" pivotx="center" pivoty="center" />
-		<button position="935;151" btnnormal="notepad_btn" btndown="notepad_btnd" touched="true" />
+		<button position="935;151" btnnormal="notepad_btn" btndown="notepad_btnd" />
 		<sprite position="935;151" texture="notepad_add" tag="10" alpha="0" addalpha="0.3" pivotx="center" pivoty="center" />
 		<sprite position="780;2" texture="task_light" tag="11" alpha="0" />
 		<sprite position="698;25" texture="hint_light" tag="23" scissors="true" />

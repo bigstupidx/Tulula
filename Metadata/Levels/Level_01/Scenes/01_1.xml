@@ -6,8 +6,8 @@
 		<sprite position="412;183" texture="hole_cover" />
 		<sprite position="0;99" texture="tron_hall_near" />
 		<sprite position="906;258" texture="jar_closed"  />
-		<sprite alpha="0" position="906;258" texture="jar_open" ignorealpha="true" />
-		<sprite invent="scheme_hud" parent="jar_open" position="924;316" texture="scheme_in_jar" script="Leafes" />
+		<sprite alpha="0" position="906;258" texture="jar_open" ignorealpha="true" touched="true" />
+		<sprite invent="scheme_hud" parent="jar_open" position="924;316" texture="scheme_in_jar" />
 		<sprite position="282;477" texture="palm_leaf_13" pivot="60;80" script="Leafes" />
 		<sprite position="738;529" texture="palm_leaf_12" script="Leafes" />
 		<sprite position="790;424" texture="totem_stone_01_p01" totem="stone_01_1" />
@@ -33,7 +33,7 @@
 		<sprite position="432;385" texture="fruits" />
 		<sprite invent="grapes_hud" position="471;390" texture="grapes" />
 		<sprite alpha="0" position="413;193" texture="rope_ledder_hole" />
-		<sprite position="453;192" texture="totem_full" alpha="0.5" script="Totem" />
+		<sprite position="453;192" texture="totem_full" alpha="0.5" script="Totem" touched="true" ignorealpha="true" />
 		<sprite alpha="0" position="451;139" texture="totem_aureole" parent="totem_full" />
 		<sprite position="633;335" texture="staff_broken" size="70;70" />
 		<sprite name="staff_full" invent="staff_fixed_hud" position="633;335" texture="staff_fixed_hud" alpha="0" />
@@ -59,7 +59,7 @@
 		<sprite position="679;618" texture="eye_y" alpha="0" ignorealpha="true" />
 		<sprite alpha="0" position="299;522" texture="mask_light" />
 		<sprite position="314;555" texture="masks" />
-		<sprite position="546;423" texture="cheif" pivotx="center" pivoty="center" script="Chief" />
+		<sprite position="546;423" texture="cheif" pivotx="center" pivoty="center" script="Chief" touched="true" />
 		<sprite alpha="0" position="316;171" texture="reys" />
 		<animation position="52;286" texture="pavlin" />
 		<sprite invent="feather_hud" parent="pavlin_eat" position="97;327" texture="pavlin_feather" />

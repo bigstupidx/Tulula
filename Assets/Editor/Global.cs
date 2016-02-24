@@ -15,7 +15,7 @@ namespace Editor
         static public string kSourcesPath = "C:/Users/Public/Documents/Unity Projects/Tulula/Metadata";
         static public string kAssetsPath = "Assets/Sprites/";
 
-        static public string kInventoryPath = kAssetsPath + "/Inventory/";
+        static public string kInventoryPath = kAssetsPath + "Inventory/";
 
         public static Vector2 VectorFromString(string obj, params char[] separator)
         {

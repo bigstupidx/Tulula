@@ -24,7 +24,19 @@ namespace Editor
 
             string images = Global.kAssetsPath + root.Attributes["images"].InnerText;
 
-            loadObjectsFromXML(root.SelectSingleNode("objects"), images);
+            GameObject sceneRoot = new GameObject("Scene");
+
+            var objects = loadObjectsFromXML(root.SelectSingleNode("objects"), images);
+
+            foreach(var obj in objects)
+            {
+                if(obj.transform.parent == null)
+                {
+                    obj.transform.parent = sceneRoot.transform;
+                }
+            }
+
+            sceneRoot.AddComponent<SceneController>();
         }
 
         public static GameObject[] loadObjectsFromXML(XmlNode root, string images)
@@ -38,11 +50,20 @@ namespace Editor
                 GameObject obj = new GameObject();
 
                 Vector2 position = new Vector2();
+                Vector2 size = new Vector2(10, 10);
+
                 string name = "";
+                bool sizeFromTexture = true;
 
                 if (node.Attributes["position"] != null)
                 {
                     position = Global.VectorFromString(node.Attributes["position"].InnerText, ';');
+                }
+
+                if (node.Attributes["size"] != null)
+                {
+                    size = Global.VectorFromString(node.Attributes["size"].InnerText, ';');
+                    sizeFromTexture = false;
                 }
 
                 if (node.Attributes["name"] != null)
@@ -85,6 +106,11 @@ namespace Editor
                                 if (renderer.sprite == null)
                                 {
                                     renderer.sprite = frame;
+
+                                    if(sizeFromTexture)
+                                    {
+                                        size = frame.bounds.size;
+                                    }
                                 }
                             }
 
@@ -111,12 +137,11 @@ namespace Editor
                         else
                         {
                             Vector2 pivot = new Vector2(0, 0);
-                            Vector2 size = new Vector2(texture2D.width, texture2D.height);
 
                             if (node.Attributes["pivot"] != null)
                             {
                                 pivot = Global.VectorFromString(node.Attributes["pivot"].InnerText, ';');
-                                pivot.y = size.y - pivot.y;
+                                pivot.y = texture2D.height - pivot.y;
                             }
 
                             if (node.Attributes["pivotx"] != null)
@@ -126,8 +151,8 @@ namespace Editor
                                 switch (pivotx)
                                 {
                                     case "left": pivot.x = 0; break;
-                                    case "center": pivot.x = size.x / 2; break;
-                                    case "right": pivot.x = size.x; break;
+                                    case "center": pivot.x = texture2D.width / 2; break;
+                                    case "right": pivot.x = texture2D.width; break;
                                 }
                             }
 
@@ -137,20 +162,25 @@ namespace Editor
 
                                 switch (pivoty)
                                 {
-                                    case "top": pivot.y = size.y; break;
-                                    case "center": pivot.y = size.y / 2; break;
+                                    case "top": pivot.y = texture2D.height; break;
+                                    case "center": pivot.y = texture2D.height; break;
                                     case "bottom": pivot.y = 0; break;
                                 }
                             }
 
                             position += pivot;
 
-                            pivot.x /= size.x;
-                            pivot.y /= size.y;
+                            pivot.x /= texture2D.width;
+                            pivot.y /= texture2D.height;
 
-                            Rect bounds = new Rect(0, 0, size.x, size.y);
+                            Rect bounds = new Rect(0, 0, texture2D.width, texture2D.height);
 
                             renderer.sprite = Sprite.Create(texture2D, bounds, pivot);
+
+                            if(sizeFromTexture)
+                            {
+                                size = bounds.size;
+                            }
                         }
 
                         if (name.Length == 0)
@@ -160,13 +190,27 @@ namespace Editor
                     }
                 }
 
-                var oc = obj.AddComponent<OpacityController>();
+                var controller = obj.AddComponent<GameObjectController>();
 
                 if (node.Attributes["alpha"] != null)
                 {
                     float alpha = float.Parse(node.Attributes["alpha"].InnerText);
 
-                    oc.alpha = alpha;
+                    controller.alpha = alpha;
+                }
+
+                if(node.Attributes["touched"] != null)
+                {
+                    bool touched = bool.Parse(node.Attributes["touched"].InnerText);
+
+                    controller.isTouchEnabled = touched;
+                }
+
+                if(node.Attributes["ignorealpha"] != null)
+                {
+                    bool ignore = bool.Parse(node.Attributes["ignorealpha"].InnerText);
+
+                    controller.isIgnoreAlpha = ignore;
                 }
 
                 if (node.Attributes["parent"] != null)
@@ -196,6 +240,9 @@ namespace Editor
                     cc.Init(broken, full, config);
                 }
 
+                var collider = obj.AddComponent<BoxCollider2D>();
+                collider.size = size / Global.kPixelsPerUnit;
+
                 position -= (Global.kDefaultWinSize / 2);
 
                 obj.name = name;
@@ -217,7 +264,7 @@ namespace Editor
 
             foreach (GameObject obj in objects)
             {
-                var controller = obj.GetComponent<OpacityController>();
+                var controller = obj.GetComponent<GameObjectController>();
                 controller.Update();
             }
 
@@ -233,7 +280,7 @@ namespace Editor
             XmlDocument doc = new XmlDocument();
             doc.Load(path);
 
-            XmlNode root = doc.DocumentElement.SelectSingleNode("/Level");
+            XmlNode root = doc.DocumentElement.SelectSingleNode("/level");
 
             loadObjectsFromXML(root.SelectSingleNode("inventory"), Global.kInventoryPath);
         }
@@ -252,6 +299,16 @@ namespace Editor
                 position.z = z++;
                 obj.transform.position = position;
             }
+        }
+
+        [MenuItem("Editor/Setup camera")]
+        static void SetupCamera()
+        {
+            var camera = Camera.main;
+
+            camera.orthographic = true;
+            camera.orthographicSize = 5.0f;
+            camera.transform.position = new Vector3(0, 0, -100);
         }
     }
 }

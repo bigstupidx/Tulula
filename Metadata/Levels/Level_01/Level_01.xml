@@ -37,5 +37,5 @@
         <sprite position="57;80" texture="spirit_01_1" alpha="0" pivotx="center" pivoty="center" />
         <sprite position="28;70" texture="spirit_01_2" alpha="0" pivotx="center" pivoty="center" />
         <sprite position="42;46" texture="spirit_01_3" alpha="0" pivotx="center" pivoty="center" />
-	<inventory/>
-<level/>
+	</inventory>
+</level>

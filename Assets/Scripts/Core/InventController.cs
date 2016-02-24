@@ -3,9 +3,9 @@ using System.Collections;
 
 public class InventController : MonoBehaviour {
     [SerializeField]
-    private string          _invent;
+    string _invent;
 
-    GameObject              _invetnObj = null;
+    GameObject _obj = null;
 
     public void Init(string invent) 
     {
@@ -16,23 +16,16 @@ public class InventController : MonoBehaviour {
     {
         var objs = GameObject.FindObjectsOfType<GameObject>();
 
-        _invetnObj = Utils.GetObjectByName(objs, _invent);
+        _obj = Utils.GetObjectByName(objs, _invent);
 
-        if(_invetnObj)
+        if(_obj)
         {
-            var oc = _invetnObj.GetComponent<OpacityController>();
+            var oc = _obj.GetComponent<GameObjectController>();
 
             if(oc)
             {
                 oc.alpha = 0;
             }
         }
-
-        var tc = gameObject.AddComponent<TouchController>();
     }
-
-    public void Update ()
-    {
-	
-	}
 }

@@ -11,8 +11,8 @@ public class Oscillate : MonoBehaviour
     double          t = 0;
     double          w = 0;
 
-    double          rnd = 0;
-    double          period = 0;
+    double          start = 0;
+    float           period = 0;
 
     bool            randomPhase = false;
     bool            usedelta = false;
@@ -51,17 +51,15 @@ public class Oscillate : MonoBehaviour
             amplitude = (Vector3)args["a"];
             randomPhase = (bool)args["rndphase"];
             usedelta = (bool)args["usedelta"];
-            period = (double)args["t"];
+            period = (float)args["t"];
             
             t = 0;
             w = (float)(2 * Math.PI / period);
-            rnd = 0;
+            start = 0;
 
             if (randomPhase)
             {
-                var r = new System.Random();
-
-                rnd = r.NextDouble() * Math.PI * 2;
+                start = UnityEngine.Random.value * Math.PI * 2;
             }
         }
     }
@@ -70,7 +68,7 @@ public class Oscillate : MonoBehaviour
     {
         t += Time.deltaTime;
 
-        float sin = (float)Math.Sin(w * t + rnd);
+        float sin = (float)Math.Sin(w * t + start);
         Vector3 val = amplitude;
 
         val.Scale(new Vector3(sin, sin, sin));

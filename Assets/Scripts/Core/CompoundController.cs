@@ -6,18 +6,18 @@ using System.Collections;
 public class CompoundController : MonoBehaviour
 {
     [SerializeField]
-    private string                          _objects;
+    string _objects;
     [SerializeField]
-    private string                          _broken;
+    string _broken;
     [SerializeField]
-    private string                          _full;
+    string _full;
 
-    GameObject                              _brokenObj = null;
-    GameObject                              _fullObj = null;
+    GameObject _brokenObj = null;
+    GameObject _fullObj = null;
 
-    Dictionary<GameObject, GameObject>      _config = new Dictionary<GameObject, GameObject>();
+    Dictionary<GameObject, GameObject> _config = new Dictionary<GameObject, GameObject>();
 
-    int                                     _count = 0;
+    int _count = 0;
 
     public void Init(string broken, string full, string objects)
     {
