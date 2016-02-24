@@ -5,27 +5,25 @@ public class InventController : MonoBehaviour {
     [SerializeField]
     string _invent;
 
-    GameObject _obj = null;
-
-    public void Init(string invent) 
-    {
-        _invent = invent;
-    }
-
     public void Start ()
     {
         var objs = GameObject.FindObjectsOfType<GameObject>();
+        var obj = Utils.GetObjectByName(objs, _invent);
 
-        _obj = Utils.GetObjectByName(objs, _invent);
-
-        if(_obj)
+        if(obj)
         {
-            var oc = _obj.GetComponent<GameObjectController>();
+            var controller = gameObject.GetComponent<GameObjectController>();
 
-            if(oc)
+            if(controller)
             {
-                oc.alpha = 0;
+                controller.invent = obj;
             }
         }
+    }
+
+    public string invent
+    {
+        get { return _invent; }
+        set { _invent = value; }
     }
 }

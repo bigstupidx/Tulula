@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3dfcfc5a6d617264c98e0d9b5215ef7d
-timeCreated: 1456098346
+timeCreated: 1456283738
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -59,7 +59,7 @@ TextureImporter:
         serializedVersion: 2
         x: 169
         y: 371
-        width: 165
+        width: 169
         height: 141
       alignment: 9
       pivot: {x: 0, y: 0}
@@ -76,10 +76,12 @@ TextureImporter:
         - {x: 146, y: 35}
         - {x: 133, y: 42}
         - {x: 151, y: 34}
-        - {x: 161, y: 34}
-        - {x: 165, y: 41}
-        - {x: 165, y: 141}
-        - {x: 66, y: 141}
+        - {x: 158, y: 36}
+        - {x: 167, y: 48}
+        - {x: 167, y: 87}
+        - {x: 145, y: 136}
+        - {x: 125, y: 141}
+        - {x: 59, y: 141}
         - {x: 28, y: 113}
         - {x: 22, y: 70}
         - {x: 29, y: 58}
@@ -97,6 +99,12 @@ TextureImporter:
         - {x: 40, y: 10}
         - {x: 40, y: 12}
         - {x: 38, y: 14}
+      - - {x: 165, y: 37}
+        - {x: 165, y: 34}
+        - {x: 166, y: 30}
+        - {x: 169, y: 30}
+        - {x: 169, y: 38}
+        - {x: 167, y: 38}
     - name: pavlin_eat_02.png
       rect:
         serializedVersion: 2

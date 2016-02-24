@@ -12,7 +12,7 @@ namespace Editor
         static public float kPixelsPerUnit = 100.0f;
         static public Vector2 kDefaultWinSize = new Vector2(1024, 768);
 
-        static public string kSourcesPath = "C:/Users/Public/Documents/Unity Projects/Tulula/Metadata";
+        static public string kSourcesPath = "F:/RR/work/projects/Tulula/Metadata";
         static public string kAssetsPath = "Assets/Sprites/";
 
         static public string kInventoryPath = kAssetsPath + "Inventory/";

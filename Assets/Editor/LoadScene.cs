@@ -227,7 +227,7 @@ namespace Editor
                 if (node.Attributes["invent"] != null)
                 {
                     var inv = obj.AddComponent<InventController>();
-                    inv.Init(node.Attributes["invent"].InnerText);
+                    inv.invent = node.Attributes["invent"].InnerText;
                 }
 
                 if (node.Name == "compound")
