@@ -163,7 +163,7 @@ namespace Editor
                                 switch (pivoty)
                                 {
                                     case "top": pivot.y = texture2D.height; break;
-                                    case "center": pivot.y = texture2D.height; break;
+                                    case "center": pivot.y = texture2D.height / 2; break;
                                     case "bottom": pivot.y = 0; break;
                                 }
                             }

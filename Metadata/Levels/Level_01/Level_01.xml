@@ -2,7 +2,7 @@
 	<inventory>
 		<sprite position="0;0" texture="totem_rope_hud" alpha="0" pivotx="center" pivoty="center" />
 		<sprite position="0;0" texture="staff_fixed_hud" alpha="0" pivotx="center" pivoty="center"  />
-		<sprite position="0;0" texture="rope_Ledder_hud" alpha="0" pivotx="center" pivoty="center" />
+		<sprite position="0;0" texture="rope_ledder_hud" alpha="0" pivotx="center" pivoty="center" />
 		<sprite position="0;0" texture="totem_mid_hud" alpha="0" pivotx="center" pivoty="center" />
 		<sprite position="0;0" texture="totem_bottom_hud" alpha="0" pivotx="center" pivoty="center" />
 		<sprite position="0;0" texture="scheme_hud" alpha="0" pivotx="center" pivoty="center" />

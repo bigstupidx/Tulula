@@ -5,19 +5,31 @@ public class InventController : MonoBehaviour {
     [SerializeField]
     string _invent;
 
+    GameObject _objInvent = null;
+
     public void Start ()
     {
         var objs = GameObject.FindObjectsOfType<GameObject>();
-        var obj = Utils.GetObjectByName(objs, _invent);
 
-        if(obj)
+        GameObject obj = Utils.GetObjectByName(objs, _invent);
+
+        if (obj)
         {
-            var controller = gameObject.GetComponent<GameObjectController>();
+            var controller = obj.GetComponent<GameObjectController>();
+
+            if (controller)
+            {
+                controller.alpha = 0;
+            }
+
+            controller = gameObject.GetComponent<GameObjectController>();
 
             if(controller)
             {
-                controller.invent = obj;
+                controller.isTouchEnabled = true;
             }
+
+            _objInvent = obj;
         }
     }
 
@@ -25,5 +37,27 @@ public class InventController : MonoBehaviour {
     {
         get { return _invent; }
         set { _invent = value; }
+    }
+
+    public void Invent()
+    {
+        if(_objInvent)
+        {
+            var controller = _objInvent.GetComponent<GameObjectController>();
+
+            if (controller)
+            {
+                controller.alpha = 1;
+            }
+
+            controller = gameObject.GetComponent<GameObjectController>();
+
+            if (controller)
+            {
+                controller.alpha = 0;
+            }
+
+            _objInvent.transform.position = controller.center;
+        }
     }
 }

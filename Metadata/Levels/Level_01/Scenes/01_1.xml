@@ -48,7 +48,7 @@
 		<object name="pool_enter" position="105;195" size="224;80" rotation="3" />
 		<sprite invent="totem_rope_hud" position="962;239" texture="totem_rope" />
 		<sprite alpha="0" position="135;449" texture="leather_open" />
-		<sprite invent="rope_Ledder_hud" position="197;596" texture="rope_Ledder" />
+		<sprite invent="rope_ledder_hud" position="197;596" texture="rope_ledder" />
 		<sprite position="134;469" texture="leather_closed" />
 		<sprite position="286;492" texture="hands" />
 		<sprite position="308;424" texture="hands_cover" />
