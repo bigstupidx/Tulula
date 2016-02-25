@@ -9,28 +9,28 @@ public class InventController : MonoBehaviour {
 
     public void Start ()
     {
-        var objs = GameObject.FindObjectsOfType<GameObject>();
+        //var objs = gameobject.findobjectsoftype<gameobject>();
 
-        GameObject obj = Utils.GetObjectByName(objs, _invent);
+        //gameobject obj = utils.getobjectbyname(objs, _invent);
 
-        if (obj)
-        {
-            var controller = obj.GetComponent<GameObjectController>();
+        //if (obj)
+        //{
+        //    var controller = obj.getcomponent<gameobjectcontroller>();
 
-            if (controller)
-            {
-                controller.alpha = 0;
-            }
+        //    if (controller)
+        //    {
+        //        controller.alpha = 0;
+        //    }
 
-            controller = gameObject.GetComponent<GameObjectController>();
+        //    controller = gameobject.getcomponent<gameobjectcontroller>();
 
-            if(controller)
-            {
-                controller.isTouchEnabled = true;
-            }
+        //    if(controller)
+        //    {
+        //        controller.istouchenabled = true;
+        //    }
 
-            _objInvent = obj;
-        }
+        //    _objinvent = obj;
+        //}
     }
 
     public string invent
@@ -41,23 +41,23 @@ public class InventController : MonoBehaviour {
 
     public void Invent()
     {
-        if(_objInvent)
-        {
-            var controller = _objInvent.GetComponent<GameObjectController>();
+        //if(_objInvent)
+        //{
+        //    var controller = _objInvent.GetComponent<GameObjectController>();
 
-            if (controller)
-            {
-                controller.alpha = 1;
-            }
+        //    if (controller)
+        //    {
+        //        controller.alpha = 1;
+        //    }
 
-            controller = gameObject.GetComponent<GameObjectController>();
+        //    controller = gameObject.GetComponent<GameObjectController>();
 
-            if (controller)
-            {
-                controller.alpha = 0;
-            }
+        //    if (controller)
+        //    {
+        //        controller.alpha = 0;
+        //    }
 
-            _objInvent.transform.position = controller.center;
-        }
+        //    _objInvent.transform.position = controller.center;
+        //}
     }
 }
