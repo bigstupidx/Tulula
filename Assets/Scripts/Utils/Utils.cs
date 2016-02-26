@@ -22,6 +22,11 @@ public class Utils
         }
     }
 
+    public static double DegToRad(double val)
+    {
+        return (Math.PI / 180) * val;
+    }
+
     public static GameObject GetObjectByName(GameObject[] objs, string name)
     {
         foreach (GameObject obj in objs)

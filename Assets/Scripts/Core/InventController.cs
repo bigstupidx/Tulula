@@ -29,20 +29,16 @@ class InventController : MonoBehaviour
     {
         var go = new GameObject();
 
-        double a = 125 * Math.PI / 180.0;
-        double lenght = 2.0;
-
-        Vector3 point = new Vector3((float)(lenght * Math.Sin(a)), (float)(lenght * Math.Cos(a)), 0);
+        float f = targetPosition.x < gameObject.transform.position.x ? 1.0f : -1.0f;
 
         _spline = go.AddComponent<BezierSpline>();
         _spline.Reset();
 
-        _state = InventState.Invent;
-
         _spline.SetControlPoint(0, targetPosition);
-        _spline.SetControlPoint(1, targetPosition - point);
         _spline.SetControlPoint(3, gameObject.transform.position);
-
-        Debug.Log(targetPosition);
+        _spline.SetControlPoint(1, targetPosition + Quaternion.Euler(0, 0, 45 * f) * new Vector3(0, 2));
+        _spline.SetControlPoint(2, gameObject.transform.position + Quaternion.Euler(0, 0, 0) * new Vector3(0, 2));
+  
+        _state = InventState.Invent;
     }
 }
