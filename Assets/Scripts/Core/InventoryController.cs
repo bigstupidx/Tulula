@@ -9,7 +9,7 @@ class InventoryController : MonoBehaviour
 {
     List<GameObject> _objects = new List<GameObject>();
 
-    Rect _bounds = new Rect(0, -320, 510, 70);
+    Rect _bounds = new Rect(-322, -328, 510, 70);
 
     void Start()
     {
@@ -77,11 +77,6 @@ class InventoryController : MonoBehaviour
     {
         var controller = obj.AddComponent<InventController>();
 
-        var go = new GameObject();
-        var collider = go.AddComponent<BoxCollider2D>();
-        collider.size = _bounds.size / Config.kPixelsPerUnit;
-        go.transform.position = _bounds.position / Config.kPixelsPerUnit;
-
         controller.Invent(GetFreeSlot());
         _objects.Add(obj);
     }
@@ -91,7 +86,7 @@ class InventoryController : MonoBehaviour
         var x = _bounds.width / Config.kMaxInventory * (_objects.Count + 1);
         var y = _bounds.height / 2;
 
-        return new Vector3(x, y) / Config.kPixelsPerUnit;
+        return new Vector3(x + _bounds.x, y + _bounds.y) / Config.kPixelsPerUnit;
     }
 }
 
