@@ -35,7 +35,7 @@ public class LoadScene
             }
         }
 
-//            sceneRoot.AddComponent<SceneController>();
+        sceneRoot.AddComponent<SceneController>();
     }
 
     public static GameObject[] loadObjectsFromXML(XmlNode root, string images)
@@ -189,27 +189,27 @@ public class LoadScene
                 }
             }
 
-            // var controller = obj.AddComponent<GameObjectController>();
+            var controller = obj.AddComponent<GameObjectController>();
 
             if (node.Attributes["alpha"] != null)
             {
                 float alpha = float.Parse(node.Attributes["alpha"].InnerText);
 
-                // controller.alpha = alpha;
+                controller.alpha = alpha;
             }
 
             if(node.Attributes["touched"] != null)
             {
                 bool touched = bool.Parse(node.Attributes["touched"].InnerText);
 
-                // controller.isTouchEnabled = touched;
+                controller.touchEnabled = touched;
             }
 
             if(node.Attributes["ignorealpha"] != null)
             {
                 bool ignore = bool.Parse(node.Attributes["ignorealpha"].InnerText);
 
-                //  controller.isIgnoreAlpha = ignore;
+                controller.ignoreAlpha = ignore;
             }
 
             if (node.Attributes["parent"] != null)
@@ -225,8 +225,7 @@ public class LoadScene
 
             if (node.Attributes["invent"] != null)
             {
-                var inv = obj.AddComponent<InventController>();
-                inv.invent = node.Attributes["invent"].InnerText;
+                controller.invent = node.Attributes["invent"].InnerText;
             }
 
             if (node.Name == "compound")
@@ -240,12 +239,12 @@ public class LoadScene
             }
 
             var collider = obj.AddComponent<BoxCollider2D>();
-            collider.size = size / Global.kPixelsPerUnit;
+            collider.size = size / Config.kPixelsPerUnit;
 
-            position -= (Global.kDefaultWinSize / 2);
+            position -= (Config.kDefaultWinSize / 2);
 
             obj.name = name;
-            obj.transform.position = new Vector3(position.x / Global.kPixelsPerUnit, position.y / Global.kPixelsPerUnit, 0);
+            obj.transform.position = new Vector3(position.x / Config.kPixelsPerUnit, position.y / Config.kPixelsPerUnit, 0);
 
             objects.Add(obj);
         }
@@ -263,8 +262,8 @@ public class LoadScene
 
         foreach (GameObject obj in objects)
         {
-            // var controller = obj.GetComponent<GameObjectController>();
-            //controller.Update();
+            var controller = obj.GetComponent<GameObjectController>();
+            controller.Update();
         }
 
         return objects.ToArray();
@@ -306,7 +305,7 @@ public class LoadScene
         var camera = Camera.main;
 
         camera.orthographic = true;
-        camera.orthographicSize = Global.kDefaultWinSize.y / 2 / 100;
+        camera.orthographicSize = Config.kDefaultWinSize.y / 2 / 100;
         camera.transform.position = new Vector3(0, 0, -100);
     }
 }

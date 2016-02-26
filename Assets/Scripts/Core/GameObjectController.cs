@@ -15,6 +15,8 @@ public class GameObjectController : MonoBehaviour
     private bool _touchEnabled = false;
     [SerializeField]
     private bool _ignoreAlpha = false;
+    [SerializeField]
+    private string _invent;
 
     public event GameObjectEvent onTouchBegan;
     public event GameObjectEvent onTouchEnded;
@@ -67,6 +69,19 @@ public class GameObjectController : MonoBehaviour
         }
     }
 
+    public float alphaReal
+    {
+        get
+        {
+            var renderer = gameObject.GetComponent<SpriteRenderer>();
+            if(renderer)
+            {
+                return renderer.color.a;
+            }
+            return alpha;
+        }
+    }
+
     public Vector3 center
     {
         get {
@@ -82,21 +97,32 @@ public class GameObjectController : MonoBehaviour
         }
     }
 
-    public bool isTouchEnabled
+    public bool touchEnabled
     {
         get { return _touchEnabled; }
         set { _touchEnabled = value; }
     }
 
-    public bool isIgnoreAlpha
+    public bool ignoreAlpha
     {
         get { return _ignoreAlpha; }
         set { _ignoreAlpha = value; }
     }
 
-    public bool isAviableForTouch
+    public bool aviableForTouch
     {
-        get { return isTouchEnabled && (alpha > 0 || isIgnoreAlpha); }
+        get { return touchEnabled && (alphaReal > 0 || ignoreAlpha); }
+    }
+
+    public string invent
+    {
+        get { return _invent; }
+        set { _invent = value; }
+    }
+
+    public bool hasInventoryPair
+    {
+        get { return _invent.Length > 0; }
     }
 
     public void OnTouchBegan()

@@ -1,63 +1,40 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-public class InventController : MonoBehaviour {
-    [SerializeField]
-    string _invent;
+using UnityEngine;
 
-    GameObject _objInvent = null;
+public enum InventState
+{
+    Invent, Drop, Picked
+}
 
-    public void Start ()
+class InventController : MonoBehaviour
+{
+    InventState _state;
+    BezierSpline _spline;
+
+    public InventState state
     {
-        //var objs = gameobject.findobjectsoftype<gameobject>();
-
-        //gameobject obj = utils.getobjectbyname(objs, _invent);
-
-        //if (obj)
-        //{
-        //    var controller = obj.getcomponent<gameobjectcontroller>();
-
-        //    if (controller)
-        //    {
-        //        controller.alpha = 0;
-        //    }
-
-        //    controller = gameobject.getcomponent<gameobjectcontroller>();
-
-        //    if(controller)
-        //    {
-        //        controller.istouchenabled = true;
-        //    }
-
-        //    _objinvent = obj;
-        //}
+        get { return _state; }
     }
 
-    public string invent
+    public void Update()
     {
-        get { return _invent; }
-        set { _invent = value; }
+
     }
 
-    public void Invent()
+    public void Invent(Vector3 targetPosition)
     {
-        //if(_objInvent)
-        //{
-        //    var controller = _objInvent.GetComponent<GameObjectController>();
+        var gameObject = new GameObject();
 
-        //    if (controller)
-        //    {
-        //        controller.alpha = 1;
-        //    }
+        _spline = gameObject.AddComponent<BezierSpline>();
+        _spline.Reset();
 
-        //    controller = gameObject.GetComponent<GameObjectController>();
+        _state = InventState.Invent;
 
-        //    if (controller)
-        //    {
-        //        controller.alpha = 0;
-        //    }
-
-        //    _objInvent.transform.position = controller.center;
-        //}
+        _spline.SetControlPoint(1, targetPosition);
+        _spline.SetControlPoint(3, gameObject.transform.position);
     }
 }

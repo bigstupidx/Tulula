@@ -8,7 +8,7 @@ public class SceneController : MonoBehaviour {
     GameObject _picked = null;
     GameObject _touched = null;
 
-    List<GameObject> _inventory = new List<GameObject>();
+    InventoryController _inventory;
 
 	void Start ()
     {
@@ -17,6 +17,8 @@ public class SceneController : MonoBehaviour {
         tc.onTouchBegan += OnTouchBegan;
         tc.onTouchMoved += OnTouchMoved;
         tc.onTouchEnded += OnTouchEnded;
+
+        _inventory = gameObject.AddComponent<InventoryController>();
 	}
 	
 	void Update ()
@@ -33,13 +35,11 @@ public class SceneController : MonoBehaviour {
             var controller = _touched.GetComponent<GameObjectController>();
             if(controller != null)
             {
-                var invent = _touched.GetComponent<InventController>();
-
                 controller.OnTouchBegan();
 
-                if(invent)
+                if (controller.hasInventoryPair)
                 {
-                    invent.Invent();
+                    _inventory.Invent(_touched);
                 }
             }
         }
@@ -81,7 +81,7 @@ public class SceneController : MonoBehaviour {
 
             if (controller)
             {
-                if (controller.isAviableForTouch)
+                if (controller.aviableForTouch)
                 {
                     return obj;
                 }
