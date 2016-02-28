@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: 28f3843dbaad52a4e90719609c00ca71
-timeCreated: 1456108269
+timeCreated: 1456667032
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: water_right.png
-    21300002: water_right_02.png
-    21300004: water_right_03.png
-    21300006: water_right_04.png
+    21300000: water_right_frame-001.png
+    21300002: water_right_frame-002.png
+    21300004: water_right_frame-003.png
+    21300006: water_right_frame.png
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,46 +54,28 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: water_right.png
+    - name: water_right_frame-001.png
       rect:
         serializedVersion: 2
-        x: 150
-        y: 1
-        width: 84
-        height: 223
+        x: 1
+        y: 14
+        width: 79
+        height: 216
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 65, y: 223}
-        - {x: 6, y: 223}
-        - {x: 0, y: 162}
+      - - {x: 5, y: 216}
+        - {x: 0, y: 165}
         - {x: 0, y: 0}
-        - {x: 74, y: 0}
-        - {x: 84, y: 6}
-        - {x: 84, y: 23}
-        - {x: 74, y: 34}
-    - name: water_right_02.png
+        - {x: 79, y: 0}
+        - {x: 79, y: 116}
+        - {x: 64, y: 216}
+    - name: water_right_frame-002.png
       rect:
         serializedVersion: 2
-        x: 236
-        y: 2
-        width: 80
-        height: 217
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 217}
-        - {x: 0, y: 0}
-        - {x: 80, y: 0}
-        - {x: 80, y: 206}
-        - {x: 66, y: 217}
-    - name: water_right_03.png
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 2
+        x: 82
+        y: 5
         width: 72
         height: 225
       alignment: 9
@@ -117,25 +99,41 @@ TextureImporter:
         - {x: 64, y: 5}
         - {x: 72, y: 5}
         - {x: 72, y: 13}
-    - name: water_right_04.png
+    - name: water_right_frame-003.png
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 72
+        x: 156
+        y: 1
+        width: 71
         height: 229
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 6, y: 229}
-        - {x: 0, y: 197}
-        - {x: 0, y: 38}
+      - - {x: 0, y: 229}
+        - {x: 0, y: 15}
         - {x: 3, y: 0}
-        - {x: 69, y: 0}
-        - {x: 72, y: 9}
-        - {x: 72, y: 130}
-        - {x: 65, y: 229}
+        - {x: 64, y: 0}
+        - {x: 71, y: 5}
+        - {x: 71, y: 128}
+        - {x: 64, y: 229}
+    - name: water_right_frame.png
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 7
+        width: 84
+        height: 223
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 223}
+        - {x: 0, y: 0}
+        - {x: 77, y: 0}
+        - {x: 84, y: 5}
+        - {x: 84, y: 216}
+        - {x: 74, y: 223}
     outline: []
   spritePackingTag: 
   userData: 

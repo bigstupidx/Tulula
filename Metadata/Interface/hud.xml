@@ -16,7 +16,6 @@
 		<sprite position="84;6" texture="glow_spots_01" tag="3" alpha="0" />
 		<text position="780;10" pivotx="left" pivoty="top" valign="center" size="200;120" rotation="-11" color="189;157;101" fontsize="20" />
 		<text fontsize="25"  pivotx="center" text="hud-hint" position="732;2" color="189;157;101" />
-		<object position="698;2" size="101;180" tag="1" touched="true" />
 		<buttontext fontsize="25" size="130;50" text="hud-menu" halign="center" position="932;-23" rotation="-15"  color="189;157;101" />
 		<sprite position="413;86" texture="stone_char_m1" alpha="0" />
 		<sprite position="412;86" texture="stone_char_m2" alpha="0" />

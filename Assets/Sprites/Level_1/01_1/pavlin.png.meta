@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: cdd73062b3ef992418e7d4da34930935
-timeCreated: 1456098329
+timeCreated: 1456666779
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,10 @@ TextureImporter:
     21300002: pavlin_02.png
     21300004: pavlin_03.png
     21300006: pavlin_04.png
+    21300008: pavlin_frame-001.png
+    21300010: pavlin_frame-002.png
+    21300012: pavlin_frame-003.png
+    21300014: pavlin_frame.png
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,34 +58,11 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: pavlin.png
+    - name: pavlin_frame-001.png
       rect:
         serializedVersion: 2
-        x: 124
-        y: 159
-        width: 120
-        height: 97
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 49, y: 51}
-        - {x: 31, y: 52}
-        - {x: 51, y: 69}
-        - {x: 52, y: 82}
-        - {x: 47, y: 97}
-        - {x: 25, y: 97}
-        - {x: 0, y: 90}
-        - {x: 0, y: 7}
-        - {x: 13, y: 0}
-        - {x: 112, y: 0}
-        - {x: 120, y: 11}
-        - {x: 120, y: 22}
-    - name: pavlin_02.png
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 157
+        x: 1
+        y: 1
         width: 120
         height: 97
       alignment: 9
@@ -116,48 +97,68 @@ TextureImporter:
         - {x: 49, y: 66}
         - {x: 49, y: 70}
         - {x: 47, y: 72}
-    - name: pavlin_03.png
+    - name: pavlin_frame-002.png
       rect:
         serializedVersion: 2
-        x: 124
-        y: 159
-        width: 120
-        height: 97
+        x: 123
+        y: 3
+        width: 119
+        height: 95
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 49, y: 51}
-        - {x: 31, y: 52}
-        - {x: 51, y: 69}
-        - {x: 52, y: 82}
-        - {x: 47, y: 97}
-        - {x: 25, y: 97}
-        - {x: 0, y: 90}
-        - {x: 0, y: 7}
-        - {x: 13, y: 0}
-        - {x: 112, y: 0}
-        - {x: 120, y: 11}
-        - {x: 120, y: 22}
-    - name: pavlin_04.png
+      - - {x: 31, y: 52}
+        - {x: 56, y: 65}
+        - {x: 51, y: 95}
+        - {x: 19, y: 95}
+        - {x: 1, y: 90}
+        - {x: 0, y: 81}
+        - {x: 0, y: 0}
+        - {x: 119, y: 0}
+        - {x: 119, y: 21}
+        - {x: 49, y: 51}
+    - name: pavlin_frame-003.png
       rect:
         serializedVersion: 2
-        x: 124
-        y: 64
-        width: 120
-        height: 97
+        x: 244
+        y: 5
+        width: 115
+        height: 93
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 25, y: 97}
-        - {x: 17, y: 96}
-        - {x: 0, y: 83}
-        - {x: 0, y: 2}
+      - - {x: 48, y: 93}
+        - {x: 18, y: 93}
+        - {x: 5, y: 86}
+        - {x: 0, y: 79}
+        - {x: 0, y: 15}
         - {x: 3, y: 0}
-        - {x: 117, y: 0}
-        - {x: 117, y: 50}
-        - {x: 49, y: 97}
+        - {x: 112, y: 0}
+        - {x: 115, y: 3}
+        - {x: 115, y: 33}
+    - name: pavlin_frame.png
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3
+        width: 119
+        height: 95
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 52}
+        - {x: 56, y: 65}
+        - {x: 51, y: 95}
+        - {x: 19, y: 95}
+        - {x: 1, y: 90}
+        - {x: 0, y: 81}
+        - {x: 0, y: 0}
+        - {x: 119, y: 0}
+        - {x: 119, y: 21}
+        - {x: 49, y: 51}
     outline: []
   spritePackingTag: 
   userData: 

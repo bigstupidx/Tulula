@@ -5,7 +5,8 @@ using System.Text;
 
 using UnityEngine;
 
-public delegate void GameObjectEvent(GameObject obj);
+public delegate void GameObjectHandler(GameObject obj);
+public delegate void GameObjectInteractHandler(GameObject obj, GameObject interact);
 
 public class GameObjectController : MonoBehaviour
 {
@@ -18,8 +19,11 @@ public class GameObjectController : MonoBehaviour
     [SerializeField]
     private string _invent;
 
-    public event GameObjectEvent onTouchBegan;
-    public event GameObjectEvent onTouchEnded;
+    public event GameObjectHandler onTouchBegan;
+    public event GameObjectHandler onTouchEnded;
+
+    public event GameObjectInteractHandler onTouchMovedWithObject;
+    public event GameObjectInteractHandler onTouchEndedWithObject;
 
     public void Start()
     {
@@ -34,7 +38,7 @@ public class GameObjectController : MonoBehaviour
     void UpdateTransparency()
     {
         var renderer = gameObject.GetComponent<SpriteRenderer>();
-
+        
         if (renderer != null)
         {
             float alpha = _alpha;
@@ -119,7 +123,7 @@ public class GameObjectController : MonoBehaviour
         get { return _invent; }
         set { _invent = value; }
     }
-
+    
     public bool hasInventoryPair
     {
         get { return _invent.Length > 0; }
@@ -139,6 +143,37 @@ public class GameObjectController : MonoBehaviour
         {
             onTouchEnded(gameObject);
         }
+    }
+
+    public void OnTouchEndedWithObject(GameObject obj)
+    {
+        if(onTouchEndedWithObject != null)
+        {
+            onTouchEndedWithObject(gameObject, obj);
+        }
+    }
+
+    public void OnTouchMovedWithObject(GameObject obj)
+    {
+        if(onTouchMovedWithObject != null)
+        {
+            onTouchMovedWithObject(gameObject, obj);
+        }
+    }
+
+    public bool IsIntersect(GameObject obj)
+    {
+        var collider1 = gameObject.GetComponent<BoxCollider2D>();
+        var collider2 = obj.GetComponent<BoxCollider2D>();
+
+        if(collider1 && collider2)
+        {
+            var bounds1 = new Rect(transform.position, collider1.bounds.size);
+            var bounds2 = new Rect(obj.transform.position, collider2.bounds.size);
+
+            return bounds1.Overlaps(bounds2);
+        }
+        return false;
     }
 }
 

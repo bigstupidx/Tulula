@@ -58,11 +58,6 @@ public class TouchController : MonoBehaviour {
     public static int kMinTouchLenght = 5;
 
     List<TouchEvent> _touches = new List<TouchEvent>();
-
-    void Start ()
-    {
-	
-	}
 	
 	void Update ()
     {

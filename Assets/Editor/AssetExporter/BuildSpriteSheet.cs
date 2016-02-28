@@ -14,7 +14,7 @@ class BuildSpriteSheet
     static void LoadSpriteSheet()
     {
         string[] filters = { "Plist Files", "plist" };
-        string path = EditorUtility.OpenFilePanelWithFilters("Open Plist File", Global.kSourcesPath, filters);
+        string path = EditorUtility.OpenFilePanelWithFilters("Open Plist File", Global.kAssetsPath, filters);
 
         var plist = Plist.readPlist(path) as Dictionary<string, object>;
         var metadata = plist["metadata"] as Dictionary<string, object>;
@@ -40,7 +40,7 @@ class BuildSpriteSheet
             var data = frame.Value as Dictionary<string, object>;
             SpriteMetaData meta = new SpriteMetaData();
 
-            Rect bounds = Global.RectFromString(data["frame"] as string);
+            Rect bounds = Global.RectFromString(data["textureRect"] as string);
             bounds.y = texture.height - bounds.y - bounds.height;
 
             meta.pivot = new Vector2(0, 0);

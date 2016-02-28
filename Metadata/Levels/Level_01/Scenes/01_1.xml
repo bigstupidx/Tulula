@@ -33,7 +33,7 @@
 		<sprite position="432;385" texture="fruits" />
 		<sprite invent="grapes_hud" position="471;390" texture="grapes" />
 		<sprite alpha="0" position="413;193" texture="rope_ledder_hole" />
-		<sprite position="453;192" texture="totem_full" alpha="0.5" script="Totem" touched="true" ignorealpha="true" />
+		<sprite position="453;192" texture="totem_full" alpha="0.5" script="Totem" ignorealpha="true" />
 		<sprite alpha="0" position="451;139" texture="totem_aureole" parent="totem_full" />
 		<sprite position="633;335" texture="staff_broken" size="70;70" />
 		<sprite name="staff_full" invent="staff_fixed_hud" position="633;335" texture="staff_fixed_hud" alpha="0" />
@@ -66,12 +66,12 @@
 		<animation alpha="0" position="16;281" texture="pavlin_eat" />
 		<sprite position="21;268" texture="grapes_eat" parent="pavlin_eat" />
 		<sprite position="302;385" texture="throne_light" />
-		<compound position="343;168" texture="t_base" open="totem_full" full="totem_full" objects="t_totem_b_circle:totem_bottom_hud, t_totem_m_circle:totem_mid_hud, t_staff_circle:staff_fixed_hud" />
+		<compound position="343;168" texture="t_base" pivotx="center" pivoty="center" open="totem_full" full="totem_full" objects="t_totem_b_circle:totem_bottom_hud, t_totem_m_circle:totem_mid_hud, t_staff_circle:staff_fixed_hud" />
 		<sprite position="436;180" texture="t_base_alpha" />
 		<sprite position="373;268" texture="t_totem_b_circle" />
 		<sprite position="468;322" texture="t_totem_m_circle" />
 		<sprite position="555;259" texture="t_staff_circle" />
-		<compound position="514;238" texture="s_base" open="staff_broken" full="staff_full" objects="s_totem_rope_circle:totem_rope_hud, s_feather_circle:feather_hud" />
+		<compound position="514;238" texture="s_base" pivotx="center" pivoty="center" open="staff_broken" full="staff_full" objects="s_totem_rope_circle:totem_rope_hud, s_feather_circle:feather_hud" />
 		<sprite position="606;294" texture="s_base_alpha" />
 		<sprite position="544;384" texture="s_totem_rope_circle" />
 		<sprite position="545;268" texture="s_feather_circle" />

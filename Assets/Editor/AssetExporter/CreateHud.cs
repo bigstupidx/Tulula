@@ -29,10 +29,19 @@ public class CreateHud
 
         GameObject[] objects = LoadScene.loadObjectsFromXML(root.SelectSingleNode("objects"), images);
 
+        int z = objects.Length;
+
         foreach (var obj in objects)
         {
+            var position = obj.transform.position;
+
             obj.transform.parent = hud.transform;
+
+            position.z = z--;
+            obj.transform.position = position;
         }
+
+        hud.transform.position = new Vector3(0, 0, (float)Order.Hud);
     }
 }
 

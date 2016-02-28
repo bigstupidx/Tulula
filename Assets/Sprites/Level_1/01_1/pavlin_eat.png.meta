@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3dfcfc5a6d617264c98e0d9b5215ef7d
-timeCreated: 1456283738
+timeCreated: 1456666810
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,10 @@ TextureImporter:
     21300002: pavlin_eat_02.png
     21300004: pavlin_eat_03.png
     21300006: pavlin_eat_04.png
+    21300008: pavlin_eat_frame-001.png
+    21300010: pavlin_eat_frame-002.png
+    21300012: pavlin_eat_frame-003.png
+    21300014: pavlin_eat_frame.png
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,108 +58,64 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: pavlin_eat.png
+    - name: pavlin_eat_frame-001.png
       rect:
         serializedVersion: 2
-        x: 169
-        y: 371
-        width: 169
+        x: 1
+        y: 142
+        width: 164
         height: 141
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 43, y: 18}
-        - {x: 45, y: 21}
-        - {x: 53, y: 19}
-        - {x: 56, y: 19}
-        - {x: 51, y: 19}
-        - {x: 45, y: 17}
-        - {x: 35, y: 0}
-        - {x: 163, y: 0}
-        - {x: 146, y: 35}
-        - {x: 133, y: 42}
-        - {x: 151, y: 34}
-        - {x: 158, y: 36}
-        - {x: 167, y: 48}
-        - {x: 167, y: 87}
-        - {x: 145, y: 136}
-        - {x: 125, y: 141}
-        - {x: 59, y: 141}
-        - {x: 28, y: 113}
-        - {x: 22, y: 70}
-        - {x: 29, y: 58}
-        - {x: 29, y: 47}
-        - {x: 27, y: 43}
-        - {x: 29, y: 42}
-        - {x: 22, y: 46}
-        - {x: 29, y: 54}
-        - {x: 26, y: 62}
-        - {x: 11, y: 72}
-        - {x: 0, y: 50}
-        - {x: 0, y: 9}
-        - {x: 16, y: 0}
-        - {x: 30, y: 0}
-        - {x: 40, y: 10}
-        - {x: 40, y: 12}
-        - {x: 38, y: 14}
-      - - {x: 165, y: 37}
-        - {x: 165, y: 34}
-        - {x: 166, y: 30}
-        - {x: 169, y: 30}
-        - {x: 169, y: 38}
-        - {x: 167, y: 38}
-    - name: pavlin_eat_02.png
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 369
-        width: 165
-        height: 141
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 53, y: 21}
-        - {x: 56, y: 21}
-        - {x: 51, y: 21}
-        - {x: 46, y: 18}
-        - {x: 44, y: 16}
+      - - {x: 47, y: 23}
+        - {x: 52, y: 21}
+        - {x: 55, y: 21}
+        - {x: 50, y: 21}
+        - {x: 44, y: 19}
+        - {x: 42, y: 13}
         - {x: 44, y: 7}
-        - {x: 66, y: 2}
-        - {x: 95, y: 12}
-        - {x: 146, y: 25}
-        - {x: 148, y: 29}
-        - {x: 146, y: 37}
-        - {x: 133, y: 44}
-        - {x: 151, y: 36}
-        - {x: 161, y: 36}
-        - {x: 165, y: 51}
-        - {x: 165, y: 108}
-        - {x: 147, y: 141}
-        - {x: 28, y: 141}
-        - {x: 0, y: 60}
-        - {x: 0, y: 4}
-        - {x: 21, y: 0}
-        - {x: 33, y: 0}
-        - {x: 41, y: 10}
-        - {x: 43, y: 16}
-        - {x: 49, y: 22}
-      - - {x: 21, y: 61}
-        - {x: 19, y: 59}
-        - {x: 19, y: 55}
-        - {x: 21, y: 53}
-        - {x: 25, y: 53}
-        - {x: 26, y: 55}
-        - {x: 26, y: 59}
-        - {x: 23, y: 61}
-    - name: pavlin_eat_03.png
+        - {x: 61, y: 0}
+        - {x: 100, y: 0}
+        - {x: 145, y: 25}
+        - {x: 147, y: 29}
+        - {x: 145, y: 37}
+        - {x: 132, y: 44}
+        - {x: 150, y: 36}
+        - {x: 160, y: 36}
+        - {x: 164, y: 43}
+        - {x: 164, y: 141}
+        - {x: 47, y: 141}
+        - {x: 0, y: 67}
+        - {x: 0, y: 65}
+        - {x: 31, y: 51}
+        - {x: 28, y: 47}
+        - {x: 27, y: 43}
+        - {x: 20, y: 53}
+        - {x: 8, y: 53}
+        - {x: 0, y: 46}
+        - {x: 0, y: 21}
+        - {x: 23, y: 0}
+        - {x: 32, y: 0}
+        - {x: 39, y: 11}
+        - {x: 41, y: 17}
+        - {x: 45, y: 19}
+      - - {x: 20, y: 61}
+        - {x: 18, y: 59}
+        - {x: 18, y: 55}
+        - {x: 20, y: 53}
+        - {x: 24, y: 53}
+        - {x: 25, y: 55}
+        - {x: 25, y: 59}
+        - {x: 22, y: 61}
+    - name: pavlin_eat_frame-002.png
       rect:
         serializedVersion: 2
-        x: 336
-        y: 371
-        width: 165
-        height: 141
+        x: 167
+        y: 144
+        width: 161
+        height: 139
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,12 +128,10 @@ TextureImporter:
         - {x: 142, y: 35}
         - {x: 129, y: 42}
         - {x: 147, y: 34}
-        - {x: 163, y: 30}
-        - {x: 163, y: 105}
-        - {x: 136, y: 133}
-        - {x: 120, y: 141}
-        - {x: 79, y: 141}
-        - {x: 45, y: 132}
+        - {x: 154, y: 36}
+        - {x: 161, y: 47}
+        - {x: 161, y: 139}
+        - {x: 38, y: 139}
         - {x: 26, y: 112}
         - {x: 18, y: 69}
         - {x: 29, y: 60}
@@ -192,27 +150,26 @@ TextureImporter:
         - {x: 36, y: 11}
         - {x: 36, y: 14}
         - {x: 44, y: 19}
-    - name: pavlin_eat_04.png
+    - name: pavlin_eat_frame-003.png
       rect:
         serializedVersion: 2
-        x: 169
-        y: 234
-        width: 165
-        height: 141
+        x: 1
+        y: 5
+        width: 157
+        height: 135
       alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 125, y: 38}
         - {x: 143, y: 30}
-        - {x: 159, y: 26}
-        - {x: 159, y: 108}
-        - {x: 121, y: 137}
-        - {x: 64, y: 137}
-        - {x: 40, y: 129}
-        - {x: 22, y: 108}
-        - {x: 14, y: 65}
-        - {x: 27, y: 55}
+        - {x: 150, y: 32}
+        - {x: 157, y: 49}
+        - {x: 157, y: 97}
+        - {x: 139, y: 135}
+        - {x: 30, y: 135}
+        - {x: 0, y: 62}
+        - {x: 0, y: 60}
         - {x: 31, y: 54}
         - {x: 36, y: 54}
         - {x: 30, y: 54}
@@ -224,12 +181,49 @@ TextureImporter:
         - {x: 138, y: 19}
         - {x: 140, y: 23}
         - {x: 138, y: 31}
-      - - {x: 20, y: 141}
-        - {x: 20, y: 137}
-        - {x: 22, y: 135}
-        - {x: 27, y: 135}
-        - {x: 29, y: 137}
-        - {x: 29, y: 141}
+    - name: pavlin_eat_frame.png
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 165
+        height: 139
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: 18}
+        - {x: 45, y: 21}
+        - {x: 53, y: 19}
+        - {x: 56, y: 19}
+        - {x: 51, y: 19}
+        - {x: 45, y: 17}
+        - {x: 35, y: 0}
+        - {x: 163, y: 0}
+        - {x: 146, y: 35}
+        - {x: 133, y: 42}
+        - {x: 151, y: 34}
+        - {x: 161, y: 34}
+        - {x: 165, y: 41}
+        - {x: 165, y: 139}
+        - {x: 64, y: 139}
+        - {x: 28, y: 113}
+        - {x: 22, y: 70}
+        - {x: 29, y: 58}
+        - {x: 29, y: 47}
+        - {x: 27, y: 43}
+        - {x: 29, y: 42}
+        - {x: 22, y: 46}
+        - {x: 29, y: 54}
+        - {x: 26, y: 62}
+        - {x: 11, y: 72}
+        - {x: 0, y: 50}
+        - {x: 0, y: 9}
+        - {x: 16, y: 0}
+        - {x: 30, y: 0}
+        - {x: 40, y: 10}
+        - {x: 40, y: 12}
+        - {x: 38, y: 14}
     outline: []
   spritePackingTag: 
   userData: 

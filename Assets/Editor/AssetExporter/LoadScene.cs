@@ -27,15 +27,23 @@ public class LoadScene
 
         var objects = loadObjectsFromXML(root.SelectSingleNode("objects"), images);
 
+        int z = objects.Length;
+
         foreach(var obj in objects)
         {
             if(obj.transform.parent == null)
             {
                 obj.transform.parent = sceneRoot.transform;
             }
+
+            var position = obj.transform.position;
+            position.z = z--;
+
+            obj.transform.position = position;
         }
 
         sceneRoot.AddComponent<SceneController>();
+        sceneRoot.transform.position = new Vector3(0, 0, (float)Order.Scene);
     }
 
     public static GameObject[] loadObjectsFromXML(XmlNode root, string images)
@@ -234,8 +242,8 @@ public class LoadScene
                 string full = node.Attributes["full"].InnerText;
                 string config = node.Attributes["objects"].InnerText;
 
-                var cc = obj.AddComponent<CompoundController>();
-                cc.Init(broken, full, config);
+                var compound = obj.AddComponent<CompoundController>();
+                compound.Init(broken, full, config);
             }
 
             var collider = obj.AddComponent<BoxCollider2D>();
@@ -280,23 +288,17 @@ public class LoadScene
 
         XmlNode root = doc.DocumentElement.SelectSingleNode("/level");
 
-        loadObjectsFromXML(root.SelectSingleNode("inventory"), Global.kInventoryPath);
-    }
+        GameObject globals = new GameObject();
+        globals.name = "globals";
 
-    [MenuItem("Editor/Reorder Scene Objects")]
-    static void ReorderSceneObjects()
-    {
-        var objs = GameObject.FindObjectsOfType<GameObject>();
+        var objs = loadObjectsFromXML(root.SelectSingleNode("inventory"), Global.kInventoryPath);
 
-        int z = 0;
-
-        foreach(var obj in objs)
+        foreach (var obj in objs)
         {
-            Vector3 position = obj.transform.position;
-
-            position.z = z++;
-            obj.transform.position = position;
+            obj.transform.parent = globals.transform;
         }
+
+        globals.transform.position = new Vector3(0, 0, (float)Order.Globals);
     }
 
     [MenuItem("Editor/Setup camera")]

@@ -5,6 +5,11 @@ using System.Text;
 
 using UnityEngine;
 
+public enum Order
+{
+    Scene = 3, Hud = 2, Globals = 1
+}
+
 public class Global
 {
     static public string kSourcesPath = "F:/RR/work/projects/Tulula/Metadata";
